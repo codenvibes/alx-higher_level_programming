@@ -27,7 +27,52 @@
 - How to use the Python interpreter
 - How to print text and variables using `print`
 - How to use strings
+
+<details>
+<summary>
+
 - What are indexing and slicing in Python
+</summary>
+Indexing and slicing are techniques used to access elements from sequences (like lists, tuples, and strings) in Python. They allow you to retrieve specific values or sub-sequences from within a larger sequence.
+
+1. **Indexing:**
+   Indexing is used to access a single element at a specific position in a sequence. In Python, indexing starts from 0, meaning the first element is at index 0, the second at index 1, and so on.
+
+   ```python
+   my_list = [10, 20, 30, 40, 50]
+   element = my_list[2]  # Accesses the element at index 2 (which is 30)
+   ```
+
+2. **Slicing:**
+   Slicing is used to extract a portion (sub-sequence) of a sequence. It involves specifying a start index, an end index, and an optional step value. The slice includes all elements from the start index up to (but not including) the end index.
+
+   ```python
+   my_list = [10, 20, 30, 40, 50]
+   sub_sequence = my_list[1:4]  # Gets elements at indices 1, 2, and 3 (20, 30, 40)
+   ```
+
+   You can also omit the start or end index to slice from the beginning or up to the end:
+
+   ```python
+   first_three = my_list[:3]     # Gets elements at indices 0, 1, and 2 (10, 20, 30)
+   after_third = my_list[3:]     # Gets elements at indices 3, 4 (40, 50)
+   ```
+
+   Using a step value, you can skip elements:
+
+   ```python
+   every_second = my_list[::2]   # Gets elements at indices 0, 2, and 4 (10, 30, 50)
+   ```
+
+   Negative indices and step values can also be used:
+
+   ```python
+   reversed_list = my_list[::-1]  # Reverses the list (50, 40, 30, 20, 10)
+   ```
+
+Slicing and indexing are versatile techniques that are not limited to lists; they can also be used with tuples, strings, and other sequence types in Python. Keep in mind that indexing and slicing are subject to bounds, so trying to access an index outside the range of the sequence will result in an error.
+</details>
+
 - What is the official Python coding style and how to check your code with `pycodestyle`
 
 # Requirements
@@ -88,6 +133,7 @@
 ### Zen
 </summary>
 
+> The "Zen of Python" is a collection of guiding principles for writing computer programs in the Python programming language. These principles are meant to capture the design philosophy and values that have shaped the development of Python. The Zen of Python was written by Tim Peters, a long-time contributor to the Python community, and it is included as an "Easter egg" in Python by typing import this in the Python interpreter.
 ```
 The Zen of Python, by Tim Peters
 
