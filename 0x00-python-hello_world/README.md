@@ -37,8 +37,7 @@ How to use strings
 
 
 <details>
-<summary>What are indexing and slicing in Python</summary>
-
+<summary>What are indexing and slicing in Python</summary><br>
 Indexing and slicing are techniques used to access elements from sequences (like lists, tuples, and strings) in Python. They allow you to retrieve specific values or sub-sequences from within a larger sequence.
 
 1. **Indexing:**
