@@ -21,7 +21,7 @@
 # Learning Objectives
 Why Python programming is awesome
 
-<u>Who created Python</u>
+Who created Python
 
 Who is Guido van Rossum
 
@@ -33,7 +33,87 @@ How to use the Python interpreter
 
 How to print text and variables using `print`
 
-How to use strings
+<details>
+<summary>How to use strings</summary><br>
+Strings in Python are used to represent textual data. They can be used to store and manipulate text, such as words, sentences, and even characters. Here's how you can work with strings in Python:
+
+1. **Creating Strings:**
+   You can create strings using either single quotes `'`, double quotes `"`, or triple quotes `'''` or `"""` for multi-line strings.
+
+   ```python
+   single_quoted = 'Hello, single quotes!'
+   double_quoted = "Hello, double quotes!"
+   multi_line = '''This is a
+   multi-line string.'''
+   ```
+
+2. **Accessing Characters:**
+   Strings are sequences of characters, and you can access individual characters using indexing.
+
+   ```python
+   my_string = "Hello, World!"
+   first_character = my_string[0]   # Access the first character 'H'
+   ```
+
+3. **String Methods:**
+   Strings have many built-in methods for manipulation. Some examples include:
+
+   ```python
+   my_string = "Hello, World!"
+   length = len(my_string)           # Get the length of the string
+   uppercase = my_string.upper()     # Convert to uppercase: "HELLO, WORLD!"
+   lowercase = my_string.lower()     # Convert to lowercase: "hello, world!"
+   replaced = my_string.replace("Hello", "Hi")  # Replace text: "Hi, World!"
+   ```
+
+4. **String Concatenation:**
+   You can concatenate (combine) strings using the `+` operator.
+
+   ```python
+   greeting = "Hello"
+   name = "Alice"
+   full_greeting = greeting + ", " + name  # "Hello, Alice"
+   ```
+
+5. **String Formatting:**
+   String formatting allows you to insert variables or values into a string. Python offers different methods for string formatting, including the `%` operator and the `.format()` method.
+
+   ```python
+   age = 25
+   message = "I am %d years old." % age   # "I am 25 years old."
+   ```
+
+   ```python
+   name = "Bob"
+   age = 30
+   message = "My name is {} and I am {} years old.".format(name, age)
+   ```
+
+   In modern Python (3.6 and above), you can use f-strings for a more concise and readable way of formatting strings:
+
+   ```python
+   name = "Charlie"
+   age = 22
+   message = f"My name is {name} and I am {age} years old."
+   ```
+
+6. **String Slicing:**
+   You can extract substrings from a string using slicing.
+
+   ```python
+   my_string = "Hello, World!"
+   substring = my_string[7:12]   # "World"
+   ```
+
+7. **Escape Sequences:**
+   You can use escape sequences to include special characters within strings.
+
+   ```python
+   escaped_string = "This is a \"quote\" inside a string."
+   ```
+
+These are just some basic operations you can perform with strings in Python. Strings are versatile and widely used for various text-based operations in programming.
+</details>
 
 
 <details>
