@@ -21,7 +21,7 @@
 # Learning Objectives
 Why Python programming is awesome
 
-#### Who created Python
+<u>Who created Python</u>
 
 Who is Guido van Rossum
 
