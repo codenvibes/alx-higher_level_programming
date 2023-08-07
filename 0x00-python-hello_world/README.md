@@ -219,7 +219,7 @@ What is the official Python coding style and how to check your code with `pycode
 ### Zen
 </summary>
 
-> The "Zen of Python" is a collection of guiding principles for writing computer programs in the Python programming language. These principles are meant to capture the design philosophy and values that have shaped the development of Python. The Zen of Python was written by Tim Peters, a long-time contributor to the Python community, and it is included as an "Easter egg" in Python by typing import this in the Python interpreter.
+> The "Zen of Python" is a collection of guiding principles for writing computer programs in the Python programming language. These principles are meant to capture the design philosophy and values that have shaped the development of Python. The Zen of Python was written by Tim Peters, a long-time contributor to the Python community, and it is included as an "Easter egg" in Python by typing `import this` in the Python interpreter.
 ```
 The Zen of Python, by Tim Peters
 
