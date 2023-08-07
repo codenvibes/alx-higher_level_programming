@@ -266,7 +266,7 @@ What does this command line print?
 >>> a = "Python is cool"
 >>> print(a[-2])
 ```
-- [ ] o
+- [x] o
 - [ ] Nothing
 - [ ] l
 - [ ] ol
@@ -286,7 +286,7 @@ What does this command line print?
 - [ ] Python is
 - [ ] Python is cool
 - [ ] Pytho
-- [ ] Python
+- [x] Python
 </details>
 
 <details>
@@ -302,7 +302,7 @@ What does this command line print?
 - [ ] 9 Battery street
 - [ ] 8 Battery street
 - [ ] f"98 Battery street"
-- [ ] 98 Battery street
+- [x] 98 Battery street
 </details>
 
 <details>
@@ -315,7 +315,7 @@ What does this command line print?
 ```py
 >>> print("Holberton school")
 ```
-- [ ] Holberton school
+- [x] Holberton school
 - [ ] ‘Holberton school’
 - [ ] “Holberton school”
 - [ ] Holberton
@@ -331,7 +331,7 @@ What does this command line print?
 ```py
 >>> print(f"{98} Battery street, {'San Francisco'}")
 ```
-- [ ] 98 Battery street, San Francisco
+- [x] 98 Battery street, San Francisco
 - [ ] San Francisco Battery street, 98
 - [ ] 8 Battery street, San
 - [ ] “98 Battery street, San Francisco”
@@ -349,7 +349,7 @@ What does this command line print?
 >>> print(a[7:-5])
 ```
 - [ ] si
-- [ ] is
+- [x] is
 - [ ] Python
 - [ ] nohtyP
 - [ ] on
@@ -368,7 +368,7 @@ What does this command line print?
 ```
 - [ ] Python is
 - [ ] is cool
-- [ ] Python
+- [x] Python
 - [ ] Pytho
 </details>
 
@@ -384,7 +384,7 @@ What does this command line print?
 >>> print(a[7:])
 ```
 - [ ] cool
-- [ ] is cool
+- [x] is cool
 - [ ] Python is
 - [ ] Python i
 </details>
@@ -400,7 +400,7 @@ What does this command line print?
 >>> a = "Python is cool"
 >>> print(a[4])
 ```
-- [ ] o
+- [x] o
 - [ ] h
 - [ ] n
 - [ ] P
