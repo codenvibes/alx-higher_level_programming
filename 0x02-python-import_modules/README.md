@@ -190,7 +190,7 @@ Here's how you can use the `dir()` function:
    ```
 
 Remember that `dir()` returns a list of strings representing the names of attributes and names in the given scope or object. Some of these names might be special methods or attributes that are used by Python, so not all names listed by `dir()` are intended to be used directly in your code. It's a useful tool for introspection and exploration but should be used carefully.
-<details>
+</details>
 
 How to prevent code in your script from being executed when imported
 
