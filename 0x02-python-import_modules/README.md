@@ -42,7 +42,7 @@ What do these lines print?
 >>> 
 >>> print(my_function())
 ```
-- [ ] 90
+- [x] 90
 - [ ] 891
 - [ ] 89
 - [ ] 1
@@ -51,19 +51,44 @@ What do these lines print?
 <details>
 <summary>
 
-### 
+### Question #1
 </summary>
 
-
+What do these lines print?
+```
+>>> def my_function(counter):
+>>>     print("Counter: {}".format(counter))
+>>> 
+>>> my_function(12)
+```
+- [x] Counter: 12
+- [ ] Counter: c
+- [ ] Counter: counter
 </details>
 
 <details>
 <summary>
 
-### 
+### Question #2
 </summary>
 
+What do these lines print?
+```
+>>> def my_function():
+>>>     print("In my function")
+>>> 
+>>> my_function
+```
+- [ ] function my_function at …
+- [ ] Nothing
+- [ ] In my function
+- [ ] “In my function”
 
+> In Python, when you reference a function without parentheses (), you're referring to the function object itself, not invoking the function. So, the output of the provided code will be:
+>```bash
+<function my_function at 0x...>
+```
+The exact memory address (0x...) will vary depending on the system you're running the code on.
 </details>
 
 <details>
