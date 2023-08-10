@@ -10,7 +10,9 @@ man or help:
 - `python3`
 
 # Learning Objectives
-Why Python programming is awesome
+<details>
+<summary>Why Python programming is awesome</summary>
+</details>
 
 <details>
 <summary>How to import functions from another file</summary><br>
@@ -79,7 +81,9 @@ To import functions from another file in Python, you can follow these steps:
 Remember to make sure that both the file containing the functions and the file where you're importing them are in the same directory or accessible through your Python's module search paths (sys.path).
 </details>
 
-How to use imported functions
+<details>
+<summary>How to use imported functions</summary>
+</details>
 
 <details>
 <summary>How to create a module</summary><br>
@@ -192,9 +196,13 @@ Here's how you can use the `dir()` function:
 Remember that `dir()` returns a list of strings representing the names of attributes and names in the given scope or object. Some of these names might be special methods or attributes that are used by Python, so not all names listed by `dir()` are intended to be used directly in your code. It's a useful tool for introspection and exploration but should be used carefully.
 </details>
 
-How to prevent code in your script from being executed when imported
+<details>
+<summary>How to prevent code in your script from being executed when imported</summary>
+</details>
 
-How to use command line arguments with your Python programs
+<details>
+<summary>How to use command line arguments with your Python programs</summary>
+</details>
 
 # Requirements
 - Allowed editors: `vi`, `vim`, `emacs`
