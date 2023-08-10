@@ -153,7 +153,7 @@ While the concepts of modularization and code reuse are similar in both language
 </details>
 
 <details>
-<summary>How to use the built-in function `dir()`</summary>
+<summary>How to use the built-in function <code>dir()</code></summary>
 
 The built-in `dir()` function in Python is used to retrieve a list of names in the current scope or to examine the attributes (including methods, properties, and other members) of an object. It's a useful tool for exploring the available attributes of a module, class, or object.
 
