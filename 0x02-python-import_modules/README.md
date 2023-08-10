@@ -121,17 +121,147 @@ The provided code defines a function `my_function `with a default parameter `cou
 <details>
 <summary>
 
-### 
+### Question #4
 </summary>
 
+What do these lines print?
+```py
+>>> def my_function(counter=89):
+>>>     print("Counter: {}".format(counter))
+>>> 
+>>> my_function()
+```
+- [ ] Counter: 101
+- [x] Counter: 89
+- [ ] Counter: 12
+</details>
 
+<details>
+<summary>
+
+### Question #5
+</summary>
+
+What do these lines print?
+```py
+>>> def my_function():
+>>>     print("In my function")
+>>> 
+>>> my_function()
+```
+- [ ] function my_function at …
+- [ ] Nothing
+- [x] In my function
+- [ ] “In my function”
+</details>
+
+# Tasks
+<details>
+<summary>
+
+### 
+``
+
+File: []()
+
+</summary>
 </details>
 
 <details>
 <summary>
 
 ### 
+``
+
+File: []()
+
 </summary>
+</details>
 
+<details>
+<summary>
 
+### 
+``
+
+File: []()
+
+</summary>
+</details>
+
+<details>
+<summary>
+
+### 
+``
+
+File: []()
+
+</summary>
+</details>
+
+<details>
+<summary>
+
+### 
+``
+
+File: []()
+
+</summary>
+</details>
+
+<details>
+<summary>
+
+### 
+``
+
+File: []()
+
+</summary>
+</details>
+
+<details>
+<summary>
+
+### 
+``
+
+File: []()
+
+</summary>
+</details>
+
+<details>
+<summary>
+
+### 
+``
+
+File: []()
+
+</summary>
+</details>
+
+<details>
+<summary>
+
+### 
+``
+
+File: []()
+
+</summary>
+</details>
+
+<details>
+<summary>
+
+### 
+``
+
+File: []()
+
+</summary>
 </details>
