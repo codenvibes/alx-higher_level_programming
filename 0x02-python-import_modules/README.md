@@ -153,7 +153,7 @@ While the concepts of modularization and code reuse are similar in both language
 </details>
 
 <details>
-<summary>How to use the built-in function <code>dir()</code></summary>
+<summary>How to use the built-in function <code>dir()</code></summary><br>
 
 The built-in `dir()` function in Python is used to retrieve a list of names in the current scope or to examine the attributes (including methods, properties, and other members) of an object. It's a useful tool for exploring the available attributes of a module, class, or object.
 
@@ -197,11 +197,115 @@ Remember that `dir()` returns a list of strings representing the names of attrib
 </details>
 
 <details>
-<summary>How to prevent code in your script from being executed when imported</summary>
+<summary>How to prevent code in your script from being executed when imported</summary><br>
+
+In Python, you can prevent certain code from being executed when a script is imported by using the special variable `__name__`. This variable contains the name of the current module, and when a script is executed directly, its `__name__` is set to `"__main__"`. When a script is imported as a module into another script, its `__name__` is set to the actual module name.
+
+You can use this to your advantage to conditionally execute code only when the script is run directly, not when it's imported. Here's an example:
+
+Suppose you have a script named `my_script.py` with the following content:
+
+```python
+def some_function():
+    print("Function executed!")
+
+if __name__ == "__main__":
+    print("This will be printed when the script is run directly.")
+    some_function()
+```
+
+When you run `my_script.py` directly, the output will be:
+
+```
+This will be printed when the script is run directly.
+Function executed!
+```
+
+However, if you import `my_script` into another script, the code inside the `if __name__ == "__main__":` block won't be executed:
+
+```python
+import my_script
+
+print("Imported my_script.")
+my_script.some_function()
+```
+
+The output will be:
+
+```
+Imported my_script.
+Function executed!
+```
+
+Notice that the line `if __name__ == "__main__":` acts as a guard, ensuring that the code inside that block only runs when the script is executed directly, not when it's imported. This is a common pattern used in Python scripts to provide reusable functions and classes while also allowing the script to be executed independently for testing or standalone purposes.
 </details>
 
 <details>
-<summary>How to use command line arguments with your Python programs</summary>
+<summary>How to use command line arguments with your Python programs</summary><br>
+
+You can use command line arguments to provide input to your Python programs when you run them from the command line. Python provides a module called `sys` that allows you to access command line arguments, or you can use the more powerful `argparse` module for more structured argument parsing. Here's how you can use both methods:
+
+1. **Using `sys.argv` (Basic Approach):**
+
+The `sys.argv` list contains the command line arguments passed to your script. The first item (`sys.argv[0]`) is the script name itself, and the subsequent items are the arguments passed.
+
+```python
+import sys
+
+def main():
+    # Access command line arguments
+    script_name = sys.argv[0]
+    arguments = sys.argv[1:]
+
+    print(f"Script name: {script_name}")
+    print(f"Arguments: {arguments}")
+
+if __name__ == "__main__":
+    main()
+```
+
+You can run the script as follows:
+
+```sh
+python my_script.py arg1 arg2 arg3
+```
+
+Here, `arg1`, `arg2`, and `arg3` will be stored in the `arguments` list.
+
+2. **Using `argparse` (Advanced Approach):**
+
+The `argparse` module provides a more structured and user-friendly way to define and parse command line arguments.
+
+```python
+import argparse
+
+def main():
+    parser = argparse.ArgumentParser(description="A program with command line arguments")
+
+    parser.add_argument("arg1", type=int, help="Description for argument 1")
+    parser.add_argument("--arg2", type=float, help="Description for argument 2 (optional)")
+
+    args = parser.parse_args()
+
+    print(f"Argument 1: {args.arg1}")
+    if args.arg2:
+        print(f"Argument 2: {args.arg2}")
+
+if __name__ == "__main__":
+    main()
+```
+
+You can run the script with:
+
+```sh
+python my_script.py 10 --arg2 3.14
+```
+
+In this example, `arg1` is a positional argument, and `arg2` is an optional argument specified with the `--arg2` flag.
+
+Using `argparse` allows you to define various types of arguments (positional, optional, with default values, etc.), and it automatically generates help messages for your program when you use the `-h` or `--help` command line options.
+
+Choose the approach that best suits your needs: `sys.argv` for simple cases or `argparse` for more complex and organized argument handling.
 </details>
 
 # Requirements
