@@ -123,6 +123,7 @@ Creating a module in Python is essentially creating a separate Python file that 
    Make sure that the module file (`my_module.py` in this example) is located in the same directory as the script that wants to use it, or in a directory included in Python's module search path (sys.path).
 
 Remember that creating a module is all about organizing and encapsulating code for better maintainability and reuse. You can include any valid Python code in your module, not just functions. It's a great way to create your own libraries or toolsets.
+</details>
 
 <details>
 <summary>Difference between Python modules and C header files</summary><br>
