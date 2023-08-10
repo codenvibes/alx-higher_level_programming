@@ -10,13 +10,146 @@ man or help:
 - `python3`
 
 # Learning Objectives
-- Why Python programming is awesome
-- How to import functions from another file
-- How to use imported functions
-- How to create a module
-- How to use the built-in function `dir()`
-- How to prevent code in your script from being executed when imported
-- How to use command line arguments with your Python programs
+Why Python programming is awesome
+
+<details>
+<summary>How to import functions from another file</summary>
+
+To import functions from another file in Python, you can follow these steps:
+
+1. Create the File with Functions:
+   First, create a Python file (let's call it `my_functions.py`) that contains the functions you want to import.
+
+   ```python
+   # my_functions.py
+
+   def add(a, b):
+       return a + b
+
+   def subtract(a, b):
+       return a - b
+   ```
+
+2. Import Functions in Another File:
+   In another Python file where you want to use these functions, you can import them using the `import` statement.
+
+   ```python
+   # main.py
+   # Assuming my_functions.py is in the same directory
+
+   import my_functions
+
+   result1 = my_functions.add(5, 3)
+   result2 = my_functions.subtract(10, 4)
+
+   print("Addition:", result1)
+   print("Subtraction:", result2)
+   ```
+
+3. Using Aliases (Optional):
+   You can also use aliases to make the code more concise or to avoid naming conflicts.
+
+   ```python
+   # main.py
+
+   import my_functions as mf  # Alias for my_functions
+
+   result1 = mf.add(5, 3)
+   result2 = mf.subtract(10, 4)
+
+   print("Addition:", result1)
+   print("Subtraction:", result2)
+   ```
+
+4. Import Specific Functions (Optional):
+   If you only want to import specific functions from the module, you can use the `from ... import ...` syntax.
+
+   ```python
+   # main.py
+
+   from my_functions import add, subtract
+
+   result1 = add(5, 3)
+   result2 = subtract(10, 4)
+
+   print("Addition:", result1)
+   print("Subtraction:", result2)
+   ```
+
+Remember to make sure that both the file containing the functions and the file where you're importing them are in the same directory or accessible through your Python's module search paths (sys.path).
+</details>
+
+How to use imported functions
+
+<details>
+<summary>How to create a module</summary>
+
+Creating a module in Python is essentially creating a separate Python file that contains functions, classes, or other code that you want to reuse in multiple places. Here's how you can create a simple module:
+
+1. **Create a Python File:**
+   First, create a new Python file with a `.py` extension. This file will serve as your module and can contain functions, classes, variables, and other code that you want to use across different scripts.
+
+2. **Define Functions and Code:**
+   Inside the module file, you can define functions, classes, or other code that you want to make available for reuse. For example:
+
+   ```python
+   # my_module.py
+
+   def greet(name):
+       return f"Hello, {name}!"
+
+   def add(a, b):
+       return a + b
+
+   pi = 3.14159
+   ```
+
+3. **Use the Module:**
+   Once you've created your module, you can import and use it in other Python scripts just like you would with any other library or module.
+
+   ```python
+   # main.py
+   import my_module
+
+   result = my_module.add(5, 3)
+   greeting = my_module.greet("Alice")
+
+   print("Addition:", result)
+   print(greeting)
+   print("Value of pi:", my_module.pi)
+   ```
+
+4. **Module Location:**
+   Make sure that the module file (`my_module.py` in this example) is located in the same directory as the script that wants to use it, or in a directory included in Python's module search path (sys.path).
+
+Remember that creating a module is all about organizing and encapsulating code for better maintainability and reuse. You can include any valid Python code in your module, not just functions. It's a great way to create your own libraries or toolsets.
+
+<div align="center">*********</div>
+
+Python modules and C header files serve similar purposes in that they both provide a way to organize and modularize code. However, there are some important differences between the two due to the nature of the languages.
+
+**Python Modules:**
+- Python modules are files containing Python code (functions, classes, variables, etc.) that can be imported and used in other Python scripts.
+- Modules can be used to encapsulate related functionality, making code organization and reuse easier.
+- Modules in Python often have the `.py` extension.
+- They can contain functions, classes, variables, and even executable code (not recommended for modules, but possible).
+- Python modules do not require explicit declarations like C header files.
+
+**C Header Files:**
+- C header files (`*.h`) are used for declaring functions, data structures, and macros that are shared across multiple C source files.
+- Header files contain function prototypes, type definitions, and macro definitions.
+- They facilitate communication between different source files and help maintain consistency across projects.
+- Header files are part of the C compilation process and are used by the preprocessor to resolve function signatures and macros before actual compilation.
+- C header files are necessary in C programming to avoid issues related to the "one definition rule."
+
+While the concepts of modularization and code reuse are similar in both languages, the way they are implemented and the underlying mechanisms are quite different due to the nature of Python being a dynamically typed interpreted language and C being a statically typed compiled language.
+</details>
+
+How to use the built-in function `dir()`
+
+How to prevent code in your script from being executed when imported
+
+How to use command line arguments with your Python programs
 
 # Requirements
 - Allowed editors: `vi`, `vim`, `emacs`
