@@ -36,7 +36,7 @@ man or help:
 </summary>
 
 What do these lines print?
-```
+```py
 >>> def my_function(counter=89):
 >>>     return counter + 1
 >>> 
@@ -55,7 +55,7 @@ What do these lines print?
 </summary>
 
 What do these lines print?
-```
+```py
 >>> def my_function(counter):
 >>>     print("Counter: {}".format(counter))
 >>> 
@@ -73,7 +73,7 @@ What do these lines print?
 </summary>
 
 What do these lines print?
-```
+```py
 >>> def my_function():
 >>>     print("In my function")
 >>> 
@@ -98,10 +98,24 @@ The exact memory address (0x...) will vary depending on the system you're runnin
 <details>
 <summary>
 
-### 
+### Question #3
 </summary>
 
+What do these lines print?
+```py
+>>> def my_function(counter=89):
+>>>     print("Counter: {}".format(counter))
+>>> 
+>>> my_function(12)
+```
+- [ ] Counter: 101
+- [ ] Counter: 89
+- [x] Counter: 12
+<details>
+<summary>Description:</summary>
 
+The provided code defines a function `my_function `with a default parameter `counter` set to `89`. When the function is called with an argument, the argument value overrides the default value of the parameter. Then, it calls the function with an argument `12`.
+</details>
 </details>
 
 <details>
