@@ -85,10 +85,10 @@ What do these lines print?
 - [ ] “In my function”
 
 > In Python, when you reference a function without parentheses (), you're referring to the function object itself, not invoking the function. So, the output of the provided code will be:
->```bash
+```bash
 <function my_function at 0x...>
 ```
-The exact memory address (0x...) will vary depending on the system you're running the code on.
+> The exact memory address (0x...) will vary depending on the system you're running the code on.
 </details>
 
 <details>
