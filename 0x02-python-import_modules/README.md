@@ -124,9 +124,8 @@ Creating a module in Python is essentially creating a separate Python file that 
 
 Remember that creating a module is all about organizing and encapsulating code for better maintainability and reuse. You can include any valid Python code in your module, not just functions. It's a great way to create your own libraries or toolsets.
 
-<br>
-<div align="center">*********</div>
-<br>
+<details>
+<summary>Difference between Python modules and C header files</summary><br>
 
 Python modules and C header files serve similar purposes in that they both provide a way to organize and modularize code. However, there are some important differences between the two due to the nature of the languages.
 
@@ -145,6 +144,7 @@ Python modules and C header files serve similar purposes in that they both provi
 - C header files are necessary in C programming to avoid issues related to the "one definition rule."
 
 While the concepts of modularization and code reuse are similar in both languages, the way they are implemented and the underlying mechanisms are quite different due to the nature of Python being a dynamically typed interpreted language and C being a statically typed compiled language.
+</details>
 </details>
 
 How to use the built-in function `dir()`
