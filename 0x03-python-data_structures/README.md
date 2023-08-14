@@ -52,6 +52,8 @@
 </details>
 
 # Requirements
+<details>
+
 ### Python Scripts
 </summary>
 
