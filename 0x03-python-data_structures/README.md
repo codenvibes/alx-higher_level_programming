@@ -53,6 +53,7 @@
 
 # Requirements
 <details>
+<summary>
 
 ### Python Scripts
 </summary>
