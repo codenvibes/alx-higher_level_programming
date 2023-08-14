@@ -388,3 +388,35 @@ File: [10-divisible_by_2.py]()
 File: [11-delete_at.py]()
 </summary>
 </details>
+
+<details>
+<summary>
+
+### 12. Switch
+`mandatory`
+
+File: [12-switch.py]()
+</summary>
+</details>
+
+<details>
+<summary>
+
+### 13. Linked list palindrome
+`mandatory`
+
+File: [13-is_palindrome.c](), [lists.h]()
+</summary>
+</details>
+
+
+<details>
+<summary>
+
+### 14. CPython #0: Python lists
+`#advanced`
+
+File: [100-print_python_list_info.c]()
+</summary>
+</details>
+
