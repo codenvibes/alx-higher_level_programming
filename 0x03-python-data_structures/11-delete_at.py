@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # Author: Terrence M.K
-# File: 
+# File: 11-delete_at.py
 
 def delete_at(my_list=[], idx=0):
     """Delete an item at a specific position in a list."""
