@@ -48,6 +48,6 @@
 </details>
 
 <details>
-<summary>What is the del statement and how to use it</summary>
+<summary>What is the <code>del</code> statement and how to use it</summary>
 </details>
 
