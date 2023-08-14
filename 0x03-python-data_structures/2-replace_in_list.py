@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # Author: Terrence M.K
 # File: 2-replace_in_list.py
 # A function that replaces an element of a list
