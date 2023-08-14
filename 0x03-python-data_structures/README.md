@@ -132,6 +132,15 @@ The index before the colon (`:`) is the start index (inclusive), and the index a
 
 ### Question #2
 </summary>
+
+What do these lines print?
+```py
+>>> a = [1, 2, 3, 4]
+>>> a[-3]
+```
+- [x] 2
+- [ ] [4, 3]
+- [ ] -3
 </details>
 
 <details>
@@ -139,6 +148,16 @@ The index before the colon (`:`) is the start index (inclusive), and the index a
 
 ### Question #3
 </summary>
+
+What do these lines print?
+```py
+>>> a = [1, 2, 3, 4]
+>>> a[-1]
+```
+- [x] 4
+- [ ] [4, 3, 2, 1]
+- [ ] 2
+- [ ] -1
 </details>
 
 <details>
@@ -146,6 +165,16 @@ The index before the colon (`:`) is the start index (inclusive), and the index a
 
 ### Question #4
 </summary>
+
+What do these lines print?
+```py
+>>> a = [1, 2, 3, 4]
+>>> len(a)
+```
+- [ ] 6
+- [ ] 8
+- [x] 4
+- [ ] 2
 </details>
 
 <details>
@@ -153,6 +182,19 @@ The index before the colon (`:`) is the start index (inclusive), and the index a
 
 ### Question #5
 </summary>
+
+What do these lines print?
+```py
+>>> a = [1, 2, 3, 4]
+>>> b = a
+>>> a[2] = 10
+>>> a
+```
+- [ ] a
+- [ ] b
+- [ ] [1, 2, 3, 4]
+- [x] [1, 2, 10, 4]
+- [ ] [1]
 </details>
 
 <details>
@@ -160,6 +202,17 @@ The index before the colon (`:`) is the start index (inclusive), and the index a
 
 ### Question #6
 </summary>
+
+What do these lines print?
+```py
+>>> a = [1, 2, 3, 4]
+>>> a[2] = 10
+>>> a
+```
+- [x] [1, 2, 10, 4]
+- [ ] [1, 2, 10, 10]
+- [ ] [1, 10, 3, 4]
+- [ ] [1, 2, 3, 4]
 </details>
 
 <details>
@@ -167,6 +220,17 @@ The index before the colon (`:`) is the start index (inclusive), and the index a
 
 ### Question #7
 </summary>
+
+What do these lines print?
+```py
+>>> a = [1, 2, 3, 4]
+>>> b = a
+>>> b
+```
+- [ ] 1
+- [ ] a
+- [ ] [1]
+- [x] [1, 2, 3, 4]
 </details>
 
 <details>
@@ -174,11 +238,153 @@ The index before the colon (`:`) is the start index (inclusive), and the index a
 
 ### Question #8
 </summary>
+
+What do these lines print?
+```py
+>>> a = [1, 2, 3, 4]
+>>> a.append(5)
+>>> len(a)
+```
+- [ ] 6
+- [x] 5
+- [ ] 2
 </details>
 
 <details>
 <summary>
 
 ### Question #9
+</summary>
+
+What do these lines print?
+```py
+>>> a = [1, 2, 3, 4]
+>>> a[0]
+```
+- [ ] [1, 2]
+- [ ] [1, 2, 3, 4]
+- [ ] [1]
+- [ ] 2
+- [x] 1
+</details>
+
+# Tasks
+<details>
+<summary>
+
+### 0. Print a list of integers
+`mandatory`
+
+File: [0-print_list_integer.py]()
+</summary>
+</details>
+
+<details>
+<summary>
+
+### 1. Secure access to an element in a list
+`mandatory`
+
+File: [1-element_at.py]()
+</summary>
+</details>
+
+<details>
+<summary>
+
+### 2. Replace element
+`mandatory`
+
+File: [2-replace_in_list.py]()
+</summary>
+</details>
+
+<details>
+<summary>
+
+### 3. Print a list of integers... in reverse!
+`mandatory`
+
+File: [3-print_reversed_list_integer.py]()
+</summary>
+</details>
+
+<details>
+<summary>
+
+### 4. Replace in a copy
+`mandatory`
+
+File: [4-new_in_list.py]()
+</summary>
+</details>
+
+<details>
+<summary>
+
+### 5. Can you C me now?
+`mandatory`
+
+File: [5-no_c.py]()
+</summary>
+</details>
+
+<details>
+<summary>
+
+### 6. Lists of lists = Matrix
+`mandatory`
+
+File: [6-print_matrix_integer.py]()
+</summary>
+</details>
+
+<details>
+<summary>
+
+### 7. Tuples addition
+`mandatory`
+
+File: [7-add_tuple.py]()
+</summary>
+</details>
+
+<details>
+<summary>
+
+### 8. More returns!
+`mandatory`
+
+File: [8-multiple_returns.py]()
+</summary>
+</details>
+
+<details>
+<summary>
+
+### 9. Find the max
+`mandatory`
+
+File: [9-max_integer.py]()
+</summary>
+</details>
+
+<details>
+<summary>
+
+### 10. Only by 2
+`mandatory`
+
+File: [10-divisible_by_2.py]()
+</summary>
+</details>
+
+<details>
+<summary>
+
+### 11. Delete at
+`mandatory`
+
+File: [11-delete_at.py]()
 </summary>
 </details>
