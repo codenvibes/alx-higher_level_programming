@@ -1146,7 +1146,7 @@ guillaume@ubuntu:~/0x04$
 <details>
 <summary>
 
-### 
+### 13. Weighted average!
 `#advanced`
 
 File: [100-weight_average.py]()
