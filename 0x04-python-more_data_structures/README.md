@@ -155,10 +155,10 @@ What do these lines print?
 >>> a = { 'id': 89, 'name': "John" }
 >>> a.get('age', 0)
 ```
--[ ] 0
--[ ] 89
--[ ] Nothing
--[ ] ‘age’
+- [ ] 0
+- [ ] 89
+- [ ] Nothing
+- [ ] ‘age’
 </details>
 
 <details>
