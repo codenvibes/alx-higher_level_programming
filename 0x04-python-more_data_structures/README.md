@@ -75,3 +75,172 @@ What do these lines print?
 - [ ] 0 1 2 3
 </details>
 
+<details>
+<summary><h3>Question #1</h3></summary>
+
+What do these lines print?
+```py
+>>> for i in [1, 3, 4, 2]:
+>>>     print(i, end=" ")
+```
+- [ ] 1 3 4 2
+- [ ] 1 3 4 2 0
+- [ ] 1 2 3 4
+- [ ] 0 1 2 3
+</details>
+
+<details>
+<summary><h3>Question #2</h3></summary>
+
+What do these lines print?
+```py
+>>> a = { 'id': 89, 'name': "John", 'projects': [1, 2, 3, 4] }
+>>> a.get('projects')[3]
+```
+- [ ] 3
+- [ ] [3]
+- [ ] [1, 2, 3, 4]
+- [ ] [4]
+- [ ] 4
+</details>
+
+<details>
+<summary><h3>Question #3</h3></summary>
+
+What do these lines print?
+```py
+>>> a = { 'id': 89, 'name': "John" }
+>>> a.get('age')
+```
+- [ ] 12
+- [ ] Nothing
+- [ ] 89
+- [ ] Not found
+- [ ] ‘age’
+</details>
+
+<details>
+<summary><h3>Question #4</h3></summary>
+
+What do these lines print?
+```py
+>>> a = { 'id': 89, 'name': "John" }
+>>> a.get('id')
+```
+- [ ] 89
+- [ ] John
+- [ ] a[‘id’]
+- [ ] ‘id’
+- [ ] id
+</details>
+
+<details>
+<summary><h3>Question #5</h3></summary>
+
+What do these lines print?
+```py
+>>> for i in ["Hello", "Holberton", "School", 98]:
+>>>     print(i, end=" ")
+```
+- [ ] Hello Holberton School 98
+- [ ] 1 2 3 4
+- [ ] 0 1 2 3
+</details>
+
+<details>
+<summary><h3>Question #6</h3></summary>
+
+What do these lines print?
+```py
+>>> a = { 'id': 89, 'name': "John" }
+>>> a.get('age', 0)
+```
+-[ ] 0
+-[ ] 89
+-[ ] Nothing
+-[ ] ‘age’
+</details>
+
+<details>
+<summary><h3>Question #7</h3></summary>
+
+What do these lines print?
+```py
+>>> for i in range(1, 4):
+>>>     print(i, end=" ")
+```
+- [ ] 1 2 3 4
+- [ ] 0 1 2 3
+- [ ] 1 2 3
+</details>
+
+<details>
+<summary><h3>Question #8</h3></summary>
+
+What do these lines print?
+```py
+>>> a = { 'id': 89, 'name': "John", 'projects': [1, 2, 3, 4], 'friends': [ { 'id': 82, 'name': "Bob" }, { 'id': 83, 'name': "Amy" } ] }
+>>> a.get('friends')[-1].get("name")
+```
+- [ ] Bob
+- [ ] Nothing
+- [ ] Amy
+- [ ] [ { ‘id’: 82, ‘name’: “Bob” }, { ‘id’: 83, ‘name’: “Amy” } ]
+- [ ] 89
+</details>
+
+<details>
+<summary><h3>Question #9</h3></summary>
+
+What do these lines print?
+```py
+>>> for i in range(0, 3):
+>>>     print(i, end=" ")
+```
+- [ ] 0 1 2
+- [ ] 0 1 2 3
+- [ ] 1 2 3
+</details>
+
+<details>
+<summary><h3>Question #10</h3></summary>
+
+What do these lines print?
+```py
+>>> a = { 'id': 89, 'name': "John", 'projects': [1, 2, 3, 4] }
+>>> a.get('projects')
+```
+- [ ] list
+- [ ] Nothing
+- [ ] [1]
+- [ ] [1, 2, 3, 4]
+- [ ] ‘projects’
+</details>
+
+<details>
+<summary><h3>Question #11</h3></summary>
+
+What do these lines print?
+```py
+>>> a = { 'id': 89, 'name': "John" }
+>>> a['id']
+```
+- [ ] 89
+- [ ] John
+- [ ] a[‘id’]
+- [ ] ‘id’
+- [ ] id
+</details>
+
+# Tasks
+<details>
+<summary>
+
+### 
+`mandatory`
+
+File: []()
+</summary>
+
+
+</details>
