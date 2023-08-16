@@ -11,43 +11,114 @@ man or help:
 
 # Learning Objectives
 <details>
-<summary>What are sets and how to use them</summary><br>
+<summary><h3>What are sets and how to use them</h3></summary><br>
+
+In Python, a set is a built-in data type that represents an unordered collection of unique elements. Sets are used to store multiple items, but unlike lists or tuples, sets do not allow duplicate values. They are implemented using a hash table, which enables efficient membership testing, insertion, and deletion of elements.
+
+Here's how you can define and use sets in Python:
+
+### Creating a Set
+
+You can create a set by enclosing a comma-separated sequence of values in curly braces `{}`.
+
+```python
+# Creating a set
+my_set = {1, 2, 3, 4, 5}
+```
+
+### Adding Elements to a Set
+
+You can add elements to a set using the `add()` method.
+
+```python
+my_set.add(6)
+```
+
+### Removing Elements from a Set
+
+You can remove elements from a set using the `remove()` method. If the element is not present, it will raise a `KeyError`. To avoid this, you can use the `discard()` method.
+
+```python
+my_set.remove(3)  # Raises an error if 3 is not in the set
+my_set.discard(3)  # Removes 3 if it exists, otherwise does nothing
+```
+
+### Set Operations
+
+Sets support various set operations like union, intersection, difference, and more.
+
+```python
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+
+union_set = set1.union(set2)         # {1, 2, 3, 4, 5}
+intersection_set = set1.intersection(set2)  # {3}
+difference_set = set1.difference(set2)     # {1, 2}
+```
+
+### Membership Testing
+
+You can test if an element is present in a set using the `in` keyword.
+
+```python
+if 2 in my_set:
+    print("2 is in the set")
+```
+
+### Iterating Over a Set
+
+You can iterate over the elements of a set using a `for` loop.
+
+```python
+for item in my_set:
+    print(item)
+```
+
+### Set Comprehensions
+
+You can also use set comprehensions to create sets in a concise way.
+
+```python
+squared_set = {x ** 2 for x in range(1, 6)}  # {1, 4, 9, 16, 25}
+```
+
+Sets are particularly useful when you want to store a collection of unique elements and perform operations like checking membership, finding intersections, and more, efficiently. Just keep in mind that sets are unordered, so their elements are not stored in any particular order.
 </details>
 
 <details>
-<summary>What are the most common methods of set and how to use them</summary><br>
+<summary><h3>What are the most common methods of set and how to use them</h3></summary><br>
 </details>
 
 <details>
-<summary>When to use sets versus lists</summary><br>
+<summary><h3>When to use sets versus lists</h3></summary><br>
 </details>
 
 <details>
-<summary>How to iterate into a set</summary><br>
+<summary><h3>How to iterate into a set</h3></summary><br>
 </details>
 
 <details>
-<summary>What are dictionaries and how to use them</summary><br>
+<summary><h3>What are dictionaries and how to use them</h3></summary><br>
 </details>
 
 <details>
-<summary>When to use dictionaries versus lists or sets</summary><br>
+<summary><h3>When to use dictionaries versus lists or sets</h3></summary><br>
 </details>
 
 <details>
-<summary>What is a key in a dictionary</summary><br>
+<summary><h3>What is a key in a dictionary</h3></summary><br>
 </details>
 
 <details>
-<summary>How to iterate over a dictionary</summary><br>
+<summary><h3>How to iterate over a dictionary</h3></summary><br>
 </details>
 
 <details>
-<summary>What is a lambda function</summary><br>
+<summary><h3>What is a lambda function</h3></summary><br>
 </details>
 
 <details>
-<summary>What are the map, reduce and filter functions</summary><br>
+<summary><h3>What are the map, reduce and filter functions</h3></summary><br>
 </details>
 
 # Requirements
