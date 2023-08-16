@@ -71,7 +71,164 @@ Note: you do not need to understand lists yet.
 # Quiz questions
 <details>
 <summary>
+
+### Question #0
 </summary>
+
+What do these lines print?
+```py
+a = 12
+if a < 2:
+    print("Holberton")
+elif a % 2 == 0:
+    print("C is fun")
+else:
+    print("School")
+```
+- [ ] School
+- [x] C is fun
+- [ ] Holberton
+</details>
+
+<details>
+<summary>
+
+### Question #1
+</summary>
+
+What do these lines print?
+```py
+if 12 == 48/4 and False:
+    print("Holberton")
+else:
+    print("School")
+```
+- [x] School
+- [ ] Holberton
+</details>
+
+<details>
+<summary>
+
+### Question #2
+</summary>
+
+What do these lines print?
+```py
+if 12 == 48/4:
+    print("Holberton")
+else:
+    print("School")
+```
+- [ ] School
+- [x] Holberton
+</details>
+
+<details>
+<summary>
+
+### Question #3
+</summary>
+
+What do these lines print?
+```py
+if 12 == 48/3 or 12 is 12:
+    print("Holberton")
+else:
+    print("School")
+```
+- [ ] School
+- [x] Holberton
+</details>
+
+<details>
+<summary>
+
+### Question #4
+</summary>
+
+What do these lines print?
+```py
+for i in range(2, 10, 2):
+    print(i, end=" ")
+```
+- [ ] 4 6 8 10 12 14 16 18
+- [x] 2 4 6 8
+- [ ] 2 3 4 5 6 7 8 9
+- [ ] 2 3 4 5 6 7 8 9 10
+</details>
+
+<details>
+<summary>
+
+### Question #5
+</summary>
+
+What do these lines print?
+```py
+for i in range(4):
+    print(i, end=" ")
+```
+- [x] 0 1 2 3
+- [ ] 0 1 2 3 4
+- [ ] 1 2 3
+- [ ] 1 2 3 4
+</details>
+
+<details>
+<summary>
+
+### Question #6
+</summary>
+
+What do these lines print?
+```py
+for i in range(2, 4):
+    print(i, end=" ")
+```
+- [ ] 2 3 4
+- [ ] 3 4
+- [x] 2 3
+- [ ] 2 4
+</details>
+
+<details>
+<summary>
+
+### Question #7
+</summary>
+
+What do these lines print?
+```py
+a = 12
+if a > 2:
+    if a % 2 == 0:
+        print("Holberton")
+    else:
+        print("C is fun")
+else:
+    print("School")
+```
+- [ ] School
+- [ ] C is fun
+- [x] Holberton
+</details>
+
+<details>
+<summary>
+
+### Question #8
+</summary>
+
+What do these lines print?
+```py
+if True:
+    print("Holberton")
+else:
+    print("School")
+```
+- [ ] School
+- [ ] Holberton
 </details>
 
 # Tasks
