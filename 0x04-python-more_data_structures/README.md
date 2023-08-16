@@ -11,7 +11,7 @@ man or help:
 
 # Learning Objectives
 <details>
-<summary><h3>What are sets and how to use them</h3></summary><br>
+<summary><h3>What are sets and how to use them</h3></summary>
 
 In Python, a set is a built-in data type that represents an unordered collection of unique elements. Sets are used to store multiple items, but unlike lists or tuples, sets do not allow duplicate values. They are implemented using a hash table, which enables efficient membership testing, insertion, and deletion of elements.
 
@@ -52,15 +52,6 @@ if 2 in my_set:
     print("2 is in the set")
 ```
 
-### Iterating Over a Set
-
-You can iterate over the elements of a set using a `for` loop.
-
-```python
-for item in my_set:
-    print(item)
-```
-
 ### Set Comprehensions
 
 You can also use set comprehensions to create sets in a concise way.
@@ -73,7 +64,7 @@ Sets are particularly useful when you want to store a collection of unique eleme
 </details>
 
 <details>
-<summary><h3>What are the most common methods of set and how to use them</h3></summary><br>
+<summary><h3>What are the most common methods of set and how to use them</h3></summary>
 
 Sets in Python come with a variety of useful methods for performing operations on sets. Here are some of the most common set methods and how to use them:
 
@@ -166,7 +157,7 @@ These are just some of the most common methods available for sets in Python. Set
 </details>
 
 <details>
-<summary><h3>When to use sets versus lists</h3></summary><br>
+<summary><h3>When to use sets versus lists</h3></summary>
 
 Choosing between sets and lists depends on the specific requirements of your program and the characteristics of the data you are working with. Here are some guidelines to help you decide when to use sets versus lists:
 
@@ -203,31 +194,193 @@ In summary, use sets when you need to work with unique elements, perform efficie
 </details>
 
 <details>
-<summary><h3>How to iterate into a set</h3></summary><br>
+<summary><h3>How to iterate into a set</h3></summary>
+
+You can iterate over the elements of a set using a `for` loop.
+
+```python
+for item in my_set:
+    print(item)
+```
 </details>
 
 <details>
-<summary><h3>What are dictionaries and how to use them</h3></summary><br>
+<summary><h3>What are dictionaries and how to use them</h3></summary>
+In Python, a dictionary is a built-in data structure that allows you to store and manage data in key-value pairs. Each key in a dictionary maps to a corresponding value, similar to how words and their definitions are organized in a real-world dictionary. 
+
+> Dictionaries are also sometimes referred to as "associative arrays" or "hash maps" in other programming languages.
+
+Dictionaries are very useful when you want to store and retrieve data based on some unique identifier (the key). The keys in a dictionary must be unique and immutable (such as strings, numbers, or tuples), and the values can be of any data type (including other dictionaries or complex objects).
+
+Here's how you create and use dictionaries in Python:
+
+```python
+# Creating a dictionary
+student = {
+    "name": "John",
+    "age": 20,
+    "major": "Computer Science"
+}
+
+# Accessing values using keys
+print(student["name"])  # Output: John
+print(student["age"])   # Output: 20
+
+# Adding a new key-value pair
+student["gpa"] = 3.8
+
+# Modifying a value
+student["age"] = 21
+
+# Removing a key-value pair
+del student["major"]
+
+# Checking if a key exists
+if "gpa" in student:
+    print("GPA:", student["gpa"])
+```
+
+Dictionaries provide a flexible way to organize and manage data, especially when you need to quickly look up values based on keys. They are commonly used in various programming tasks, including configuration management, data processing, and more. Keep in mind that starting from Python 3.7, dictionary order is guaranteed to be insertion order, which means the order of key-value pairs is preserved.
 </details>
 
 <details>
-<summary><h3>When to use dictionaries versus lists or sets</h3></summary><br>
+<summary><h3>When to use dictionaries versus lists or sets</h3></summary>
+
+Dictionaries:
+- Use dictionaries when you have data that needs to be stored and retrieved based on unique keys.
+- Ideal for situations where you need fast lookups and associations between keys and values.
+- Use cases: Storing configuration settings, mapping IDs to objects, managing data relationships, creating data structures for efficient searching, etc.
+
+Here are some more specific scenarios to help guide your choice:
+- If you need to associate values with keys, use a dictionary.
+- If you need an ordered collection and will access elements by index, use a list.
+- If you need to check for membership and ensure uniqueness, use a set.
+- If you need both fast lookups and uniqueness, a dictionary or a set might be suitable depending on whether you need to associate values or not.
+
+In many cases, you might find yourself using a combination of these data structures to build more complex data processing and storage solutions. Always consider the requirements of your specific problem and choose the data structure that best fits those requirements.
 </details>
 
 <details>
-<summary><h3>What is a key in a dictionary</h3></summary><br>
+<summary><h3>What is a key in a dictionary</h3></summary>
+
+In a dictionary, a key is a unique identifier that is used to access and retrieve a corresponding value. Each key is associated with a specific value, forming a key-value pair within the dictionary. Keys must be unique and immutable, meaning they cannot be changed after they are created, and they cannot be duplicated within the same dictionary.
+
+Here's a simple example of a dictionary with key-value pairs:
+
+```python
+student = {
+    "name": "John",
+    "age": 20,
+    "major": "Computer Science"
+}
+```
+
+In this example, `"name"`, `"age"`, and `"major"` are the keys, and `"John"`, `20`, and `"Computer Science"` are the corresponding values. You can use these keys to access the associated values within the dictionary:
+
+```python
+print(student["name"])  # Output: John
+print(student["age"])   # Output: 20
+```
+
+Keys provide a way to uniquely identify and access data within a dictionary, making dictionaries highly efficient for fast lookups and retrieval of information based on specific identifiers.
 </details>
 
 <details>
-<summary><h3>How to iterate over a dictionary</h3></summary><br>
+<summary><h3>How to iterate over a dictionary</h3></summary>
+
+1. **Iterating Through Keys:**
+   
+   You can iterate through the keys of a dictionary using a `for` loop. By default, iterating through a dictionary iterates over its keys.
+
+   ```python
+   student = {
+       "name": "John",
+       "age": 20,
+       "major": "Computer Science"
+   }
+
+   for key in student:
+       print(key, ":", student[key])
+   ```
+   output:
+   ```
+   name : John
+   age : 23
+   GPA : 3.5
+   ```
+
+2. **Iterating Through Keys and Values:**
+
+   You can use the `.items()` method to iterate through both the keys and their corresponding values.
+
+   ```python
+   student = {
+       "name": "John",
+       "age": 20,
+       "major": "Computer Science"
+   }
+
+   for key, value in student.items():
+       print(key, ":", value)
+   ```
+   output:
+   ```
+   name : John
+   age : 23
+   GPA : 3.5
+   ```
+
+3. **Iterating Through Values:**
+
+   While less common, you can also directly iterate through the values of a dictionary using the `.values()` method.
+
+   ```python
+   student = {
+       "name": "John",
+       "age": 20,
+       "major": "Computer Science"
+   }
+
+   for value in student.values():
+       print(value)
+   ```
+   output:
+   ```
+   John
+   23
+   3.5
+   ```
+
+4. **Iterating Through Items Using `enumerate()`:**
+
+   If you want to access both the keys and values along with their indexes, you can use the `enumerate()` function.
+
+   ```python
+   student = {
+       "name": "John",
+       "age": 20,
+       "major": "Computer Science"
+   }
+
+   for index, (key, value) in enumerate(student.items()):
+       print(f"Item {index}: {key} - {value}")
+   ```
+   output:
+   ```
+   Item 0: name - John
+   Item 1: age - 23
+   Item 2: GPA - 3.5
+   ```
+
+Remember that dictionaries in Python 3.7 and later maintain insertion order, meaning the order of key-value pairs is preserved during iteration. However, in earlier versions of Python, dictionaries were not guaranteed to maintain this order.
 </details>
 
 <details>
-<summary><h3>What is a lambda function</h3></summary><br>
+<summary><h3>What is a lambda function</h3></summary>
 </details>
 
 <details>
-<summary><h3>What are the map, reduce and filter functions</h3></summary><br>
+<summary><h3>What are the map, reduce and filter functions</h3></summary>
 </details>
 
 # Requirements
