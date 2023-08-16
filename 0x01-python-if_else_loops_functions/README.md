@@ -228,7 +228,7 @@ else:
     print("School")
 ```
 - [ ] School
-- [ ] Holberton
+- [x] Holberton
 </details>
 
 # Tasks
