@@ -6,4 +6,4 @@ def print_sorted_dictionary(a_dictionary):
     sorted_items = sorted(a_dictionary.items())
 
     for key, value in sorted_items:
-        print(key, ":", value)
+        print("{:s} : {}".format(key, value))
