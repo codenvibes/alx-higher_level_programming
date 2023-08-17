@@ -322,7 +322,7 @@ Overall, tuples provide a way to group related data in an ordered and immutable 
 </details>
 
 <details>
-<summary><h3>What is a sequence</h3></summary>
+<summary><h3><a href="https://docs.python.org/3/library/stdtypes.html#typesseq">What is a sequence</a></h3></summary>
 
 In programming, a sequence refers to an ordered collection of elements. These elements can be of any data type, such as numbers, characters, strings, or even other sequences. Sequences are fundamental data structures used to store and manipulate collections of items in a specific order.
 
@@ -349,14 +349,144 @@ You can perform common sequence operations on these types, such as indexing to a
 
 <details>
 <summary><h3>What is tuple packing</h3></summary>
+
+Tuple packing, also known as packing, refers to the process of combining multiple values into a single tuple. In Python, you can create a tuple by placing comma-separated values (or expressions) within parentheses `()`. The resulting tuple will contain these values as its elements.
+
+Here's an example of tuple packing:
+
+```python
+person = "John", 25, "john@example.com"
+print(person)
+# Output: ('John', 25, 'john@example.com')
+```
+
+In this example, the values `"John"`, `25`, and `"john@example.com"` are packed together into a single tuple. The parentheses are optional, and the comma is the key element that signals tuple packing.
+
+Tuple packing can be particularly useful when you want to return multiple values from a function or when you want to group related data together in a single container.
+
+For instance, a function could return multiple values as a packed tuple:
+
+```python
+def get_person_info():
+    name = "Alice"
+    age = 30
+    email = "alice@example.com"
+    return name, age, email
+
+person_info = get_person_info()
+print(person_info)
+# Output: ('Alice', 30, 'alice@example.com')
+```
+
+Tuple packing and unpacking can often be used together to efficiently handle multiple values and data structures in a concise and expressive way.
 </details>
 
 <details>
 <summary><h3>What is sequence unpacking</h3></summary>
+
+Sequence unpacking, also known as unpacking, is the process of extracting individual elements from a sequence (like a tuple, list, or string) and assigning them to separate variables. This is the counterpart to tuple packing, where you create a tuple by combining values.
+
+To perform sequence unpacking, you assign the elements of a sequence to variables in one step, separating the variables with commas. The number of variables must match the number of elements in the sequence.
+
+Here's an example of sequence unpacking with a tuple:
+
+```python
+person = ("John", 25, "john@example.com")
+name, age, email = person
+print(name)     # Output: John
+print(age)      # Output: 25
+print(email)    # Output: john@example.com
+```
+
+You can also use sequence unpacking with other types of sequences:
+
+```python
+numbers = [1, 2, 3]
+first, second, third = numbers
+print(first)    # Output: 1
+print(second)   # Output: 2
+print(third)    # Output: 3
+```
+
+For strings:
+
+```python
+word = "Python"
+first_letter, second_letter, third_letter, *rest = word
+print(first_letter)   # Output: P
+print(second_letter)  # Output: y
+print(third_letter)   # Output: t
+print(rest)           # Output: ['h', 'o', 'n']
+```
+
+The `*rest` in the last example is used to capture the remaining characters of the string into a list. This is called "extended unpacking" and is useful when you have more elements in the sequence than variables to unpack into.
+
+Sequence unpacking is a convenient way to handle multiple values returned from functions or to extract elements from sequences without having to access each element individually.
 </details>
 
 <details>
 <summary><h3>What is the <code>del</code> statement and how to use it</h3></summary>
+
+The `del` statement in Python is used to delete or remove objects, such as variables, items from a list or dictionary, and more. It is a way to explicitly remove a reference to an object, allowing the Python garbage collector to free up memory when the object is no longer needed.
+
+The basic syntax of the `del` statement is:
+
+```python
+del object
+```
+
+Here's how you can use the `del` statement for different purposes:
+
+1. **Deleting Variables:**
+
+You can use `del` to delete a variable, which removes the reference to the object it points to:
+
+```python
+x = 10
+del x
+```
+
+2. **Deleting List Items:**
+
+To delete an item from a list using its index:
+
+```python
+my_list = [1, 2, 3, 4]
+del my_list[2]  # Removes the third item (value: 3)
+```
+
+3. **Deleting Dictionary Items:**
+
+To delete an item from a dictionary using its key:
+
+```python
+my_dict = {"name": "Alice", "age": 30}
+del my_dict["age"]  # Removes the "age" key-value pair
+```
+
+4. **Deleting Slices:**
+
+You can also use `del` to remove a slice of items from a list:
+
+```python
+my_list = [1, 2, 3, 4, 5]
+del my_list[1:3]  # Removes items at index 1 and 2
+```
+
+5. **Deleting Entire Objects:**
+
+In more advanced use cases, you can use `del` to remove entire objects. However, this is typically not recommended for general use, as the objects will be garbage-collected when there are no more references to them:
+
+```python
+class MyClass:
+    def __del__(self):
+        print("Object deleted")
+
+obj = MyClass()
+del obj  # Deletes the object and triggers its __del__() method
+```
+
+It's important to use the `del` statement with caution, as removing objects from memory should be done purposefully. In most cases, Python's automatic memory management will take care of releasing memory when objects are no longer needed, so you might not need to use `del` frequently in your code.
 </details>
 
 # Requirements
