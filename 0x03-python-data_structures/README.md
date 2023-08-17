@@ -12,8 +12,6 @@
 </details>
 
 <details>
-
-<details>
 <summary><h3>What are lists and how to use them</h3></summary>
 </details>
 
