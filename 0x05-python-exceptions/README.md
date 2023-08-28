@@ -296,7 +296,8 @@ except ValueError as e:
 
 <br>
 <br>
-<p align="center">*******</p>
+<p align="center">*******************************</p>
+<br>
 
 ```python
 class CustomError(ValueError):
