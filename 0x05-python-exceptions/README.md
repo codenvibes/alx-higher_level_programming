@@ -44,8 +44,10 @@ In this example, the syntax error (`print("Hello World"`) is an error that preve
 To sum up, errors are issues detected during the program's compilation phase that prevent it from running, while exceptions are issues that occur during runtime and can be caught and managed using exception handling mechanisms.
 
 <br>
+<br>
+<p align="center">***********</p>
 
-><p align="center">what's the difference between compilation time and runtime:</p>
+> what's the difference between compilation time and runtime:
    Compilation Time: This is the phase where the source code is translated into machine-readable code and checked for syntax errors. It is a preparatory step before the program can be executed.
    Runtime: This is the phase where the compiled code is actually executed by the computer's processor. It involves processing data, performing calculations, and carrying out the tasks defined by the program.
 </details>
