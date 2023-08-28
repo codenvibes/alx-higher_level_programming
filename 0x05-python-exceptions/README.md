@@ -12,11 +12,42 @@
 
 # Learning Objectives
 <details>
-<summary><h3>Why Python programming is awesome</h3></summary>
-</details>
-
-<details>
 <summary><h3>What’s the difference between errors and exceptions</h3></summary>
+
+In Python, both errors and exceptions are types of issues that can occur during program execution, but they serve different purposes and are handled in distinct ways.
+
+1. **Errors:**
+Errors are issues that prevent the program from running successfully. They are generally more severe and occur when there is a problem that Python cannot recover from. Errors are typically detected during the program's compilation phase (before execution) and can include things like syntax errors or import errors.
+
+   For example, if you have a syntax error like a missing parenthesis or an undefined variable, Python will raise an error and your program won't run at all.
+
+2. **Exceptions:**
+Exceptions are issues that occur during the execution of a program and can disrupt the normal flow of the program. They are usually caused by external factors or unexpected conditions that the programmer might not have anticipated. Python provides a mechanism to handle exceptions gracefully, allowing you to catch them and take appropriate action rather than letting the program crash.
+
+   Exceptions can be caused by various reasons such as dividing by zero, attempting to access an index that doesn't exist in a list, or opening a file that doesn't exist. When an exception occurs, Python raises an exception object, and you can catch and handle it using `try` and `except` blocks.
+
+Here's an example that demonstrates the difference between errors and exceptions in Python:
+
+```python
+# Error - Syntax error
+print("Hello World"
+
+try:
+    # Exception - Division by zero
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero.")
+```
+
+In this example, the syntax error (`print("Hello World"`) is an error that prevents the program from running, while the division by zero (`10 / 0`) is an exception that can be caught and handled using an exception handler.
+
+To sum up, errors are issues detected during the program's compilation phase that prevent it from running, while exceptions are issues that occur during runtime and can be caught and managed using exception handling mechanisms.
+
+<br>
+
+><p align="center">what's the difference between compilation time and runtime:</p>
+   Compilation Time: This is the phase where the source code is translated into machine-readable code and checked for syntax errors. It is a preparatory step before the program can be executed.
+   Runtime: This is the phase where the compiled code is actually executed by the computer's processor. It involves processing data, performing calculations, and carrying out the tasks defined by the program.
 </details>
 
 <details>
