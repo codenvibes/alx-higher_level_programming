@@ -116,10 +116,135 @@ By using exception handling, you can make your Python programs more robust and u
 
 <details>
 <summary><h3>When do we need to use exceptions</h3></summary>
+
+You should use exceptions in Python whenever you want to handle runtime errors or exceptional situations in a controlled and graceful manner. Exceptions are particularly useful when you want to prevent your program from crashing due to unexpected errors and provide meaningful feedback to users or take specific actions to recover from the errors.
+
+Here are some scenarios where you might want to use exceptions along with code examples:
+
+1. **Input Validation:**
+   When you're accepting user input, it's a good practice to validate the input and handle invalid cases using exceptions. For example, when converting user input to an integer:
+
+   ```python
+   try:
+       user_input = input("Enter an integer: ")
+       value = int(user_input)
+   except ValueError:
+       print("Invalid input. Please enter a valid integer.")
+   ```
+
+2. **File Operations:**
+   When working with files, exceptions can help you handle cases where the file doesn't exist or there are issues during reading/writing:
+
+   ```python
+   try:
+       with open("myfile.txt", "r") as file:
+           content = file.read()
+   except FileNotFoundError:
+       print("File not found.")
+   except IOError:
+       print("An error occurred while reading the file.")
+   ```
+
+3. **Networking:**
+   When dealing with network-related operations, like making HTTP requests, exceptions can handle connectivity issues:
+
+   ```python
+   import requests
+
+   try:
+       response = requests.get("https://example.com")
+       response.raise_for_status()  # Raises an exception for HTTP errors
+   except requests.exceptions.RequestException:
+       print("Error occurred while making the request.")
+   ```
+
+4. **Arithmetic Operations:**
+   Handle cases where mathematical operations might result in exceptions, like division by zero:
+
+   ```python
+   try:
+       result = 10 / 0
+   except ZeroDivisionError:
+       print("Cannot divide by zero.")
+   ```
+
+5. **Custom Exceptions:**
+   You can create your own custom exceptions to handle specific situations in your code:
+
+   ```python
+   class CustomError(Exception):
+       pass
+
+   try:
+       if some_condition:
+           raise CustomError("Custom error message")
+   except CustomError as ce:
+       print("Caught custom error:", ce)
+   ```
+
+6. **Resource Management:**
+   When working with external resources (like databases or external services), exceptions can ensure proper resource cleanup:
+
+   ```python
+   try:
+       db_connection = connect_to_database()
+       # Code that uses the database connection
+   except DatabaseError:
+       print("An error occurred while accessing the database.")
+   finally:
+       db_connection.close()  # Ensures the connection is closed even if an error occurs
+   ```
+
+In general, use exceptions when you expect that certain operations might fail due to unforeseen circumstances, and you want to handle these situations without causing your program to crash. It's important to provide informative error messages to users and to log detailed error information for debugging purposes.
 </details>
 
 <details>
 <summary><h3>How to correctly handle an exception</h3></summary>
+
+Handling exceptions in Python involves using `try` and `except` blocks to manage potential errors in your code. Here's a step-by-step guide on how to correctly handle an exception:
+
+1. **Identify the Risky Code:**
+   Determine which part of your code might raise an exception. This is the code you'll place inside the `try` block.
+
+2. **Wrap the Risky Code in a `try` Block:**
+   Enclose the potentially problematic code within a `try` block. If an exception occurs within this block, the program will jump to the corresponding `except` block.
+
+3. **Specify the Exception Type:**
+   After the `try` block, add one or more `except` blocks. Each `except` block should specify the type of exception it can handle. You can catch multiple exception types by using multiple `except` blocks or a single `except` block with multiple exception types.
+
+4. **Handle the Exception:**
+   Inside the `except` block, write code to handle the exception. This could involve displaying an error message, logging the issue, attempting an alternative action, or any other appropriate response.
+
+5. **Optionally Include an `else` Block:**
+   If you have code that should run only if no exception occurs, place it inside an `else` block after all the `except` blocks.
+
+6. **Optionally Include a `finally` Block:**
+   If you have code that should always run, regardless of whether an exception occurred or not, place it inside a `finally` block.
+
+Here's an example demonstrating the correct handling of an exception:
+
+```python
+try:
+    dividend = int(input("Enter a number to divide: "))
+    divisor = int(input("Enter a divisor: "))
+    result = dividend / divisor
+except ZeroDivisionError:
+    print("Cannot divide by zero.")
+except ValueError:
+    print("Please enter valid numbers.")
+else:
+    print("Result:", result)
+finally:
+    print("Division operation completed.")
+```
+
+In this example:
+- The `try` block contains code that may raise exceptions (division by zero or invalid input).
+- There are two `except` blocks to handle the `ZeroDivisionError` and `ValueError` exceptions separately.
+- The `else` block prints the result if no exception occurs.
+- The `finally` block ensures that the final message is displayed, regardless of exceptions.
+
+When handling exceptions, it's important to provide meaningful error messages and take appropriate actions to prevent program crashes and to guide users through troubleshooting.
 </details>
 
 <details>
