@@ -47,9 +47,9 @@ To sum up, errors are issues detected during the program's compilation phase tha
 <br>
 <p align="center">***********</p>
 
-> what's the difference between compilation time and runtime:
-   - Compilation Time: This is the phase where the source code is translated into machine-readable code and checked for syntax errors. It is a preparatory step before the program can be executed.
-   - Runtime: This is the phase where the compiled code is actually executed by the computer's processor. It involves processing data, performing calculations, and carrying out the tasks defined by the program.
+> what's the difference between compilation time and runtime:<br>
+   Compilation Time: This is the phase where the source code is translated into machine-readable code and checked for syntax errors. It is a preparatory step before the program can be executed.
+   Runtime: This is the phase where the compiled code is actually executed by the computer's processor. It involves processing data, performing calculations, and carrying out the tasks defined by the program.
 </details>
 
 <details>
