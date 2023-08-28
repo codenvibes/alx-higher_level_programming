@@ -249,10 +249,93 @@ When handling exceptions, it's important to provide meaningful error messages an
 
 <details>
 <summary><h3>What’s the purpose of catching exceptions</h3></summary>
+
+Catching exceptions serves several important purposes in programming:
+
+1. **Error Handling and Recovery:** Catching exceptions allows you to handle unexpected errors or exceptional conditions gracefully without crashing the entire program. Instead of letting an error propagate and disrupt the program's execution, you can provide alternative behavior or take corrective actions to recover from the error. This is crucial for maintaining the stability and reliability of your application.
+
+2. **User-Friendly Feedback:** When exceptions occur, users are often presented with cryptic error messages that they may not understand. By catching exceptions and providing meaningful error messages or instructions, you can improve the user experience and help users understand what went wrong and how to proceed.
+
+3. **Program Robustness:** Exception handling helps make your program more robust by allowing it to handle unexpected situations and errors that might occur during runtime. This prevents your program from abruptly crashing and helps it continue functioning in the presence of errors.
+
+4. **Logging and Debugging:** When you catch and handle exceptions, you can log information about the exception, including its type, message, and potentially the stack trace. This information is valuable for diagnosing and debugging issues in your application, as it provides insight into what caused the error and where it occurred.
+
+5. **Resource Cleanup:** Exception handling can be used to ensure that resources, such as files, network connections, or database connections, are properly closed or released, even if an error occurs. The `finally` block is often used for this purpose to guarantee cleanup operations.
+
+6. **Control Flow:** By catching exceptions, you can control the flow of your program in response to different conditions. For instance, you might want to retry an operation if it fails due to a temporary network issue or proceed with an alternative strategy if a specific exception occurs.
+
+7. **Security:** Handling exceptions can help protect sensitive information from leaking in error messages. By catching and handling exceptions appropriately, you can prevent exposing details that could potentially be exploited by malicious users.
+
+8. **Third-Party Libraries:** When using third-party libraries, you might encounter exceptions specific to those libraries. Catching these exceptions allows you to handle library-specific issues and continue your application's execution without being disrupted by external errors.
+
+Overall, catching exceptions enables you to write more reliable and user-friendly software by managing errors, maintaining control over the program's execution, and enhancing the overall user experience.
 </details>
 
 <details>
 <summary><h3>How to raise a builtin exception</h3></summary>
+
+In Python, you can create custom exceptions by defining new classes that inherit from built-in exception classes. This allows you to extend and customize the behavior of exception handling in your code. To raise a built-in exception from a custom exception class, you need to create a class that inherits from the desired built-in exception class and then raise an instance of your custom exception class. Here's how you can do it:
+
+Let's say you want to create a custom exception named `CustomError` that inherits from the built-in `ValueError` exception. Here's how you can achieve that:
+
+```python
+class CustomError(ValueError):
+    pass
+
+def some_function(value):
+    if value < 0:
+        raise CustomError("Value must be non-negative")
+
+try:
+    some_function(-5)
+except CustomError as e:
+    print("Custom error:", e)
+except ValueError as e:
+    print("ValueError:", e)
+```
+
+<br>
+<br>
+<p align="center">*******</p>
+
+```python
+class CustomError(ValueError):
+    pass
+```
+
+Here, a new custom exception class named `CustomError` is defined. This class inherits from the built-in `ValueError` class. By inheriting from `ValueError`, `CustomError` will have all the properties and behavior of a `ValueError` exception, and you can also customize it further if needed.
+
+```python
+def some_function(value):
+    if value < 0:
+        raise CustomError("Value must be non-negative")
+```
+
+A function named `some_function` is defined. This function takes a `value` as an argument. Inside the function, there's a condition that checks if the `value` is negative. If the condition is true (i.e., the value is negative), the function raises an instance of the `CustomError` exception with the error message "Value must be non-negative."
+
+```python
+try:
+    some_function(-5)
+except CustomError as e:
+    print("Custom error:", e)
+except ValueError as e:
+    print("ValueError:", e)
+```
+
+This code is inside a `try` block, which means it's trying to execute the code within it. The `some_function(-5)` call inside the `try` block would raise a `CustomError` exception since the value `-5` is negative. In the `except` block, we catch the `CustomError` exception using `except CustomError as e:`. Here, `e` will be the instance of the raised `CustomError` exception. We print a message indicating that a custom error occurred and provide the details of the exception.
+
+Since `CustomError` is a subclass of `ValueError`, you might expect that the `except ValueError as e:` block could also catch the exception. However, due to the way exception handling works, Python will prioritize catching the most specific exception type first, which is `CustomError`. If the `except CustomError` block was not present, then the `ValueError` block would catch the exception.
+
+The output of this code, when executed, would be something like:
+```
+Custom error: Value must be non-negative
+```
+
+This example demonstrates how you can create and raise custom exceptions in Python by inheriting from built-in exception classes, allowing you to design more meaningful and context-specific error handling in your code.
+
+When you catch exceptions using `except` blocks, it's important to catch the more specific exceptions first before catching more general ones. In this example, we catch `CustomError` before catching `ValueError`, since `CustomError` is a subclass of `ValueError`.
+
+Remember that when creating custom exceptions, you can define additional attributes or methods in your custom exception class to provide more context or behavior specific to your application's needs.
 </details>
 
 <details>
