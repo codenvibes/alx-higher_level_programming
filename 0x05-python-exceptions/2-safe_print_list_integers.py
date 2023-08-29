@@ -10,6 +10,6 @@ def safe_print_list_integers(my_list=[], x=0):
                 number_of_elements += 1
     except (ValueError):
         pass
-    
+
     print()
-    return(number_of_elements)
+    return (number_of_elements)
