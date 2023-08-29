@@ -337,6 +337,35 @@ This example demonstrates how you can create and raise custom exceptions in Pyth
 When you catch exceptions using `except` blocks, it's important to catch the more specific exceptions first before catching more general ones. In this example, we catch `CustomError` before catching `ValueError`, since `CustomError` is a subclass of `ValueError`.
 
 Remember that when creating custom exceptions, you can define additional attributes or methods in your custom exception class to provide more context or behavior specific to your application's needs.
+
+<br>
+<br>
+<p align="center">*******************************</p>
+<br>
+
+In the code example provided earlier:
+
+```python
+class CustomError(ValueError):
+    pass
+```
+
+The `pass` statement is used as a placeholder that does nothing. In Python, it's a way to indicate that you want to define a block of code (in this case, the body of the `CustomError` class) but you don't want to add any functionality or statements within that block at the moment. It's often used when syntactically a statement is required but you don't want to execute any code.
+
+In the context of defining a custom exception class, the `pass` statement indicates that you're intentionally leaving the class definition empty for now, and you might later add more attributes, methods, or custom behavior to the class. It's a common approach when you're creating a placeholder for future development or when you're creating a subclass of an existing class and you want to inherit its behavior without adding anything new immediately.
+
+For example, you might later add custom methods to your `CustomError` class:
+
+```python
+class CustomError(ValueError):
+    def __init__(self, message):
+        super().__init__(message)
+    
+    def log_error(self):
+        print("An error occurred:", self.args[0])
+```
+
+In this updated example, the `CustomError` class now has a custom constructor (`__init__`) and a method called `log_error`. These additions can be made at a later stage while keeping the structure of the class defined earlier.
 </details>
 
 <details>
