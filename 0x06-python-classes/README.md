@@ -308,10 +308,149 @@ class User:
 <details>
 <summary>
 
-### 0. 
+### 0. My first square
 `mandatory`
 
-File: []()
+File: [0-square.py]()
+</summary>
+
+Write an empty class `Square` that defines a square:
+- You are not allowed to import any module
+```bash
+guillaume@ubuntu:~/0x06$ cat 0-main.py
+#!/usr/bin/python3
+Square = __import__('0-square').Square
+
+my_square = Square()
+print(type(my_square))
+print(my_square.__dict__)
+
+guillaume@ubuntu:~/0x06$ ./0-main.py
+<class '0-square.Square'>
+{}
+guillaume@ubuntu:~/0x06$ 
+```
+</details>
+
+<details>
+<summary>
+
+### 1. Square with size
+`mandatory`
+
+File: [1-square.py]()
+</summary>
+
+Write a class `Square` that defines a square by: (based on `0-square.py`)
+- Private instance attribute: `size`
+- Instantiation with `size` (no type/value verification)
+- You are not allowed to import any module
+
+**Why?**
+
+Why `size` is private attribute?
+
+The size of a square is crucial for a square, many things depend of it (area computation, etc.), so you, as class builder, must control the type and value of this attribute. One way to have the control is to keep it privately. You will see in next tasks how to get, update and validate the size value.
+```bash
+guillaume@ubuntu:~/0x06$ cat 1-main.py
+#!/usr/bin/python3
+Square = __import__('1-square').Square
+
+my_square = Square(3)
+print(type(my_square))
+print(my_square.__dict__)
+
+try:
+    print(my_square.size)
+except Exception as e:
+    print(e)
+
+try:
+    print(my_square.__size)
+except Exception as e:
+    print(e)
+
+guillaume@ubuntu:~/0x06$ ./1-main.py
+<class '1-square.Square'>
+{'_Square__size': 3}
+'Square' object has no attribute 'size'
+'Square' object has no attribute '__size'
+guillaume@ubuntu:~/0x06$ 
+```
+</details>
+
+<details>
+<summary>
+
+### 2. Size validation
+`mandatory`
+
+File: [2-square.py]()
+</summary>
+
+Write a class `Square` that defines a square by: (based on `1-square.py`)
+- Private instance attribute: `size`
+- Instantiation with optional size: `def __init__(self, size=0):`
+    - `size` must be an integer, otherwise raise a `TypeError` exception with the message `size must be an integer`
+    - if `size` is less than `0`, raise a `ValueError` exception with the message `size must be >= 0`
+- You are not allowed to import any module
+```bash
+guillaume@ubuntu:~/0x06$ cat 2-main.py
+#!/usr/bin/python3
+Square = __import__('2-square').Square
+
+my_square_1 = Square(3)
+print(type(my_square_1))
+print(my_square_1.__dict__)
+
+my_square_2 = Square()
+print(type(my_square_2))
+print(my_square_2.__dict__)
+
+try:
+    print(my_square_1.size)
+except Exception as e:
+    print(e)
+
+try:
+    print(my_square_1.__size)
+except Exception as e:
+    print(e)
+
+try:
+    my_square_3 = Square("3")
+    print(type(my_square_3))
+    print(my_square_3.__dict__)
+except Exception as e:
+    print(e)
+
+try:
+    my_square_4 = Square(-89)
+    print(type(my_square_4))
+    print(my_square_4.__dict__)
+except Exception as e:
+    print(e)
+
+guillaume@ubuntu:~/0x06$ ./2-main.py
+<class '2-square.Square'>
+{'_Square__size': 3}
+<class '2-square.Square'>
+{'_Square__size': 0}
+'Square' object has no attribute 'size'
+'Square' object has no attribute '__size'
+size must be an integer
+size must be >= 0
+guillaume@ubuntu:~/0x06$ 
+```
+</details>
+
+<details>
+<summary>
+
+### 3. Area of a square
+`mandatory`
+
+File: [3-square.py]()
 </summary>
 
 
@@ -320,10 +459,10 @@ File: []()
 <details>
 <summary>
 
-### 1. 
+### 4. Access and update private attribute
 `mandatory`
 
-File: []()
+File: [4-square.py]()
 </summary>
 
 
@@ -332,10 +471,10 @@ File: []()
 <details>
 <summary>
 
-### 2. 
+### 5. Printing a square
 `mandatory`
 
-File: []()
+File: [5-square.py]()
 </summary>
 
 
@@ -344,10 +483,10 @@ File: []()
 <details>
 <summary>
 
-### 3. 
+### 6. Coordinates of a square
 `mandatory`
 
-File: []()
+File: [6-square.py]()
 </summary>
 
 
@@ -356,46 +495,10 @@ File: []()
 <details>
 <summary>
 
-### 4. 
-`mandatory`
-
-File: []()
-</summary>
-
-
-</details>
-
-<details>
-<summary>
-
-### 5. 
-`mandatory`
-
-File: []()
-</summary>
-
-
-</details>
-
-<details>
-<summary>
-
-### 6. 
-`mandatory`
-
-File: []()
-</summary>
-
-
-</details>
-
-<details>
-<summary>
-
-### 6. 
+### 7. Singly linked list
 `#advanced`
 
-File: []()
+File: [100-singly_linked_list.py]()
 </summary>
 
 
@@ -404,10 +507,10 @@ File: []()
 <details>
 <summary>
 
-### 7. 
+### 8. Print Square instance
 `#advanced`
 
-File: []()
+File: [101-square.py]()
 </summary>
 
 
@@ -416,10 +519,10 @@ File: []()
 <details>
 <summary>
 
-### 8. 
+### 9. Compare 2 squares
 `#advanced`
 
-File: []()
+File: [102-square.py]()
 </summary>
 
 
@@ -428,10 +531,10 @@ File: []()
 <details>
 <summary>
 
-### 9. 
+### 10. ByteCode -> Python #5
 `#advanced`
 
-File: []()
+File: [103-magic_class.py]()
 </summary>
 
 
