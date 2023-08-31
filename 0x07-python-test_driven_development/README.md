@@ -2,7 +2,7 @@
 `Python` `UnitTests` `TDD`
 
 <br>
-<img src="https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x07-python-test_driven_development"/>
+<img src="https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x07-python-test_driven_development">
 
 <!-- # Background Context -->
 
