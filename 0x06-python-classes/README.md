@@ -120,49 +120,188 @@ As usual, make sure you type (never copy and paste), test, understand all exampl
 <details>
 <summary><h3>Question 0</h3></summary>
 
-
+What do these lines print?
+```python
+>>> class User:
+>>>     id = 89
+>>>     name = "no name"
+>>>     __password = None
+>>>     
+>>>     def __init__(self, new_name=None):
+>>>         self.is_new = True
+>>>         if new_name is not None:
+>>>             self.name = new_name
+>>> 
+>>> u = User()
+>>> u.id
+```
+- [ ] User.id
+- [ ] Nothing
+- [ ] id
+- [ ] 89
 </details>
 
 <details>
 <summary><h3>Question 1</h3></summary>
 
+In this following code, what is __password?
+```py
+class User:
+    id = 89
+    name = "no name"
+    __password = None
 
+    def __init__(self, new_name=None):
+        self.is_new = True
+        if new_name is not None:
+            self.name = new_name
+```
+- [ ] A public instance attribute
+- [ ] A private instance attribute
+- [ ] A protected instance attribute
+- [ ] A private class attribute
+- [ ] A protected class attribute
+- [ ] A public class attribute
 </details>
 
 <details>
 <summary><h3>Question 2</h3></summary>
 
+In this following code, what is id?
+```py
+class User:
+    id = 89
+    name = "no name"
+    __password = None
 
+    def __init__(self, new_name=None):
+        self.is_new = True
+        if new_name is not None:
+            self.name = new_name
+```
+- [ ] A public class attribute
+- [ ] A protected class attribute
+- [ ] A public instance method
+- [ ] A private class attribute
+- [ ] A public class method
+- [ ] A public instance attribute
 </details>
 
 <details>
 <summary><h3>Question 3</h3></summary>
 
+In this following code, what is is_new?
+```py
+class User:
+    id = 89
+    name = "no name"
+    __password = None
 
+    def __init__(self, new_name=None):
+        self.is_new = True
+        if new_name is not None:
+            self.name = new_name
+```
+- [ ] A public instance attribute
+- [ ] A private instance attribute
+- [ ] A protected instance attribute
+- [ ] A private class attribute
+- [ ] A protected class attribute
+- [ ] A public class attribute
 </details>
 
 <details>
 <summary><h3>Question 4</h3></summary>
 
-
+What do these lines print?
+```py
+>>> class User:
+>>>     id = 89
+>>>     name = "no name"
+>>>     __password = None
+>>>     
+>>>     def __init__(self, new_name=None):
+>>>         self.is_new = True
+>>>         if new_name is not None:
+>>>             self.name = new_name
+>>> 
+>>> u = User("John")
+>>> u.name
+```
+- [ ] John
+- [ ] no name
+- [ ] None
+- [ ] name
 </details>
 
 <details>
 <summary><h3>Question 5</h3></summary>
 
-
+What do these lines print?
+```py
+>>> class User:
+>>>     id = 89
+>>>     name = "no name"
+>>>     __password = None
+>>>     
+>>>     def __init__(self, new_name=None):
+>>>         self.is_new = True
+>>>         if new_name is not None:
+>>>             self.name = new_name
+>>> 
+>>> u = User()
+>>> u.name
+```
+- [ ] John
+- [ ] no name
+- [ ] None
+- [ ] name
 </details>
 
 <details>
 <summary><h3>Question 6</h3></summary>
 
-
+What do these lines print?
+```py
+>>> class User:
+>>>     id = 89
+>>>     name = "no name"
+>>>     __password = None
+>>>     
+>>>     def __init__(self, new_name=None):
+>>>         self.is_new = True
+>>>         if new_name is not None:
+>>>             self.name = new_name
+>>> 
+>>> u = User()
+>>> u.is_new
+```
+- [ ] False
+- [ ] True
+- [ ] Nothing
+- [ ] is_new
 </details>
 
 <details>
 <summary><h3>Question 7</h3></summary>
 
+In this following code, what is User?
+```py
+class User:
+    id = 89
+    name = "no name"
+    __password = None
 
+    def __init__(self, new_name=None):
+        self.is_new = True
+        if new_name is not None:
+            self.name = new_name
+```
+- [ ] A method
+- [ ] An instance
+- [ ] An attribute
+- [ ] A string
+- [ ] A class
 </details>
 
 # Tasks
