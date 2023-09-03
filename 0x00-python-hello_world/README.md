@@ -426,7 +426,7 @@ Who created Python?
 ### 0\. Run Python file
 `mandatory`
 
-File: [0-run]()
+File: [0-run](https://github.com/codenvibes/alx-higher_level_programming/blob/master/0x00-python-hello_world/0-run)
 </summary>
 
 Write a Shell script that runs a Python script.
