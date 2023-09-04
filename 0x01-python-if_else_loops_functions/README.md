@@ -696,6 +696,7 @@ guillaume@ubuntu:~/0x01$ ./12-main.py | cat -e
 guillaume@ubuntu:~/0x01$
 
 ```
+> The `cat -e` command is used in Unix-like operating systems to display the contents of a file with a special character ($) added to the end of each line. This character is often used to indicate the end of a line in a text file.
 </details>
 
 <details>
