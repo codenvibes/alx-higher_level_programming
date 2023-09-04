@@ -529,3 +529,38 @@ guillaume@ubuntu:~/0x07$
 ```
 </details>
 
+<details>
+<summary>
+
+### 6. Matrix multiplication
+`#advanced`
+
+File: [100-matrix_mul.py](), [tests/100-matrix_mul.txt]()
+</summary>
+
+
+</details>
+
+<details>
+<summary>
+
+### 7. Lazy matrix multiplication
+`#advanced`
+
+File: [101-lazy_matrix_mul.py](), [tests/101-lazy_matrix_mul.txt]()
+</summary>
+
+
+</details>
+
+<details>
+<summary>
+
+### 8. CPython #3: Python Strings
+`#advanced`
+
+File: [102-python.c]()
+</summary>
+
+
+</details>
