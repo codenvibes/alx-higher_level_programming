@@ -113,7 +113,7 @@ Is this a standardized way to comment a function in Python?
 def add(a, b):
     return a + b
 ```
-- [ ] No
+- [x] No
 - [ ] Yes
 </details>
 
@@ -126,7 +126,7 @@ Is this a standardized way to comment a function in Python?
 def add(a, b):
     return a + b
 ```
-- [ ] No
+- [x] No
 - [ ] Yes
 </details>
 
@@ -140,7 +140,7 @@ def add(a, b):
     return a + b
 ```
 - [ ] No
-- [ ] Yes
+- [x] Yes
 </details>
 
 <details>
@@ -156,13 +156,13 @@ def uniq(list):
             u_list.append(item)
     return u_list
 ```
-- [ ] list with one element (any type)
-- [ ] not a list argument (ex: passing a dictionary to the method)
-- [ ] list with twice the same element (same type)
-- [ ] list with more than 2 times the same element (same type)
-- [ ] list with 2 different element (same type)
-- [ ] list with multiple types (integer, string, etc…)
-- [ ] empty list
+- [x] list with one element (any type)
+- [x] not a list argument (ex: passing a dictionary to the method)
+- [x] list with twice the same element (same type)
+- [x] list with more than 2 times the same element (same type)
+- [x] list with 2 different element (same type)
+- [x] list with multiple types (integer, string, etc…)
+- [x] empty list
 </details>
 
 <details>
@@ -178,7 +178,7 @@ import sys
 ...
 ```
 - [ ] No
-- [ ] Yes
+- [x] Yes
 </details>
 
 <details>
@@ -190,7 +190,7 @@ Is this a standardized way to comment a function in Python?
 def add(a, b):
     return a + b
 ```
-- [ ] No
+- [x] No
 - [ ] Yes
 </details>
 
@@ -201,7 +201,7 @@ def add(a, b):
 ### 0. Integers addition
 `mandatory`
 
-File: [0-add_integer.py, tests/0-add_integer.txt]()
+File: [0-add_integer.py](), [tests/0-add_integer.txt]()
 </summary>
 
 Write a function that adds 2 integers.
@@ -212,7 +212,7 @@ Write a function that adds 2 integers.
 -   Returns an integer: the addition of `a` and `b`
 -   You are not allowed to import any module
 
-```
+```bash
 guillaume@ubuntu:~/0x07$ cat 0-main.py
 #!/usr/bin/python3
 add_integer = __import__('0-add_integer').add_integer
@@ -269,7 +269,7 @@ Write a function that divides all elements of a matrix.
 -   Returns a new matrix
 -   You are not allowed to import any module
 
-```
+```bash
 guillaume@ubuntu:~/0x07$ cat 2-main.py
 #!/usr/bin/python3
 matrix_divided = __import__('2-matrix_divided').matrix_divided
@@ -309,7 +309,7 @@ Write a function that prints `My name is <first name> <last name>`
 -   `first_name` and `last_name` must be strings otherwise, raise a `TypeError` exception with the message `first_name must be a string` or `last_name must be a string`
 -   You are not allowed to import any module
 
-```
+```bash
 guillaume@ubuntu:~/0x07$ cat 3-main.py
 #!/usr/bin/python3
 say_my_name = __import__('3-say_my_name').say_my_name
@@ -340,10 +340,10 @@ Note: you might have a different number of tests than in the above example. As u
 <details>
 <summary>
 
-### 3. 
+### 3. Print square
 `mandatory`
 
-File: []()
+File: [4-print_square.py](), [tests/4-print_square.txt]()
 </summary>
 
 Write a function that prints a square with the character `#`.
@@ -355,7 +355,7 @@ Write a function that prints a square with the character `#`.
 -   if `size` is a float and is less than 0, raise a `TypeError` exception with the message `size must be an integer`
 -   You are not allowed to import any module
 
-```
+```bash
 guillaume@ubuntu:~/0x07$ cat 4-main.py
 #!/usr/bin/python3
 print_square = __import__('4-print_square').print_square
@@ -404,24 +404,128 @@ guillaume@ubuntu:~/0x07$
 <details>
 <summary>
 
-### 4. 
+### 4. Text indentation
 `mandatory`
 
-File: []()
+File: [5-text_indentation.py](), [tests/5-text_indentation.txt]()
 </summary>
 
+Write a function that prints a text with 2 new lines after each of these characters: `.`, `?` and `:`
+- Prototype: `def text_indentation(text):`
+- `text` must be a string, otherwise raise a `TypeError` exception with the message `text must be a string`
+- There should be no space at the beginning or at the end of each printed line
+- You are not allowed to import any module
+```bash
+guillaume@ubuntu:~/0x07$ cat 5-main.py
+#!/usr/bin/python3
+text_indentation = __import__('5-text_indentation').text_indentation
 
+text_indentation("""Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
+Quonam modo? Utrum igitur tibi litteram videor an totas paginas commovere? \
+Non autem hoc: igitur ne illud quidem. Fortasse id optimum, sed ubi illud: \
+Plus semper voluptatis? Teneo, inquit, finem illi videri nihil dolere. \
+Transfer idem ad modestiam vel temperantiam, quae est moderatio cupiditatum \
+rationi oboediens. Si id dicis, vicimus. Inde sermone vario sex illa a Dipylo \
+stadia confecimus. Sin aliud quid voles, postea. Quae animi affectio suum \
+cuique tribuens atque hanc, quam dico. Utinam quidem dicerent alium alio \
+beatiorem! Iam ruinas videres""")
+
+guillaume@ubuntu:~/0x07$ ./5-main.py | cat -e
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.$
+$
+Quonam modo?$
+$
+Utrum igitur tibi litteram videor an totas paginas commovere?$
+$
+Non autem hoc:$
+$
+igitur ne illud quidem.$
+$
+Fortasse id optimum, sed ubi illud:$
+$
+Plus semper voluptatis?$
+$
+Teneo, inquit, finem illi videri nihil dolere.$
+$
+Transfer idem ad modestiam vel temperantiam, quae est moderatio cupiditatum rationi oboediens.$
+$
+Si id dicis, vicimus.$
+$
+Inde sermone vario sex illa a Dipylo stadia confecimus.$
+$
+Sin aliud quid voles, postea.$
+$
+Quae animi affectio suum cuique tribuens atque hanc, quam dico.$
+$
+Utinam quidem dicerent alium alio beatiorem! Iam ruinas videresguillaume@ubuntu:~/0x07$
+guillaume@ubuntu:~/0x07$ python3 -m doctest -v ./tests/5-text_indentation.txt
+guillaume@ubuntu:~/0x07$ 
+```
 </details>
 
 <details>
 <summary>
 
-### 5. 
+### 5. Max integer - Unittest
 `mandatory`
 
 File: []()
 </summary>
 
+Since the beginning you have been creating “Interactive tests”. For this exercise, you will add Unittests.
 
+In this task, you will write unittests for the function `def max_integer(list=[]):`.
+- Your test file should be inside a folder `tests`
+- You have to use the [unittest module](https://docs.python.org/3.4/library/unittest.html#module-unittest)
+- Your test file should be python files (extension: `.py`)
+- Your test file should be executed by using this command: `python3 -m unittest tests.6-max_integer_test`
+- All tests you make must be passable by the function below
+- We strongly encourage you to work together on test cases, so that you don’t miss any edge case
+```bash
+guillaume@ubuntu:~/0x07$ cat 6-max_integer.py
+#!/usr/bin/python3
+"""Module to find the max integer in a list
+"""
+
+
+def max_integer(list=[]):
+    """Function to find and return the max integer in a list of integers
+        If the list is empty, the function returns None
+    """
+    if len(list) == 0:
+        return None
+    result = list[0]
+    i = 1
+    while i < len(list):
+        if list[i] > result:
+            result = list[i]
+        i += 1
+    return result
+
+guillaume@ubuntu:~/0x07$ 
+guillaume@ubuntu:~/0x07$ cat 6-main.py
+#!/usr/bin/python3
+max_integer = __import__('6-max_integer').max_integer
+
+print(max_integer([1, 2, 3, 4]))
+print(max_integer([1, 3, 4, 2]))
+guillaume@ubuntu:~/0x07$
+guillaume@ubuntu:~/0x07$ ./6-main.py
+4
+4
+guillaume@ubuntu:~/0x07$
+guillaume@ubuntu:~/0x07$ python3 -m unittest tests.6-max_integer_test 2>&1 | tail -1
+OK
+guillaume@ubuntu:~/0x07$
+guillaume@ubuntu:~/0x07$ head -7 tests/6-max_integer_test.py 
+#!/usr/bin/python3
+"""Unittest for max_integer([..])
+"""
+import unittest
+max_integer = __import__('6-max_integer').max_integer
+
+class TestMaxInteger(unittest.TestCase):
+guillaume@ubuntu:~/0x07$ 
+```
 </details>
 
