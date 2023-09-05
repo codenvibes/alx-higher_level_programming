@@ -110,7 +110,7 @@ else:
 finally:
     print("Done.")
 ```
-
+<span style="color:red;">This text is red.</span>
 By using exception handling, you can make your Python programs more robust and user-friendly by gracefully handling errors and ensuring that your program can recover from unexpected situations.
 </details>
 
