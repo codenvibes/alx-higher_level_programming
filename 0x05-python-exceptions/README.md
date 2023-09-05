@@ -110,7 +110,7 @@ else:
 finally:
     print("Done.")
 ```
-<span style="color:red;">This text is red.</span>
+
 By using exception handling, you can make your Python programs more robust and user-friendly by gracefully handling errors and ensuring that your program can recover from unexpected situations.
 </details>
 
@@ -121,7 +121,7 @@ You should use exceptions in Python whenever you want to handle runtime errors o
 
 Here are some scenarios where you might want to use exceptions along with code examples:
 
-1. **Input Validation:**
+1. **Input Validation:**<br>
    When you're accepting user input, it's a good practice to validate the input and handle invalid cases using exceptions. For example, when converting user input to an integer:
 
    ```python
