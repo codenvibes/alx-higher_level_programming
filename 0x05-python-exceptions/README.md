@@ -132,7 +132,7 @@ Here are some scenarios where you might want to use exceptions along with code e
        print("Invalid input. Please enter a valid integer.")
    ```
 
-2. **File Operations:**
+2. **File Operations:**<br>
    When working with files, exceptions can help you handle cases where the file doesn't exist or there are issues during reading/writing:
 
    ```python
@@ -145,7 +145,7 @@ Here are some scenarios where you might want to use exceptions along with code e
        print("An error occurred while reading the file.")
    ```
 
-3. **Networking:**
+3. **Networking:**<br>
    When dealing with network-related operations, like making HTTP requests, exceptions can handle connectivity issues:
 
    ```python
@@ -158,7 +158,7 @@ Here are some scenarios where you might want to use exceptions along with code e
        print("Error occurred while making the request.")
    ```
 
-4. **Arithmetic Operations:**
+4. **Arithmetic Operations:**<br>
    Handle cases where mathematical operations might result in exceptions, like division by zero:
 
    ```python
@@ -168,7 +168,7 @@ Here are some scenarios where you might want to use exceptions along with code e
        print("Cannot divide by zero.")
    ```
 
-5. **Custom Exceptions:**
+5. **Custom Exceptions:**<br>
    You can create your own custom exceptions to handle specific situations in your code:
 
    ```python
@@ -182,7 +182,7 @@ Here are some scenarios where you might want to use exceptions along with code e
        print("Caught custom error:", ce)
    ```
 
-6. **Resource Management:**
+6. **Resource Management:**<br>
    When working with external resources (like databases or external services), exceptions can ensure proper resource cleanup:
 
    ```python
