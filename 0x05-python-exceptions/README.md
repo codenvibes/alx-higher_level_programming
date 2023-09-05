@@ -41,7 +41,7 @@ except ZeroDivisionError:
 
 In this example, the syntax error (`print("Hello World"`) is an error that prevents the program from running, while the division by zero (`10 / 0`) is an exception that can be caught and handled using an exception handler.
 
-To sum up, errors are issues detected during the program's compilation phase that prevent it from running, while exceptions are issues that occur during runtime and can be caught and managed using exception handling mechanisms.
+**To sum up, errors are issues detected during the program's compilation phase that prevent it from running, while exceptions are issues that occur during runtime and can be caught and managed using exception handling mechanisms.**
 
 <br>
 <br>
@@ -930,7 +930,7 @@ Write the Python function `def magic_calculation(a, b):` that does exactly the s
 File: [103-python.c]()
 </summary>
 
-Create three C functions that print some basic info about Python lists, Python bytes an Python float objects.
+Create three C functions that print some basic info about Python lists, Python bytes an Python float objects.r
 
 
 Python lists:
