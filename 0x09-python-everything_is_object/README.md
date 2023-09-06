@@ -178,8 +178,8 @@ In the following code, do `a` and `b` point to the same object? Answer with `Yes
 >>> b = 89
 ```
 
-> In the provided code:
-   Both `a` and `b` are assigned the integer value `89`. In Python, integers are immutable objects. This means that every time you assign a variable to an integer, Python creates a new integer object in memory to represent that value.
+> In the provided code:<br>
+   Both `a` and `b` are assigned the integer value `89`. In Python, integers are immutable objects. This means that every time you assign a variable to an integer, Python creates a new integer object in memory to represent that value.<br>
    So, in this case, both `a` and `b` are assigned to the same integer value `89`, but they are two separate objects in memory. They have the same value, but they are not pointing to the exact same object. However, they do refer to equivalent objects with the same value `89`.
 </details>
 
