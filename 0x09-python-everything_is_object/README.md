@@ -126,49 +126,61 @@ All your answers should be only one line in a file. No space before or after the
 <details>
 <summary>
 
-### 0. 
+### 0. Who am I?
 `mandatory`
 
-File: []()
 </summary>
 
+What function would you use to get the type of an object?
 
+Write the name of the function in the file, without `()`.
 </details>
 
 <details>
 <summary>
 
-### 1. 
+### 1. Where are you?
 `mandatory`
 
-File: []()
 </summary>
 
+How do you get the variable identifier (which is the memory address in the CPython implementation)?
 
+Write the name of the function in the file, without `()`.
 </details>
 
 <details>
 <summary>
 
-### 2. 
+### 2. Right count
 `mandatory`
 
-File: []()
 </summary>
 
-
+In the following code, do `a` and `b` point to the same object? Answer with `Yes` or `No`.
+```py
+>>> a = 89
+>>> b = 100
+```
 </details>
 
 <details>
 <summary>
 
-### 3. 
+### 3. Right count =
 `mandatory`
 
-File: []()
 </summary>
 
+In the following code, do `a` and `b` point to the same object? Answer with `Yes` or `No`.
+```py
+>>> a = 89
+>>> b = 89
+```
 
+> In the provided code:
+   Both `a` and `b` are assigned the integer value `89`. In Python, integers are immutable objects. This means that every time you assign a variable to an integer, Python creates a new integer object in memory to represent that value.
+   So, in this case, both `a` and `b` are assigned to the same integer value `89`, but they are two separate objects in memory. They have the same value, but they are not pointing to the exact same object. However, they do refer to equivalent objects with the same value `89`.
 </details>
 
 <details>
