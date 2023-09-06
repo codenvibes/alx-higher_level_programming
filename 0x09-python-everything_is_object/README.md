@@ -186,37 +186,47 @@ In the following code, do `a` and `b` point to the same object? Answer with `Yes
 <details>
 <summary>
 
-### 4. 
+### 4. Right count =
 `mandatory`
 
-File: []()
 </summary>
 
-
+In the following code, do `a` and `b` point to the same object? Answer with `Yes` or `No`.
+```py
+>>> a = 89
+>>> b = a
+```
 </details>
 
 <details>
 <summary>
 
-### 5. 
+### 5. Right count =+
 `mandatory`
 
-File: []()
 </summary>
 
-
+In the following code, do `a` and `b` point to the same object? Answer with `Yes` or `No`.
+```py
+>>> a = 89
+>>> b = a + 1
+```
 </details>
 
 <details>
 <summary>
 
-### 6. 
+### 6. Is equal
 `mandatory`
 
-File: []()
 </summary>
 
-
+What do these 3 lines print?
+```py
+>>> s1 = "Best School"
+>>> s2 = s1
+>>> print(s1 == s2)
+```
 </details>
 
 <details>
