@@ -129,6 +129,7 @@ All your answers should be only one line in a file. No space before or after the
 ### 0. Who am I?
 `mandatory`
 
+File: [0-answer.txt]()
 </summary>
 
 What function would you use to get the type of an object?
@@ -142,6 +143,7 @@ Write the name of the function in the file, without `()`.
 ### 1. Where are you?
 `mandatory`
 
+File: [1-answer.txt]()
 </summary>
 
 How do you get the variable identifier (which is the memory address in the CPython implementation)?
@@ -155,6 +157,7 @@ Write the name of the function in the file, without `()`.
 ### 2. Right count
 `mandatory`
 
+File: [2-answer.txt]()
 </summary>
 
 In the following code, do `a` and `b` point to the same object? Answer with `Yes` or `No`.
@@ -170,6 +173,7 @@ In the following code, do `a` and `b` point to the same object? Answer with `Yes
 ### 3. Right count =
 `mandatory`
 
+File: [3-answer.txt]()
 </summary>
 
 In the following code, do `a` and `b` point to the same object? Answer with `Yes` or `No`.
@@ -189,6 +193,7 @@ In the following code, do `a` and `b` point to the same object? Answer with `Yes
 ### 4. Right count =
 `mandatory`
 
+File: [4-answer.txt]()
 </summary>
 
 In the following code, do `a` and `b` point to the same object? Answer with `Yes` or `No`.
@@ -204,6 +209,7 @@ In the following code, do `a` and `b` point to the same object? Answer with `Yes
 ### 5. Right count =+
 `mandatory`
 
+File: [5-answer.txt]()
 </summary>
 
 In the following code, do `a` and `b` point to the same object? Answer with `Yes` or `No`.
@@ -219,6 +225,7 @@ In the following code, do `a` and `b` point to the same object? Answer with `Yes
 ### 6. Is equal
 `mandatory`
 
+File: [6-answer.txt]()
 </summary>
 
 What do these 3 lines print?
@@ -232,61 +239,85 @@ What do these 3 lines print?
 <details>
 <summary>
 
-### 7. 
+### 7. Is the same
 `mandatory`
 
-File: []()
+File: [7-answer.txt]()
 </summary>
 
-
+What do these 3 lines print?
+```py
+>>> s1 = "Best"
+>>> s2 = s1
+>>> print(s1 is s2)
+```
 </details>
 
 <details>
 <summary>
 
-### 8. 
+### 8. Is really equal
 `mandatory`
 
-File: []()
+File: [8-answer.txt]()
 </summary>
 
-
+What do these 3 lines print?
+```py
+>>> s1 = "Best School"
+>>> s2 = "Best School"
+>>> print(s1 == s2)
+```
 </details>
 
 <details>
 <summary>
 
-### 9. 
+### 9. Is really the same
 `mandatory`
 
-File: []()
+File: [9-answer.txt]()
 </summary>
 
-
+What do these 3 lines print?
+```py
+>>> s1 = "Best School"
+>>> s2 = "Best School"
+>>> print(s1 is s2)
+```
 </details>
 
 <details>
 <summary>
 
-### 10. 
+### 10. And with a list, is it equal
 `mandatory`
 
-File: []()
+File: [10-answer.txt]()
 </summary>
 
-
+What do these 3 lines print?
+```py
+>>> l1 = [1, 2, 3]
+>>> l2 = [1, 2, 3] 
+>>> print(l1 == l2)
+```
 </details>
 
 <details>
 <summary>
 
-### 11. 
+### 11. And with a list, is it the same
 `mandatory`
 
-File: []()
+File: [11-answer.txt]()
 </summary>
 
+What do these 3 lines print?
 
+>>> l1 = [1, 2, 3]
+>>> l2 = [1, 2, 3] 
+>>> print(l1 is l2)
 </details>
 
 <details>
