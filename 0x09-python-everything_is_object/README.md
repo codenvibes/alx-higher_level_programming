@@ -314,31 +314,37 @@ File: [11-answer.txt]()
 </summary>
 
 What do these 3 lines print?
-
+```py
 >>> l1 = [1, 2, 3]
 >>> l2 = [1, 2, 3] 
 >>> print(l1 is l2)
+```
 </details>
 
 <details>
 <summary>
 
-### 12. 
+### 12. And with a list, is it really equal
 `mandatory`
 
-File: []()
+File: [12-answer.txt]()
 </summary>
 
-
+What do these 3 lines print?
+```py
+>>> l1 = [1, 2, 3]
+>>> l2 = l1
+>>> print(l1 == l2)
+```
 </details>
 
 <details>
 <summary>
 
-### 13. 
+### 13. And with a list, is it really the same
 `mandatory`
 
-File: []()
+File: [13-answer.txt]()
 </summary>
 
 
