@@ -498,13 +498,16 @@ guillaume@ubuntu:~/0x09$
 <details>
 <summary>
 
-### 20. 
+### 20. Tuple or not?
 `mandatory`
 
-File: []()
+File: [20-answer.txt]()
 </summary>
 
-
+```py
+a = ()
+```
+Is `a` a tuple? Answer with `Yes` or `No`.
 </details>
 
 <details>
