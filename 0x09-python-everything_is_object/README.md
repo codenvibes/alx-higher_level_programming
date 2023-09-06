@@ -347,79 +347,152 @@ What do these 3 lines print?
 File: [13-answer.txt]()
 </summary>
 
-
+What do these 3 lines print?
+```py
+>>> l1 = [1, 2, 3]
+>>> l2 = l1
+>>> print(l1 is l2)
+```
 </details>
 
 <details>
 <summary>
 
-### 14. 
+### 14. List append
 `mandatory`
 
-File: []()
+File: [14-answer.txt]()
 </summary>
 
-
+What does this script print?
+```py
+l1 = [1, 2, 3]
+l2 = l1
+l1.append(4)
+print(l2)
+```
 </details>
 
 <details>
 <summary>
 
-### 15. 
+### 15. List add
 `mandatory`
 
-File: []()
+File: [15-answer.txt]()
 </summary>
 
-
+What does this script print?
+```py
+l1 = [1, 2, 3]
+l2 = l1
+l1 = l1 + [4]
+print(l2)
+```
 </details>
 
 <details>
 <summary>
 
-### 16. 
+### 16. Integer incrementation
 `mandatory`
 
-File: []()
+File: [16-answer.txt]()
 </summary>
 
+What does this script print?
+```py
+def increment(n):
+    n += 1
 
+a = 1
+increment(a)
+print(a)
+```
 </details>
 
 <details>
 <summary>
 
-### 17. 
+### 17. List incrementation
 `mandatory`
 
-File: []()
+File: [17-answer.txt]()
 </summary>
 
+What does this script print?
+```py
+def increment(n):
+    n.append(4)
 
+l = [1, 2, 3]
+increment(l)
+print(l)
+```
 </details>
 
 <details>
 <summary>
 
-### 18. 
+### 18. List assignation
 `mandatory`
 
-File: []()
+File: [18-answer.txt]()
 </summary>
 
+What does this script print?
+```py
+def assign_value(n, v):
+    n = v
 
+l1 = [1, 2, 3]
+l2 = [4, 5, 6]
+assign_value(l1, l2)
+print(l1)
+```
 </details>
 
 <details>
 <summary>
 
-### 19. 
+### 19. Copy a list object
 `mandatory`
 
-File: []()
+File: [19-copy_list.py]()
 </summary>
 
+Write a function `def copy_list(l):` that returns a **copy** of a list.
 
+- The input list can contain any type of objects
+- Your file should be maximum 3-line long (no documentation needed)
+- You are not allowed to import any module
+```py
+guillaume@ubuntu:~/0x09$ cat 19-main.py
+#!/usr/bin/python3
+copy_list = __import__('19-copy_list').copy_list
+
+my_list = [1, 2, 3]
+print(my_list)
+
+new_list = copy_list(my_list)
+
+print(my_list)
+print(new_list)
+
+print(new_list == my_list)
+print(new_list is my_list)
+
+guillaume@ubuntu:~/0x09$ ./19-main.py
+[1, 2, 3]
+[1, 2, 3]
+[1, 2, 3]
+True
+False
+guillaume@ubuntu:~/0x09$ wc -l 19-copy_list.py 
+3 19-copy_list.py
+guillaume@ubuntu:~/0x09$ 
+```
+**No test cases needed**
 </details>
 
 <details>
