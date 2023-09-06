@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 # Auth: Terrence M.K
 # File: 101-nqueens.py
-"""This function solves the N-queens puzzle by finding all possible solutions for placing N non-attacking queens on an NxN chessboard.
+"""This function solves the N-queens puzzle by finding all possible
+solutions for placing N non-attacking queens on an NxN chessboard.
 
 Usage:
     $ ./101-nqueens.py N
