@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # Auth: Terrence M.K
-# File: 0-rectangle.py
+# File: 7-rectangle.py
 """This module defines a simple Rectangle class."""
 
 
