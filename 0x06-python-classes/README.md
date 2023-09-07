@@ -285,14 +285,193 @@ To illustrate the difference, consider the analogy of a "Car" class:
 
 <details>
 <summary><h3>What is an attribute</h3></summary>
+
+In the context of programming and object-oriented programming (OOP), an attribute is a characteristic or property that is associated with an object, class, or data structure. Attributes define the state or characteristics of an object and can have values that describe the object's characteristics.
+
+Attributes are often used to represent the data or variables within a class or object. They can store information about the object's state or characteristics, and these values can be accessed and manipulated through methods or functions associated with the class or object.
+
+Here's a simple example in Python to illustrate attributes within a class:
+
+```python
+class Person:
+    def __init__(self, name, age):
+        self.name = name  # 'name' is an attribute that stores the person's name
+        self.age = age    # 'age' is an attribute that stores the person's age
+
+    def say_hello(self):
+        print(f"Hello, my name is {self.name} and I am {self.age} years old.")
+
+# Creating an instance of the Person class
+person1 = Person("Alice", 30)
+
+# Accessing attributes
+print(person1.name)  # Output: "Alice"
+print(person1.age)   # Output: 30
+
+# Calling a method that uses attributes
+person1.say_hello()  # Output: "Hello, my name is Alice and I am 30 years old."
+```
+
+In this example, the `Person` class has two attributes, `name` and `age`, which store the name and age of a person. These attributes are initialized when a new `Person` object is created and can be accessed and used within the class methods, such as `say_hello()`. Attributes help define the state of individual objects created from the class.
 </details>
 
 <details>
 <summary><h3>What are and how to use public, protected and private attributes</h3></summary>
+
+In object-oriented programming (OOP), public, protected, and private are access modifiers used to control the visibility and accessibility of class attributes (variables) and methods (functions). These access modifiers help enforce encapsulation, which is one of the fundamental principles of OOP. Here's an explanation of each access modifier and how to use them:
+
+1. **Public**:
+   - **Accessibility**: Public attributes and methods are accessible from anywhere, both inside and outside the class.
+   - **Example**:
+
+   ```python
+   class MyClass:
+       def __init__(self):
+           self.public_var = 10
+
+       def public_method(self):
+           return "This is a public method"
+
+   obj = MyClass()
+   print(obj.public_var)          # Accessing a public attribute
+   print(obj.public_method())     # Accessing a public method
+   ```
+
+2. **Protected**:
+   - **Accessibility**: Protected attributes and methods are not truly private but are intended to be used only within the class and its subclasses. In Python, conventionally, you prefix the attribute or method name with a single underscore (e.g., `_protected_var`) to indicate that it's protected.
+   - **Example**:
+
+   ```python
+   class MyClass:
+       def __init__(self):
+           self._protected_var = 20
+
+       def _protected_method(self):
+           return "This is a protected method"
+
+   obj = MyClass()
+   print(obj._protected_var)            # Accessing a protected attribute (not recommended but possible)
+   print(obj._protected_method())       # Accessing a protected method (not recommended but possible)
+   ```
+
+3. **Private**:
+   - **Accessibility**: Private attributes and methods are meant to be used only within the class where they are defined. In Python, you prefix the attribute or method name with double underscores (e.g., `__private_var`) to indicate that it's private.
+   - **Example**:
+
+   ```python
+   class MyClass:
+       def __init__(self):
+           self.__private_var = 30
+
+       def __private_method(self):
+           return "This is a private method"
+
+   obj = MyClass()
+   # Attempting to access private attributes/methods from outside the class will result in an error
+   # print(obj.__private_var)              # This will raise an AttributeError
+   # print(obj.__private_method())         # This will raise an AttributeError
+   ```
+
+In Python, even though you can access protected and private attributes/methods from outside the class using their names, it's considered a convention to respect the single underscore (_) and double underscore (__) prefixes as indications of the intended access level. Developers should not access protected and private members directly, but rather use the public methods provided by the class to interact with them. This helps maintain encapsulation and ensures that the internal implementation of the class can change without affecting external code that uses the class.
 </details>
 
 <details>
 <summary><h3>What is <code>self</code></h3></summary>
+
+The use of "self" in programming is a concept that primarily appears in object-oriented languages like Python. It refers to a special variable or keyword that is used within a class to access the attributes and methods of an object created from that class. The choice of the word "self" is a convention in Python, but other programming languages may use different keywords like "this."
+
+In Python, when you define methods within a class, you typically include the "self" parameter as the first parameter in those methods. This parameter represents the instance of the class itself, and it allows you to refer to the attributes and methods of that instance.
+
+Here's a basic example in Python to illustrate the use of "self":
+
+```python
+class MyClass:
+    def __init__(self, value):
+        self.value = value
+
+    def print_value(self):
+        print(self.value)
+
+# Creating an object of MyClass
+obj = MyClass(42)
+
+# Accessing an attribute using "self"
+print(obj.value)  # Prints 42
+
+# Calling a method using "self"
+obj.print_value()  # Prints 42
+```
+
+In the `__init__` constructor and `print_value` method, you can see that "self" is used to access the "value" attribute of the object and to call the "print_value" method on that specific object.
+
+The use of "self" helps differentiate between instance-level attributes/methods and class-level attributes/methods, allowing you to work with and manipulate object-specific data within a class.
+
+<br>
+<p>*******************</p>
+<br>
+
+In object-oriented programming, there is a distinction between instance-level attributes/methods and class-level attributes/methods, and understanding this difference is crucial for designing and using classes effectively. Here's an explanation of each:
+
+1. **Instance-Level Attributes/Methods**:
+
+   - **Attributes**: These are variables that belong to a specific instance (object) of a class. Each object created from a class can have its own unique values for these attributes. Instance attributes are defined within the constructor method (`__init__` in Python) and are typically initialized with values specific to that instance.
+
+   - **Methods**: These are functions defined within a class that can operate on the attributes of a specific instance. Methods are called on individual objects, and they can access and modify instance-specific data. In Python, the first parameter of instance methods is conventionally named "self," which refers to the instance itself.
+
+   Example (Python):
+
+   ```python
+   class Dog:
+       def __init__(self, name):
+           self.name = name  # Instance attribute
+
+       def bark(self):
+           print(f"{self.name} says Woof!")  # Instance method
+   ```
+
+   In this example, "name" is an instance attribute, and "bark" is an instance method. Each "Dog" object can have its own unique "name" attribute value.
+
+2. **Class-Level Attributes/Methods**:
+
+   - **Attributes**: These are variables that belong to the class itself, rather than to individual instances. They are shared among all instances of the class. Class attributes are typically defined outside of any method within the class and are the same for all objects of that class.
+
+   - **Methods**: These are functions that are defined within the class but are meant to operate on the class itself or on class-level attributes. They are not tied to individual instances and cannot access instance-specific data. Class methods are typically defined using the `@classmethod` decorator in Python.
+
+   Example (Python):
+
+   ```python
+   class Circle:
+       pi = 3.14159265359  # Class attribute
+
+       @classmethod
+       def circumference(cls, radius):
+           return 2 * cls.pi * radius  # Class method
+   ```
+
+   In this example, "pi" is a class attribute, and "circumference" is a class method. All "Circle" objects share the same value of "pi."
+
+In summary, instance-level attributes and methods are specific to individual objects created from a class, allowing each object to have its own state and behavior. Class-level attributes and methods, on the other hand, are shared among all instances of the class and are typically used for characteristics or behaviors that are common to all objects of that class.
+
+<br>
+<p>*******************</p>
+<br>
+
+In the code example provided, `cls` is not a reserved keyword in Python; rather, it's a common naming convention used for the first parameter of a class method. The name `cls` is short for "class," and it is used to refer to the class itself within the method. You can technically use any name you like for this parameter, but using `cls` is a widely followed convention, and it makes the code more readable and self-explanatory.
+
+Here's the relevant part of the code for reference:
+
+```python
+class Circle:
+    pi = 3.14159265359  # Class attribute
+
+    @classmethod
+    def circumference(cls, radius):
+        return 2 * cls.pi * radius  # Class method
+```
+
+In this code, `cls` is used as the first parameter of the `circumference` class method. When you call a class method like `Circle.circumference(radius)`, Python automatically passes the class itself (in this case, the `Circle` class) as the first argument (`cls`). You can then use `cls` within the method to access class-level attributes or perform class-specific operations.
+
+So, in the context of this code, `cls.pi` refers to the class attribute `pi` defined in the `Circle` class. It allows you to access the class-level constant value of π (pi) within the method.
 </details>
 
 <details>
