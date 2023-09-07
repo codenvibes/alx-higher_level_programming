@@ -30,23 +30,23 @@ OOP stands for Object-Oriented Programming, which is a programming paradigm or m
 
 1. **Classes and Objects**: In OOP, a class is a blueprint or template for creating objects. Objects are instances of classes, and they represent real-world entities or concepts. For example, you can have a "Car" class that defines the properties and behaviors of a car, and then create individual car objects based on that class.
    ```py
-# Define a simple class
-class Dog:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-
-    def bark(self):
-        print(f"{self.name} says Woof!")
-
-# Create objects of the Dog class
-dog1 = Dog("Buddy", 3)
-dog2 = Dog("Max", 5)
-
-# Access object attributes and call methods
-print(f"{dog1.name} is {dog1.age} years old.")
-dog2.bark()
-```
+   # Define a simple class
+   class Dog:
+       def __init__(self, name, age):
+           self.name = name
+           self.age = age
+   
+       def bark(self):
+           print(f"{self.name} says Woof!")
+   
+   # Create objects of the Dog class
+   dog1 = Dog("Buddy", 3)
+   dog2 = Dog("Max", 5)
+   
+   # Access object attributes and call methods
+   print(f"{dog1.name} is {dog1.age} years old.")
+   dog2.bark()
+   ```
 
 2. **Encapsulation**: Encapsulation is the practice of bundling data (attributes) and methods (functions) that operate on that data into a single unit called a class. It allows you to hide the internal details of how an object works and only expose a well-defined interface to interact with the object. This helps in controlling access to data and prevents unintended modification.
 
