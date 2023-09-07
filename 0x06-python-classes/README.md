@@ -181,18 +181,104 @@ OOP promotes modularity, reusability, and maintainability in software developmen
 
 <details>
 <summary><h3>“first-class everything”</h3></summary>
+
+"First-class everything" is not a term typically associated with Object-Oriented Programming (OOP). Instead, it's more closely related to the concept of "first-class citizens" in programming languages. 
+
+In programming language design, when something is said to be a "first-class citizen," it means that this entity (usually a data type or a function) is treated the same way as other entities in the language. It has the same rights and privileges, and it can be manipulated and used in the same way as any other data type or function.
+
+For example:
+
+1. **First-Class Functions**: In a language with first-class functions, functions are treated as first-class citizens. This means you can assign functions to variables, pass them as arguments to other functions, and return them from functions.
+
+2. **First-Class Objects**: Similarly, in some languages, objects or data structures can be treated as first-class citizens. This means you can store them in variables, pass them as parameters to functions, and return them from functions just like any other data type.
+
+In the context of Object-Oriented Programming, the focus is more on objects and classes rather than the concept of "first-class everything." However, some languages that support OOP principles may also support first-class functions or first-class objects, allowing you to work with them in a flexible and versatile manner. The idea is to provide programmers with a higher degree of flexibility and expressiveness in their code.
+
+So, in summary, "first-class everything" is not a standard term in OOP, but it relates to the broader concept of first-class citizens in programming languages, which can apply to both OOP and non-OOP languages.
 </details>
 
 <details>
 <summary><h3>What is a class</h3></summary>
+
+In object-oriented programming (OOP), a class is a blueprint or template that defines the structure and behavior of objects. It serves as a blueprint for creating individual objects (instances) that belong to that class. A class defines the attributes (properties) and methods (functions) that the objects created from it will have. Here are the key components of a class:
+
+1. **Attributes (Properties)**: Attributes are the data members or variables that describe the characteristics or state of objects created from the class. They represent the object's data or characteristics. For example, if you have a "Car" class, its attributes might include "color," "make," "model," and "year."
+
+2. **Methods (Functions)**: Methods are the functions or behaviors associated with objects of the class. They define what actions the objects can perform. In the "Car" class example, methods might include "start_engine," "accelerate," "brake," and "turn_off_engine."
+
+3. **Constructor**: A constructor is a special method that is typically called when an object of the class is created. It initializes the object's attributes and performs any necessary setup. Constructors often have the same name as the class and are used to set initial values for object attributes.
+
+4. **Access Control (Public, Private, Protected)**: Many programming languages provide access control modifiers that determine the visibility and accessibility of class members (attributes and methods). Common access control modifiers include:
+   - **Public**: Members are accessible from anywhere, including outside the class.
+   - **Private**: Members are only accessible within the class itself.
+   - **Protected**: Members are accessible within the class and its subclasses (derived classes).
+
+Here's a simple example of a Python class:
+
+```python
+class Car:
+    def __init__(self, make, model, year):
+        self.make = make
+        self.model = model
+        self.year = year
+        self.is_running = False
+
+    def start_engine(self):
+        self.is_running = True
+        print(f"The {self.year} {self.make} {self.model}'s engine is now running.")
+
+    def stop_engine(self):
+        self.is_running = False
+        print(f"The {self.year} {self.make} {self.model}'s engine is now stopped.")
+```
+
+In this example, "Car" is a class that has attributes like "make," "model," and "year," as well as methods like "start_engine" and "stop_engine." You can create individual car objects based on this class, each with its own values for the attributes. For example:
+
+```python
+my_car = Car("Toyota", "Camry", 2022)
+my_car.start_engine()
+my_car.stop_engine()
+```
+
+Classes are fundamental to the concept of object-oriented programming and enable the creation of reusable and organized code by modeling real-world entities or abstract concepts as objects with defined attributes and behaviors.
 </details>
 
 <details>
 <summary><h3>What is an object and an instance</h3></summary>
+
+In the context of Object-Oriented Programming (OOP), "object" and "instance" are related terms that are often used interchangeably, but they have slightly different connotations:
+
+1. **Object**: An object is a fundamental concept in OOP. It is a concrete, tangible entity that represents a specific instance of a class. Objects have attributes (data) and behaviors (methods) associated with them. For example, if you have a class called "Car," an object of that class could represent a particular car with specific characteristics such as its color, make, model, and current speed. Objects are created from classes and are instances of those classes.
+
+2. **Instance**: An instance, in the context of OOP, is synonymous with an object. When you create an object from a class, you are creating an instance of that class. So, if you have a "Car" class and you create a "red Ford Mustang" object from it, that object is an instance of the "Car" class. Instances or objects are unique and distinct, and you can create multiple instances of the same class, each with its own set of attribute values.
+
+In summary, an object is a specific, individual entity that represents a real-world or conceptual thing, and an instance is a term often used interchangeably with object to refer to these individual entities created from a class. Objects (instances) are the building blocks of OOP, and they encapsulate both data and behavior related to a specific concept or entity.
 </details>
 
 <details>
 <summary><h3>What is the difference between a class and an object or instance</h3></summary>
+
+In object-oriented programming (OOP), a class and an object (or instance) are closely related but serve different purposes:
+
+1. **Class**:
+   - A class is a blueprint or template for creating objects (instances).
+   - It defines the structure and behavior that objects of that class will have.
+   - A class can include attributes (data members or fields) to represent the properties of objects and methods (functions) to define the behaviors associated with those objects.
+   - It acts as a general or abstract concept, describing what objects of that class will be like.
+
+2. **Object (or Instance)**:
+   - An object, also referred to as an instance, is a concrete, individual entity created from a class.
+   - It is an actual occurrence or realization of the class, with its own unique set of attributes and values.
+   - Objects represent specific, tangible items or concepts in your program that you can manipulate and interact with.
+   - You can create multiple objects from the same class, and each object will have its own distinct data and state.
+
+To illustrate the difference, consider the analogy of a "Car" class:
+
+- **Class**: The "Car" class would define the general structure and behavior of all cars. It might include attributes like "color," "make," and "model," as well as methods like "startEngine" and "drive."
+  
+- **Object/Instance**: An object or instance of the "Car" class could be a specific car, such as a red 2023 Toyota Camry. This car object would have its own values for the attributes (e.g., color = "red," make = "Toyota," model = "Camry") and could execute the methods defined in the class (e.g., start the engine or drive).
+
+In summary, a class serves as a blueprint for creating objects, while objects (instances) are concrete entities created from that blueprint, each with its own state and behavior. Classes define the common structure, and objects represent specific instances of that structure in your program.
 </details>
 
 <details>
