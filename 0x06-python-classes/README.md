@@ -279,6 +279,7 @@ To illustrate the difference, consider the analogy of a "Car" class:
 - **Object/Instance**: An object or instance of the "Car" class could be a specific car, such as a red 2023 Toyota Camry. This car object would have its own values for the attributes (e.g., color = "red," make = "Toyota," model = "Camry") and could execute the methods defined in the class (e.g., start the engine or drive).
 
 <br>
+
 ***In summary, a class serves as a blueprint for creating objects, while objects (instances) are concrete entities created from that blueprint, each with its own state and behavior. Classes define the common structure, and objects represent specific instances of that structure in your program.***
 </details>
 
