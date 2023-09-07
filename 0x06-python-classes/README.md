@@ -137,44 +137,44 @@ OOP stands for Object-Oriented Programming, which is a programming paradigm or m
    ```
 
 5. **Abstraction**: Abstraction is the process of simplifying complex reality by modeling classes based on the essential properties and behaviors of objects. It allows you to focus on what an object does rather than how it does it. Abstraction helps in managing complexity and making code more understandable.
-   ```py
-   from abc import ABC, abstractmethod
-   
-   # Abstract base class
-   class Shape(ABC):
-       def __init__(self, color):
-           self.color = color
-   
-       @abstractmethod
-       def area(self):
-           pass
-   
-   # Derived classes
-   class Circle(Shape):
-       def __init__(self, color, radius):
-           super().__init__(color)
-           self.radius = radius
-   
-       def area(self):
-           return 3.14 * self.radius * self.radius
-   
-   class Rectangle(Shape):
-       def __init__(self, color, width, height):
-           super().__init__(color)
-           self.width = width
-           self.height = height
-   
-       def area(self):
-           return self.width * self.height
-   
-   # Create shape objects
-   circle = Circle("Red", 5)
-   rectangle = Rectangle("Blue", 4, 6)
-   
-   # Abstraction ensures that all subclasses implement the 'area' method
-   print(f"Circle area: {circle.area()} square units")
-   print(f"Rectangle area: {rectangle.area()} square units")
-   ```
+    ```py
+    from abc import ABC, abstractmethod
+
+    # Abstract base class
+    class Shape(ABC):
+        def __init__(self, color):
+            self.color = color
+
+        @abstractmethod
+        def area(self):
+            pass
+
+    # Derived classes
+    class Circle(Shape):
+        def __init__(self, color, radius):
+            super().__init__(color)
+            self.radius = radius
+
+        def area(self):
+            return 3.14 * self.radius * self.radius
+
+    class Rectangle(Shape):
+        def __init__(self, color, width, height):
+            super().__init__(color)
+            self.width = width
+            self.height = height
+
+        def area(self):
+            return self.width * self.height
+
+    # Create shape objects
+    circle = Circle("Red", 5)
+    rectangle = Rectangle("Blue", 4, 6)
+
+    # Abstraction ensures that all subclasses implement the 'area' method
+    print(f"Circle area: {circle.area()} square units")
+    print(f"Rectangle area: {rectangle.area()} square units")
+    ```
 
 OOP promotes modularity, reusability, and maintainability in software development. It is widely used in various programming languages like Java, C++, Python, and C#, among others. Developers use OOP to model real-world entities, organize code, and create software systems that are easier to design, extend, and maintain.
 </details>
