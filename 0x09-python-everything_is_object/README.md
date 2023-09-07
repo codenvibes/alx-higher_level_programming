@@ -688,10 +688,40 @@ guillaume@ubuntu:~/0x09$
 <details>
 <summary>
 
-### 30. 
+### 30. Low memory cost
 `#advanced`
 
-File: []()
+File: [101-locked_class.py]()
+</summary>
+
+Write a class `LockedClass` with no class or object attribute, that prevents the user from dynamically creating new instance attributes, except if the new instance attribute is called `first_name`.
+- You are not allowed to import any module
+```py
+guillaume@ubuntu:~/0x09$ cat 101-main.py
+#!/usr/bin/python3
+LockedClass = __import__('101-locked_class').LockedClass
+
+lc = LockedClass()
+lc.first_name = "John"
+try:
+    lc.last_name = "Snow"
+except Exception as e:
+    print("[{}] {}".format(e.__class__.__name__, e))
+
+guillaume@ubuntu:~/0x09$ ./101-main.py
+[AttributeError] 'LockedClass' object has no attribute 'last_name'
+guillaume@ubuntu:~/0x09$ 
+```
+**No test cases needed**
+</details>
+
+<details>
+<summary>
+
+### 31. int 1/3
+`#advanced`
+
+File: [103-line1.txt](), [103-line2.txt]()
 </summary>
 
 
@@ -700,10 +730,10 @@ File: []()
 <details>
 <summary>
 
-### 31. 
+### 32. int 2/3
 `#advanced`
 
-File: []()
+File: [104-line1.txt](), [104-line2.txt](), [104-line3.txt](), [104-line4.txt](), [104-line5.txt]()
 </summary>
 
 
@@ -712,10 +742,10 @@ File: []()
 <details>
 <summary>
 
-### 32. 
+### 33. int 3/3
 `#advanced`
 
-File: []()
+File: [105-line1.txt]()
 </summary>
 
 
@@ -724,22 +754,10 @@ File: []()
 <details>
 <summary>
 
-### 33. 
+### 34. Clear strings
 `#advanced`
 
-File: []()
-</summary>
-
-
-</details>
-
-<details>
-<summary>
-
-### 34. 
-`#advanced`
-
-File: []()
+File: [106-line1.txt](), [106-line2.txt](), [106-line3.txt](), [106-line4.txt](), [106-line5.txt]()
 </summary>
 
 
