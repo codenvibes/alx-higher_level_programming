@@ -407,7 +407,7 @@ In the `__init__` constructor and `print_value` method, you can see that "self" 
 The use of "self" helps differentiate between instance-level attributes/methods and class-level attributes/methods, allowing you to work with and manipulate object-specific data within a class.
 
 <br>
-<p align="center">*******************</p>
+<p align="center">※※※※※※※※※※※※</p>
 <br>
 
 In object-oriented programming, there is a distinction between instance-level attributes/methods and class-level attributes/methods, and understanding this difference is crucial for designing and using classes effectively. Here's an explanation of each:
@@ -453,7 +453,7 @@ In object-oriented programming, there is a distinction between instance-level at
 In summary, instance-level attributes and methods are specific to individual objects created from a class, allowing each object to have its own state and behavior. Class-level attributes and methods, on the other hand, are shared among all instances of the class and are typically used for characteristics or behaviors that are common to all objects of that class.
 
 <br>
-<p align="center">◽◽◽◽◽◽◽◽◽◽</p>
+<p align="center">■■■■■■■■■■■■■■■■■■■■■</p>
 <br>
 
 In the code example provided, `cls` is not a reserved keyword in Python; rather, it's a common naming convention used for the first parameter of a class method. The name `cls` is short for "class," and it is used to refer to the class itself within the method. You can technically use any name you like for this parameter, but using `cls` is a widely followed convention, and it makes the code more readable and self-explanatory.
