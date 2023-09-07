@@ -49,132 +49,132 @@ OOP stands for Object-Oriented Programming, which is a programming paradigm or m
    ```
 
 2. **Encapsulation**: Encapsulation is the practice of bundling data (attributes) and methods (functions) that operate on that data into a single unit called a class. It allows you to hide the internal details of how an object works and only expose a well-defined interface to interact with the object. This helps in controlling access to data and prevents unintended modification.
-```py
-class BankAccount:
-    def __init__(self, account_number, balance):
-        self.account_number = account_number
-        self.__balance = balance  # Private attribute
-
-    def deposit(self, amount):
-        if amount > 0:
-            self.__balance += amount
-
-    def withdraw(self, amount):
-        if amount > 0 and amount <= self.__balance:
-            self.__balance -= amount
-        else:
-            print("Insufficient funds.")
-
-    def get_balance(self):
-        return self.__balance
-
-# Create a bank account object
-account = BankAccount("12345", 1000)
-
-# Access and modify balance through methods (encapsulation)
-account.deposit(500)
-account.withdraw(200)
-print(f"Account balance: ${account.get_balance()}")
-```
+   ```py
+   class BankAccount:
+       def __init__(self, account_number, balance):
+           self.account_number = account_number
+           self.__balance = balance  # Private attribute
+   
+       def deposit(self, amount):
+           if amount > 0:
+               self.__balance += amount
+   
+       def withdraw(self, amount):
+           if amount > 0 and amount <= self.__balance:
+               self.__balance -= amount
+           else:
+               print("Insufficient funds.")
+   
+       def get_balance(self):
+           return self.__balance
+   
+   # Create a bank account object
+   account = BankAccount("12345", 1000)
+   
+   # Access and modify balance through methods (encapsulation)
+   account.deposit(500)
+   account.withdraw(200)
+   print(f"Account balance: ${account.get_balance()}")
+   ```
 
 3. **Inheritance**: Inheritance is a mechanism that allows you to create a new class (subclass or derived class) based on an existing class (superclass or base class). The subclass inherits the attributes and methods of the superclass and can also add its own attributes and methods or override the inherited ones. It promotes code reuse and the creation of a hierarchy of related classes.
-```py
-# Base class
-class Shape:
-    def __init__(self, color):
-        self.color = color
-
-    def area(self):
-        pass
-
-# Derived classes
-class Circle(Shape):
-    def __init__(self, color, radius):
-        super().__init__(color)
-        self.radius = radius
-
-    def area(self):
-        return 3.14 * self.radius * self.radius
-
-class Rectangle(Shape):
-    def __init__(self, color, width, height):
-        super().__init__(color)
-        self.width = width
-        self.height = height
-
-    def area(self):
-        return self.width * self.height
-
-# Create shape objects
-circle = Circle("Red", 5)
-rectangle = Rectangle("Blue", 4, 6)
-
-print(f"Circle area: {circle.area()} square units")
-print(f"Rectangle area: {rectangle.area()} square units")
-```
+   ```py
+   # Base class
+   class Shape:
+       def __init__(self, color):
+           self.color = color
+   
+       def area(self):
+           pass
+   
+   # Derived classes
+   class Circle(Shape):
+       def __init__(self, color, radius):
+           super().__init__(color)
+           self.radius = radius
+   
+       def area(self):
+           return 3.14 * self.radius * self.radius
+   
+   class Rectangle(Shape):
+       def __init__(self, color, width, height):
+           super().__init__(color)
+           self.width = width
+           self.height = height
+   
+       def area(self):
+           return self.width * self.height
+   
+   # Create shape objects
+   circle = Circle("Red", 5)
+   rectangle = Rectangle("Blue", 4, 6)
+   
+   print(f"Circle area: {circle.area()} square units")
+   print(f"Rectangle area: {rectangle.area()} square units")
+   ```
 
 4. **Polymorphism**: Polymorphism means "many shapes" and refers to the ability of objects of different classes to be treated as objects of a common superclass. It allows you to write code that can work with objects of various classes as long as they share a common interface. Polymorphism can be achieved through method overriding and interfaces/abstract classes in some languages.
-```py
-# Base class
-class Animal:
-    def speak(self):
-        pass
-
-# Derived classes
-class Dog(Animal):
-    def speak(self):
-        return "Woof!"
-
-class Cat(Animal):
-    def speak(self):
-        return "Meow!"
-
-# Create animal objects and demonstrate polymorphism
-animals = [Dog(), Cat()]
-
-for animal in animals:
-    print(animal.speak())
-```
+   ```py
+   # Base class
+   class Animal:
+       def speak(self):
+           pass
+   
+   # Derived classes
+   class Dog(Animal):
+       def speak(self):
+           return "Woof!"
+   
+   class Cat(Animal):
+       def speak(self):
+           return "Meow!"
+   
+   # Create animal objects and demonstrate polymorphism
+   animals = [Dog(), Cat()]
+   
+   for animal in animals:
+       print(animal.speak())
+   ```
 
 5. **Abstraction**: Abstraction is the process of simplifying complex reality by modeling classes based on the essential properties and behaviors of objects. It allows you to focus on what an object does rather than how it does it. Abstraction helps in managing complexity and making code more understandable.
-```py
-from abc import ABC, abstractmethod
-
-# Abstract base class
-class Shape(ABC):
-    def __init__(self, color):
-        self.color = color
-
-    @abstractmethod
-    def area(self):
-        pass
-
-# Derived classes
-class Circle(Shape):
-    def __init__(self, color, radius):
-        super().__init__(color)
-        self.radius = radius
-
-    def area(self):
-        return 3.14 * self.radius * self.radius
-
-class Rectangle(Shape):
-    def __init__(self, color, width, height):
-        super().__init__(color)
-        self.width = width
-        self.height = height
-
-    def area(self):
-        return self.width * self.height
-
-# Create shape objects
-circle = Circle("Red", 5)
-rectangle = Rectangle("Blue", 4, 6)
-
-# Abstraction ensures that all subclasses implement the 'area' method
-print(f"Circle area: {circle.area()} square units")
-print(f"Rectangle area: {rectangle.area()} square units")
-```
+   ```py
+   from abc import ABC, abstractmethod
+   
+   # Abstract base class
+   class Shape(ABC):
+       def __init__(self, color):
+           self.color = color
+   
+       @abstractmethod
+       def area(self):
+           pass
+   
+   # Derived classes
+   class Circle(Shape):
+       def __init__(self, color, radius):
+           super().__init__(color)
+           self.radius = radius
+   
+       def area(self):
+           return 3.14 * self.radius * self.radius
+   
+   class Rectangle(Shape):
+       def __init__(self, color, width, height):
+           super().__init__(color)
+           self.width = width
+           self.height = height
+   
+       def area(self):
+           return self.width * self.height
+   
+   # Create shape objects
+   circle = Circle("Red", 5)
+   rectangle = Rectangle("Blue", 4, 6)
+   
+   # Abstraction ensures that all subclasses implement the 'area' method
+   print(f"Circle area: {circle.area()} square units")
+   print(f"Rectangle area: {rectangle.area()} square units")
+   ```
 
 OOP promotes modularity, reusability, and maintainability in software development. It is widely used in various programming languages like Java, C++, Python, and C#, among others. Developers use OOP to model real-world entities, organize code, and create software systems that are easier to design, extend, and maintain.
 </details>
