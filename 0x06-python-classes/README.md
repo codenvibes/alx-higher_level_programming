@@ -49,6 +49,34 @@ OOP stands for Object-Oriented Programming, which is a programming paradigm or m
    ```
 
 2. **Encapsulation**: Encapsulation is the practice of bundling data (attributes) and methods (functions) that operate on that data into a single unit called a class. It allows you to hide the internal details of how an object works and only expose a well-defined interface to interact with the object. This helps in controlling access to data and prevents unintended modification.
+```py
+class BankAccount:
+    def __init__(self, account_number, balance):
+        self.account_number = account_number
+        self.__balance = balance  # Private attribute
+
+    def deposit(self, amount):
+        if amount > 0:
+            self.__balance += amount
+
+    def withdraw(self, amount):
+        if amount > 0 and amount <= self.__balance:
+            self.__balance -= amount
+        else:
+            print("Insufficient funds.")
+
+    def get_balance(self):
+        return self.__balance
+
+# Create a bank account object
+account = BankAccount("12345", 1000)
+
+# Access and modify balance through methods (encapsulation)
+account.deposit(500)
+account.withdraw(200)
+print(f"Account balance: ${account.get_balance()}")
+```
+
 
 3. **Inheritance**: Inheritance is a mechanism that allows you to create a new class (subclass or derived class) based on an existing class (superclass or base class). The subclass inherits the attributes and methods of the superclass and can also add its own attributes and methods or override the inherited ones. It promotes code reuse and the creation of a hierarchy of related classes.
 
