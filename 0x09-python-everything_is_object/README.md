@@ -513,109 +513,176 @@ Is `a` a tuple? Answer with `Yes` or `No`.
 <details>
 <summary>
 
-### 21. 
+### 21. Tuple or not?
 `mandatory`
 
-File: []()
+File: [21-answer.txt]()
 </summary>
 
-
+```py
+a = (1, 2)
+```
+Is `a` a tuple? Answer with `Yes` or `No`.
 </details>
 
 <details>
 <summary>
 
-### 22. 
+### 22. Tuple or not?
 `mandatory`
 
-File: []()
+File: [22-answer.txt]()
 </summary>
 
-
+```py
+a = (1)
+```
+Is `a` a tuple? Answer with `Yes` or `No`.
 </details>
 
 <details>
 <summary>
 
-### 23. 
+### 23. Tuple or not?
 `mandatory`
 
-File: []()
+File: [23-answer.txt]()
 </summary>
 
-
+```py
+a = (1, )
+```
+Is `a` a tuple? Answer with `Yes` or `No`.
 </details>
 
 <details>
 <summary>
 
-### 24. 
+### 24. Who I am?
 `mandatory`
 
-File: []()
+File: [24-answer.txt]()
 </summary>
 
-
+What does this script print?
+```py
+a = (1)
+b = (1)
+a is b
+```
 </details>
 
 <details>
 <summary>
 
-### 25. 
+### 25. Tuple or not
 `mandatory`
 
-File: []()
+File: [25-answer.txt]()
 </summary>
 
-
+What does this script print?
+```py
+a = (1, 2)
+b = (1, 2)
+a is b
+```
 </details>
 
 <details>
 <summary>
 
-### 26. 
+### 26. Empty is not empty
 `mandatory`
 
-File: []()
+File: [26-answer.txt]()
 </summary>
 
-
+What does this script print?
+```py
+a = ()
+b = ()
+a is b
+```
 </details>
 
 <details>
 <summary>
 
-### 27. 
+### 27. Still the same?
 `mandatory`
 
-File: []()
+File: [27-answer.txt]()
 </summary>
 
-
+```py
+>>> id(a)
+139926795932424
+>>> a
+[1, 2, 3, 4]
+>>> a = a + [5]
+>>> id(a)
+```
+Will the last line of this script print `139926795932424`? Answer with `Yes` or `No`.
 </details>
 
 <details>
 <summary>
 
-### 28. 
+### 28. Same or not?
 `mandatory`
 
-File: []()
+File: [28-answer.txt]()
 </summary>
 
-
+```py
+>>> a
+[1, 2, 3]
+>>> id (a)
+139926795932424
+>>> a += [4]
+>>> id(a)
+```
+Will the last line of this script print `139926795932424`? Answer with `Yes` or `No`.
 </details>
 
 <details>
 <summary>
 
-### 29. 
+### 29. #pythonic
 `#advanced`
 
-File: []()
+File: [100-magic_string.py]()
 </summary>
 
+Write a function `magic_string()` that returns a string “BestSchool” n times the number of the iteration (see code):
+- Format: see example
+- Your file should be maximum 4-line long (no documentation needed)
+- You are not allowed to import any module
+```py
+guillaume@ubuntu:~/0x09$ cat 100-main.py
+#!/usr/bin/python3
+magic_string = __import__('100-magic_string').magic_string
 
+for i in range(10):
+    print(magic_string())
+
+guillaume@ubuntu:~/0x09$ ./100-main.py | cat -e
+BestSchool$
+BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+guillaume@ubuntu:~/0x09$ wc -l 100-magic_string.py 
+4 100-magic_string.py
+guillaume@ubuntu:~/0x09$ 
+```
+**No test cases needed**
 </details>
 
 <details>
