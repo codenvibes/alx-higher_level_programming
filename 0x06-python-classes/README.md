@@ -29,7 +29,7 @@ As usual, make sure you type (never copy and paste), test, understand all exampl
 OOP stands for Object-Oriented Programming, which is a programming paradigm or methodology used in software development. It is based on the concept of "objects," which are instances of classes, and the principles of encapsulation, inheritance, and polymorphism. Here are the core concepts of OOP:
 
 1. **Classes and Objects**: In OOP, a class is a blueprint or template for creating objects. Objects are instances of classes, and they represent real-world entities or concepts. For example, you can have a "Car" class that defines the properties and behaviors of a car, and then create individual car objects based on that class.
-```py
+   ```py
 # Define a simple class
 class Dog:
     def __init__(self, name, age):
