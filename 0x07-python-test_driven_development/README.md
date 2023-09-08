@@ -223,7 +223,8 @@ Writing documentation for each module and function in your Python code is essent
 6. **Notes and Additional Information (if needed)**: <br> Include any additional information, notes, or caveats that may be helpful for users of the function.
 
 <br>
-<h3 align="center">Using Sphinx for Documentation Generation:</h3>
+<p align="center">※※※※※※※※※※※※</p>
+<h3>Using Sphinx for Documentation Generation:</h3>
 
 While docstrings are essential for documenting code, you can use tools like Sphinx to generate user-friendly documentation from your docstrings. Sphinx allows you to create documentation in various formats, including HTML, PDF, and more.
 
