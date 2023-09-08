@@ -30,14 +30,150 @@ Starting from today:
 
 <details>
 <summary><h3>What’s an interactive test</h3></summary>
+
+An interactive test in Python typically refers to a way of running code interactively and receiving immediate feedback. This is often done using interactive development environments (IDEs), Python shells, or Jupyter notebooks. Interactive testing is a helpful approach for exploring and debugging code, as it allows you to execute small code snippets and see the results without having to write a complete program.
+
+Here are a few common ways to perform interactive testing in Python:
+
+1. **Python REPL (Read-Eval-Print Loop)**: Python comes with a built-in REPL, which allows you to enter Python code line by line and see the output immediately. You can access the Python REPL by running the `python` or `python3` command in your terminal.
+
+   ```python
+   $ python
+   Python 3.8.2 (default, Feb 24 2020, 17:52:18)
+   [GCC 7.3.0] on linux
+   Type "help", "copyright", "credits" or "license" for more information.
+   >>> print("Hello, world!")
+   Hello, world!
+   >>> 5 + 3
+   8
+   >>> exit()
+   ```
+
+2. **Jupyter Notebooks**: Jupyter notebooks provide an interactive and web-based environment for writing and running Python code. You can write and execute code in cells, view the output, and add rich text, images, and explanations in between.
+
+3. **Integrated Development Environments (IDEs)**: Many Python IDEs, such as PyCharm, Visual Studio Code, and Spyder, offer interactive modes where you can run code snippets and get immediate feedback. This is often helpful for debugging and exploring code.
+
+4. **Online Python Interpreters**: Various online platforms allow you to run Python code interactively in a web browser without installing any software locally. Examples include Repl.it and Google Colab.
+
+Interactive testing is particularly useful when you want to experiment with new ideas, test functions or algorithms, and quickly check the behavior of specific code snippets without having to create a full-fledged Python script or program. It's an essential part of the development process for many Python developers.
 </details>
 
 <details>
 <summary><h3>Why tests are important</h3></summary>
+
+Tests are an integral part of the software development process and play a crucial role in ensuring the reliability, stability, and maintainability of software systems. Here are some key reasons why tests are important in software development:
+
+1. **Bug Detection**: Tests help identify bugs, errors, and issues in the codebase. By systematically testing various parts of the software, developers can catch and fix problems before they become more significant issues in production.
+
+2. **Quality Assurance**: Testing ensures that the software meets the specified requirements and functions correctly. It helps maintain a high level of quality by verifying that the software behaves as expected under various conditions.
+
+3. **Regression Testing**: As software evolves and new features are added, there is a risk of introducing new bugs or breaking existing functionality. Regression testing, which involves re-running tests to check for unintended side effects, helps prevent these issues.
+
+4. **Code Maintenance**: Well-written tests serve as documentation for how the code is supposed to work. They make it easier for developers to understand the codebase, make changes, and refactor without introducing new problems.
+
+5. **Collaboration**: Tests enable collaboration among team members. When one developer writes tests for a particular piece of functionality, other team members can rely on those tests to understand how the code works and build upon it.
+
+6. **Continuous Integration/Continuous Deployment (CI/CD)**: Tests are a critical component of CI/CD pipelines. Automated tests ensure that code changes do not break existing functionality before they are deployed to production, thereby reducing the risk of introducing defects.
+
+7. **Improved Productivity**: While writing tests may require an initial time investment, they can save time in the long run. Bugs caught early in development are often easier and less costly to fix than those discovered later in the development lifecycle.
+
+8. **Confidence**: Having a comprehensive test suite gives developers and stakeholders confidence that the software behaves as intended. This confidence is essential for making informed decisions about releasing the software to end-users.
+
+9. **Documentation**: Tests serve as executable documentation. They provide clear examples of how various parts of the codebase are intended to be used and can help new developers understand the system faster.
+
+10. **User Satisfaction**: Thorough testing leads to a more stable and reliable software product. Users are more satisfied when they experience fewer crashes, errors, and unexpected behavior.
+
+11. **Security**: Security vulnerabilities can have severe consequences. Tests can be used to identify security issues early and ensure that security measures are effective.
+
+In summary, tests are essential for delivering high-quality software that meets user requirements, is maintainable, and can evolve over time. They provide a safety net for developers, reduce the risk of defects in production, and contribute to overall software reliability and robustness.
 </details>
 
 <details>
 <summary><h3>How to write Docstrings to create tests</h3></summary>
+
+Docstrings are used to document Python code, providing information about a module, class, function, or method. While docstrings themselves are not used to create tests directly, they can be helpful in generating tests or ensuring that your code is testable. Here's how you can write docstrings to support testing in your Python code:
+
+1. **Describe the Function or Method**: Begin your docstring with a brief description of what the function or method does. This helps both developers and testing frameworks understand the purpose of the code.
+
+   ```python
+   def add(a, b):
+       """
+       Adds two numbers and returns the result.
+
+       Parameters:
+           a (int): The first number.
+           b (int): The second number.
+
+       Returns:
+           int: The sum of a and b.
+       """
+       return a + b
+   ```
+
+2. **Document Parameters**: Clearly document the function or method parameters, including their data types and any constraints or requirements. This information can help testers understand how to provide valid inputs.
+
+3. **Document Return Values**: Explain what the function or method returns and the data type of the return value. This helps testers understand what to expect from the function.
+
+4. **Include Examples**: Provide usage examples within the docstring. These examples can serve as test cases for your code.
+
+   ```python
+   def add(a, b):
+       """
+       Adds two numbers and returns the result.
+
+       Parameters:
+           a (int): The first number.
+           b (int): The second number.
+
+       Returns:
+           int: The sum of a and b.
+
+       Examples:
+           >>> add(2, 3)
+           5
+           >>> add(-1, 1)
+           0
+       """
+       return a + b
+   ```
+
+5. **Include Edge Cases**: If applicable, include information about edge cases or corner cases that need to be tested.
+
+6. **Mention Side Effects**: If the function has any side effects (e.g., modifying global variables), document them in the docstring.
+
+7. **Use Docstring Formats**: There are various docstring formats, such as reStructuredText (reST) and Google-style docstrings. Pick a format that's commonly used in your project or organization.
+
+While docstrings themselves don't create tests, they serve as valuable documentation for your code, making it easier to write tests. You can use tools like Sphinx to generate documentation from your docstrings, and testing frameworks like `doctest` can extract and execute code examples from docstrings as tests.
+
+Here's an example of how you can use `doctest` to test code based on the examples in the docstring:
+
+```python
+import doctest
+
+def add(a, b):
+    """
+    Adds two numbers and returns the result.
+
+    Parameters:
+        a (int): The first number.
+        b (int): The second number.
+
+    Returns:
+        int: The sum of a and b.
+
+    Examples:
+        >>> add(2, 3)
+        5
+        >>> add(-1, 1)
+        0
+    """
+    return a + b
+
+if __name__ == "__main__":
+    doctest.testmod()
+```
+
+Running this script will execute the examples in the docstring as tests and report any failures.
 </details>
 
 <details>
