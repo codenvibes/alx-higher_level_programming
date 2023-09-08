@@ -181,9 +181,6 @@ Running this script will execute the examples in the docstring as tests and repo
 
 Writing documentation for each module and function in your Python code is essential for making your codebase understandable, maintainable, and usable by others (including your future self). Python has a standard way of documenting code using docstrings, and tools like Sphinx can help generate documentation in various formats (HTML, PDF, etc.). Here's how you can write documentation for modules and functions:
 
-<br>
-<p align="center">※※※※※※※※※※※※</p>
-
 <h3 align="center">Writing Module Documentation:</h3>
 
 1. **Module-Level Docstring**: At the top of your module (Python file), include a module-level docstring. This docstring should describe the purpose and contents of the module. Use triple double-quotes (`"""`) for multi-line docstrings.
