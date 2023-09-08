@@ -183,7 +183,6 @@ Writing documentation for each module and function in your Python code is essent
 
 <br>
 <p align="center">※※※※※※※※※※※※</p>
-<br>
 
 <h3 align="center">Writing Module Documentation:</h3>
 
