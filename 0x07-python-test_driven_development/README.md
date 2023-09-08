@@ -181,6 +181,7 @@ Running this script will execute the examples in the docstring as tests and repo
 
 Writing documentation for each module and function in your Python code is essential for making your codebase understandable, maintainable, and usable by others (including your future self). Python has a standard way of documenting code using docstrings, and tools like Sphinx can help generate documentation in various formats (HTML, PDF, etc.). Here's how you can write documentation for modules and functions:
 
+<br>
 <h3 align="center">Writing Module Documentation:</h3>
 
 1. **Module-Level Docstring**: At the top of your module (Python file), include a module-level docstring. This docstring should describe the purpose and contents of the module. Use triple double-quotes (`"""`) for multi-line docstrings.
@@ -191,6 +192,7 @@ Writing documentation for each module and function in your Python code is essent
 
 2. **Module-level Imports**: If your module imports other modules or has any global variables, include a section at the beginning of the module that lists these imports and variables, along with explanations if necessary.
 
+<br>
 <h3 align="center">Writing Function Documentation:</h3>
 
 1. **Function-Level Docstring**: For each function, include a docstring just below the function definition. The docstring should describe what the function does, its parameters (arguments), return values, and any exceptions it may raise. Use triple double-quotes for multi-line docstrings.
@@ -220,6 +222,7 @@ Writing documentation for each module and function in your Python code is essent
 
 6. **Notes and Additional Information (if needed)**: Include any additional information, notes, or caveats that may be helpful for users of the function.
 
+<br>
 <h3 align="center">Using Sphinx for Documentation Generation:</h3>
 
 While docstrings are essential for documenting code, you can use tools like Sphinx to generate user-friendly documentation from your docstrings. Sphinx allows you to create documentation in various formats, including HTML, PDF, and more.
