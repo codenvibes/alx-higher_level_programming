@@ -328,6 +328,44 @@ These are some of the basic option flags you can use when running tests with uni
 
 <details>
 <summary><h3>How to find edge cases</h3></summary>
+
+Finding edge cases with examples is an important aspect of software testing. Edge cases are the scenarios in which a program is expected to behave differently or where it is most likely to fail. By identifying and testing these edge cases, you can improve the robustness and reliability of your software. Here's how you can find edge cases with examples:
+
+1. **Understand the Problem Domain**:
+   - Start by thoroughly understanding the problem or requirements of the software you are testing.
+   - Identify the boundaries and constraints of the problem domain. These boundaries are often where edge cases reside.
+
+2. **Identify Input Boundaries**:
+   - Consider the input variables and parameters that the software takes.
+   - Identify the boundary values for these inputs. For example, if a function accepts integers, consider values like 0, 1, -1, the largest possible positive integer, and the smallest possible negative integer.
+
+3. **Consider Special Values**:
+   - Think about special values or exceptional cases that might lead to different program behavior. For example, if your program handles file paths, consider edge cases like empty strings or paths with special characters.
+
+4. **Account for Limits and Constraints**:
+   - If your program has specific constraints or limits, make sure to test scenarios that approach or exceed these limits. For instance, if your program can only handle a certain number of concurrent users, test it with both the maximum and minimum number of users.
+
+5. **Examine Boundary Conditions**:
+   - Focus on the boundaries where different behaviors may occur. For example, if you're testing a sorting algorithm, consider lists that are already sorted, reverse-sorted, or have identical elements.
+
+6. **Think About Error Handling**:
+   - Consider scenarios where errors or exceptions are likely to occur. For example, if your code interacts with a database, test what happens when the database is down or when a query returns no results.
+
+7. **Review the Code and Specifications**:
+   - Carefully review the code and specifications for any hints or mentions of edge cases. Often, developers or documentation will explicitly highlight potential edge cases.
+
+8. **Consult Stakeholders or Users**:
+   - If possible, consult with stakeholders, users, or domain experts to gain insights into potential edge cases. They may provide valuable input based on their experience.
+
+9. **Document and Test**:
+   - Once you've identified potential edge cases, document them and create test cases that cover these scenarios.
+   - Develop test inputs and expected outcomes for each edge case.
+   - Execute these tests to ensure that the software behaves correctly in all identified edge cases.
+
+10. **Automate Testing if Possible**:
+    - If you have a set of identified edge cases, consider automating the testing process to ensure these cases are repeatedly tested in the future.
+
+Finding and testing edge cases with examples is a systematic approach to improving the quality of your software. It helps uncover hidden issues and ensures that your software is more robust and reliable, especially under challenging or unexpected conditions.
 </details>
 
 # Requirements
