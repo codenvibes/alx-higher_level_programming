@@ -453,7 +453,7 @@ In object-oriented programming, there is a distinction between instance-level at
 In summary, instance-level attributes and methods are specific to individual objects created from a class, allowing each object to have its own state and behavior. Class-level attributes and methods, on the other hand, are shared among all instances of the class and are typically used for characteristics or behaviors that are common to all objects of that class.
 
 <br>
-<p align="center">■■■■■■■■■■■■■■■■■■■■■</p>
+<p align="center">※※※※※※※※※※※※</p>
 <br>
 
 In the code example provided, `cls` is not a reserved keyword in Python; rather, it's a common naming convention used for the first parameter of a class method. The name `cls` is short for "class," and it is used to refer to the class itself within the method. You can technically use any name you like for this parameter, but using `cls` is a widely followed convention, and it makes the code more readable and self-explanatory.
@@ -476,26 +476,251 @@ So, in the context of this code, `cls.pi` refers to the class attribute `pi` def
 
 <details>
 <summary><h3>What is a method</h3></summary>
+
+In computer programming, a method is a function or procedure that is associated with an object or a class in the context of Object-Oriented Programming (OOP). Methods define the behaviors or actions that objects of a class can perform. They are an integral part of encapsulation and allow you to define the operations that can be performed on the data (attributes) of an object.
+
+Here are some key points about methods:
+
+1. **Belong to Objects or Classes**: Methods can be associated with either individual objects (instance methods) or with the class itself (class or static methods).
+
+2. **Behavior Definition**: Methods define what an object can do or how it can interact with other objects. They encapsulate the functionality that operates on the object's data.
+
+3. **Access to Object Data**: Methods typically have access to the object's attributes, allowing them to read or modify the state of the object.
+
+4. **Method Signature**: A method's signature includes its name and the parameters it accepts. The combination of a method's name and its parameter list is known as the method's signature. The return type (what the method returns) is also part of the signature.
+
+Here's a simple example in Python:
+
+```python
+class Car:
+    def __init__(self, make, model):
+        self.make = make
+        self.model = model
+
+    def start_engine(self):
+        print(f"{self.make} {self.model}'s engine is started.")
+
+# Creating an instance of the Car class
+my_car = Car("Toyota", "Camry")
+
+# Calling the start_engine method on the my_car object
+my_car.start_engine()  # Output: "Toyota Camry's engine is started."
+```
+
+In this example, `start_engine` is a method of the `Car` class. It defines the behavior of starting the car's engine when called on a `Car` object. When we call `my_car.start_engine()`, it executes the code within the `start_engine` method, using the attributes of the `my_car` object to provide context-specific behavior.
+
+Methods are essential in OOP because they allow you to bundle data (attributes) and behavior (methods) together within a class, promoting encapsulation and providing a clear and organized way to interact with objects.
 </details>
 
 <details>
 <summary><h3>What is the special <code>__init__</code> method and how to use it</h3></summary>
+
+The `__init__` method is a special method in Python that is used for initializing objects created from a class. It is also known as the constructor method because it is automatically called when you create a new instance (object) of a class. This method allows you to set up the initial state of an object by defining its attributes or performing any necessary setup tasks.
+
+Here's the basic syntax for defining and using the `__init__` method in a Python class:
+
+```python
+class MyClass:
+    def __init__(self, parameter1, parameter2, ...):
+        # Initialization code here
+        self.attribute1 = parameter1
+        self.attribute2 = parameter2
+        # ...
+
+# Creating an instance of MyClass and passing values to the __init__ method
+my_object = MyClass(value1, value2, ...)
+```
+
+Here's what's happening in the code above:
+
+1. We define a class named `MyClass`.
+
+2. Inside the class, we define the `__init__` method. It takes at least one parameter, `self`, which represents the instance of the class being created. You can also include other parameters to initialize the object's attributes.
+
+3. Within the `__init__` method, we set up the initial state of the object by assigning values to its attributes using the `self` keyword. These attributes can be accessed and modified throughout the object's lifetime.
+
+4. When we create an instance of `MyClass` (e.g., `my_object = MyClass(value1, value2, ...)`), the `__init__` method is automatically called with the provided arguments, and it initializes the object's attributes accordingly.
+
+Here's a simple example:
+
+```python
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+# Creating a Person object
+person1 = Person("Alice", 30)
+
+# Accessing object attributes
+print(person1.name)  # Output: Alice
+print(person1.age)   # Output: 30
+```
+
+In this example, the `__init__` method initializes the `name` and `age` attributes of the `Person` object when it is created. You can customize the `__init__` method to perform any necessary setup for your class instances, and it allows you to ensure that objects are properly initialized upon creation.
 </details>
 
 <details>
 <summary><h3>What is Data Abstraction, Data Encapsulation, and Information Hiding</h3></summary>
+
+Data Abstraction, Data Encapsulation, and Information Hiding are related concepts in Object-Oriented Programming (OOP) that contribute to the principles of encapsulation and abstraction. They help in organizing and controlling access to data within a class, making the code more modular and maintainable.
+
+1. **Data Abstraction**:
+   - Data abstraction is the process of simplifying complex reality by modeling classes based on the essential properties and behaviors of objects while ignoring the non-essential details.
+   - It involves defining a class that represents a real-world entity or concept and focusing on what the object does rather than how it does it.
+   - Abstraction helps in managing complexity by allowing developers to work with high-level, abstract representations of data and functionality.
+
+2. **Data Encapsulation**:
+   - Data encapsulation, also known as data hiding, is a fundamental concept in OOP that combines data and the methods that operate on that data into a single unit called a class.
+   - It enforces the idea that an object's internal state (data or attributes) should not be directly accessible from outside the object. Instead, interactions with the object's data should occur through well-defined methods.
+   - By encapsulating data, you can control access to it and protect it from unintended modification. This improves data integrity and helps maintain a stable interface for interacting with the object.
+
+3. **Information Hiding**:
+   - Information hiding is a principle that emphasizes the importance of hiding the implementation details of a class while exposing only the necessary information or interface to the outside world.
+   - It is closely related to data encapsulation and is often used interchangeably with it. However, information hiding also includes the idea of selectively exposing certain aspects of an object's behavior while keeping others hidden.
+   - The goal of information hiding is to reduce complexity by allowing developers to work with the public interface of a class without needing to know how the class internally achieves its functionality.
+
+In summary, data abstraction focuses on modeling objects at a high level, data encapsulation ensures that data and methods are packaged together within a class and accessed through a controlled interface, and information hiding aims to hide unnecessary implementation details while exposing a clear and well-defined public interface to the users of a class. These concepts collectively contribute to the principles of encapsulation and abstraction in OOP, promoting modularity and maintainability in software development.
 </details>
 
 <details>
 <summary><h3>What is a property</h3></summary>
+
+class Person:
+    def __init__(self, name, age):
+        self._name = name
+        self._age = age
+
+    # Getter method for the name property
+    def get_name(self):
+        return self._name
+
+    # Setter method for the name property
+    def set_name(self, name):
+        self._name = name
+
+    # Getter method for the age property
+    def get_age(self):
+        return self._age
+
+    # Setter method for the age property with data validation
+    def set_age(self, age):
+        if age >= 0:
+            self._age = age
+
+# Creating a Person object
+person = Person("Alice", 30)
+
+# Accessing and modifying properties using accessors and mutators
+print(person.get_name())  # Output: Alice
+person.set_name("Bob")
+print(person.get_name())  # Output: Bob
+
+print(person.get_age())   # Output: 30
+person.set_age(25)
+print(person.get_age())   # Output: 25
+
 </details>
 
 <details>
 <summary><h3>What is the difference between an attribute and a property in Python</h3></summary>
+
+In Python, the terms "attribute" and "property" are related but have distinct meanings:
+
+1. **Attribute**:
+
+   - An attribute is a characteristic or piece of data associated with an object. It can be thought of as a variable that belongs to an object and holds information about the object's state.
+   - Attributes in Python are typically defined within a class to represent the object's properties. They can be accessed using dot notation (e.g., `object.attribute`) to retrieve or modify their values.
+   - Attributes can be public, which means they can be accessed directly from outside the class, or they can be made private by using a single underscore prefix (e.g., `_attribute`) to indicate that they are intended for internal use within the class.
+
+   Here's an example of defining and using an attribute in Python:
+
+   ```python
+   class Person:
+       def __init__(self, name):
+           self.name = name  # 'name' is an attribute of the 'Person' class
+
+   person1 = Person("Alice")
+   print(person1.name)  # Accessing the 'name' attribute
+   ```
+
+2. **Property**:
+
+   - A property, on the other hand, is a special kind of attribute that is accessed or modified using methods like `getter` and `setter` methods. Properties are used to control the access and modification of an object's attribute values.
+   - Properties allow you to add custom logic or validation when getting or setting the attribute's value, which can be useful for maintaining data integrity or implementing computed attributes.
+   - In Python, you can define properties using the `@property` decorator for the getter method and the `@<attribute>.setter` decorator for the setter method.
+
+   Here's an example of using properties in Python:
+
+   ```python
+   class Circle:
+       def __init__(self, radius):
+           self._radius = radius  # Private attribute
+
+       @property
+       def radius(self):
+           return self._radius
+
+       @radius.setter
+       def radius(self, value):
+           if value < 0:
+               raise ValueError("Radius cannot be negative")
+           self._radius = value
+
+   circle = Circle(5)
+   print(circle.radius)  # Accessing the 'radius' property
+   circle.radius = 7    # Modifying the 'radius' property
+   ```
+
+In summary, attributes are basic data members of a class, while properties are a way to control access to and modification of attributes by using methods to get and set their values with additional logic if needed. Properties are often used when you want to encapsulate and validate attribute access in Python classes.
 </details>
 
 <details>
 <summary><h3>What is the Pythonic way to write getters and setters in Python</h3></summary>
+
+In Python, you can create getters and setters for class attributes using properties and decorators. The Pythonic way to write getters and setters is to use the `@property` decorator for the getter and the `@<attribute_name>.setter` decorator for the setter. This approach allows you to maintain a clean and simple syntax while providing controlled access to class attributes. Here's an example:
+
+```python
+class MyClass:
+    def __init__(self, value):
+        self._value = value  # Private attribute with an underscore prefix
+
+    @property
+    def value(self):
+        """Getter method for _value."""
+        return self._value
+
+    @value.setter
+    def value(self, new_value):
+        """Setter method for _value."""
+        if new_value >= 0:
+            self._value = new_value
+        else:
+            raise ValueError("Value must be non-negative")
+
+# Creating an instance of MyClass
+obj = MyClass(10)
+
+# Using the getter
+print(obj.value)  # This calls the value() method and returns 10
+
+# Using the setter
+obj.value = 20  # This calls the value.setter method and sets _value to 20
+
+# Using the setter with an invalid value
+# This will raise a ValueError because the setter enforces a non-negative constraint
+obj.value = -5
+```
+
+In this example:
+
+- The `_value` attribute is considered private by convention (not enforced by the language) because it has an underscore prefix. It indicates that it should not be accessed directly from outside the class.
+
+- The `@property` decorator is used to define a getter method for the `value` attribute. When you access `obj.value`, it calls the `value()` method, returning the value of `_value`.
+
+- The `@value.setter` decorator is used to define a setter method for the `value` attribute. When you assign a value to `obj.value`, it calls the `value.setter` method, allowing you to enforce constraints or perform any necessary validation.
+
+This approach adheres to the Pythonic principle of "we are all consenting adults here," which means that it trusts the programmer to use the public interface correctly and only provides special methods like getters and setters when necessary. It promotes clean, readable code while still allowing for controlled attribute access when needed.
 </details>
 
 <details>
