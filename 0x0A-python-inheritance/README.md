@@ -376,10 +376,10 @@ print(b.id)
 <details>
 <summary>
 
-### 0. 
+### 0. Lookup
 `mandatory`
 
-File: []()
+File: [0-lookup.py]()
 </summary>
 
 
@@ -388,10 +388,10 @@ File: []()
 <details>
 <summary>
 
-### 1. 
+### 1. My list
 `mandatory`
 
-File: []()
+File: [1-my_list.py](), [tests/1-my_list.txt]()
 </summary>
 
 
@@ -400,10 +400,10 @@ File: []()
 <details>
 <summary>
 
-### 2. 
+### 2. Exact same object
 `mandatory`
 
-File: []()
+File: [2-is_same_class.py]()
 </summary>
 
 
@@ -412,10 +412,10 @@ File: []()
 <details>
 <summary>
 
-### 3. 
+### 3. Same class or inherit from
 `mandatory`
 
-File: []()
+File: [3-is_kind_of_class.py]()
 </summary>
 
 
@@ -424,10 +424,10 @@ File: []()
 <details>
 <summary>
 
-### 4. 
+### 4. Only sub class of
 `mandatory`
 
-File: []()
+File: [4-inherits_from.py]()
 </summary>
 
 
@@ -436,10 +436,10 @@ File: []()
 <details>
 <summary>
 
-### 5. 
+### 5. Geometry module
 `mandatory`
 
-File: []()
+File: [5-base_geometry.py]()
 </summary>
 
 
@@ -448,10 +448,10 @@ File: []()
 <details>
 <summary>
 
-### 6. 
+### 6. Improve Geometry
 `mandatory`
 
-File: []()
+File: [6-base_geometry.py]()
 </summary>
 
 
@@ -460,10 +460,10 @@ File: []()
 <details>
 <summary>
 
-### 7. 
+### 7. Integer validator
 `mandatory`
 
-File: []()
+File: [7-base_geometry.py](), [tests/7-base_geometry.txt]()
 </summary>
 
 
@@ -472,10 +472,10 @@ File: []()
 <details>
 <summary>
 
-### 8. 
+### 8. Rectangle
 `mandatory`
 
-File: []()
+File: [8-rectangle.py]()
 </summary>
 
 
@@ -484,10 +484,10 @@ File: []()
 <details>
 <summary>
 
-### 9. 
+### 9. Full rectangle
 `mandatory`
 
-File: []()
+File: [9-rectangle.py]()
 </summary>
 
 
@@ -496,10 +496,10 @@ File: []()
 <details>
 <summary>
 
-### 10. 
+### 10. Square #1
 `mandatory`
 
-File: []()
+File: [10-square.py]()
 </summary>
 
 
@@ -508,10 +508,10 @@ File: []()
 <details>
 <summary>
 
-### 11. 
+### 11. Square #2
 `mandatory`
 
-File: []()
+File: [11-square.py]()
 </summary>
 
 
@@ -520,10 +520,10 @@ File: []()
 <details>
 <summary>
 
-### 12. 
+### 12. My integer
 `#advanced`
 
-File: []()
+File: [100-my_int.py]()
 </summary>
 
 
@@ -532,12 +532,40 @@ File: []()
 <details>
 <summary>
 
-### 13. 
+### 13. Can I?
 `#advanced`
 
-File: []()
+File: [101-add_attribute.py]()
 </summary>
 
+Write a function that adds a new attribute to an object if it’s possible:
+- Raise a `TypeError` exception, with the message can't add new attribute if the object `can’t have new attribute`
+- You are not allowed to use `try/except`
+- You are not allowed to import any module
+```py
+guillaume@ubuntu:~/0x0A$ cat 101-main.py
+#!/usr/bin/python3
+add_attribute = __import__('101-add_attribute').add_attribute
 
+class MyClass():
+    pass
+
+mc = MyClass()
+add_attribute(mc, "name", "John")
+print(mc.name)
+
+try:
+    a = "My String"
+    add_attribute(a, "name", "Bob")
+    print(a.name)
+except Exception as e:
+    print("[{}] {}".format(e.__class__.__name__, e))
+
+guillaume@ubuntu:~/0x0A$ ./101-main.py
+John
+[TypeError] can't add new attribute
+guillaume@ubuntu:~/0x0A$ 
+```
+**No test cases needed**
 </details>
 
