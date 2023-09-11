@@ -772,13 +772,12 @@ This approach adheres to the Pythonic principle of "we are all consenting adults
 - All your files must be executable
 - The length of your files will be tested using `wc`
 - All your modules should have a documentation (`python3 -c 'print(__import__("my_module").__doc__)'`)
-    This command does the following:
+> This command does the following:
+>> 1. It uses the `python3` interpreter to execute a Python one-liner.
+2. In the one-liner, it imports a module named "my_module" using `__import__("my_module")`.
+3. It then accesses the `__doc__` attribute of the imported "my_module" and prints its content to the console.
 
-    1. It uses the `python3` interpreter to execute a Python one-liner.
-    2. In the one-liner, it imports a module named "my_module" using `__import__("my_module")`.
-    3. It then accesses the `__doc__` attribute of the imported "my_module" and prints its content to the console.
-
-    In summary, this command imports the "my_module" module and prints its docstring (documentation string) to the console. The docstring typically contains information about the module, its functions, classes, and how to use them, making it a useful way to provide documentation for your Python code.
+In summary, this command imports the "my_module" module and prints its docstring (documentation string) to the console. The docstring typically contains information about the module, its functions, classes, and how to use them, making it a useful way to provide documentation for your Python code.
 - All your classes should have a documentation (`python3 -c 'print(__import__("my_module").MyClass.__doc__)'`)
 - All your functions (inside and outside a class) should have a documentation (`python3 -c 'print(__import__("my_module").my_function.__doc__)'` and `python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')`
 - A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
