@@ -774,8 +774,7 @@ This approach adheres to the Pythonic principle of "we are all consenting adults
 - All your modules should have a documentation (`python3 -c 'print(__import__("my_module").__doc__)'`)
     
     > This command does the following:
-
-    > 1. It uses the `python3` interpreter to execute a Python one-liner.
+    1. It uses the `python3` interpreter to execute a Python one-liner.
     2. In the one-liner, it imports a module named "my_module" using `__import__("my_module")`.
     3. It then accesses the `__doc__` attribute of the imported "my_module" and prints its content to the console.
 
