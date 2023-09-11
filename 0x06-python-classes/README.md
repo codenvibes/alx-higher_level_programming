@@ -804,7 +804,7 @@ What do these lines print?
 - [ ] User.id
 - [ ] Nothing
 - [ ] id
-- [ ] 89
+- [x] 89
 </details>
 
 <details>
@@ -825,7 +825,7 @@ class User:
 - [ ] A public instance attribute
 - [ ] A private instance attribute
 - [ ] A protected instance attribute
-- [ ] A private class attribute
+- [x] A private class attribute
 - [ ] A protected class attribute
 - [ ] A public class attribute
 </details>
@@ -845,7 +845,7 @@ class User:
         if new_name is not None:
             self.name = new_name
 ```
-- [ ] A public class attribute
+- [x] A public class attribute
 - [ ] A protected class attribute
 - [ ] A public instance method
 - [ ] A private class attribute
@@ -868,7 +868,7 @@ class User:
         if new_name is not None:
             self.name = new_name
 ```
-- [ ] A public instance attribute
+- [x] A public instance attribute
 - [ ] A private instance attribute
 - [ ] A protected instance attribute
 - [ ] A private class attribute
@@ -894,7 +894,7 @@ What do these lines print?
 >>> u = User("John")
 >>> u.name
 ```
-- [ ] John
+- [x] John
 - [ ] no name
 - [ ] None
 - [ ] name
@@ -919,7 +919,7 @@ What do these lines print?
 >>> u.name
 ```
 - [ ] John
-- [ ] no name
+- [x] no name
 - [ ] None
 - [ ] name
 </details>
@@ -943,7 +943,7 @@ What do these lines print?
 >>> u.is_new
 ```
 - [ ] False
-- [ ] True
+- [x] True
 - [ ] Nothing
 - [ ] is_new
 </details>
@@ -967,7 +967,7 @@ class User:
 - [ ] An instance
 - [ ] An attribute
 - [ ] A string
-- [ ] A class
+- [x] A class
 </details>
 
 # Tasks
