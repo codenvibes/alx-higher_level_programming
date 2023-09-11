@@ -102,61 +102,274 @@
 <details>
 <summary><h3>Question 0</h3></summary>
 
+What do these lines print?
+```py
+class Base():
+    """ My base class """
 
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+class User(Base):
+    """ My User class """
+
+    def __init__(self):
+        super().__init__()
+        self.id += 99
+
+u = User()
+print(u.id)
+```
+- [ ] 1
+- [x] 100
+- [ ] 99
 </details>
 
 <details>
 <summary><h3>Question 1</h3></summary>
 
+What do these lines print?
+```py
+class Base():
+    """ My base class """
 
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+class User(Base):
+    """ My User class """
+
+    def __init__(self):
+        self.id = 89
+
+u = User()
+print(u.id)
+```
+- [ ] 1
+- [ ] 90
+- [x] 89
 </details>
 
 <details>
 <summary><h3>Question 2</h3></summary>
 
+What do these lines print?
+```py
+class Base():
+    """ My base class """
 
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+class User(Base):
+    """ My User class """
+    pass
+
+u = User()
+print(u.id)
+```
+- [x] 1
+- [ ] 2
+- [ ] 0
+- [ ] None
 </details>
 
 <details>
 <summary><h3>Question 3</h3></summary>
 
+What do these lines print?
+```py
+class Base():
+    """ My base class """
 
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+for i in range(3):
+    b = Base()
+print(b.id)
+```
+- [ ] 4
+- [ ] 2
+- [x] 3
+- [ ] None
 </details>
 
 <details>
 <summary><h3>Question 4</h3></summary>
 
+What do these lines print?
+```py
+class Base():
+    """ My base class """
 
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+class User(Base):
+    """ My User class """
+    pass
+
+for i in range(4):
+    u = User()
+print(u.id)
+```
+- [ ] 5
+- [ ] None
+- [ ] 3
+- [x] 4
 </details>
 
 <details>
 <summary><h3>Question 5</h3></summary>
 
+What do these lines print?
+```py
+class Base():
+    """ My base class """
 
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+class User(Base):
+    """ My User class """
+
+    def __init__(self):
+        super().__init__()
+        self.id = 89
+
+u = User()
+print(u.id)
+```
+- [ ] 1
+- [ ] 90
+- [x] 89
 </details>
 
 <details>
 <summary><h3>Question 6</h3></summary>
 
+What do these lines print?
+```py
+class Base():
+    """ My base class """
 
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+class User(Base):
+    """ My User class """
+
+    def __init__(self):
+        super().__init__()
+
+u = User()
+print(u.id)
+```
+- [x] 1
+- [ ] 2
+- [ ] 0
+- [ ] None
 </details>
 
 <details>
 <summary><h3>Question 7</h3></summary>
 
+What do these lines print?
+```py
+class Base():
+    """ My base class """
 
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+class User(Base):
+    """ My User class """
+
+    def __init__(self):
+        self.id = 89
+        super().__init__()
+
+u = User()
+print(u.id)
+```
+- [x] 1
+- [ ] 90
+- [ ] 89
 </details>
 
 <details>
 <summary><h3>Question 8</h3></summary>
 
+What do these lines print?
+```py
+class Base():
+    """ My base class """
 
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+class User(Base):
+    """ My User class """
+    pass
+
+b = Base()
+u = User()
+print(u.id)
+```
+- [x] 2
+- [ ] 3
+- [ ] 1
+- [ ] 0
 </details>
 
 <details>
 <summary><h3>Question 9</h3></summary>
 
+What do these lines print?
+```py
+class Base():
+    """ My base class """
 
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+b = Base()
+print(b.id)
+```
+- [x] 1
+- [ ] 0
+- [ ] None
 </details>
 
 # Tasks
