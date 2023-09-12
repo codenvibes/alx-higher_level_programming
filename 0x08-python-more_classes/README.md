@@ -998,37 +998,91 @@ In this example:
 <details>
 <summary><h3>Question 0</h3></summary>
 
+What do these lines print?
+```py
+class User:
+    id = 1
 
+u = User()
+User.id = 98
+print(u.id)
+```
+- [ ] 89
+- [x] 98
+- [ ] 1
+- [ ] None
 </details>
 
 <details>
 <summary><h3>Question 1</h3></summary>
 
+What do these lines print?
+```py
+class User:
+    id = 1
 
+User.id = 98
+u = User()
+u.id = 89
+print(u.id)
+```
+- [x] 89
+- [ ] 98
+- [ ] 1
+- [ ] None
 </details>
 
 <details>
 <summary><h3>Question 2</h3></summary>
 
+What do these lines print?
+```py
+class User:
+    id = 1
 
+print(User.id)
+```
+- [ ] 89
+- [ ] 98
+- [x] 1
+- [ ] None
 </details>
 
 <details>
 <summary><h3>Question 3</h3></summary>
 
-
+What is `__repr__`?
+- [ ] Instance method that returns the dictionary representation of an instance
+- [x] Instance method that returns an “official” string representation of an instance
+- [ ] Instance method that prints an “official” string representation of an instance
 </details>
 
 <details>
 <summary><h3>Question 4</h3></summary>
 
-
+What is __str__?
+- [ ] Instance method that prints an “informal” and nicely printable string representation of an instance
+- [ ] Instance method that returns the dictionary representation of an instance
+- [x] Instance method that returns an “informal” and nicely printable string representation of an instance
 </details>
 
 <details>
 <summary><h3>Question 5</h3></summary>
 
+What do these lines print?
+```py
+class User:
+    id = 1
 
+User.id = 98
+u = User()
+u.id = 89
+print(User.id)
+```
+- [ ] 89
+- [x] 98
+- [ ] 1
+- [ ] None
 </details>
 
 <details>
