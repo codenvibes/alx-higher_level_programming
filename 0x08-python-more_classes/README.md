@@ -1088,49 +1088,120 @@ print(User.id)
 <details>
 <summary><h3>Question 6</h3></summary>
 
+What do these lines print?
+```py
+class User:
+    id = 1
 
+u = User()
+u.id = 89
+User.id = 98
+print(u.id)
+```
+- [x] 89
+- [ ] 98
+- [ ] 1
+- [ ] None
 </details>
 
 <details>
 <summary><h3>Question 7</h3></summary>
 
-
+What is `__del__`?
+- [x] Instance method called when an instance is deleted
+- [ ] Instance method that prints the memory address of an instance
+- [ ] Instance method that removes the last character of an instance
 </details>
 
 <details>
 <summary><h3>Question 8</h3></summary>
 
+What do these lines print?
+```py
+class User:
+    id = 1
 
+User.id = 98
+u = User()
+print(u.id)
+```
+- [ ] 89
+- [x] 98
+- [ ] 1
+- [ ] None
 </details>
 
 <details>
 <summary><h3>Question 9</h3></summary>
 
+What do these lines print?
+```py
+class User:
+    id = 1
 
+u = User()
+print(u.id)
+```
+- [ ] 89
+- [ ] 98
+- [x] 1
+- [ ] None
 </details>
 
 <details>
 <summary><h3>Question 10</h3></summary>
 
+What do these lines print?
+```py
+class User:
+    id = 1
 
+u = User()
+u.id = 89
+print(u.id)
+```
+- [x] 89
+- [ ] 98
+- [ ] 1
+- [ ] None
 </details>
 
 <details>
 <summary><h3>Question 11</h3></summary>
 
-
+What is `__doc__`?
+- [ ] Creates man file
+- [ ] Prints the documentation of an object
+- [x] The string documentation of an object (based on docstring)
 </details>
 
 <details>
 <summary><h3>Question 12</h3></summary>
 
-
+What is `__init__`?
+- [x] The instance method called when a new object is created
+- [ ] The instance method called when a class is called for the first time
+- [ ] A class method
+- [ ] A class attribute
 </details>
 
 <details>
 <summary><h3>Question 13</h3></summary>
 
+What do these lines print?
+```py
+class User:
+    id = 1
 
+u = User()
+u.id = 89
+User.id = 98
+print(User.id)
+```
+- [ ] 89
+- [x] 98
+- [ ] 1
+- [ ] None
 </details>
 
 # Tasks
