@@ -10,6 +10,7 @@ class BaseGeometry:
     """
     BaseGeometry class provides a base for geometry-related classes.
     """
+
     def area(self):
         """
         Placeholder method for calculating the area of a geometric shape.
