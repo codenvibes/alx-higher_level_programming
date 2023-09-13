@@ -1,0 +1,50 @@
+# Auth: Terrence M.K
+# File: 1-my_list.txt
+
+※※※※※※※※※※※※※※※※※※※※※※※※
+
+How to Use the 1-my_list.py module.
+
+※※※※※※※※※※※※※※※※※※※※※※※※
+
+This documentation provides usage examples for the module "1-my_list.py"
+which defines a class called "MyList" that inherits from the built-in
+"list" class.
+
+※※※※※※※※※※※※※※※※※※※※※※※※
+
+**Instantiation**
+"Instantiating" is the process of creating objects (instances) based
+on a class's blueprint or definition. Each instance has its own set of
+attributes and can perform actions defined by the class's methods. ~ CHATGPT
+
+In this example, MyList() is the constructor for the MyList class,
+and it is used to create a new instance of the MyList class.
+The newly created object is assigned to the variable my_list,
+making it an instance of the MyList class.
+
+You can instantiate the "MyList" class in several ways:
+1. **Empty Initialization:**
+   When "MyList" is instantiated with no arguments, it returns an empty list.
+
+::
+
+    >>> MyList = __import__('1-my_list').MyList
+    >>> my_list = MyList()
+    >>> type(my_list)
+    <class '1-my_list.MyList'>
+    >>> print(my_list)
+    []
+
+
+2. **Initialization with an Iterable:**
+   You can also instantiate "MyList" by providing a single argument, which should be an iterable object (e.g., a list or tuple).
+
+::
+
+    >>> my_list = MyList([1, 2, 3])
+    >>> print(my_list)
+    [1, 2, 3]
+
+::
+
