@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""
-Module: inheritance_utils.py
+# Auth: Terrence M.K
+"""4-inherits_from.py
 
 This module contains a utility function called "inherits_from" that
 checks if an object inherits from a specified class.
