@@ -329,7 +329,7 @@ These are some of the basic option flags you can use when running tests with uni
 <details>
 <summary><h3>How to find edge cases</h3></summary>
 
-Finding edge cases with examples is an important aspect of software testing. Edge cases are the scenarios in which a program is expected to behave differently or where it is most likely to fail. By identifying and testing these edge cases, you can improve the robustness and reliability of your software. Here's how you can find edge cases with examples:
+Edge cases are the scenarios in which a program is expected to behave differently or where it is most likely to fail. By identifying and testing these edge cases, you can improve the robustness and reliability of your software. Here's how you can find edge cases with examples:
 
 1. **Understand the Problem Domain**:
    - Start by thoroughly understanding the problem or requirements of the software you are testing.
