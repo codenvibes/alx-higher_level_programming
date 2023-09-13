@@ -1,27 +1,17 @@
 # Auth: Terrence M.K
 # File: 1-my_list.txt
 
-※※※※※※※※※※※※※※※※※※※※※※※※
+=======================
+How to Use 1-my_list.py
+=======================
 
-How to Use the 1-my_list.py module.
+This module defines a class ``MyList`` that inherits from ``list``.
 
-※※※※※※※※※※※※※※※※※※※※※※※※
+Instantiation
+=============
 
-This documentation provides usage examples for the module "1-my_list.py" which defines a class called "MyList" that inherits from the built-in
-"list" class.
-
-※※※※※※※※※※※※※※※※※※※※※※※※
-
-**Instantiation**
-※※※※※※※※※※※※※※※※※※※※※※※※
-
-"Instantiating" is the process of creating objects (instances) based on a class's blueprint or definition. Each instance has its own set of attributes and can perform actions defined by the class's methods. ~ CHATGPT
-
-In this example, MyList() is the constructor for the MyList class, and it is used to create a new instance of the MyList class. The newly created object is assigned to the variable my_list, making it an instance of the MyList class.
-
-You can instantiate the "MyList" class in several ways:
-1. **Empty Initialization:**
-   When "MyList" is instantiated with no arguments, it returns an empty list.
+``MyList`` can be instantiated with no arguments, which will return
+an empty list:
 
 ::
 
@@ -29,12 +19,13 @@ You can instantiate the "MyList" class in several ways:
     >>> my_list = MyList()
     >>> type(my_list)
     <class '1-my_list.MyList'>
+
+::
+
     >>> print(my_list)
     []
 
-
-2. **Initialization with an Iterable:**
-   You can also instantiate "MyList" by providing a single argument, which should be an iterable object (e.g., a list or tuple).
+Or a single argument, which must be an iterable object.
 
 ::
 
@@ -42,13 +33,14 @@ You can instantiate the "MyList" class in several ways:
     >>> print(my_list)
     [1, 2, 3]
 
-   If you provide "None" or more than one argument during instantiation, a "TypeError" will be raised.
-
 ::
 
     >>> my_list = MyList(None)
     Traceback (most recent call last):
     TypeError: 'NoneType' object is not iterable
+
+
+A ``TypeError`` will be raised for any more than one instantiation arguments.
 
 ::
 
@@ -56,14 +48,11 @@ You can instantiate the "MyList" class in several ways:
     Traceback (most recent call last):
     TypeError: list() takes at most 1 argument (2 given)
 
+Usage
+=====
 
-**Usage**
-※※※※※※※※※※※※※※※※※※※※※※※※
-
-"MyList" inherits the methods of the built-in "list" class. You can use these methods to manipulate and work with "MyList" objects.
-
-1. **Append Elements:**
-   You can add elements to a "MyList" using the "append()" method.
+``MyList`` is an inherited ``list`` class, and thus features the same methods.
+For instance, elements can be added to a ``MyList`` with the ``append()`` method.
 
 ::
 
@@ -74,8 +63,7 @@ You can instantiate the "MyList" class in several ways:
     >>> print(my_list)
     [1, 2, 3]
 
-
-2. **Replace Elements with Indexing:**
+Replaced with indexing:
 
 ::
 
@@ -83,8 +71,7 @@ You can instantiate the "MyList" class in several ways:
     >>> print(my_list)
     [5, 2, 3]
 
-
-3. **Remove Elements:**
+And removed with the ``remove()`` method.
 
 ::
 
@@ -92,26 +79,30 @@ You can instantiate the "MyList" class in several ways:
     >>> print(my_list)
     [2, 3]
 
-"MyList" supports other built-in methods available for Python lists. You can refer to the Python list documentation for more details.
+See the documentation on Python lists for more built-in methods.
 
+``print_sorted`` Method
+=======================
 
-**"print_sorted" Method**
-※※※※※※※※※※※※※※※※※※※※※※※※
-
-"MyList" defines a single Public instance method called "print_sorted(self)".
-
-1. **Method Signature:**
-   The method takes no arguments. If you provide an argument, a "TypeError" will be raised.
+``MyList`` implements a single method - a public instance method
+``print_sorted(self)``.
 
 ::
+
     >>> my_list = MyList()
+    >>> print(my_list.print_sorted)
+    <bound method MyList.print_sorted of []>
+
+The method takes no arguments - a TypeError will be raised if an argument is
+provided.
+
+::
+
     >>> my_list.print_sorted(1)
     Traceback (most recent call last):
     TypeError: print_sorted() takes 1 positional argument but 2 were given
 
-
-2. **Sorting Elements:**
-   The "print_sorted()" method prints the list in ascending sorted order without altering the original list.
+The method prints the list in ascending sorted order.
 
 ::
 
@@ -122,29 +113,45 @@ You can instantiate the "MyList" class in several ways:
     >>> my_list.append(5)
     >>> print(my_list)
     [1, 4, 2, 3, 5]
+
+::
+
     >>> my_list.print_sorted()
     [1, 2, 3, 4, 5]
 
+The order of the original list is not altered after a call to the method.
 
-3. **Lexicographical Sorting for Strings:**
-    If the list contains strings, they will be sorted lexicographically.
+::
+
+    >>> print(my_list)
+    [1, 4, 2, 3, 5]
+
+Note that lists of strings are sorted lexographically.
 
 ::
 
     >>> my_list = MyList()
-    >>> my_list.append("Apple")
-    >>> my_list.append("Banana")
-    >>> my_list.append("Cherry")
-    >>> my_list.append("Grape")
-    >>> my_list.append("Orange")
+    >>> my_list.append("Brennan")
+    >>> my_list.append("Poppy")
+    >>> my_list.append("School")
+    >>> my_list.append("Holberton")
+    >>> my_list.append("Betty")
     >>> print(my_list)
-    ['Apple', 'Banana', 'Cherry', 'Grape', 'Orange']
+    ['Brennan', 'Poppy', 'School', 'Holberton', 'Betty']
+
+::
+
     >>> my_list.print_sorted()
-    ['Banana', 'Apple', 'Cherry', 'Grape', 'Orange']
+    ['Betty', 'Brennan', 'Holberton', 'Poppy', 'School']
 
+Another friendly reminder that the original list is unaltered :)
 
-4. **Handling Empty Lists:**
-   If the list is empty, "print_sorted()" will return an empty list.
+::
+
+    >>> print(my_list)
+    ['Brennan', 'Poppy', 'School', 'Holberton', 'Betty']
+
+Nothing to sort with empty lists.
 
 ::
 
@@ -152,9 +159,8 @@ You can instantiate the "MyList" class in several ways:
     >>> my_list.print_sorted()
     []
 
-
-5. **Type Error for Incompatible Types:**
-   If the list contains elements of different types that cannot be compared, a "TypeError" will be raised.
+If ``print_sorted(...)`` is called on a list of different types, a TypeError
+will be raised.
 
 ::
 
