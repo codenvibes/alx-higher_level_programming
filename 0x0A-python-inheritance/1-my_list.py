@@ -10,10 +10,10 @@ class MyList(list):
     """
     A custom list class that inherites from the built-in list class.
     """
+    
     def print_sorted(self):
         """
         This method creates a copy of the list, sorts the copy, and then
         prints it.
         """
-        copy_of_list = self[:]
-        print(sorted(copy_of_list))
+        print(sorted(self))
