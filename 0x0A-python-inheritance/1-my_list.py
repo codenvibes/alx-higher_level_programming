@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# Auth: Terrence M.K
+# File: 1-my_list.py
 """
 This module defines a custom list class.
 """
