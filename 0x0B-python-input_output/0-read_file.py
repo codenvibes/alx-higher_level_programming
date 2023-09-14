@@ -11,12 +11,14 @@ def read_file(filename=""):
     Read and print the contents of a file.
 
     Args:
-        filename (str): The name of the file to be read. Defaults to an empty string.
+        filename (str): The name of the file to be read. Defaults to an
+        empty string.
 
     Returns:
         None
 
-    This function opens the specified file, reads its contents, and prints them to the standard output.
+    This function opens the specified file, reads its contents, and prints
+    them to the standard output.
 
     Example:
         >>> read_file("example.txt")
