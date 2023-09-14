@@ -10,9 +10,10 @@ def add_attribute(obj, att, value):
     """
     Add an attribute to an object.
 
-    This function adds a new attribute, specified by 'att', with the given 'value'
-    to the provided object 'obj'. It checks whether the object supports attribute
-    assignment by verifying the presence of the '__dict__' attribute.
+    This function adds a new attribute, specified by 'att', with the given
+    'value' to the provided object 'obj'. It checks whether the object
+    supports attribute assignment by verifying the presence of the '__dict__'
+    attribute.
 
     Args:
         obj (object): The object to which the attribute will be added.
@@ -20,7 +21,8 @@ def add_attribute(obj, att, value):
         value (any): The value to be assigned to the new attribute.
 
     Raises:
-        TypeError: If the provided object does not support attribute assignment.
+        TypeError: If the provided object does not support attribute
+        assignment.
 
     Example:
         >>> class ExampleObject:
