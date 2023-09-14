@@ -19,10 +19,11 @@ class MyInt(int):
             value (int): The value to compare with.
 
         Returns:
-            bool: True if the real part of this MyInt is not equal to the given value, False otherwise.
+            bool: True if the real part of this MyInt is not equal to
+            the given value, False otherwise.
         """
         return self.real != value
-    
+
     def __ne__(self, value):
         """
         Custom inequality comparison (__ne__) method.
@@ -31,6 +32,7 @@ class MyInt(int):
             value (int): The value to compare with.
 
         Returns:
-            bool: True if the real part of this MyInt is equal to the given value, False otherwise.
+            bool: True if the real part of this MyInt is equal to the given
+            value, False otherwise.
         """
         return self.real == value
