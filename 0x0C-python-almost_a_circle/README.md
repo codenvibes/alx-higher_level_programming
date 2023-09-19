@@ -33,10 +33,142 @@ You will also learn about:
 # Learning Objectives
 <details>
 <summary><h3>What is Unit testing and how to implement it in a large project</h3></summary>
+
+Unit testing is a software testing technique where individual components or units of a software application are tested in isolation to ensure they work as expected. These "units" are typically functions, methods, or classes, and the goal of unit testing is to verify that each unit performs its intended functionality correctly. Unit tests are typically automated and are written by developers to catch and prevent regressions (unexpected issues) in their code as it evolves.
+
+Here are the steps to implement unit testing in Python:
+
+1. Choose a Testing Framework:
+   Python has several testing frameworks available, but two of the most popular ones are `unittest` (inspired by Java's JUnit) and `pytest`. You can choose the one that best fits your project's requirements. In this example, we'll use `unittest`.
+
+2. Create Test Cases:
+   Write test cases for each unit of code you want to test. Test cases are functions or methods that verify specific behaviors of your code. They typically follow a naming convention like `test_something()` to indicate that they are tests.
+
+3. Import the Testing Framework:
+   Import the testing framework you've chosen at the beginning of your test file.
+
+4. Write Test Functions:
+   Write test functions within your test file that use the testing framework's assertions to check if the actual output of your code matches the expected output. Common assertions include `assertEqual()`, `assertTrue()`, `assertFalse()`, etc.
+
+5. Organize Your Tests:
+   Group related test functions into test classes. These test classes should inherit from the testing framework's base class (e.g., `unittest.TestCase`).
+
+6. Run the Tests:
+   Use the testing framework's test runner to execute your tests. You can usually run tests from the command line or integrate them into your development environment.
+
+7. Analyze Test Results:
+   After running the tests, the testing framework will provide feedback on which tests passed and which failed. If a test fails, you'll need to investigate and fix the underlying issue in your code.
+
+Here's a simple example of unit testing in Python using the `unittest` framework:
+
+```python
+import unittest
+
+# The code you want to test (a simple function)
+def add(a, b):
+    return a + b
+
+# Create a test class that inherits from unittest.TestCase
+class TestAddition(unittest.TestCase):
+
+    def test_add_positive_numbers(self):
+        self.assertEqual(add(2, 3), 5)  # Check if 2 + 3 equals 5
+
+    def test_add_negative_numbers(self):
+        self.assertEqual(add(-2, -3), -5)  # Check if -2 + -3 equals -5
+
+    def test_add_mixed_numbers(self):
+        self.assertEqual(add(2, -3), -1)  # Check if 2 + -3 equals -1
+
+if __name__ == '__main__':
+    unittest.main()
+```
+
+To run these tests, save the code in a `.py` file (e.g., `test_math.py`) and execute it using Python. The `unittest.main()` function will discover and run the test cases, and you'll see the test results in the console.
+
+Remember to write test cases that cover various scenarios and edge cases to ensure the robustness of your code. Unit testing is an essential practice in software development to catch and fix bugs early in the development process.
 </details>
 
 <details>
 <summary><h3>How to serialize and deserialize a Class</h3></summary>
+
+Serialization and deserialization are processes used to convert complex data structures like classes and objects into a format that can be easily stored, transmitted, or reconstructed later. Python provides several modules and libraries for serialization and deserialization, with two of the most common being `pickle` and `json`. 
+
+Here's how to serialize and deserialize a class in Python using both `pickle` and `json`:
+
+### Using `pickle` (Python-specific):
+
+`pickle` is a Python-specific module that can serialize and deserialize Python objects. It can handle complex Python objects, including classes and instances, but it is not recommended to use it with untrusted or unauthenticated data as it may execute arbitrary code during deserialization.
+
+```python
+import pickle
+
+# Define a simple class
+class MyClass:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+# Create an instance of the class
+obj = MyClass("Alice", 30)
+
+# Serialize the object to a binary string
+serialized_obj = pickle.dumps(obj)
+
+# Save the serialized object to a file
+with open("myclass.pickle", "wb") as file:
+    file.write(serialized_obj)
+
+# Deserialize the object from the file
+with open("myclass.pickle", "rb") as file:
+    deserialized_obj = pickle.load(file)
+
+# Now, deserialized_obj is an instance of MyClass
+print(deserialized_obj.name)  # Output: Alice
+print(deserialized_obj.age)   # Output: 30
+```
+
+### Using `json` (cross-language):
+
+`json` is a more widely used format for serialization because it's human-readable and cross-language compatible. However, it can only serialize simple data types (e.g., dictionaries, lists, strings, numbers).
+
+To serialize a class instance with `json`, you need to convert the object's attributes into a dictionary and then serialize the dictionary:
+
+```python
+import json
+
+# Define a class
+class MyClass:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+# Create an instance of the class
+obj = MyClass("Alice", 30)
+
+# Convert the object to a dictionary
+obj_dict = {"name": obj.name, "age": obj.age}
+
+# Serialize the dictionary to a JSON string
+serialized_obj = json.dumps(obj_dict)
+
+# Save the JSON string to a file
+with open("myclass.json", "w") as file:
+    file.write(serialized_obj)
+
+# Deserialize the object from the file
+with open("myclass.json", "r") as file:
+    deserialized_obj_dict = json.load(file)
+
+# Create an instance of the class from the dictionary
+deserialized_obj = MyClass(deserialized_obj_dict["name"], deserialized_obj_dict["age"])
+
+# Now, deserialized_obj is an instance of MyClass
+print(deserialized_obj.name)  # Output: Alice
+print(deserialized_obj.age)   # Output: 30
+```
+
+Keep in mind that when using `json`, you can only serialize simple data types and not complex behaviors or methods defined within a class. If you need to preserve the behavior of a class, `pickle` might be a better choice for Python-specific applications.
 </details>
 
 <details>
