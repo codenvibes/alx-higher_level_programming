@@ -179,6 +179,68 @@ Keep in mind that when using `json`, you can only serialize simple data types an
 
 <details>
 <summary><h3>How to write and read a JSON file</h3></summary>
+
+Writing and reading a JSON file in Python is straightforward, thanks to the built-in `json` module. Here are the steps to write and read a JSON file:
+
+<br>
+<p align="center">※※※※※※※※※※※※</p>
+
+#### Writing a JSON File:
+
+1. Create a Python dictionary or list that you want to store as JSON data.
+
+2. Use the `json.dump()` function to write the data to a JSON file. This function takes two arguments: the data to write and the file object to write to.
+
+3. Ensure that the file is opened in write mode (`"w"` or `"wb"` for binary mode) and that you specify the filename with a `.json` extension.
+
+```python
+import json
+
+# Data to write to the JSON file (a dictionary in this example)
+data = {
+    "name": "Alice",
+    "age": 30,
+    "city": "New York"
+}
+
+# Specify the filename
+filename = "data.json"
+
+# Write the data to the JSON file
+with open(filename, "w") as json_file:
+    json.dump(data, json_file, indent=4)  # indent for pretty formatting (optional)
+```
+
+This code will create a JSON file named "data.json" and write the `data` dictionary to it.
+
+<br>
+<p align="center">※※※※※※※※※※※※</p>
+
+#### Reading a JSON File:
+
+1. Open the JSON file in read mode (`"r"` or `"rb"` for binary mode).
+
+2. Use the `json.load()` function to read the JSON data from the file and parse it into a Python dictionary or list.
+
+```python
+import json
+
+# Specify the filename to read from
+filename = "data.json"
+
+# Read the JSON data from the file
+with open(filename, "r") as json_file:
+    loaded_data = json.load(json_file)
+
+# Now, loaded_data is a Python dictionary containing the JSON data
+print(loaded_data)
+```
+
+This code will read the JSON data from "data.json" and store it in the `loaded_data` variable as a Python dictionary.
+
+Make sure that the JSON file exists in the specified location before attempting to read from it, or handle exceptions to deal with potential file not found errors.
+
+Remember that the `json` module is suitable for handling simple data structures like dictionaries and lists. If you need to work with more complex objects or custom classes, you might consider using other serialization techniques like `pickle` or a dedicated data serialization library.
 </details>
 
 <details>
