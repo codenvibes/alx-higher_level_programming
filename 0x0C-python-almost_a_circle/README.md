@@ -96,7 +96,11 @@ Serialization and deserialization are processes used to convert complex data str
 
 Here's how to serialize and deserialize a class in Python using both `pickle` and `json`:
 
-### Using `pickle` (Python-specific):
+<br>
+<p align="center">※※※※※※※※※※※※</p>
+<br>
+
+#### Using `pickle` (Python-specific):
 
 `pickle` is a Python-specific module that can serialize and deserialize Python objects. It can handle complex Python objects, including classes and instances, but it is not recommended to use it with untrusted or unauthenticated data as it may execute arbitrary code during deserialization.
 
@@ -127,6 +131,10 @@ with open("myclass.pickle", "rb") as file:
 print(deserialized_obj.name)  # Output: Alice
 print(deserialized_obj.age)   # Output: 30
 ```
+
+<br>
+<p align="center">※※※※※※※※※※※※</p>
+<br>
 
 ### Using `json` (cross-language):
 
