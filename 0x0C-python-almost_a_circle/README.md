@@ -92,7 +92,7 @@ You will also learn about:
 <details>
 <summary>
 
-### 0. 
+### 0. If it's not tested it doesn't work
 `mandatory`
 
 File: [tests/]()
@@ -116,10 +116,10 @@ Note that this is just an example. The number of tests you create can be differe
 <details>
 <summary>
 
-### 1. 
+### 1. Base class
 `mandatory`
 
-File: []()
+File: [models/base.py](), [models/__init__.py]()
 </summary>
 
 Write the first class `Base`:
@@ -171,10 +171,10 @@ guillaume@ubuntu:~/$
 <details>
 <summary>
 
-### 2. 
+### 2. First Rectangle
 `mandatory`
 
-File: []()
+File: [models/rectangle.py]()
 </summary>
 
 
@@ -183,10 +183,10 @@ File: []()
 <details>
 <summary>
 
-### 3. 
+### 3. Validate attributes
 `mandatory`
 
-File: []()
+File: [models/rectangle.py]()
 </summary>
 
 
@@ -195,10 +195,10 @@ File: []()
 <details>
 <summary>
 
-### 4. 
+### 4. Area first
 `mandatory`
 
-File: []()
+File: [models/rectangle.py]()
 </summary>
 
 
@@ -207,10 +207,10 @@ File: []()
 <details>
 <summary>
 
-### 5. 
+### 5. Display #0
 `mandatory`
 
-File: []()
+File: [models/rectangle.py]()
 </summary>
 
 
@@ -219,10 +219,10 @@ File: []()
 <details>
 <summary>
 
-### 6. 
+### 6. __str__
 `mandatory`
 
-File: []()
+File: [models/rectangle.py]()
 </summary>
 
 
@@ -231,10 +231,10 @@ File: []()
 <details>
 <summary>
 
-### 7. 
+### 7. Display #1
 `mandatory`
 
-File: []()
+File: [models/rectangle.py]()
 </summary>
 
 
@@ -243,10 +243,10 @@ File: []()
 <details>
 <summary>
 
-### 8. 
+### 8. Update #0
 `mandatory`
 
-File: []()
+File: [models/rectangle.py]()
 </summary>
 
 
@@ -255,10 +255,10 @@ File: []()
 <details>
 <summary>
 
-### 9. 
+### 9. Update #1
 `mandatory`
 
-File: []()
+File: [models/rectangle.py]()
 </summary>
 
 
@@ -267,10 +267,10 @@ File: []()
 <details>
 <summary>
 
-### 10. 
+### 10. And now, the Square!
 `mandatory`
 
-File: []()
+File: [models/square.py]()
 </summary>
 
 
@@ -279,10 +279,10 @@ File: []()
 <details>
 <summary>
 
-### 11. 
+### 11. Square size
 `mandatory`
 
-File: []()
+File: [models/square.py]()
 </summary>
 
 
@@ -291,10 +291,10 @@ File: []()
 <details>
 <summary>
 
-### 12. 
+### 12. Square update
 `mandatory`
 
-File: []()
+File: [models/square.py]()
 </summary>
 
 
@@ -303,10 +303,10 @@ File: []()
 <details>
 <summary>
 
-### 13. 
+### 13. Rectangle instance to dictionary representation
 `mandatory`
 
-File: []()
+File: [models/rectangle.py]()
 </summary>
 
 
@@ -315,10 +315,10 @@ File: []()
 <details>
 <summary>
 
-### 14. 
+### 14. Square instance to dictionary representation
 `mandatory`
 
-File: []()
+File: [models/square.py]()
 </summary>
 
 
@@ -327,10 +327,10 @@ File: []()
 <details>
 <summary>
 
-### 15. 
+### 15. Dictionary to JSON string
 `mandatory`
 
-File: []()
+File: [models/base.py]()
 </summary>
 
 
@@ -339,10 +339,10 @@ File: []()
 <details>
 <summary>
 
-### 16. 
+### 16. JSON string to file
 `mandatory`
 
-File: []()
+File: [models/base.py]()
 </summary>
 
 
@@ -351,10 +351,10 @@ File: []()
 <details>
 <summary>
 
-### 17. 
+### 17. JSON string to dictionary
 `mandatory`
 
-File: []()
+File: [models/base.py]()
 </summary>
 
 
@@ -363,10 +363,10 @@ File: []()
 <details>
 <summary>
 
-### 18. 
+### 18. Dictionary to Instance
 `mandatory`
 
-File: []()
+File: [models/base.py]()
 </summary>
 
 
@@ -375,10 +375,10 @@ File: []()
 <details>
 <summary>
 
-### 19. 
+### 19. File to instances
 `mandatory`
 
-File: []()
+File: [models/base.py]()
 </summary>
 
 
@@ -387,10 +387,10 @@ File: []()
 <details>
 <summary>
 
-### 20. 
+### 20. JSON ok, but CSV?
 `#advanced`
 
-File: []()
+File: [models/]()
 </summary>
 
 
@@ -399,10 +399,10 @@ File: []()
 <details>
 <summary>
 
-### 21. 
+### 21. Let's draw it
 `#advanced`
 
-File: []()
+File: [models/base.py]()
 </summary>
 
 
