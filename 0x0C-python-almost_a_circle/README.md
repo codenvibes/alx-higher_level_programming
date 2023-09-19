@@ -98,7 +98,6 @@ Here's how to serialize and deserialize a class in Python using both `pickle` an
 
 <br>
 <p align="center">※※※※※※※※※※※※</p>
-<br>
 
 #### Using `pickle` (Python-specific):
 
@@ -134,9 +133,8 @@ print(deserialized_obj.age)   # Output: 30
 
 <br>
 <p align="center">※※※※※※※※※※※※</p>
-<br>
 
-### Using `json` (cross-language):
+#### Using `json` (cross-language):
 
 `json` is a more widely used format for serialization because it's human-readable and cross-language compatible. However, it can only serialize simple data types (e.g., dictionaries, lists, strings, numbers).
 
