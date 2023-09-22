@@ -17,9 +17,9 @@ In this project, you will review everything about Python:
 - Read/Write file
 
 You will also learn about:
-- args and kwargs
+- `args` and `kwargs`
 - Serialization/Deserialization
-- SON
+- JSON
 
 # Resources
 - [args/kwargs](https://yasoob.me/2013/08/04/args-and-kwargs-in-python-explained/)
