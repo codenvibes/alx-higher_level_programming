@@ -105,3 +105,24 @@ class Rectangle(Base):
             width and height.
         """
         return (self.width * self.height)
+
+    def display(self):
+        """
+        Display the rectangle by printing it to the console.
+
+        The rectangle is represented using '#' characters. The 'x' and 'y'
+        attributes determine the offset from the top-left corner where the
+        rectangle is drawn.
+
+        Example:
+            If 'x' is 2 and 'y' is 1, the rectangle will be indented by 2
+            spaces horizontally and 1 space vertically before printing.
+
+        Returns:
+            None
+        """
+        [print("") for y in range(self.y)]
+        for h in range(self.height):
+            [print(" ", end="") for x in range(self.x)]
+            [print("#", end="") for w in range(self.width)]
+            print("")
