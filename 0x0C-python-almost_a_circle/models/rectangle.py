@@ -155,7 +155,7 @@ class Rectangle(Base):
         Args:
             *args: Positional arguments that can be used to update the
             attributes in the following order: id, width, height, x, y.
-            **kwargs: Keyword arguments that can be used to update the 
+            **kwargs: Keyword arguments that can be used to update the
             attributes using attribute names as keys.
 
         Example:
@@ -166,7 +166,8 @@ class Rectangle(Base):
             >>> print(r)
             [Rectangle] (30) 0/0 - 10/20
 
-            To update the x and y position of a rectangle using keyword arguments:
+            To update the x and y position of a rectangle using keyword
+            arguments:
             >>> r = Rectangle(10, 20)
             >>> r.update(x=5, y=8)
             >>> print(r)
