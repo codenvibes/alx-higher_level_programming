@@ -106,3 +106,26 @@ class Square(Rectangle):
                     self.x = v
                 elif k == "y":
                     self.y = v
+
+    def to_dictionary(self):
+        """
+        Returns a dictionary representation of the Square object.
+
+        This method creates and returns a dictionary containing the attributes
+        of the Square object in the following format:
+        {
+            "id": (int) The unique identifier of the square,
+            "size": (int) The size (side length) of the square,
+            "x": (int) The x-coordinate of the square's position,
+            "y": (int) The y-coordinate of the square's position
+        }
+
+        Returns:
+            dict: A dictionary representation of the Square object.
+        """
+        return {
+            "id": self.id,
+            "size": self.width,
+            "x": self.x,
+            "y": self.y
+        }
