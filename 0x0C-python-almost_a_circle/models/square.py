@@ -55,3 +55,54 @@ class Square(Rectangle):
         """
         return ("[Square] ({}) {}/{} {}".format(self.id, self.x, self.y,
                                                 self.width))
+
+    def update(self, *args, **kwargs):
+        """
+        Updates the Square object with new attributes.
+
+        This method allows updating the attributes of the Square object
+        using either positional arguments or keyword arguments. If using
+        positional arguments, the order should be: id, size, x, and y.
+
+        Args:
+            *args: Variable-length argument list.
+                If provided, should be in the order: id, size, x, y.
+            **kwargs: Arbitrary keyword arguments.
+                Accepts the following keyword arguments:
+                - id (int): The new unique identifier of the square.
+                - size (int): The new size (side length) of the square.
+                - x (int): The new x-coordinate of the square's position.
+                - y (int): The new y-coordinate of the square's position.
+
+        Example usage:
+            square = Square(2, 0, 0, 1)
+            square.update(2, 3, 1, 1)
+            # or
+            square.update(size=3, x=1, y=1)
+
+        Returns:
+            None
+        """
+        if args and len(args) != 0:
+            a = 0
+            for arg in args:
+                if a == 0:
+                    self.id = arg
+                elif a == 1:
+                    self.size = arg
+                elif a == 2:
+                    self.x = arg
+                elif a == 3:
+                    self.y = arg
+                a += 1
+
+        elif kwargs and len(kwargs) != 0:
+            for k, v in kwargs.items():
+                if k == "id":
+                    self.id = v
+                elif k == "size":
+                    self.size = v
+                elif k == "x":
+                    self.x = v
+                elif k == "y":
+                    self.y = v
