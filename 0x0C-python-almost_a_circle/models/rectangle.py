@@ -145,28 +145,32 @@ class Rectangle(Base):
                                                         self.y, self.width,
                                                         self.height))
 
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         """
         Update the attributes of the Rectangle instance.
 
-        This method allows you to update one or more attributes of the
-        rectangle
-        using positional arguments. The order of the arguments should be as
-        follows:
-            1. If provided, the first argument updates the ID of the
-            rectangle.
-            2. If provided, the second argument updates the width of the
-            rectangle.
-            3. If provided, the third argument updates the height of the
-            rectangle.
-            4. If provided, the fourth argument updates the x-coordinate of
-            the top-left corner of the rectangle.
-            5. If provided, the fifth argument updates the y-coordinate of
-            the top-left corner of the rectangle.
+        This method allows you to update the attributes of the Rectangle
+        instance using either positional arguments or keyword arguments.
 
         Args:
-            *args: Positional arguments to update the attributes of the
-            rectangle.
+            *args: Positional arguments that can be used to update the
+            attributes in the following order: id, width, height, x, y.
+            **kwargs: Keyword arguments that can be used to update the 
+            attributes using attribute names as keys.
+
+        Example:
+            To update the width and height of a rectangle using positional
+            arguments:
+            >>> r = Rectangle(10, 20)
+            >>> r.update(30, 40)
+            >>> print(r)
+            [Rectangle] (30) 0/0 - 10/20
+
+            To update the x and y position of a rectangle using keyword arguments:
+            >>> r = Rectangle(10, 20)
+            >>> r.update(x=5, y=8)
+            >>> print(r)
+            [Rectangle] (1) 5/8 - 10/20
 
         Returns:
             None
@@ -185,3 +189,14 @@ class Rectangle(Base):
                 elif a == 4:
                     self.y = arg
                 a += 1
+
+        elif kwargs and len(kwargs) != 0:
+            for k, v in kwargs.items():
+                if k == "id":
+                    self.id = v
+                elif k == "size":
+                    self.size = v
+                elif k == "x":
+                    self.x = v
+                elif k == "y":
+                    self.y = v
