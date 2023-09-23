@@ -88,14 +88,17 @@ class Base:
     @classmethod
     def create(cls, **dictionary):
         """
-        Create a new instance of the class with attributes specified in a dictionary.
+        Create a new instance of the class with attributes specified in a
+        dictionary.
 
         Args:
             cls (class): The class calling this method.
-            **dictionary: Arbitrary keyword arguments representing attributes and their values.
+            **dictionary: Arbitrary keyword arguments representing
+            attributes and their values.
 
         Returns:
-            obj: A new instance of the class with attributes set according to the provided dictionary.
+            obj: A new instance of the class with attributes set according
+            to the provided dictionary.
 
         Example:
             If the class has attributes 'name' and 'age', and you call
