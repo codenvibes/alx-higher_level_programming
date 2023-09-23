@@ -41,7 +41,7 @@ class Base:
         if list_dictionaries is None or len(list_dictionaries) == 0:
             return "[]"
         return json.dumps(list_dictionaries)
-    
+
     @classmethod
     def save_to_file(cls, list_objs):
         """
@@ -61,3 +61,25 @@ class Base:
             else:
                 list_dicts = [o.to_dictionary() for o in list_objs]
                 f.write(Base.to_json_string(list_dicts))
+
+    @staticmethod
+    def from_json_string(json_string):
+        """
+        Convert a JSON-formatted string to a list of dictionaries.
+
+        Args:
+            json_string (str): A JSON-formatted string to be converted.
+
+        Returns:
+            list: A list of dictionaries parsed from the input JSON string.
+                If the input string is empty or None, an empty list "[]" is
+                returned.
+
+        Example:
+            If the input JSON string is '[{"name": "Alice", "age": 30}, {"name": "Bob", "age": 25}]',
+            the method will return:
+            [{'name': 'Alice', 'age': 30}, {'name': 'Bob', 'age': 25}]
+        """
+        if json_string is None or json_string == "[]":
+            return []
+        return json.loads(json_string)
