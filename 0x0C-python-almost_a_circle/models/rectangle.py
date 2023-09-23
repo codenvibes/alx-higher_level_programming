@@ -203,3 +203,19 @@ class Rectangle(Base):
                     self.x = v
                 elif k == "y":
                     self.y = v
+
+    def to_dictionary(self):
+        """
+        Convert the Rectangle instance to a dictionary representation.
+
+        Returns:
+            dict: A dictionary containing the attributes of the Rectangle,
+                including 'id', 'width', 'height', 'x', and 'y'.
+        """
+        return {
+            "id": self.id,
+            "width": self.width,
+            "height": self.height,
+            "x": self.x,
+            "y": self.y
+        }
