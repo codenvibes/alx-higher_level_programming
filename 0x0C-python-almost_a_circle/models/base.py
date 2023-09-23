@@ -108,3 +108,29 @@ class Base:
         new = cls(7, 7)
         new.update(**dictionary)
         return new
+
+    @classmethod
+    def load_from_file(cls):
+        """
+        Load objects from a JSON file named after the class and create instances.
+
+        This method reads data from a JSON file named after the class (e.g., "ClassName.json"),
+        deserializes it into a list of dictionaries, and uses the class's create method
+        to create instances of the class with attributes defined in the dictionaries.
+
+        Returns:
+            list: A list of instances of the class created from the data in the JSON file.
+                If the file does not exist or is empty, an empty list is returned.
+
+        Example:
+            If the class is named 'MyClass' and there is a file named 'MyClass.json' containing
+            serialized data for instances of 'MyClass', calling this method will create and
+            return a list of 'MyClass' instances with attributes specified in the JSON data.
+        """
+        filename = str(cls.__name__) + ".json"
+        try:
+            with open(filename, "r") as f:
+                list_dicts = Base.from_json_string(f.read())
+                return [cls.create(**d) for d in list_dicts]
+        except IOError:
+            return []
