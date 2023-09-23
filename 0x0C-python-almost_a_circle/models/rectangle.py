@@ -141,6 +141,47 @@ class Rectangle(Base):
         Returns:
             str: A string representation of the Rectangle instance.
         """
-        return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id, self.x,
-                                                       self.y,
-                                                       self.width, self.height)
+        return ("[Rectangle] ({}) {}/{} - {}/{}".format(self.id, self.x,
+                                                        self.y, self.width,
+                                                        self.height))
+
+    def update(self, *args):
+        """
+        Update the attributes of the Rectangle instance.
+
+        This method allows you to update one or more attributes of the
+        rectangle
+        using positional arguments. The order of the arguments should be as
+        follows:
+            1. If provided, the first argument updates the ID of the
+            rectangle.
+            2. If provided, the second argument updates the width of the
+            rectangle.
+            3. If provided, the third argument updates the height of the
+            rectangle.
+            4. If provided, the fourth argument updates the x-coordinate of
+            the top-left corner of the rectangle.
+            5. If provided, the fifth argument updates the y-coordinate of
+            the top-left corner of the rectangle.
+
+        Args:
+            *args: Positional arguments to update the attributes of the
+            rectangle.
+
+        Returns:
+            None
+        """
+        if args and len(args) != 0:
+            a = 0
+            for arg in args:
+                if a == 0:
+                    self.id = arg
+                elif a == 1:
+                    self.width = arg
+                elif a == 2:
+                    self.height = arg
+                elif a == 3:
+                    self.x = arg
+                elif a == 4:
+                    self.y = arg
+                a += 1
