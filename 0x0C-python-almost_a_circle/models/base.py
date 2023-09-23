@@ -76,7 +76,8 @@ class Base:
                 returned.
 
         Example:
-            If the input JSON string is '[{"name": "Alice", "age": 30}, {"name": "Bob", "age": 25}]',
+            If the input JSON string is '[{"name": "Alice", "age": 30},
+            {"name": "Bob", "age": 25}]',
             the method will return:
             [{'name': 'Alice', 'age': 30}, {'name': 'Bob', 'age': 25}]
         """
