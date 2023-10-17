@@ -160,7 +160,7 @@
 # More Info
 
 <details>
-<summary><b>Comments for your SQL file:</b></summary>
+<summary><b>Comments for your SQL file:</b></summary><br>
 
 ```
 $ cat my_script.sql
