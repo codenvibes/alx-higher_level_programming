@@ -1,148 +1,148 @@
 <h1 align="center"><b>0x0D. SQL - INTRODUCTION</b></h1>
-<div align="center"><code></code> <code></code></div>
+<div align="center"><code>SQL</code> <code>MySQL</code></div>
 
 <!-- # Background Context -->
 
 # Resources
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href="https://intranet.alxswe.com/concepts/37">Databases</a></b></summary>
 
 
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href="https://intranet.alxswe.com/concepts/556">Databases</a></b></summary>
 
 
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href="https://www.youtube.com/watch?v=FR4QIeZaPeM">What is Database & SQL?</a></b></summary>
 
 
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href="https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04">A Basic MySQL Tutorial</a></b></summary>
 
 
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href="https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/ddldml.php">Basic SQL statements: DDL and DML</a> (no need to read the chapter “Privileges”)</b></summary>
 
 
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href="https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/queries.php">Basic queries: SQL and RA</a></b></summary>
 
 
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href="https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/functions.php">SQL technique: functions</a></b></summary>
+
+
+</details>
+
+
+<details>
+<summary><b><a href="https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/subqueries.php">SQL technique: subqueries</a></b></summary>
 
 
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href="https://stackoverflow.com/questions/29402361/what-makes-the-big-difference-between-a-backtick-and-an-apostrophe/29402458">What makes the big difference between a backtick and an apostrophe?</a></b></summary>
 
 
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href="https://intellipaat.com/mediaFiles/2019/02/SQL-Commands-Cheat-Sheet.pdf?US">MySQL Cheat Sheet</a></b></summary>
 
 
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href="https://dev.mysql.com/doc/refman/8.0/en/sql-statements.html">MySQL 8.0 SQL Statement Syntax</a></b></summary>
 
 
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href="https://phoenixnap.com/kb/install-mysql-ubuntu-20-04">installing MySQL in Ubuntu 20.04</a></b></summary>
 
 
 </details>
-
-<details>
-<summary><b><a href=" "> </a></b></summary>
-
-
-</details>
-
 
 <!-- **man or help:**
 - `` -->
 
 # Learning Objectives
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href=" "></a>What’s a database</b></summary>
 
 
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href=" "></a>What’s a relational database</b></summary>
 
 
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href=" "></a>What does SQL stand for</b></summary>
 
 
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href=" "></a>What’s MySQL</b></summary>
 
 
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href=" "></a>How to create a database in MySQL</b></summary>
 
 
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href=" "></a>What does <code>DDL</code> and <code>DML</code> stand for</b></summary>
 
 
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href=" "></a>How to <code>CREATE<c/ode> or <code>ALTER</code> a table</b></summary>
 
 
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href=" "></a>How to <code>SELECT</code> data from a table</b></summary>
 
 
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href=" "></a>How to <code>INSERT</code>, <code>UPDATE</code> or <code>DELETE</code> data</b></summary>
 
 
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href=" "></a>What are <code>subqueries</code></b></summary>
 
 
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary>
+<summary><b><a href=" "></a>How to use MySQL functions</b></summary>
 
 
 </details>
