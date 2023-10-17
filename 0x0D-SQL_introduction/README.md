@@ -172,7 +172,7 @@ $
 </details>
 
 <details>
-<summary><b>Install MySQL 8.0 on Ubuntu 20.04 LTS</b></summary>
+<summary><b>Install MySQL 8.0 on Ubuntu 20.04 LTS</b></summary><br>
 
 ```
 $ sudo apt update
@@ -205,7 +205,7 @@ $
 </details>
 
 <details>
-<summary><b>Use “container-on-demand” to run MySQL</b></summary>
+<summary><b>Use “container-on-demand” to run MySQL</b></summary><br>
 
 **In the container, credentials are `root/root`**
 
