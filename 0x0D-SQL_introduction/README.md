@@ -232,7 +232,22 @@ $
 <details>
 <summary><h3>Question 0</h3></summary>
 
-
+How to you add a new record in the table `users`?
+```
++-------+-------------------------------------------------------------------------------------------------------------------------------+
+| Table | Create Table                                                                                                                  |
++-------+-------------------------------------------------------------------------------------------------------------------------------+
+| users | CREATE TABLE `users` (
+  `id` int(11) DEFAULT NULL,
+  `name` varchar(256) DEFAULT NULL,
+  `age` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 |
++-------+-------------------------------------------------------------------------------------------------------------------------------+
+```
+- [x] INSERT INTO users (id, name, age) VALUES (2, “Betty”, 30);
+- [ ] INSERT INTO users (id, name, age) VALUES (2, “Betty”);
+- [ ] INSERT INTO users (id, name) VALUES (2, “Betty”, 30);
+- [ ] INSERT users (id, name, age) VALUES (2, “Betty”, 30);
 </details>
 
 <details>
