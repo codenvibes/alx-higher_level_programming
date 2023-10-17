@@ -253,59 +253,136 @@ How to you add a new record in the table `users`?
 <details>
 <summary><h3>Question 1</h3></summary>
 
-
+What does DDL stand for?
+- [ ] Data Document Language
+- [ ] Document Data Language
+- [ ] Database Definition Language
+- [x] Data Definition Language
 </details>
 
 <details>
 <summary><h3>Question 2</h3></summary>
 
-
+What is a relational database? (please select all correct answers)
+- [x] a collection of data
+- [x] a table containing only one object representation
+- [x] data are organized by tables, records and columns
+- [ ] data are organized by tables and indexes
+- [ ] married databases
+- [ ] a table containing multiple object representation
+- [x] a database
 </details>
 
 <details>
 <summary><h3>Question 3</h3></summary>
 
-
+What does DML stand for?
+- [x] Data Manipulation Language
+- [ ] Document Model Language
+- [ ] Document Manipulation Language
+- [ ] Database Manipulation Language
 </details>
 
 <details>
 <summary><h3>Question 4</h3></summary>
 
-
+How do you list all `users` records with `age > 21` in this table?
+```
++-------+-------------------------------------------------------------------------------------------------------------------------------+
+| Table | Create Table                                                                                                                  |
++-------+-------------------------------------------------------------------------------------------------------------------------------+
+| users | CREATE TABLE `users` (
+  `id` int(11) DEFAULT NULL,
+  `name` varchar(256) DEFAULT NULL,
+  `age` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 |
++-------+-------------------------------------------------------------------------------------------------------------------------------+
+```
+- [x] SELECT * FROM users WHERE age > 21;
+- [ ] SELECT * FROM users WHERE age BETWEEN 21 AND 89;
+- [ ] SELECT * FROM users WHERE age IS UP TO 21;
+- [ ] SELECT * FROM users WHERE age < 21;
 </details>
 
 <details>
 <summary><h3>Question 5</h3></summary>
 
-
+How do you delete the `users` record with `id = 89` in this table?
+```
++-------+-------------------------------------------------------------------------------------------------------------------------------+
+| Table | Create Table                                                                                                                  |
++-------+-------------------------------------------------------------------------------------------------------------------------------+
+| users | CREATE TABLE `users` (
+  `id` int(11) DEFAULT NULL,
+  `name` varchar(256) DEFAULT NULL,
+  `age` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 |
++-------+-------------------------------------------------------------------------------------------------------------------------------+
+```
+- [ ] DELETE FROM users;
+- [ ] DELETE FROM users WHERE id IS EQUAL TO 89;
+- [x] DELETE FROM users WHERE id = 89;
+- [ ] DELETE users WHERE id = 89;
 </details>
 
 <details>
 <summary><h3>Question 6</h3></summary>
 
-
+How do you change the name of the `users` record with `id = 89` to `Holberton`?
+```
++-------+-------------------------------------------------------------------------------------------------------------------------------+
+| Table | Create Table                                                                                                                  |
++-------+-------------------------------------------------------------------------------------------------------------------------------+
+| users | CREATE TABLE `users` (
+  `id` int(11) DEFAULT NULL,
+  `name` varchar(256) DEFAULT NULL,
+  `age` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 |
++-------+-------------------------------------------------------------------------------------------------------------------------------+
+```
+- [ ] UPDATE users SET name = “Holberton”;
+- [ ] CHANGE users SET name = “Holberton” WHERE id = 89;
+- [x] UPDATE users SET name = “Holberton” WHERE id = 89;
 </details>
 
 <details>
 <summary><h3>Question 7</h3></summary>
 
-
+How do you list all `users` in this table?
+```
++-------+-------------------------------------------------------------------------------------------------------------------------------+
+| Table | Create Table                                                                                                                  |
++-------+-------------------------------------------------------------------------------------------------------------------------------+
+| users | CREATE TABLE `users` (
+  `id` int(11) DEFAULT NULL,
+  `name` varchar(256) DEFAULT NULL,
+  `age` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 |
++-------+-------------------------------------------------------------------------------------------------------------------------------+
+```
+- [ ] SELECT ALL users;
+- [x] SELECT * FROM users;
+- [ ] DELETE * FROM users;
 </details>
 
 <details>
 <summary><h3>Question 8</h3></summary>
 
-
+What does SQL stand for?
+- [ ] Solid Query Language
+- [ ] Structured Question Language
+- [x] Structured Query Language
+- [ ] Sequences of Query Logic
 </details>
 
 # Tasks
 <details>
 <summary>
 
-### 0. 
+### 0. List databases
 `mandatory`
 
-File: []()
+File: [0-list_databases.sql]()
 </summary>
 
 
@@ -314,10 +391,10 @@ File: []()
 <details>
 <summary>
 
-### 1. 
+### 1. Create a database
 `mandatory`
 
-File: []()
+File: [1-create_database_if_missing.sql]()
 </summary>
 
 
@@ -326,10 +403,10 @@ File: []()
 <details>
 <summary>
 
-### 2. 
+### 2. Delete a database
 `mandatory`
 
-File: []()
+File: [2-remove_database.sql]()
 </summary>
 
 
@@ -338,10 +415,10 @@ File: []()
 <details>
 <summary>
 
-### 3. 
+### 3. List tables
 `mandatory`
 
-File: []()
+File: [3-list_tables.sql]()
 </summary>
 
 
@@ -350,10 +427,10 @@ File: []()
 <details>
 <summary>
 
-### 4. 
+### 4. First table
 `mandatory`
 
-File: []()
+File: [4-first_table.sql]()
 </summary>
 
 
@@ -362,10 +439,10 @@ File: []()
 <details>
 <summary>
 
-### 5. 
+### 5. Full description
 `mandatory`
 
-File: []()
+File: [5-full_table.sql]()
 </summary>
 
 
@@ -374,10 +451,10 @@ File: []()
 <details>
 <summary>
 
-### 6. 
+### 6. List all in table
 `mandatory`
 
-File: []()
+File: [6-list_values.sql]()
 </summary>
 
 
@@ -386,10 +463,10 @@ File: []()
 <details>
 <summary>
 
-### 7. 
+### 7. First add
 `mandatory`
 
-File: []()
+File: [7-insert_value.sql]()
 </summary>
 
 
@@ -398,10 +475,10 @@ File: []()
 <details>
 <summary>
 
-### 8. 
+### 8. Count 89
 `mandatory`
 
-File: []()
+File: [8-count_89.sql]()
 </summary>
 
 
@@ -410,10 +487,10 @@ File: []()
 <details>
 <summary>
 
-### 9. 
+### 9. Full creation
 `mandatory`
 
-File: []()
+File: [9-full_creation.sql]()
 </summary>
 
 
@@ -422,10 +499,10 @@ File: []()
 <details>
 <summary>
 
-### 10. 
+### 10. List by best
 `mandatory`
 
-File: []()
+File: [10-top_score.sql]()
 </summary>
 
 
@@ -434,10 +511,10 @@ File: []()
 <details>
 <summary>
 
-### 11. 
+### 11. Select the best
 `mandatory`
 
-File: []()
+File: [11-best_score.sql]()
 </summary>
 
 
@@ -446,10 +523,10 @@ File: []()
 <details>
 <summary>
 
-### 12. 
+### 12. Cheating is bad
 `mandatory`
 
-File: []()
+File: [12-no_cheating.sql]()
 </summary>
 
 
@@ -458,10 +535,10 @@ File: []()
 <details>
 <summary>
 
-### 13. 
+### 13. Score too low
 `mandatory`
 
-File: []()
+File: [13-change_class.sql]()
 </summary>
 
 
@@ -470,10 +547,10 @@ File: []()
 <details>
 <summary>
 
-### 14. 
+### 14. Average
 `mandatory`
 
-File: []()
+File: [14-average.sql]()
 </summary>
 
 
@@ -482,10 +559,10 @@ File: []()
 <details>
 <summary>
 
-### 15. 
+### 15. Number by score
 `mandatory`
 
-File: []()
+File: [15-groups.sql]()
 </summary>
 
 
@@ -494,10 +571,10 @@ File: []()
 <details>
 <summary>
 
-### 16. 
+### 16. Say my name
 `mandatory`
 
-File: []()
+File: [16-no_link.sql]()
 </summary>
 
 
@@ -506,10 +583,10 @@ File: []()
 <details>
 <summary>
 
-### 17. 
+### 17. Go to UTF8
 `#advanced`
 
-File: []()
+File: [100-move_to_utf8.sql]()
 </summary>
 
 
@@ -518,10 +595,10 @@ File: []()
 <details>
 <summary>
 
-### 18. 
+### 18. Temperatures #0
 `#advanced`
 
-File: []()
+File: [101-avg_temperatures.sql]()
 </summary>
 
 
@@ -530,10 +607,10 @@ File: []()
 <details>
 <summary>
 
-### 19. 
+### 19. Temperatures #1
 `#advanced`
 
-File: []()
+File: [102-top_city.sql]()
 </summary>
 
 
@@ -542,10 +619,10 @@ File: []()
 <details>
 <summary>
 
-### 20. 
+### 20. Temperatures #2
 `#advanced`
 
-File: []()
+File: [103-max_state.sql]()
 </summary>
 
 
