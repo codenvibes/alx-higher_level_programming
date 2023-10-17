@@ -118,7 +118,7 @@
 </details>
 
 <details>
-<summary><b><a href=" "></a>How to <code>CREATE<c/ode> or <code>ALTER</code> a table</b></summary>
+<summary><b><a href=" "></a>How to <code>CREATE</code> or <code>ALTER</code> a table</b></summary>
 
 
 </details>
