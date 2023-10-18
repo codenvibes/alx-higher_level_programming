@@ -176,7 +176,7 @@
 
 # More Info
 <details>
-<summary><h3>Comments for your SQL file:</h3></summary>
+<summary><b>Comments for your SQL file:</b></summary><br>
 
 ```
 $ cat my_script.sql
@@ -188,7 +188,7 @@ $
 </details>
 
 <details>
-<summary><h3>Install MySQL 8.0 on Ubuntu 20.04 LTS</h3></summary>
+<summary><b>Install MySQL 8.0 on Ubuntu 20.04 LTS</b></summary><br>
 
 ```
 $ sudo apt update
@@ -221,7 +221,7 @@ $
 </details>
 
 <details>
-<summary><h3>Use “container-on-demand” to run MySQL</h3></summary>
+<summary><b>Use “container-on-demand” to run MySQL</b></summary><br>
 
 **In the container, credentials are `root/root`**
 
@@ -245,7 +245,7 @@ $
 </details>
 
 <details>
-<summary><h3>How to import a SQL dump</h3></summary>
+<summary><b>How to import a SQL dump</b></summary><br>
 
 ```
 $ echo "CREATE DATABASE hbtn_0d_tvshows;" | mysql -uroot -p
@@ -267,7 +267,7 @@ $
 ```
 
 <br>
-<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/3/bc2575fee3303b731031.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20231018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231018T210841Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=37cb6693645e65901df5ac745780b1dec1438d2a919b4c4fce4d93dc1ea2d2c2">
+<img src="">
 
 </details>
 
