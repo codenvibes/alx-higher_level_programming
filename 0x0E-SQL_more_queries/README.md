@@ -90,6 +90,7 @@
 
 <br>
 <b>Extra resources around relational database model design:</b>
+
 <br>
 
 <details>
