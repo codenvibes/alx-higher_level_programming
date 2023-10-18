@@ -267,7 +267,7 @@ $
 ```
 
 <br>
-<img src="">
+<img src="https://github.com/codenvibes/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/pics/bc2575fee3303b731031.png">
 
 </details>
 
