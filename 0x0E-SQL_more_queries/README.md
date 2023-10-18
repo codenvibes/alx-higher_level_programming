@@ -2,7 +2,7 @@
 <div align="center"><code>SQL</code> <code>MySQL</code></div>
 
 <br>
-<img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/66988091.jpg">
+<img align="center" src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/66988091.jpg">
 <br>
 
 <!-- # Background Context -->
