@@ -89,7 +89,9 @@
 </details>
 
 <br>
-Extra resources around relational database model design:
+<b>Extra resources around relational database model design:</b>
+<br>
+
 <details>
 <summary><b><a href="https://www.guru99.com/database-design.html">Design</a></b></summary>
 
