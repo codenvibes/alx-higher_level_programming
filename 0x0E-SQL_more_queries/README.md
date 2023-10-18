@@ -3,7 +3,7 @@
 
 <br>
 <div align="center">
-<img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/66988091.jpg">
+<img width="500px" src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/66988091.jpg">
 </div>
 <br>
 
