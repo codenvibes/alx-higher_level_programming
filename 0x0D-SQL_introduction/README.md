@@ -749,7 +749,19 @@ guillaume@ubuntu:~/$
 File: [13-change_class.sql]()
 </summary>
 
-
+Write a script that removes all records with a `score <= 5` in the table `second_table` of the database `hbtn_0c_0` in your MySQL server.
+- The database name will be passed as an argument of the `mysql` command
+```
+guillaume@ubuntu:~/$ cat 13-change_class.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+Enter password: 
+guillaume@ubuntu:~/$ cat 10-top_score.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+Enter password: 
+score   name
+10  John
+10  Bob
+8   George
+guillaume@ubuntu:~/$ 
+```
 </details>
 
 <details>
@@ -761,7 +773,16 @@ File: [13-change_class.sql]()
 File: [14-average.sql]()
 </summary>
 
-
+Write a script that computes the score average of all records in the table `second_table` of the database `hbtn_0c_0` in your MySQL server.
+- The result column name should be `average`
+- The database name will be passed as an argument of the `mysql` command
+```
+guillaume@ubuntu:~/$ cat 14-average.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+Enter password: 
+average
+9.3333
+guillaume@ubuntu:~/$ 
+```
 </details>
 
 <details>
@@ -773,7 +794,20 @@ File: [14-average.sql]()
 File: [15-groups.sql]()
 </summary>
 
-
+Write a script that lists the number of records with the same score in the table `second_table` of the database `hbtn_0c_0` in your MySQL server.
+- The result should display:
+  - the `score`
+  - the number of records for this `score` with the label `number`
+- The list should be sorted by the number of records (descending)
+- The database name will be passed as an argument to the `mysql` command
+```
+guillaume@ubuntu:~/$ cat 15-groups.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+Enter password: 
+score   number
+10  2
+8   1
+guillaume@ubuntu:~/$ 
+```
 </details>
 
 <details>
