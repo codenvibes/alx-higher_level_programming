@@ -872,7 +872,34 @@ guillaume@ubuntu:~/$
 File: [101-avg_temperatures.sql]()
 </summary>
 
+Import in `hbtn_0c_0` database this table dump: [download](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/272/temperatures.sql)
 
+Write a script that displays the average temperature (Fahrenheit) by city ordered by temperature (descending).
+```
+guillaume@ubuntu:~/$ cat 101-avg_temperatures.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+Enter password: 
+city    avg_temp
+Chandler    72.8627
+Gilbert 71.8088
+Pismo beach 71.5147
+San Francisco   71.4804
+Sedona  70.7696
+Phoenix 70.5882
+Oakland 70.5637
+Sunnyvale   70.5245
+Chicago 70.4461
+San Diego   70.1373
+Glendale    70.1225
+Sonoma  70.0392
+Yuma    69.3873
+San Jose    69.2990
+Tucson  69.0245
+Joliet  68.6716
+Naperville  68.1029
+Tempe   67.0441
+Peoria  66.5392
+guillaume@ubuntu:~/$ 
+```
 </details>
 
 <details>
@@ -884,7 +911,18 @@ File: [101-avg_temperatures.sql]()
 File: [102-top_city.sql]()
 </summary>
 
+Import in `hbtn_0c_0` database this table dump: [download](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/272/temperatures.sql) (same as `Temperatures #0`)
 
+Write a script that displays the top 3 of cities temperature during July and August ordered by temperature (descending)
+```
+guillaume@ubuntu:~/$ cat 102-top_city.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+Enter password: 
+city    avg_temp
+Naperville  76.9412
+San Diego   73.7941
+Sunnyvale   73.2353
+guillaume@ubuntu:~/$ 
+```
 </details>
 
 <details>
