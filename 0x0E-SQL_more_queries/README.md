@@ -466,7 +466,7 @@ File: [4-never_empty.sql]()
 
 Write a script that creates the table `id_not_null` on your MySQL server.
 - `id_not_null` description:
-    - `id` INT with the default value 1
+    - `id` INT with the default value `1`
     - `name` VARCHAR(256)
 - The database name will be passed as an argument of the `mysql` command
 - If the table `id_not_null` already exists, your script should not fail
@@ -493,25 +493,66 @@ guillaume@ubuntu:~/$
 <details>
 <summary>
 
-### 5. 
+### 5. Unique ID
 `mandatory`
 
-File: []()
+File: [5-unique_id.sql]()
 </summary>
 
-
+Write a script that creates the table `unique_id` on your MySQL server.
+- `unique_id` description:
+    - `id` INT with the default value `1` and must be unique
+    - `name` VARCHAR(256)
+- The database name will be passed as an argument of the `mysql` command
+- If the table `unique_id` already exists, your script should not fail
+```
+guillaume@ubuntu:~/$ cat 5-unique_id.sql | mysql -hlocalhost -uroot -p hbtn_0d_2
+Enter password: 
+guillaume@ubuntu:~/$ echo 'INSERT INTO unique_id (id, name) VALUES (89, "Best School");' | mysql -hlocalhost -uroot -p hbtn_0d_2
+Enter password: 
+guillaume@ubuntu:~/$ echo 'SELECT * FROM unique_id;' | mysql -hlocalhost -uroot -p hbtn_0d_2
+Enter password: 
+id  name
+89  Best School
+guillaume@ubuntu:~/$ echo 'INSERT INTO unique_id (id, name) VALUES (89, "Best");' | mysql -hlocalhost -uroot -p hbtn_0d_2
+Enter password: 
+ERROR 1062 (23000) at line 1: Duplicate entry '89' for key 'unique_id.id'
+guillaume@ubuntu:~/$ echo 'SELECT * FROM unique_id;' | mysql -hlocalhost -uroot -p hbtn_0d_2
+Enter password: 
+id  name
+89  Best School
+guillaume@ubuntu:~/$ 
+```
 </details>
 
 <details>
 <summary>
 
-### 6. 
+### 6. States table
 `mandatory`
 
-File: []()
+File: [6-states.sql]()
 </summary>
 
-
+Write a script that creates the database `hbtn_0d_usa` and the table `states` (in the database `hbtn_0d_usa`) on your MySQL server.
+- `states` description:
+    - `id` INT unique, auto generated, can’t be null and is a primary key
+    - `name` VARCHAR(256) can’t be null
+- If the database `hbtn_0d_usa` already exists, your script should not fail
+- If the table `states` already exists, your script should not fail
+```
+guillaume@ubuntu:~/$ cat 6-states.sql | mysql -hlocalhost -uroot -p
+Enter password: 
+guillaume@ubuntu:~/$ echo 'INSERT INTO states (name) VALUES ("California"), ("Arizona"), ("Texas");' | mysql -hlocalhost -uroot -p hbtn_0d_usa
+Enter password: 
+guillaume@ubuntu:~/$ echo 'SELECT * FROM states;' | mysql -hlocalhost -uroot -p hbtn_0d_usa
+Enter password: 
+id  name
+1   California
+2   Arizona
+3   Texas
+guillaume@ubuntu:~/$ 
+```
 </details>
 
 <details>
