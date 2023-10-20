@@ -724,7 +724,7 @@ guillaume@ubuntu:~/$
 File: [11-genre_id_all_shows.sql]()
 </summary>
 
-Import the database dump of `hbtn_0d_tvshows` to your MySQL server: download (same as `10-genre_id_by_show.sql`)
+Import the database dump of `hbtn_0d_tvshows` to your MySQL server: [download](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows.sql) (same as `10-genre_id_by_show.sql`)
 
 Write a script that lists all shows contained in the database `hbtn_0d_tvshows`.
 
@@ -771,7 +771,7 @@ guillaume@ubuntu:~/$
 File: [12-no_genre.sql]()
 </summary>
 
-Import the database dump from `hbtn_0d_tvshows` to your MySQL server: download (same as `11-genre_id_all_shows.sql`)
+Import the database dump from `hbtn_0d_tvshows` to your MySQL server: [download](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows.sql) (same as `11-genre_id_all_shows.sql`)
 
 Write a script that lists all shows contained in `hbtn_0d_tvshows` without a genre linked.
 
@@ -792,25 +792,68 @@ guillaume@ubuntu:~/$
 <details>
 <summary>
 
-### 13. 
+### 13. Number of shows by genre
 `mandatory`
 
-File: []()
+File: [13-count_shows_by_genre.sql]()
 </summary>
 
+Import the database dump from `hbtn_0d_tvshows` to your MySQL server: [download](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows.sql) (same as `12-no_genre.sql`)
 
+Write a script that lists all genres from `hbtn_0d_tvshows` and displays the number of shows linked to each.
+
+- Each record should display: `<TV Show genre>` - `<Number of shows linked to this genre>`
+- First column must be called `genre`
+- Second column must be called `number_of_shows`
+- Don’t display a genre that doesn’t have any shows linked
+- Results must be sorted in descending order by the number of shows linked
+- You can use only one `SELECT` statement
+- The database name will be passed as an argument of the `mysql` command
+```
+guillaume@ubuntu:~/$ cat 13-count_shows_by_genre.sql | mysql -hlocalhost -uroot -p hbtn_0d_tvshows
+Enter password: 
+genre   number_of_shows
+Drama   5
+Comedy  4
+Mystery 2
+Crime   2
+Suspense    2
+Thriller    2
+Adventure   1
+Fantasy 1
+guillaume@ubuntu:~/$ 
+```
 </details>
 
 <details>
 <summary>
 
-### 14. 
+### 14. My genres
 `mandatory`
 
-File: []()
+File: [14-my_genres.sql]()
 </summary>
 
+Import the database dump from `hbtn_0d_tvshows` to your MySQL server: [download](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows.sql) (same as `13-count_shows_by_genre.sql`)
 
+Write a script that uses the `hbtn_0d_tvshows` database to lists all genres of the show `Dexter`.
+
+- The `tv_shows` table contains only one record where `title` = `Dexter` (but the `id` can be different)
+- Each record should display: `tv_genres.name`
+- Results must be sorted in ascending order by the genre name
+- You can use only one `SELECT` statement
+- The database name will be passed as an argument of the `mysql` command
+```
+guillaume@ubuntu:~/$ cat 14-my_genres.sql | mysql -hlocalhost -uroot -p hbtn_0d_tvshows
+Enter password: 
+name
+Crime
+Drama
+Mystery
+Suspense
+Thriller
+guillaume@ubuntu:~/$ 
+```
 </details>
 
 <details>
