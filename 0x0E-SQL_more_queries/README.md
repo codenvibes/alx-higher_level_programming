@@ -89,7 +89,7 @@
 </details>
 
 <br>
-<b>Extra resources around relational database model design:</b>
+<h3>Extra resources around relational database model design:</h3>
 
 
 <br>
@@ -558,10 +558,10 @@ guillaume@ubuntu:~/$
 <details>
 <summary>
 
-### 7. 
+### 7. Cities table
 `mandatory`
 
-File: []()
+File: [7-cities.sql]()
 </summary>
 
 
