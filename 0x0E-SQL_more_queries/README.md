@@ -88,7 +88,7 @@
 
 </details>
 
-<br>
+
 <h3>Extra resources around relational database model design:</h3>
 
 <details>
