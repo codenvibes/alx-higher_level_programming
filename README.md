@@ -1,6 +1,9 @@
 # **ALX-HIGHER_LEVEL_PROGRAMMING**
 
 ## Projects💻:
+
+### Higher-level programming - Python
+
 #### ✅[0x00-python-hello_world](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x00-python-hello_world)
 #### ✅[0x01-python-if_else_loops_functions](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x01-python-if_else_loops_functions)
 #### ✅[0x02-python-import_modules](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x02-python-import_modules)
@@ -14,8 +17,14 @@
 #### ✅[0x0A-python-inheritance](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x0A-python-inheritance)
 #### ✅[0x0B-python-input_output](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x0B-python-input_output)
 #### ✅[0x0C-python-almost_a_circle](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x0C-python-almost_a_circle)
+
+### Higher-level programming - Databases
 #### ✅[0x0D-SQL_introduction](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x0D-SQL_introduction)
 #### ✅[0x0E-SQL_more_queries](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x0E-SQL_more_queries)
+
+### Higher-level programming - AirBnB clone
+#### [0x00. AirBnB clone - The console](https://github.com/codenvibes/AirBnB_clone)
+
 #### [0x0F-python-object_relational_mapping]()
 #### [0x10-python-network_0]()
 #### [0x11-python-network_1]()
