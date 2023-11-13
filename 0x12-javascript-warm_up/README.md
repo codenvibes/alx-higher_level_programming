@@ -283,6 +283,110 @@ In modern JavaScript, it's generally recommended to use `let` and `const` over `
 <details>
 <summary><b><a href=" "> </a>What are all the data types available in JavaScript</b></summary><br>
 
+JavaScript has several built-in data types, which can be categorized into two main groups: primitive data types and object types.
+
+### Primitive Data Types:
+
+1. **Undefined:**
+   - Represents the absence of a value or an uninitialized variable.
+
+   ```javascript
+   let undefinedVar;
+   console.log(undefinedVar); // Outputs: undefined
+   ```
+
+2. **Null:**
+   - Represents the intentional absence of any object value.
+
+   ```javascript
+   let nullVar = null;
+   console.log(nullVar); // Outputs: null
+   ```
+
+3. **Boolean:**
+   - Represents a logical entity and can have two values: `true` or `false`.
+
+   ```javascript
+   let isTrue = true;
+   let isFalse = false;
+   ```
+
+4. **Number:**
+   - Represents numeric values, including integers and floating-point numbers.
+
+   ```javascript
+   let num = 42;
+   let pi = 3.14;
+   ```
+
+5. **String:**
+   - Represents sequences of characters and is enclosed in single or double quotes.
+
+   ```javascript
+   let str = "Hello, World!";
+   ```
+
+6. **Symbol (ES6 and later):**
+   - Represents a unique identifier.
+
+   ```javascript
+   let sym = Symbol("uniqueSymbol");
+   ```
+
+### Object Types:
+
+7. **Object:**
+   - Represents a collection of key-value pairs and is a fundamental data structure in JavaScript.
+
+   ```javascript
+   let person = {
+     name: "John",
+     age: 30,
+   };
+   ```
+
+8. **Array:**
+   - Represents an ordered list of values and is a special type of object.
+
+   ```javascript
+   let colors = ["red", "green", "blue"];
+   ```
+
+9. **Function:**
+   - Represents a reusable block of code.
+
+   ```javascript
+   function greet(name) {
+     console.log("Hello, " + name + "!");
+   }
+   ```
+
+### Special Data Types:
+
+10. **BigInt (ES2020 and later):**
+    - Represents integers of arbitrary precision.
+
+    ```javascript
+    let bigIntNum = BigInt(9007199254740991); // Note the "n" suffix is also possible.
+    ```
+
+11. **NaN (Not a Number):**
+    - Represents a value that is not a legal number.
+
+    ```javascript
+    let notANumber = "hello" / 5;
+    console.log(notANumber); // Outputs: NaN
+    ```
+
+12. **Infinity and -Infinity:**
+    - Represents positive and negative infinity, respectively.
+
+    ```javascript
+    let positiveInfinity = Infinity;
+    let negativeInfinity = -Infinity;
+    ```
+
+These are the fundamental data types in JavaScript. Keep in mind that JavaScript is a dynamically typed language, meaning variables can change their type at runtime. Understanding these data types is crucial for effective JavaScript programming.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
