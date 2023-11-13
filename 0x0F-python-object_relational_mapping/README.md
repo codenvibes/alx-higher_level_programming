@@ -288,10 +288,10 @@ You can ignore it.
 <details>
 <summary>
 
-### 0. 
+### 0. Get all states
 `mandatory`
 
-File: []()
+File: [0-select_states.py]()
 </summary>
 
 
@@ -300,10 +300,10 @@ File: []()
 <details>
 <summary>
 
-### 1. 
+### 1. Filter states
 `mandatory`
 
-File: []()
+File: [1-filter_states.py]()
 </summary>
 
 
@@ -312,10 +312,10 @@ File: []()
 <details>
 <summary>
 
-### 2. 
+### 2. Filter states by user input
 `mandatory`
 
-File: []()
+File: [2-my_filter_states.py]()
 </summary>
 
 
@@ -324,10 +324,10 @@ File: []()
 <details>
 <summary>
 
-### 3. 
+### 3. SQL Injection
 `mandatory`
 
-File: []()
+File: [3-my_safe_filter_states.py]()
 </summary>
 
 
@@ -336,10 +336,10 @@ File: []()
 <details>
 <summary>
 
-### 4. 
+### 4. Cities by states
 `mandatory`
 
-File: []()
+File: [4-cities_by_state.py]()
 </summary>
 
 
@@ -348,10 +348,10 @@ File: []()
 <details>
 <summary>
 
-### 5. 
+### 5. All cities by state
 `mandatory`
 
-File: []()
+File: [5-filter_cities.py]()
 </summary>
 
 
@@ -360,10 +360,10 @@ File: []()
 <details>
 <summary>
 
-### 6. 
+### 6. First state model
 `mandatory`
 
-File: []()
+File: [model_state.py]()
 </summary>
 
 
@@ -372,10 +372,10 @@ File: []()
 <details>
 <summary>
 
-### 7. 
+### 7. All states via SQLAlchemy
 `mandatory`
 
-File: []()
+File: [7-model_state_fetch_all.py]()
 </summary>
 
 
@@ -384,10 +384,10 @@ File: []()
 <details>
 <summary>
 
-### 8. 
+### 8. First state
 `mandatory`
 
-File: []()
+File: [8-model_state_fetch_first.py]()
 </summary>
 
 
@@ -396,10 +396,10 @@ File: []()
 <details>
 <summary>
 
-### 9. 
+### 9. Contains `a`
 `mandatory`
 
-File: []()
+File: [9-model_state_filter_a.py]()
 </summary>
 
 
@@ -408,10 +408,10 @@ File: []()
 <details>
 <summary>
 
-### 10. 
+### 10. Get a state
 `mandatory`
 
-File: []()
+File: [10-model_state_my_get.py]()
 </summary>
 
 
@@ -420,10 +420,10 @@ File: []()
 <details>
 <summary>
 
-### 11. 
+### 11. Add a new state
 `mandatory`
 
-File: []()
+File: [11-model_state_insert.py]()
 </summary>
 
 
@@ -432,10 +432,10 @@ File: []()
 <details>
 <summary>
 
-### 12. 
+### 12. Update a state
 `mandatory`
 
-File: []()
+File: [12-model_state_update_id_2.py]()
 </summary>
 
 
@@ -444,10 +444,10 @@ File: []()
 <details>
 <summary>
 
-### 13. 
+### 13. Delete states
 `mandatory`
 
-File: []()
+File: [13-model_state_delete_a.py]()
 </summary>
 
 
@@ -456,10 +456,10 @@ File: []()
 <details>
 <summary>
 
-### 14. 
+### 14. Cities in state
 `mandatory`
 
-File: []()
+File: [model_city.py](), [14-model_city_fetch_by_state.py]()
 </summary>
 
 
@@ -468,10 +468,10 @@ File: []()
 <details>
 <summary>
 
-### 15. 
+### 15. City relationship
 `#advanced`
 
-File: []()
+File: [relationship_city.py](), [relationship_state.py](), [100-relationship_states_cities.py]()
 </summary>
 
 
@@ -480,10 +480,10 @@ File: []()
 <details>
 <summary>
 
-### 16. 
+### 16. List relationship
 `#advanced`
 
-File: []()
+File: [101-relationship_states_cities_list.py]()
 </summary>
 
 
@@ -492,10 +492,10 @@ File: []()
 <details>
 <summary>
 
-### 17. 
+### 17. From city
 `#advanced`
 
-File: []()
+File: [102-relationship_cities_states_list.py]()
 </summary>
 
 
