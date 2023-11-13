@@ -329,10 +329,10 @@ Does Javascript have `String` as a native datatype?
 <details>
 <summary>
 
-### 0. 
+### 0. First constant, first print
 `mandatory`
 
-File: []()
+File: [0-javascript_is_amazing.js]()
 </summary>
 
 
@@ -341,10 +341,10 @@ File: []()
 <details>
 <summary>
 
-### 1. 
+### 1. 3 languages
 `mandatory`
 
-File: []()
+File: [1-multi_languages.js]()
 </summary>
 
 
@@ -353,10 +353,10 @@ File: []()
 <details>
 <summary>
 
-### 2. 
+### 2. Arguments
 `mandatory`
 
-File: []()
+File: [2-arguments.js]()
 </summary>
 
 
@@ -365,10 +365,10 @@ File: []()
 <details>
 <summary>
 
-### 3. 
+### 3. Value of my argument
 `mandatory`
 
-File: []()
+File: [3-value_argument.js]()
 </summary>
 
 
@@ -377,10 +377,10 @@ File: []()
 <details>
 <summary>
 
-### 4. 
+### 4. Create a sentence
 `mandatory`
 
-File: []()
+File: [4-concat.js]()
 </summary>
 
 
@@ -389,10 +389,10 @@ File: []()
 <details>
 <summary>
 
-### 5. 
+### 5. An Integer
 `mandatory`
 
-File: []()
+File: [5-to_integer.js]()
 </summary>
 
 
@@ -401,10 +401,10 @@ File: []()
 <details>
 <summary>
 
-### 6. 
+### 6. Loop to languages
 `mandatory`
 
-File: []()
+File: [6-multi_languages_loop.js]()
 </summary>
 
 
@@ -413,10 +413,10 @@ File: []()
 <details>
 <summary>
 
-### 7. 
+### 7. I love C
 `mandatory`
 
-File: []()
+File: [7-multi_c.js]()
 </summary>
 
 
@@ -425,10 +425,10 @@ File: []()
 <details>
 <summary>
 
-### 8. 
+### 8. Square
 `mandatory`
 
-File: []()
+File: [8-square.js]()
 </summary>
 
 
@@ -437,10 +437,10 @@ File: []()
 <details>
 <summary>
 
-### 9. 
+### 9. Add
 `mandatory`
 
-File: []()
+File: [9-add.js]()
 </summary>
 
 
@@ -449,10 +449,10 @@ File: []()
 <details>
 <summary>
 
-### 10. 
+### 10. Factorial
 `mandatory`
 
-File: []()
+File: [10-factorial.js]()
 </summary>
 
 
@@ -461,10 +461,10 @@ File: []()
 <details>
 <summary>
 
-### 11. 
+### 11. Second biggest!
 `mandatory`
 
-File: []()
+File: [11-second_biggest.js]()
 </summary>
 
 
@@ -473,10 +473,10 @@ File: []()
 <details>
 <summary>
 
-### 12. 
+### 12. Object
 `mandatory`
 
-File: []()
+File: [12-object.js]()
 </summary>
 
 
@@ -485,10 +485,10 @@ File: []()
 <details>
 <summary>
 
-### 13. 
+### 13. Add file
 `mandatory`
 
-File: []()
+File: [13-add.js]()
 </summary>
 
 
@@ -497,10 +497,10 @@ File: []()
 <details>
 <summary>
 
-### 14. 
+### 14. Const or not const
 `#advanced`
 
-File: []()
+File: [100-let_me_const.js]()
 </summary>
 
 
@@ -509,10 +509,10 @@ File: []()
 <details>
 <summary>
 
-### 15. 
+### 15. Call me Moby
 `#advanced`
 
-File: []()
+File: [101-call_me_moby.js]()
 </summary>
 
 
@@ -521,10 +521,10 @@ File: []()
 <details>
 <summary>
 
-### 16. 
+### 16. Add me maybe
 `#advanced`
 
-File: []()
+File: [102-add_me_maybe.js]()
 </summary>
 
 
@@ -533,10 +533,10 @@ File: []()
 <details>
 <summary>
 
-### 17. 
+### 17. Increment object
 `#advanced`
 
-File: []()
+File: [103-object_fct.js]()
 </summary>
 
 
