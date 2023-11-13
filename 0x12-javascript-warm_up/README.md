@@ -195,6 +195,7 @@ console.log(person); // Outputs: { name: 'Alice', age: 31 }
 ```
 
 If you want to create an immutable object, you may need to use additional techniques or libraries like Object.freeze().
+
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
 
