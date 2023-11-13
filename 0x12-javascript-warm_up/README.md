@@ -26,7 +26,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data Types</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -34,7 +34,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">Operators</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -42,7 +42,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence">Operator Precedence</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -50,7 +50,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling">Controlling Program Flow</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -58,7 +58,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions">Functions</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -66,7 +66,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects">Objects and Arrays</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -74,7 +74,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects">Intrinsic Objects</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -82,7 +82,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://darrenderidder.github.io/talks/ModulePatterns/#/">Module patterns</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -90,7 +90,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://www.youtube.com/watch?v=sjyJBL5fkp8">var, let and const</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -98,7 +98,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://www.youtube.com/watch?v=vZBCTc9zHtI">JavaScript Tutorial</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -106,7 +106,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://github.com/mbeaudru/modern-js-cheatsheet">Modern JS</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
