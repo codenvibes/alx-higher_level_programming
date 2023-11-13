@@ -127,7 +127,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to run a JavaScript script</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -135,7 +135,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to create variables and constants</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -143,7 +143,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What are differences between <code>var</code>, <code>const</code> and <code>let</code></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -151,7 +151,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What are all the data types available in JavaScript</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -159,7 +159,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to use the <code>if</code>, <code>if ... else</code> statements</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -167,7 +167,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to use comments</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -175,7 +175,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to affect values to variables</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -183,7 +183,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to use while and for loops</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -191,7 +191,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to use <code>break</code> and <code>continue</code> statements</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -199,7 +199,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What is a function and how do you use functions</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -207,7 +207,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What does a function that does not use any <code>return</code> statement return</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -215,7 +215,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>Scope of variables</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -223,7 +223,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What are the arithmetic operators and how to use them</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -231,7 +231,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to manipulate dictionary</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -239,7 +239,7 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to import a file</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -247,33 +247,63 @@ For the moment, and for learning all basic concepts of this language, we will do
 
 
 # Requirements
-<!-- Add your requirements here -->
+- Allowed editors: `vi`, `vim`, `emacs`
+- All your files will be interpreted on Ubuntu 20.04 LTS using `node` (version 14.x)
+- All your files should end with a new line
+- The first line of all your files should be exactly `#!/usr/bin/node`
+- A `README.md` file, at the root of the folder of the project, is mandatory
+- Your code should be `semistandard` compliant (version 16.x.x). [Rules of Standard](https://standardjs.com/rules.html) + [semicolons on top](https://github.com/standard/semistandard). Also as reference: [AirBnB style](https://github.com/airbnb/javascript)
+- All your files must be executable
+- The length of your files will be tested using `wc`
 
-<!-- # More Info -->
+# More Info
+### Install Node 14
+```bash
+$ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+```
+### Install semi-standard
+[Documentation](https://github.com/standard/semistandard)
+```bash
+$ sudo npm install semistandard --global
+```
 
 # Quiz questions
 <details>
 <summary><h3>Question 0</h3></summary>
 
-
+What does `const` mean? (please check all true answers)
+- [x] It’s the keyword to define a constant variable
+- [ ] It’s the keyword to define a variable that can be re-assign during the execution
+- [ ] It’s the keyword to define a variable with optionally initializing it to a value
+- [ ] It’s the keyword to define a global variable
+- [x] It’s the keyword to define a variable in the local scope
 </details>
 
 <details>
 <summary><h3>Question 1</h3></summary>
 
-
+Does Javascript have `Set` as a native datatype?
+- [x] No
+- [ ] Yes
 </details>
 
 <details>
 <summary><h3>Question 2</h3></summary>
 
-
+Does Javascript have `Array` as a native datatype?
+- [ ] No
+- [x] Yes
 </details>
 
 <details>
 <summary><h3>Question 3</h3></summary>
 
+Does Javascript have Dictionary as a native datatype?
+- [x] No
+- [ ] Yes
 
+> Tips: <br>Everything is Object and Object type in Javascript is powerful.
 </details>
 
 <details>
