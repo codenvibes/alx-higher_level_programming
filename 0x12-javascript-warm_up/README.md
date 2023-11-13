@@ -1,11 +1,16 @@
 <h1 align="center"><b>0x12. JAVASCRIPT - WARM UPJAVASCRIPT - WARM UP</b></h1>
-<div align="center"><code></code></div>
+<div align="center"><code>JavaScript</code></div>
 
-<!-- # Background Context -->
+# Background Context
+JavaScript is used for many things. Here, you will use JavaScript for 2 reasons:
+- Scripting (same as we did with Python)
+- Web front-end
+
+For the moment, and for learning all basic concepts of this language, we will do some scripting. After, we will make our AirBnB project dynamic by using Javascript and JQuery.
 
 # Resources
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">Writing JavaScript Code</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -13,7 +18,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables">Variables</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
