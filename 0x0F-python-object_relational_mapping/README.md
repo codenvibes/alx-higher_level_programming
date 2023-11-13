@@ -140,6 +140,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
+</details>
 
 <!-- **man or help:**
 - `` -->
