@@ -64,7 +64,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://www.mikusa.com/python-mysql-docs/index.html">MySQLdb tutorial</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -72,7 +72,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://docs.sqlalchemy.org/en/13/orm/tutorial.html">SQLAlchemy tutorial</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -80,7 +80,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://docs.sqlalchemy.org/en/13/">SQLAlchemy</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -88,7 +88,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://github.com/PyMySQL/mysqlclient">mysqlclient/MySQLdb</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -96,7 +96,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://www.youtube.com/watch?v=woKYyhLCcnU">Introduction to SQLAlchemy</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -104,7 +104,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://www.youtube.com/playlist?list=PLXmMXHVSvS-BlLA5beNJojJLlpE0PJgCW">Flask SQLAlchemy</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -112,7 +112,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://alextechrants.blogspot.com/2013/11/10-common-stumbling-blocks-for.html">10 common stumbling blocks for SQLAlchemy newbies</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -120,7 +120,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://www.pythonsheets.com/notes/python-sqlalchemy.html">Python SQLAlchemy Cheatsheet</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -128,7 +128,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/">SQLAlchemy ORM Tutorial for Python Developers</a> (Warning: This tutorial is with PostgreSQL, but the concept of SQLAlchemy is the same with MySQL)</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -136,28 +136,17 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://overiq.com/sqlalchemy-101/">SQLAlchemy Tutorial</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
-</details>
-
-
-<details>
-<summary><b><a href=" "> </a></b></summary><br>
-
-
-<br><p align="center">※※※※※※※※※※※※</p><br>
-</details>
-
-
 
 <!-- **man or help:**
 - `` -->
 
 # Learning Objectives
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>Why Python programming is awesome</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -165,7 +154,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to connect to a MySQL database from a Python script</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -173,7 +162,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to <code>SELECT</code> rows in a MySQL table from a Python script</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -181,7 +170,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to <code>INSERT</code> rows in a MySQL table from a Python script</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -189,7 +178,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What ORM means</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -197,7 +186,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to map a Python Class to a MySQL table</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -205,9 +194,63 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 
 
 # Requirements
-<!-- Add your requirements here -->
+- Allowed editors: `vi`, `vim`, `emacs`
+- All your files will be interpreted/compiled on Ubuntu 20.04 LTS using `python3` (version 3.8.5)
+- Your files will be executed with `MySQLdb` version `2.0.x`
+- Your files will be executed with `SQLAlchemy` version `1.4.x`
+- All your files should end with a new line
+- The first line of all your files should be exactly `#!/usr/bin/python3`
+- A `README.md` file, at the root of the folder of the project, is mandatory
+- Your code should use the pycodestyle (version 2.7.*)
+- All your files must be executable
+- The length of your files will be tested using `wc`
+- All your modules should have a documentation (`python3 -c 'print(__import__("my_module").__doc__)'`)
+- All your classes should have a documentation (`python3 -c 'print(__import__("my_module").MyClass.__doc__)'`)
+- All your functions (inside and outside a class) should have a documentation (`python3 -c 'print(__import__("my_module").my_function.__doc__)'` and `python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'`)
+- A documentation is not a simple word, it's a real sentence explaining what's the purpose of the module, class or method (the length of it will be verified)
+- You are not allowed to use `execute` with sqlalchemy
 
-<!-- # More Info -->
+# More Info
+### Install `MySQLdb` module version `2.0.x`
+
+For installing `MySQLdb`, you need to have `MySQL` installed: [How to install MySQL 8.0 in Ubuntu 20.04](https://alx-intranet.hbtn.io/rltoken/paGukker_0KoG3D9FqymNQ "How to install MySQL 8.0 in Ubuntu 20.04")
+
+```
+$ sudo apt-get install python3-dev
+$ sudo apt-get install libmysqlclient-dev
+$ sudo apt-get install zlib1g-dev
+$ sudo pip3 install mysqlclient
+...
+$ python3
+>>> import MySQLdb
+>>> MySQLdb.version_info
+(2, 0, 3, 'final', 0)
+
+```
+
+### Install `SQLAlchemy` module version `1.4.x`
+
+```
+$ sudo pip3 install SQLAlchemy
+...
+$ python3
+>>> import sqlalchemy
+>>> sqlalchemy.__version__
+'1.4.22'
+
+```
+
+Also, you can have this warning message:
+
+```
+/usr/local/lib/python3.4/dist-packages/sqlalchemy/engine/default.py:552: Warning: (1681, "'@@SESSION.GTID_EXECUTED' is deprecated and will be re
+moved in a future release.")
+  cursor.execute(statement, parameters)
+
+```
+
+You can ignore it.
+
 
 # Quiz questions
 <details>
