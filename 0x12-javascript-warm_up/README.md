@@ -303,19 +303,26 @@ Does Javascript have Dictionary as a native datatype?
 - [x] No
 - [ ] Yes
 
-> Tips: <br>Everything is Object and Object type in Javascript is powerful.
+> **Tips**: <br>Everything is `Object` and `Object` type in Javascript is powerful.
 </details>
 
 <details>
 <summary><h3>Question 4</h3></summary>
 
-
+What does let mean? (please check all true answers)
+- [ ] It’s the keyword to define a constant variable
+- [x] It’s the keyword to define a variable that can be re-assign during the execution
+- [x] It’s the keyword to define a variable with optionally initializing it to a value
+- [ ] It’s the keyword to define a global variable
+- [x] It’s the keyword to define a variable in the local scope
 </details>
 
 <details>
 <summary><h3>Question 5</h3></summary>
 
-
+Does Javascript have `String` as a native datatype?
+- [ ] No
+- [x] Yes
 </details>
 
 # Tasks
