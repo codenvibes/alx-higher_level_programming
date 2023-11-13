@@ -203,6 +203,78 @@ If you want to create an immutable object, you may need to use additional techni
 <details>
 <summary><b><a href=" "> </a>What are differences between <code>var</code>, <code>const</code> and <code>let</code></b></summary><br>
 
+The `var`, `let`, and `const` are all used for variable declarations in JavaScript, but they have some key differences in terms of scope, reassignment, and hoisting.
+
+### 1. `var`:
+
+- **Function-scoped:** Variables declared with `var` are function-scoped, meaning they are only visible within the function where they are declared. If declared outside any function, they become global.
+  
+- **Hoisting:** Variables declared with `var` are hoisted to the top of their scope. This means you can use a variable before it's declared, but the value will be `undefined`.
+
+- **Reassignment:** Variables declared with `var` can be redeclared and reassigned.
+
+### 2. `let`:
+
+- **Block-scoped:** Variables declared with `let` are block-scoped, meaning they are only visible within the block (enclosed by curly braces) where they are declared. This includes if statements, for loops, and other block structures.
+
+- **Hoisting:** Like `var`, variables declared with `let` are hoisted, but unlike `var`, they are not initialized. If you try to use the variable before its declaration, you'll get a `ReferenceError`.
+
+- **Reassignment:** Variables declared with `let` can be reassigned, but not redeclared in the same scope.
+
+### 3. `const`:
+
+- **Block-scoped:** Like `let`, variables declared with `const` are block-scoped.
+
+- **Hoisting:** Variables declared with `const` are hoisted, but like `let`, they are not initialized. You'll get a `ReferenceError` if you try to use the variable before its declaration.
+
+- **Reassignment:** Variables declared with `const` cannot be reassigned. They must be assigned a value when declared, and this value cannot be changed.
+
+### Example:
+
+```javascript
+// Example with var
+function exampleVar() {
+  if (true) {
+    var x = 10;
+  }
+  console.log(x); // Outputs: 10
+}
+
+// Example with let
+function exampleLet() {
+  if (true) {
+    let y = 20;
+    console.log(y); // Outputs: 20
+  }
+  // Uncommenting the line below would result in a ReferenceError
+  // console.log(y);
+}
+
+// Example with const
+function exampleConst() {
+  const z = 30;
+  // Uncommenting the line below would result in a TypeError
+  // z = 40;
+  console.log(z); // Outputs: 30
+}
+
+// Example of hoisting with var
+function hoistingExample() {
+  console.log(a); // Outputs: undefined
+  var a = 5;
+  console.log(a); // Outputs: 5
+}
+
+// Example of hoisting with let/const
+function hoistingExampleLetConst() {
+  // Uncommenting the line below would result in a ReferenceError
+  // console.log(b);
+  let b = 10;
+  console.log(b); // Outputs: 10
+}
+```
+
+In modern JavaScript, it's generally recommended to use `let` and `const` over `var` due to their block-scoping behavior and fewer unexpected issues. Use `const` when you know the variable value should not be reassigned. Use `let` for variables that may be reassigned.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
