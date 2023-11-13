@@ -395,6 +395,74 @@ These are the fundamental data types in JavaScript. Keep in mind that JavaScript
 <details>
 <summary><b><a href=" "> </a>How to use the <code>if</code>, <code>if ... else</code> statements</b></summary><br>
 
+In JavaScript, the `if` statement is used for conditional execution of code. It allows you to run a block of code only if a specified condition is true. The `if...else` statement extends this by allowing you to specify an alternative block of code to be executed if the condition is false.
+
+### Using `if` Statement:
+
+```javascript
+let x = 10;
+
+if (x > 5) {
+  console.log("x is greater than 5");
+}
+```
+
+In this example, the code inside the curly braces will only be executed if the condition `(x > 5)` is true.
+
+### Using `if...else` Statement:
+
+```javascript
+let y = 3;
+
+if (y > 5) {
+  console.log("y is greater than 5");
+} else {
+  console.log("y is not greater than 5");
+}
+```
+
+In this example, if the condition `(y > 5)` is true, the first block of code will be executed; otherwise, the block of code inside the `else` statement will be executed.
+
+### Using `if...else if...else` Statement:
+
+You can also chain multiple conditions using `else if` statements:
+
+```javascript
+let z = 7;
+
+if (z < 5) {
+  console.log("z is less than 5");
+} else if (z === 5) {
+  console.log("z is equal to 5");
+} else {
+  console.log("z is greater than 5");
+}
+```
+
+In this example, the first condition checks if `z` is less than 5, the second condition checks if `z` is equal to 5, and the last block is executed if none of the previous conditions is true.
+
+### Nesting `if` Statements:
+
+You can also nest `if` statements within each other to create more complex conditional logic:
+
+```javascript
+let a = 10;
+let b = 5;
+
+if (a > 5) {
+  if (b > 2) {
+    console.log("Both conditions are true");
+  } else {
+    console.log("Inner condition is false");
+  }
+} else {
+  console.log("Outer condition is false");
+}
+```
+
+In this example, the inner `if` statement is nested within the outer `if` statement.
+
+Remember that proper indentation is crucial for code readability, especially when dealing with nested `if` statements or other control structures.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
