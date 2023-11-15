@@ -5,9 +5,8 @@
         - If no arguments are passed to the script, print “No argument”
 */
 const cmdArgs = process.argv;
-
 if (cmdArgs[2]) {
-    console.log(cmdArgs[2]);
+  console.log(cmdArgs[2]);
 } else {
-    console.log('No argument');
+  console.log('No argument');
 }
