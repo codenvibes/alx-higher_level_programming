@@ -8,7 +8,7 @@
         - You can use only one console.log
         - You must use a loop (while, for, etc.)
 */
-languages = ['C is fun', 'Python is cool', 'JavaScript is amazing']
+languages = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
 for (let index = 0; index < languages.length; index++) {
   console.log(languages[index]);
 }
