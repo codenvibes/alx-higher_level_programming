@@ -1,5 +1,5 @@
 <h1 align="center"><b>0x0F. PYTHON - OBJECT-RELATIONAL MAPPING</b></h1>
-<div align="center"><code></code> <code></code> <code></code></div>
+<div align="center"><code>Python</code> <code>OOP</code> <code></code> <code>MySQL</code> <code>ORM</code> <code>SQLAlchemy</code></div>
 
 # Before you start
 **Please make sure your MySQL server is in 8.0** -> [How to install MySQL 8.0 in Ubuntu 20.04]()
