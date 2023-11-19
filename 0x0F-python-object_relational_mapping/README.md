@@ -66,6 +66,61 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 <details>
 <summary><b><a href="https://www.mikusa.com/python-mysql-docs/index.html">MySQLdb tutorial</a></b></summary><br>
 
+<details>
+<summary><b><a href="">Install MySQLdb on LInux:</a></b></summary><br>
+
+Here are the steps on how to install MySQLdb on Linux:
+
+1. **Check if Python is installed or not on your system.**
+
+   ```bash
+   python3 --version
+   ```
+
+   If Python is not installed, you can install it using your system's package manager. For example, on Ubuntu or Debian, you can use the following command:
+
+   ```bash
+   sudo apt-get install python3
+   ```
+
+2. **Update the package information for the MySQL APT repository.**
+
+   ```bash
+   sudo apt-get update
+   ```
+
+3. **Install the MySQLdb module.**
+
+   ```bash
+   sudo pip3 install mysql-connector-python
+   ```
+
+   This will install the MySQLdb module, which is a Python library that allows you to connect to and interact with MySQL databases.
+
+4. **Test the installation.**
+
+   ```bash
+   python3
+   ```
+
+   Once you are in the Python interpreter, you can test the installation by importing the MySQLdb module and creating a connection to a MySQL database.
+
+   ```python
+   import mysql.connector
+
+   db = mysql.connector.connect(host="localhost", user="root", password="")
+
+   cursor = db.cursor()
+
+   cursor.execute("CREATE DATABASE my_database")
+
+   db.close()
+   ```
+
+   If you do not get any errors, then the installation was successful.
+
+<br><p align="center">※※※※※※※※※※※※</p><br>
+</details>
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
