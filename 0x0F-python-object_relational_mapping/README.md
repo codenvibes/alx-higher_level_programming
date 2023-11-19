@@ -330,6 +330,7 @@ $ python3
 (2, 0, 3, 'final', 0)
 
 ```
+> **I attempted to install MySQLdb, and despite following the provided commands, I consistently encountered errors. The issue persisted until I executed this command: `sudo apt-get install pkg-config`.**
 
 ### Install `SQLAlchemy` module version `1.4.x`
 
