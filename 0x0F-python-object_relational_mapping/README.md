@@ -67,7 +67,7 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 <summary><b><a href="https://www.mikusa.com/python-mysql-docs/index.html">MySQLdb tutorial</a></b></summary><br>
 
 <details>
-<summary><b><a href="">Install MySQLdb on LInux:</a></b></summary><br>
+<summary><b><a href=""></a>Install MySQLdb on LInux:</b></summary><br>
 
 Here are the steps on how to install MySQLdb on Linux:
 
