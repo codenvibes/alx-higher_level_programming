@@ -104,6 +104,10 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
    Once you are in the Python interpreter, you can test the installation by importing the MySQLdb module and creating a connection to a MySQL database.
 
    ```python
+   import MySQLdb
+   ```
+
+   ```python
    import mysql.connector
 
    db = mysql.connector.connect(host="localhost", user="root", password="")
@@ -162,7 +166,7 @@ db.close()
 
 Using raw SQL queries like this can expose your code to SQL injection vulnerabilities. Consider using parameterized queries or an Object-Relational Mapping (ORM) library to mitigate this risk.
 
-<br><p align="center">※※※※※※※※※※※※</p><br>
+<!-- <br><p align="center">※※※※※※※※※※※※</p><br> -->
 </details>
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
