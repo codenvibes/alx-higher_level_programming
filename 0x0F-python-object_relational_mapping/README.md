@@ -1,5 +1,5 @@
 <h1 align="center"><b>0x0F. PYTHON - OBJECT-RELATIONAL MAPPING</b></h1>
-<div align="center"><code>Python</code> <code>OOP</code> <code></code> <code>MySQL</code> <code>ORM</code> <code>SQLAlchemy</code></div>
+<div align="center"><code>Python</code> <code>OOP</code> <code>SQL</code> <code>MySQL</code> <code>ORM</code> <code>SQLAlchemy</code></div>
 
 # Before you start
 **Please make sure your MySQL server is in 8.0** -> [How to install MySQL 8.0 in Ubuntu 20.04]()
@@ -69,8 +69,6 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 <details>
 <summary><b><a href=""></a>Install MySQLdb on LInux:</b></summary><br>
 
-Here are the steps on how to install MySQLdb on Linux:
-
 1. **Check if Python is installed or not on your system.**
 
    ```bash
@@ -118,6 +116,51 @@ Here are the steps on how to install MySQLdb on Linux:
    ```
 
    If you do not get any errors, then the installation was successful.
+
+<br><p align="center">※※※※※※※※※※※※</p><br>
+</details>
+
+<details>
+<summary><b><a href=""></a>Connecting to a MySQL database</b></summary><br>
+
+```py
+db = MySQLdb.connect(host=MY_HOST, user=MY_USER, passwd=MY_PASS, db=MY_DB)
+```
+
+- `MySQLdb.connect`: This is a method provided by the `MySQLdb` module, which is a Python interface to the MySQL database. It creates a connection object that can be used to interact with the MySQL database.
+
+- `host=MY_HOST`: Specifies the host where the MySQL database is running. Replace `MY_HOST` with the actual hostname or IP address of your MySQL server.
+
+- `user=MY_USER`: Specifies the MySQL user to be used for the connection. Replace `MY_USER` with the actual MySQL username you want to use.
+
+- `passwd=MY_PASS`: Specifies the password for the MySQL user. Replace `MY_PASS` with the actual password for the specified MySQL user.
+
+- `db=MY_DB`: Specifies the name of the MySQL database to which you want to connect. Replace `MY_DB` with the actual name of the MySQL database.
+
+After this line of code is executed, the variable `db` will hold a connection object, and you can use it to execute SQL queries, fetch results, and perform other database operations in your Python script.
+
+Here's an example of how you might use this connection to execute a simple SQL query:
+
+```python
+cursor = db.cursor()
+
+# Example SQL query
+query = "SELECT * FROM my_table;"
+cursor.execute(query)
+
+# Fetch all rows from the result set
+results = cursor.fetchall()
+
+# Process the results
+for row in results:
+    print(row)
+
+# Close the cursor and the database connection
+cursor.close()
+db.close()
+```
+
+Using raw SQL queries like this can expose your code to SQL injection vulnerabilities. Consider using parameterized queries or an Object-Relational Mapping (ORM) library to mitigate this risk.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
