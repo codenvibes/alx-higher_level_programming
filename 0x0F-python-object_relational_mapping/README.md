@@ -283,6 +283,9 @@ Using raw SQL queries like this can expose your code to SQL injection vulnerabil
 <details>
 <summary><b><a href=" "> </a>What ORM means</b></summary><br>
 
+**ORMs handle the association/mapping between databases and objects in an object-oriented programming language.**
+
+ORM stands for Object-Relational Mapping. It is a programming technique that allows data to be seamlessly transferred between a relational database and an object-oriented programming language.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
