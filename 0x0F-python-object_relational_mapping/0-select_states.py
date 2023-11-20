@@ -14,5 +14,10 @@ if __name__ == "__main__":
     states = cursor.fetchall()
     for state in states:
         print(state)
+    """
+    The section of code is responsible for closing the cursor and the database connection. While the Python interpreter will automatically close the database connection when the program exits, it's generally a good practice to explicitly close it yourself, especially in larger or more complex programs.
+    Closing the cursor and database connection is important because it releases the resources associated with them and can help prevent potential issues, such as resource leaks. It ensures that the database connection is properly terminated, and any associated system resources are released.
+    In short, while the code will work without these lines, it's a good practice to include them to properly close the resources and follow best practices for managing database connections in Python.
+    """
     cursor.close()
     db.close()
