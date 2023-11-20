@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 # AUTH: codenvibes
 """
-This module lists all states with a name starting with N (upper N) the databasefrom  hbtn_0e_0_usa:
+This module lists all states with a name starting with N (upper N) from the
+database hbtn_0e_0_usa:
 """
 import MySQLdb
 import sys
