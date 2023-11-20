@@ -363,7 +363,7 @@ You can ignore it.
 ### 0. Get all states
 `mandatory`
 
-File: [0-select_states.py]()
+File: [0-select_states.py](https://github.com/codenvibes/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/0-select_states.py)
 </summary>
 
 Write a script that lists all `states` from the database `hbtn_0e_0_usa`:
