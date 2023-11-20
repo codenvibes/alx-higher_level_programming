@@ -356,37 +356,6 @@ moved in a future release.")
 You can ignore it.
 
 
-# Quiz questions
-<details>
-<summary><h3>Question 0</h3></summary>
-
-
-</details>
-
-<details>
-<summary><h3>Question 1</h3></summary>
-
-
-</details>
-
-<details>
-<summary><h3>Question 2</h3></summary>
-
-
-</details>
-
-<details>
-<summary><h3>Question 3</h3></summary>
-
-
-</details>
-
-<details>
-<summary><h3>Question 4</h3></summary>
-
-
-</details>
-
 # Tasks
 <details>
 <summary>
