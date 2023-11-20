@@ -10,6 +10,7 @@ import sys
 
 Base = declarative_base()
 
+
 class State(Base):
     """
     This class represents the 'states' table in the database.
