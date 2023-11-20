@@ -448,7 +448,7 @@ guillaume@ubuntu:~/0x0F$
 ### 2. Filter states by user input
 `mandatory`
 
-File: [2-my_filter_states.py]()
+File: [2-my_filter_states.py](https://github.com/codenvibes/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/2-my_filter_states.py)
 </summary>
 
 Write a script that takes in an argument and displays all values in the `states` table of `hbtn_0e_0_usa` where `name` matches the argument.
@@ -489,7 +489,7 @@ guillaume@ubuntu:~/0x0F$
 ### 3. SQL Injection
 `mandatory`
 
-File: [3-my_safe_filter_states.py]()
+File: [3-my_safe_filter_states.py](https://github.com/codenvibes/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/3-my_safe_filter_states.py)
 </summary>
 
 Wait, do you remember the previous task? Did you test `"Arizona'; TRUNCATE TABLE states ; SELECT * FROM states WHERE name = '"` as an input?
@@ -543,7 +543,7 @@ guillaume@ubuntu:~/0x0F$
 ### 4. Cities by states
 `mandatory`
 
-File: [4-cities_by_state.py]()
+File: [4-cities_by_state.py](https://github.com/codenvibes/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/4-cities_by_state.py)
 </summary>
 
 Write a script that lists all `cities` from the database `hbtn_0e_4_usa`
@@ -611,7 +611,7 @@ guillaume@ubuntu:~/0x0F$
 ### 5. All cities by state
 `mandatory`
 
-File: [5-filter_cities.py]()
+File: [5-filter_cities.py](https://github.com/codenvibes/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/5-filter_cities.py)
 </summary>
 
 Write a script that takes in the name of a state as an argument and lists all `cities` of that state, using the database `hbtn_0e_4_usa`
