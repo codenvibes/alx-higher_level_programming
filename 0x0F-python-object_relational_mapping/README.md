@@ -407,7 +407,7 @@ guillaume@ubuntu:~/0x0F$
 ### 1. Filter states
 `mandatory`
 
-File: [1-filter_states.py]()
+File: [1-filter_states.py](https://github.com/codenvibes/alx-higher_level_programming/blob/master/0x0F-python-object_relational_mapping/1-filter_states.py)
 </summary>
 
 Write a script that lists all `states` with a `name` starting with `N` (upper N) from the database `hbtn_0e_0_usa`:
