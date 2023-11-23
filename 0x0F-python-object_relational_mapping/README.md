@@ -260,6 +260,13 @@ Using raw SQL queries like this can expose your code to SQL injection vulnerabil
 <details>
 <summary><b><a href=" "> </a>How to connect to a MySQL database from a Python script</b></summary><br>
 
+**To start using SQLAlchemy with MySQL, you need to create an engine that represents a source of connectivity to a database**. Here's how you can create a connection to a MySQL database:
+```py
+from sqlalchemy import create_engine
+
+# Replace 'username', 'password', 'localhost', 'database_name' with your MySQL credentials
+engine = create_engine("mysql+mysqlconnector://username:password@localhost/database_name")
+```
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
