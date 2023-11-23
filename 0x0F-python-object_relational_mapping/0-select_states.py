@@ -8,8 +8,8 @@ import sys
 
 
 if __name__ == "__main__":
-    db = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
-    cursor = db.cursor()
+    conn = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
+    cursor = conn.cursor()
     cursor.execute("SELECT * FROM states;")
     states = cursor.fetchall()
     for state in states:
@@ -20,4 +20,4 @@ if __name__ == "__main__":
     In short, while the code will work without these lines, it's a good practice to include them to properly close the resources and follow best practices for managing database connections in Python.
     """
     cursor.close()
-    db.close()
+    conn.close()
