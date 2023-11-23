@@ -5,7 +5,6 @@ This module defines a SQLAlchemy model for the 'states' table.
 """
 from sqlalchemy import Column, Integer, String, create_engine
 from sqlalchemy.ext.declarative import declarative_base
-import sys
 
 
 Base = declarative_base()
