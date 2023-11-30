@@ -32,7 +32,7 @@
 
 ## Learning Objectives
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What a URL is</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -40,7 +40,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What HTTP is</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -48,7 +48,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to read a URL</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -56,7 +56,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>The scheme for a HTTP URL</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -64,7 +64,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What a domain name is</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -72,7 +72,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What a sub-domain is</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -80,7 +80,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to define a port number in a URL</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -88,7 +88,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What a query string is</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -96,7 +96,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What an HTTP request is</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -104,7 +104,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What an HTTP response is</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -112,7 +112,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What HTTP headers are</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -120,7 +120,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What the HTTP message body is</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -128,7 +128,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What an HTTP request method is</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -136,7 +136,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What an HTTP response status code is</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -144,7 +144,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What an HTTP Cookie is</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -152,7 +152,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to make a request with cURL</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -160,7 +160,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What happens when you type google.com in your browser (Application level)</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
