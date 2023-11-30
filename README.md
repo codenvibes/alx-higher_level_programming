@@ -17,14 +17,14 @@
 - ☑️ **[0x0B-python-input_output](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x0B-python-input_output)**
 - ☑️ **[0x0C-python-almost_a_circle](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x0C-python-almost_a_circle)**
 - **[0x0F-python-object_relational_mapping](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x0F-python-object_relational_mapping)**
-- **[0x10-python-network_0]()**
+- ☑️ **[0x10-python-network_0](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x10-python-network_0)**
 - **[0x11-python-network_1]()**
 <br>
 
 
 ### Higher-level programming - Javascript
-- **[0x12-javascript-warm_up](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x12-javascript-warm_up)**
-- **[0x13-javascript_objects_scopes_closures](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x13-javascript_objects_scopes_closures)**
+- ☑️ **[0x12-javascript-warm_up](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x12-javascript-warm_up)**
+- ☑️ **[0x13-javascript_objects_scopes_closures](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x13-javascript_objects_scopes_closures)**
 - **[0x14-javascript-web_scraping]()**
 - **[0x15-javascript-web_jquery]()**
 <br>
@@ -38,8 +38,8 @@
 
 ### Higher-level programming - AirBnB clone
 - ☑️ **[0x00. AirBnB clone - The console](https://github.com/codenvibes/AirBnB_clone)**
-- **[AirBnB clone - Web static]()**
-- **[AirBnB clone - MySQL]()**
+- ☑️ **[AirBnB clone - Web static](https://github.com/codenvibes/AirBnB_clone/tree/master/web_static)**
+- ☑️ **[AirBnB clone - MySQL](https://github.com/codenvibes/AirBnB_clone_v2/tree/master)**
 - **[AirBnB clone - Deploy static]()**
 - **[AirBnB clone - Web framework]()**
 - **[AirBnB clone - RESTful API]()**
