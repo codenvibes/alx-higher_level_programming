@@ -115,6 +115,21 @@ HTTP is the protocol that facilitates the communication between web browsers and
 <details>
 <summary><b><a href=" "> </a>What a domain name is</b></summary><br>
 
+A domain name is a human-readable label or address that is used to identify and locate resources on the internet. It serves as a more user-friendly alternative to the numeric IP addresses that computers use to communicate with each other. Domain names are an integral part of the Domain Name System (DNS), which is a hierarchical and decentralized naming system for computers, services, or other resources connected to the internet.
+
+Here are key components and characteristics of a domain name:
+
+1. **Top-Level Domain (TLD):** This is the last part of a domain name, such as ".com," ".org," ".net," or country code TLDs like ".uk," ".ca," etc. TLDs categorize and provide some context to the website's purpose or origin.
+
+2. **Second-Level Domain (SLD):** This is the part of the domain name that comes before the TLD. For example, in the domain name "example.com," "example" is the second-level domain.
+
+3. **Subdomain:** A subdomain is a domain that is part of a larger domain. For instance, in "blog.example.com," "blog" is a subdomain of "example.com."
+
+4. **Fully Qualified Domain Name (FQDN):** This is the complete domain name, including all levels and the TLD. For example, "www.example.com" is a fully qualified domain name.
+
+5. **Domain Registration:** To use a specific domain name, individuals or organizations must register it through accredited domain registrars. Registration is typically done on an annual basis, and domain owners have the option to renew their registration.
+
+6. **Domain Name System (DNS):** The DNS translates human-readable domain names into IP addresses that computers use to identify each other on the internet. When you type a domain name into a web browser, the DNS resolves it to the corresponding IP address, allowing your browser to connect to the desired server.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
@@ -123,6 +138,31 @@ HTTP is the protocol that facilitates the communication between web browsers and
 <details>
 <summary><b><a href=" "> </a>What a sub-domain is</b></summary><br>
 
+A subdomain is a domain that is part of a larger domain. In a hierarchical domain structure, a subdomain is created by adding a prefix to the main or root domain. The main purpose of subdomains is to organize and structure websites into distinct sections or categories.
+
+For example, consider the URL: `https://blog.example.com`
+
+In this case:
+- The main domain is `example.com`.
+- The subdomain is `blog`, and it is prefixed to the main domain.
+
+Here are some key points about subdomains:
+
+1. **Organization:** Subdomains are often used to organize and categorize content within a larger website. For instance, a company might use subdomains for different departments or services, such as `sales.example.com` or `support.example.com`.
+
+2. **Technical Separation:** Subdomains can be associated with different servers or server configurations, allowing for technical separation of content and functionality. This can be useful for scaling and managing different parts of a website independently.
+
+3. **Distinct Content:** Each subdomain can have its own unique content and resources. For example, a blog hosted on `blog.example.com` might have different content than the main website hosted on `www.example.com`.
+
+4. **Common Subdomains:**
+   - **www:** Historically used to denote the 'World Wide Web' and often used as the default for websites (e.g., `www.example.com`).
+   - **blog:** Used for blogs (e.g., `blog.example.com`).
+   - **shop:** Used for online stores (e.g., `shop.example.com`).
+   - **mail:** Used for email services (e.g., `mail.example.com`).
+
+5. **DNS Configuration:** Subdomains are configured through DNS (Domain Name System) settings. The DNS records for a subdomain are typically set up to point to the same or a different IP address than the main domain.
+
+It's important to note that while subdomains share the same root domain, they are considered separate entities in terms of configuration and content.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
@@ -131,6 +171,40 @@ HTTP is the protocol that facilitates the communication between web browsers and
 <details>
 <summary><b><a href=" "> </a>How to define a port number in a URL</b></summary><br>
 
+In a URL, the port number is specified using a colon followed by the port number after the domain or IP address. The general syntax is:
+
+```
+protocol://domain:port/path
+```
+
+Here's a breakdown of the components:
+
+- **Protocol:** This is typically "http" or "https" for web URLs.
+- **Domain:** This is the domain name or IP address of the server.
+- **Port:** This is the port number to use for the connection.
+- **Path:** This is the specific resource or location on the server.
+
+For example, if you have a web server running on port 8080, the URL might look like this:
+
+```
+http://example.com:8080/path/to/resource
+```
+
+In this example:
+
+- **Protocol:** "http"
+- **Domain:** "example.com"
+- **Port:** "8080"
+- **Path:** "/path/to/resource"
+
+If the port is not specified in the URL, the browser will default to using the standard port for the given protocol (e.g., 80 for HTTP, 443 for HTTPS). If a different port is used, it needs to be explicitly mentioned in the URL.
+
+It's worth noting that certain ports are associated with specific protocols by default. For example:
+
+- HTTP typically uses port 80.
+- HTTPS typically uses port 443.
+
+When accessing a resource on the web, most URLs omit the port number if the default port for the protocol is being used. If a non-default port is used, it must be specified in the URL to ensure that the client connects to the correct port on the server.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
@@ -139,6 +213,29 @@ HTTP is the protocol that facilitates the communication between web browsers and
 <details>
 <summary><b><a href=" "> </a>What a query string is</b></summary><br>
 
+A query string is a part of a URL (Uniform Resource Locator) that is used to pass and transmit data between a web browser and a web server. It is located after the path of the URL and is preceded by a question mark "?". The query string is a set of key-value pairs, where each pair is separated by an ampersand "&".
+
+The general structure of a URL with a query string looks like this:
+
+```
+https://www.example.com/path/to/resource?name1=value1&name2=value2&name3=value3
+```
+
+In this example:
+
+- The URL is `https://www.example.com/path/to/resource`.
+- The query string starts with a question mark and includes key-value pairs separated by ampersands.
+
+Each key-value pair in the query string represents a parameter and its corresponding value. These parameters are typically used to provide additional information to the server, such as search terms, filters, or any other data relevant to the request.
+
+For instance, in the URL `https://www.example.com/search?query=web&page=1`, the query string includes two parameters:
+
+- `query`: This parameter has the value "web," indicating a search query.
+- `page`: This parameter has the value "1," indicating the page number of the search results.
+
+On the server side, web applications and scripts can parse the query string to extract and process these parameters, enabling dynamic and customized content based on user input.
+
+It's important to note that while the query string is a convenient way to transmit data, sensitive information, such as passwords, should not be included in the query string for security reasons. Instead, sensitive data is typically transmitted using other methods, such as through the request body in a POST request.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
@@ -147,6 +244,39 @@ HTTP is the protocol that facilitates the communication between web browsers and
 <details>
 <summary><b><a href=" "> </a>What an HTTP request is</b></summary><br>
 
+An HTTP (Hypertext Transfer Protocol) request is a message sent by a client (typically a web browser) to a server, requesting a specific action or resource. HTTP is the protocol used for communication on the World Wide Web, and it operates as a request-response protocol. When you type a URL into your web browser and press Enter, or when you click a link, your browser generates an HTTP request to the server hosting the requested resource.
+
+An HTTP request consists of several components:
+
+1. **Request Method:** The request method or verb indicates the action to be performed by the server. Common HTTP methods include:
+   - **GET:** Retrieve data from the server (typically used for fetching web pages).
+   - **POST:** Submit data to be processed to a specified resource.
+   - **PUT:** Update a resource on the server.
+   - **DELETE:** Request the removal of a resource.
+   - And others like HEAD, OPTIONS, PATCH, etc.
+
+2. **URL (Uniform Resource Locator):** The URL specifies the address of the resource the client is requesting.
+
+3. **Headers:** Headers provide additional information about the request or the client making the request. Examples include information about the client's capabilities, preferred content types, authentication credentials, and more.
+
+4. **Body (for some methods):** The request body contains data that is sent to the server, usually with methods like POST or PUT. For example, when submitting a form on a website, the form data is included in the request body.
+
+Here's a basic example of an HTTP request:
+
+```http
+GET /path/to/resource HTTP/1.1
+Host: www.example.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+```
+
+In this example:
+
+- The method is `GET`.
+- The URL is `/path/to/resource`.
+- Headers include the host, user-agent information, and accepted content types.
+
+Once the server receives this request, it processes it and sends back an HTTP response, which contains the requested resource or information about the outcome of the request. The interaction between HTTP clients and servers is fundamental to how information is exchanged on the web.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
