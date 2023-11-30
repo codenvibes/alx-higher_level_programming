@@ -541,6 +541,37 @@ These are just a few examples of HTTP request methods. Each method serves a spec
 <details>
 <summary><b><a href=" "> </a>What an HTTP response status code is</b></summary><br>
 
+An HTTP response status code is a three-digit numeric code returned by a web server in response to an HTTP request made by a client (typically a web browser or other user agent). The status code is a part of the HTTP response and provides information about the success, failure, or other conditions of the requested operation. The status code is included in the first line of the HTTP response and is followed by a brief, human-readable status message.
+
+HTTP status codes are grouped into five classes, each represented by the first digit of the status code:
+
+1. **1xx (Informational):** The request was received, continuing process.
+   - Example: `100 Continue` (The server has received the request headers and the client should proceed to send the request body.)
+
+2. **2xx (Successful):** The request was successfully received, understood, and accepted.
+   - Example: `200 OK` (The request was successful.)
+
+3. **3xx (Redirection):** Further action needs to be taken to complete the request.
+   - Example: `301 Moved Permanently` (The requested resource has been permanently moved to a new location.)
+
+4. **4xx (Client Error):** The request contains bad syntax or cannot be fulfilled by the server.
+   - Example: `404 Not Found` (The server cannot find the requested resource.)
+
+5. **5xx (Server Error):** The server failed to fulfill a valid request.
+   - Example: `500 Internal Server Error` (A generic error message indicating that the server has encountered a situation it doesn't know how to handle.)
+
+Common HTTP status codes include:
+
+- `200 OK`: The request was successful.
+- `201 Created`: The request has been fulfilled, resulting in the creation of a new resource.
+- `204 No Content`: The server successfully processed the request but there is no additional content to send in the response.
+- `400 Bad Request`: The request cannot be fulfilled due to bad syntax or other client-side errors.
+- `401 Unauthorized`: The client must authenticate itself to get the requested response.
+- `403 Forbidden`: The client does not have the necessary permission to access the requested resource.
+- `404 Not Found`: The server cannot find the requested resource.
+- `500 Internal Server Error`: A generic error message indicating that the server has encountered a situation it doesn't know how to handle.
+
+Status codes provide valuable information about the outcome of an HTTP request, allowing the client to understand whether the request was successful, if redirection is needed, or if an error occurred. They are crucial for troubleshooting and diagnosing issues in web communication.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
@@ -549,6 +580,37 @@ These are just a few examples of HTTP request methods. Each method serves a spec
 <details>
 <summary><b><a href=" "> </a>What an HTTP Cookie is</b></summary><br>
 
+An HTTP cookie (often just called a "cookie") is a small piece of data stored by a user's web browser on their device, which is sent between the client (browser) and the server in the HTTP header of a request and response. Cookies serve various purposes, including session management, personalization, tracking, and maintaining stateful information between HTTP transactions.
+
+Here are some key characteristics and uses of HTTP cookies:
+
+1. **State Management:** Cookies are commonly used to maintain stateful information across multiple requests from the same client. This is particularly useful for tracking user sessions on a website.
+
+2. **Session Cookies:** These cookies are temporary and are stored only during a user's session. They are deleted when the user closes their browser.
+
+3. **Persistent Cookies:** Persistent cookies are stored on a user's device for a specified duration, even after the browser is closed. They are useful for retaining user preferences or login information across multiple sessions.
+
+4. **Authentication:** Cookies can be used to authenticate users. When a user logs in, a server may issue a session cookie to keep the user logged in until they log out or the session expires.
+
+5. **Personalization:** Cookies can store information about a user's preferences, language, and other personalized settings to enhance the user experience.
+
+6. **Tracking and Analytics:** Cookies are often used for tracking user behavior and collecting analytics data. This information can be used to analyze website traffic and improve content and services.
+
+7. **Cross-Site Request Forgery (CSRF) Protection:** Cookies can be configured with security attributes to mitigate CSRF attacks by ensuring that requests originate from the same site.
+
+8. **Cross-Site Scripting (XSS) Protection:** Properly implemented cookie attributes can enhance protection against certain types of XSS attacks.
+
+A typical HTTP response header that sets a cookie might look like this:
+
+```http
+HTTP/1.1 200 OK
+Content-Type: text/html
+Set-Cookie: user_id=12345; expires=Wed, 30 Nov 2023 12:00:00 GMT; path=/; domain=.example.com
+```
+
+In this example, a cookie named "user_id" is set with a value of "12345." It will expire on a specific date, has a specified path, and is valid for a specific domain.
+
+It's important to note that while cookies are widely used for legitimate purposes, they also raise privacy concerns. Browsers often provide settings for users to control cookie storage and may implement mechanisms such as SameSite attributes to enhance user privacy and security. Additionally, web developers need to be mindful of how they handle and secure cookies to prevent potential vulnerabilities.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
@@ -557,6 +619,49 @@ These are just a few examples of HTTP request methods. Each method serves a spec
 <details>
 <summary><b><a href=" "> </a>How to make a request with cURL</b></summary><br>
 
+cURL (short for Client for URLs) is a command-line tool and library for making HTTP requests and working with URLs. It supports a wide range of protocols, including HTTP, HTTPS, FTP, FTPS, SCP, LDAP, and more. Here's a basic example of how to make an HTTP GET request using cURL:
+
+```bash
+curl https://www.example.com
+```
+
+This command sends a GET request to `https://www.example.com` and outputs the response to the terminal.
+
+Here are some common options you might use with cURL:
+
+- **Specify Request Method:**
+  ```bash
+  curl -X POST https://www.example.com
+  ```
+
+- **Include Headers:**
+  ```bash
+  curl -H "Content-Type: application/json" https://www.example.com
+  ```
+
+- **Pass Data in the Request Body:**
+  ```bash
+  curl -X POST -d '{"key":"value"}' -H "Content-Type: application/json" https://www.example.com
+  ```
+
+- **Follow Redirects:**
+  ```bash
+  curl -L https://www.example.com
+  ```
+
+- **Save Response to a File:**
+  ```bash
+  curl -o output.html https://www.example.com
+  ```
+
+- **Include Verbose Output:**
+  ```bash
+  curl -v https://www.example.com
+  ```
+
+These are just a few examples. The `curl` command is highly versatile, and you can customize it based on your specific needs.
+
+cURL is available on various operating systems, including Linux, macOS, and Windows (using tools like Git Bash or Windows Subsystem for Linux). Make sure you have cURL installed on your system before using these commands.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
@@ -565,6 +670,43 @@ These are just a few examples of HTTP request methods. Each method serves a spec
 <details>
 <summary><b><a href=" "> </a>What happens when you type google.com in your browser (Application level)</b></summary><br>
 
+1. **Browser Processes Request:**
+   - When you press Enter, your browser starts processing the request. It checks if the requested URL is valid and then proceeds to parse the URL.
+
+2. **DNS Resolution:**
+   - The browser checks its DNS cache for the IP address associated with "google.com." If not found or if the cache has expired, the browser queries a DNS server to obtain the IP address.
+
+3. **Establishing a TCP Connection:**
+   - Using the obtained IP address, the browser initiates a TCP connection to the Google server. This involves a three-way handshake: SYN, SYN-ACK, and ACK.
+
+4. **HTTP Request:**
+   - The browser constructs an HTTP GET request for the "/" resource on the Google server. The request may include additional headers, such as user-agent information, to inform the server about the type of client making the request.
+
+5. **Server Receives Request:**
+   - The Google server receives the HTTP request and processes it. It identifies the requested resource ("/" in this case) and begins preparing the response.
+
+6. **Server Generates HTTP Response:**
+   - The server generates an HTTP response containing the requested resource (HTML content for the Google homepage). It includes headers such as Content-Type, Content-Length, and others.
+
+7. **Sending HTTP Response:**
+   - The server sends the HTTP response back to the browser over the established TCP connection.
+
+8. **Browser Receives Response:**
+   - The browser receives the HTTP response. It begins processing the response headers to determine the content type and length.
+
+9. **HTML Parsing:**
+   - The browser parses the HTML content received in the response. It identifies additional resources (stylesheets, scripts, images) referenced in the HTML and initiates requests for these resources.
+
+10. **Fetching Additional Resources:**
+    - The browser makes separate HTTP requests for the additional resources identified in the HTML. These requests happen concurrently for performance optimization.
+
+11. **Rendering the Page:**
+    - As resources are fetched, the browser starts rendering the Google homepage. It constructs the Document Object Model (DOM) and renders the visual representation of the page.
+
+12. **Displaying the Page:**
+    - The rendered page is displayed in the browser window, showing the Google homepage with its search bar and other elements.
+
+Throughout this process, various optimizations, such as caching and compression, may be employed to enhance performance. Additionally, if Google is using HTTPS, the communication between the browser and server is encrypted, adding a layer of security to the data exchange.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
