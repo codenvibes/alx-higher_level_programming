@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-# a Bash script that takes in a URL, sends a request to that URL, and displays the size of the body of the response
+# a bash script for sending URL requests and displaying response body size
 curl -s "$1" | wc -c
