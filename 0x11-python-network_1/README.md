@@ -9,7 +9,7 @@
 
 ## Resources
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://docs.python.org/3/howto/urllib2.html">HOWTO Fetch Internet Resources Using urllib Package</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -17,7 +17,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://requests.readthedocs.io/en/latest/">HOWTO Fetch Internet Resources Using urllib Package</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -25,7 +25,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://pypi.org/project/requests/">Requests package</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
