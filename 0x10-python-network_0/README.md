@@ -740,193 +740,356 @@ Throughout this process, various optimizations, such as caching and compression,
 <details>
 <summary><h3>Question 0</h3></summary>
 
-
+In the following URL, what’s the resource path?
+```
+https://api.google.com/v1/auth/new
+```
+- [x] v1/auth/new
+- [ ] v1/auth/new/index.html
+- [ ] v1/auth
+- [ ] v1
 </details>
 
 <details>
 <summary><h3>Question 1</h3></summary>
 
-
+What is the `curl` option to follow all redirects?
+- [x] -L
+- [ ] -X
+- [ ] -s
 </details>
 
 <details>
 <summary><h3>Question 2</h3></summary>
 
-
+What’s the status code number for an invalid HTTP request (server can’t understand it)?
+- [x] 400
+- [ ] 404
+- [ ] 500
 </details>
 
 <details>
 <summary><h3>Question 3</h3></summary>
 
-
+In the following URL, what’s the name of the parameter in the query string?
+```
+https://www.google.com/apply?batch=89
+```
+- [ ] 89
+- [ ] apply
+- [x] batch
 </details>
 
 <details>
 <summary><h3>Question 4</h3></summary>
 
-
+In this following HTML code, which HTTP verb will be used when you will submit this form?
+```
+<FORM action="/12/update.php" method="put">
+    <INPUT type="text" name="first_name" value="Bob"/>
+    <INPUT type="text" name="last_name" value="Dylan"/>
+    <INPUT type="submit" name="update" value="Update" />
+<FORM>
+```
+- [ ] POST
+- [x] PUT
+- [ ] UPDATE
+- [ ] GET
 </details>
 
 <details>
 <summary><h3>Question 5</h3></summary>
 
-
+What is the first digit of status codes that indicate a server error?
+- [ ] 4xx
+- [x] 5xx
+- [ ] 3xx
+- [ ] 2xx
+- [ ] 1xx
 </details>
 
 <details>
 <summary><h3>Question 6</h3></summary>
 
-
+What is the name of the HTTP response header used to define the size, in bytes, of the body of the response?
+- [ ] Length
+- [x] Content-Length
+- [ ] Content-Size
+- [ ] Body-Size
 </details>
 
 <details>
 <summary><h3>Question 7</h3></summary>
 
-
+What is the name of the HTTP response header used to define the formatting of the body? (This header gives details to the client on how to interpret the data received.)
+- [ ] Format
+- [x] Content-Type
+- [ ] Content-Format
+- [ ] Type
 </details>
 
 <details>
 <summary><h3>Question 8</h3></summary>
 
-
+In the following URL, what’s the sub domain?
+```
+https://api.google.com/v1/auth
+```
+- [x] api
+- [ ] api.google
+- [ ] .com
 </details>
 
 <details>
 <summary><h3>Question 9</h3></summary>
 
-
+What is the `curl` option to save the body of the resulting response to a file?
+- [ ] -r
+- [x] -o
+- [ ] -b
+- [ ] -d
 </details>
 
 <details>
 <summary><h3>Question 10</h3></summary>
 
-
+What is the `curl` option that defines the HTTP method used?
+- [ ] -s
+- [x] -X
+- [ ] -d
 </details>
 
 <details>
 <summary><h3>Question 11</h3></summary>
 
-
+What’s the status code number for a web page that can’t be found?
+- [ ] 500
+- [ ] 405
+- [x] 404
 </details>
 
 <details>
 <summary><h3>Question 12</h3></summary>
 
-
+Which `curl` option is used to set an HTTP header to a specific value?
+- [ ] -s
+- [ ] -X
+- [x] -H
 </details>
 
 <details>
 <summary><h3>Question 13</h3></summary>
 
-
+What will be the port number requested by this URL?
+```
+https://www.google.com:8080/apply
+```
+- [ ] 8888
+- [x] 8080
+- [ ] 80
 </details>
 
 <details>
 <summary><h3>Question 14</h3></summary>
 
-
+Which HTTP request header indicates the browser used by the client sending the request?
+- [ ] I-Am
+- [ ] Browser-Name
+- [x] User-Agent
+- [ ] Origin
 </details>
 
 <details>
 <summary><h3>Question 15</h3></summary>
 
-
+In the following URL, what’s the protocol?
+```
+http://www.google.com
+```
+- [ ] ftp
+- [ ] https
+- [x] http
 </details>
 
 <details>
 <summary><h3>Question 16</h3></summary>
 
-
+What’s the status code number for a permanent redirection (moved permanently)?
+- [ ] 302
+- [ ] 304
+- [x] 301
+- [ ] 300
+- [ ] 201
 </details>
 
 <details>
 <summary><h3>Question 17</h3></summary>
 
-
+In the following URL, how many parameters are in the query string?
+```
+https://www.google.com/apply?batch=89&location=SF
+```
+- [ ] 1
+- [ ] 3
+- [x] 2
 </details>
 
 <details>
 <summary><h3>Question 18</h3></summary>
 
-
+What is the name of the HTTP request header used to send cookies from the client?
+- [x] Cookie
+- [ ] Cookies
+- [ ] Send-Cookie
+- [ ] Set-Cookie
 </details>
 
 <details>
 <summary><h3>Question 19</h3></summary>
 
-
+What is the name of the HTTP request header that defines the size (in bytes) of the message body?
+- [ ] Content-Size
+- [ ] Size
+- [ ] Length
+- [x] Content-Length
 </details>
 
 <details>
 <summary><h3>Question 20</h3></summary>
 
-
+When you are typing `https://intranet.hbtn.io` in your browser, which HTTP verb is used?
+- [x] GET
+- [ ] PUT
+- [ ] DELETE
+- [ ] POST
 </details>
 
 <details>
 <summary><h3>Question 21</h3></summary>
 
-
+What is the `curl` option to set a body key-value parameter?
+- [x] -d
+- [ ] -X
+- [ ] -b
 </details>
 
 <details>
 <summary><h3>Question 22</h3></summary>
 
-
+What will be the port number requested by this URL?
+```
+http://www.google.com/apply
+```
+- [ ] 443
+- [ ] 22
+- [x] 80
+- [ ] 8080
 </details>
 
 <details>
 <summary><h3>Question 23</h3></summary>
 
-
+In the following URL, what’s the resource path?
+```
+https://www.google.com/assets/scripts/main.js
+```
+- [ ] assets/scripts
+- [ ] main.js
+- [x] assets/scripts/main.js
 </details>
 
 <details>
 <summary><h3>Question 24</h3></summary>
 
-
+In the following URL, what’s the sub domain?
+```
+https://api-dev.google.com/v1/auth/new
+```
+- [ ] /v1
+- [ ] /v1/auth/new
+- [x] api-dev
 </details>
 
 <details>
 <summary><h3>Question 25</h3></summary>
 
-
+When an HTTP response indicates a redirection, which header defines the URL the client should be redirected to?
+- [ ] Redirect-Location
+- [ ] Redirect
+- [ ] Next-Location
+- [x] Location
+- [ ] Redirect-URI
 </details>
 
 <details>
 <summary><h3>Question 26</h3></summary>
 
-
+What is the name of the HTTP response header used to send cookies to the client from the server?
+- [ ] Cookie-Setter
+- [x] Set-Cookie
+- [ ] Send-Cookies
 </details>
 
 <details>
 <summary><h3>Question 27</h3></summary>
 
-
+What is the `curl` option to set a cookie with a key-value pair?
+- [ ] -a
+- [ ] -c
+- [x] -b
+- [ ] -d
 </details>
 
 <details>
 <summary><h3>Question 28</h3></summary>
 
-
+In the following URL, what’s the resource path?
+```
+https://www.google.com/index.html
+```
+- [ ] www.google.com/index.html
+- [x] index.html
+- [ ] /
 </details>
 
 <details>
 <summary><h3>Question 29</h3></summary>
 
-
+What is the name of the HTTP response header used to define the status code of the response?
+- [ ] Code
+- [ ] Http-Status
+- [ ] Status-Code
+- [x] Status
 </details>
 
 <details>
 <summary><h3>Question 30</h3></summary>
 
-
+In this following HTML code, which HTTP verb will be used when you will submit this form?
+```
+<FORM action="/login.php" method="post">
+    <INPUT type="email" name="email" placeholder="Email" required/>
+    <INPUT type="password" name="password" placeholder="Password" required/>
+    <INPUT type="submit" name="submit" value="Login" />
+<FORM>
+```
+- [ ] ENTER
+- [ ] GET
+- [ ] SUBMIT
+- [ ] FORM
+- [x] POST
 </details>
 
 <details>
 <summary><h3>Question 31</h3></summary>
 
-
+What will be the port number requested by this URL?
+```
+afp://www.google.com/access_in_port_543
+```
+- [x] 548
+- [ ] 80
+- [ ] 543
 </details>
 
 <details>
