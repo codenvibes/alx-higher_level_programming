@@ -88,7 +88,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to manipulate data from an external service</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
