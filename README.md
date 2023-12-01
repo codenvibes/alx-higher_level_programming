@@ -16,9 +16,9 @@
 - ☑️ **[0x0A-python-inheritance](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x0A-python-inheritance)**
 - ☑️ **[0x0B-python-input_output](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x0B-python-input_output)**
 - ☑️ **[0x0C-python-almost_a_circle](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x0C-python-almost_a_circle)**
-- **[0x0F-python-object_relational_mapping](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x0F-python-object_relational_mapping)**
+- ☑️ **[0x0F-python-object_relational_mapping](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x0F-python-object_relational_mapping)**
 - ☑️ **[0x10-python-network_0](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x10-python-network_0)**
-- **[0x11-python-network_1]()**
+- ☑️ **[0x11-python-network_1](https://github.com/codenvibes/alx-higher_level_programming/tree/master/0x11-python-network_1)**
 <br>
 
 
