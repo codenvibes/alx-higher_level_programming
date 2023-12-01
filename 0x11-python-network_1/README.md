@@ -98,7 +98,19 @@
 <br>
 
 ## Requirements
-<!-- Add your requirements here -->
+- Allowed editors: `vi`, `vim`, `emacs`
+- All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
+- All your files should end with a new line
+- The first line of all your files should be exactly `#!/usr/bin/python3`
+- A `README.md` file at the root of the repo, containing a description of the repository
+- A `README.md` file, at the root of the folder of this project, is mandatory
+- Your code should use the pycodestyle (version `2.8.*`)
+- All your files must be executable
+- The length of your files will be tested using `wc`
+- All your modules should have a documentation (`python3 -c 'print(__import__("my_module").__doc__)'`)
+- You must use get to access to dictionary value by key (it won’t throw an exception if the key doesn’t exist in the dictionary)
+- A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
+- Your code should not be executed when imported (by using `if __name__ == "__main__":`)
 
 <!-- ## More Info -->
 
@@ -108,10 +120,10 @@
 <details>
 <summary>
 
-### 0. 
+### 0. What's my status? #0
 `mandatory`
 
-File: []()
+File: [0-hbtn_status.py]()
 </summary>
 
 
@@ -120,10 +132,10 @@ File: []()
 <details>
 <summary>
 
-### 1. 
+### 1. Response header value #0
 `mandatory`
 
-File: []()
+File: [1-hbtn_header.py]()
 </summary>
 
 
@@ -132,10 +144,10 @@ File: []()
 <details>
 <summary>
 
-### 2. 
+### 2. POST an email #0
 `mandatory`
 
-File: []()
+File: [2-post_email.py]()
 </summary>
 
 
@@ -144,10 +156,10 @@ File: []()
 <details>
 <summary>
 
-### 3. 
+### 3. Error code #0
 `mandatory`
 
-File: []()
+File: [3-error_code.py]()
 </summary>
 
 
@@ -156,10 +168,10 @@ File: []()
 <details>
 <summary>
 
-### 4. 
+### 4. What's my status? #1
 `mandatory`
 
-File: []()
+File: [4-hbtn_status.py]()
 </summary>
 
 
@@ -168,10 +180,10 @@ File: []()
 <details>
 <summary>
 
-### 5. 
+### 5. Response header value #1
 `mandatory`
 
-File: []()
+File: [5-hbtn_header.py]()
 </summary>
 
 
@@ -180,10 +192,10 @@ File: []()
 <details>
 <summary>
 
-### 6. 
+### 6. POST an email #1
 `mandatory`
 
-File: []()
+File: [6-post_email.py]()
 </summary>
 
 
@@ -192,10 +204,10 @@ File: []()
 <details>
 <summary>
 
-### 7. 
+### 7. Error code #1
 `mandatory`
 
-File: []()
+File: [7-error_code.py]()
 </summary>
 
 
@@ -204,10 +216,10 @@ File: []()
 <details>
 <summary>
 
-### 8. 
+### 8. Search API
 `mandatory`
 
-File: []()
+File: [8-json_api.py]()
 </summary>
 
 
@@ -216,10 +228,10 @@ File: []()
 <details>
 <summary>
 
-### 9. 
+### 9. My GitHub!
 `mandatory`
 
-File: []()
+File: [10-my_github.py]()
 </summary>
 
 
@@ -228,10 +240,10 @@ File: []()
 <details>
 <summary>
 
-### 10. 
+### 10. Time for an interview!
 `#advanced`
 
-File: []()
+File: [100-github_commits.py]()
 </summary>
 
 
