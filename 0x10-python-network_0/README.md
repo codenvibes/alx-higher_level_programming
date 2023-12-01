@@ -1166,10 +1166,10 @@ guillaume@ubuntu:~/0x10$
 <details>
 <summary>
 
-### 1. 
+### 1. cURL to the end
 `mandatory`
 
-File: []()
+File: [1-body.sh]()
 </summary>
 
 
@@ -1178,10 +1178,10 @@ File: []()
 <details>
 <summary>
 
-### 2. 
+### 2. cURL Method
 `mandatory`
 
-File: []()
+File: [2-delete.sh]()
 </summary>
 
 
@@ -1190,10 +1190,10 @@ File: []()
 <details>
 <summary>
 
-### 3. 
+### 3. cURL only methods
 `mandatory`
 
-File: []()
+File: [3-methods.sh]()
 </summary>
 
 
@@ -1202,10 +1202,10 @@ File: []()
 <details>
 <summary>
 
-### 4. 
+### 4. cURL headers
 `mandatory`
 
-File: []()
+File: [4-header.sh]()
 </summary>
 
 
@@ -1214,10 +1214,10 @@ File: []()
 <details>
 <summary>
 
-### 5. 
+### 5. 4-header.sh
 `mandatory`
 
-File: []()
+File: [5-post_params.sh]()
 </summary>
 
 
@@ -1226,10 +1226,10 @@ File: []()
 <details>
 <summary>
 
-### 6. 
+### 6. Find a peak
 `mandatory`
 
-File: []()
+File: [6-peak.py](), [6-peak.txt]()
 </summary>
 
 
@@ -1238,10 +1238,10 @@ File: []()
 <details>
 <summary>
 
-### 7. 
+### 7. Only status code
 `#advanced`
 
-File: []()
+File: [100-status_code.sh]()
 </summary>
 
 
@@ -1250,10 +1250,10 @@ File: []()
 <details>
 <summary>
 
-### 8. 
+### 8. cURL a JSON file
 `#advanced`
 
-File: []()
+File: [101-post_json.sh]()
 </summary>
 
 
@@ -1262,7 +1262,7 @@ File: []()
 <details>
 <summary>
 
-### 9. 
+### 9. Catch me if you can!
 `#advanced`
 
 File: []()
