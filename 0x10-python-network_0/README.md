@@ -1095,25 +1095,47 @@ afp://www.google.com/access_in_port_543
 <details>
 <summary><h3>Question 32</h3></summary>
 
-
+What is the name of the HTTP response header that defines a list of available HTTP methods for this URL?
+- [ ] Verbs-Allowed
+- [x] Allow
+- [ ] Verbs
 </details>
 
 <details>
 <summary><h3>Question 33</h3></summary>
 
-
+What is the `curl` option to disable the progression display?
+- [ ] -b
+- [ ] -p
+- [ ] -c
+- [x] -s
 </details>
 
 <details>
 <summary><h3>Question 34</h3></summary>
 
-
+In the following URL, what’s the hostname?
+```
+http://www.google.com
+```
+- [x] www.google.com
+- [ ] www.google
+- [ ] google.com
+- [ ] google
 </details>
 
 <details>
 <summary><h3>Question 35</h3></summary>
 
-
+In the following URL, how many parameters are in the query string?
+```
+https://www.google.com/apply?batch=89&location=SF&name=John%20do%20is%20the%20best%20%3D%20c%20is%20fun
+```
+- [ ] 4
+- [ ] 5
+- [ ] 1
+- [ ] 2
+- [x] 3
 </details>
 
 <br>
