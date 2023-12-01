@@ -40,7 +40,7 @@
 
 ## Learning Objectives
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to fetch internet resources with the Python package <code>urllib</code></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -48,7 +48,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to decode <code>urllib</code> body response</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -56,7 +56,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to use the Python package <code>requests</code> #requestsiswaysimplerthanurllib</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -64,7 +64,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to make HTTP <code>GET</code> request</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -72,7 +72,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to make HTTP <code>POST</code>/<code>PUT</code>/etc. request</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -80,7 +80,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to fetch JSON resources</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
