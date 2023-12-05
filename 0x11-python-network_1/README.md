@@ -127,8 +127,6 @@ Keep in mind that sometimes the server might not provide the encoding informatio
 <details>
 <summary><b><a href=" "> </a>How to use the Python package <code>requests</code> #requestsiswaysimplerthanurllib</b></summary><br>
 
-Certainly! Below are examples using the GitHub API to demonstrate various requests with the `requests` library in Python. Please note that you may need to authenticate with a personal access token for certain requests.
-
 ### Installation:
 
 ```bash
