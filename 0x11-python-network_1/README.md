@@ -127,6 +127,103 @@ Keep in mind that sometimes the server might not provide the encoding informatio
 <details>
 <summary><b><a href=" "> </a>How to use the Python package <code>requests</code> #requestsiswaysimplerthanurllib</b></summary><br>
 
+Certainly! Below are examples using the GitHub API to demonstrate various requests with the `requests` library in Python. Please note that you may need to authenticate with a personal access token for certain requests.
+
+### Installation:
+
+```bash
+pip install requests
+```
+
+### Basic Usage:
+
+1. **Making a GET Request:**
+
+   ```python
+   import requests
+
+   url = 'https://api.github.com/repos/octocat/hello-world'
+   response = requests.get(url)
+
+   print(response.status_code)  # HTTP status code
+   print(response.json())      # Content of the response in JSON format
+   ```
+
+2. **Adding Parameters to a GET Request:**
+
+   ```python
+   import requests
+
+   url = 'https://api.github.com/search/repositories'
+   params = {'q': 'python', 'sort': 'stars'}
+   response = requests.get(url, params=params)
+
+   print(response.url)   # Full URL with parameters
+   print(response.json())  # Content of the response in JSON format
+   ```
+
+3. **Making a POST Request (requires authentication):**
+
+   ```python
+   import requests
+
+   url = 'https://api.github.com/gists'
+   data = {
+       'description': 'My Gist',
+       'public': True,
+       'files': {'file.txt': {'content': 'Hello, GitHub!'}}
+   }
+
+   headers = {'Authorization': 'Bearer YOUR_ACCESS_TOKEN'}
+   response = requests.post(url, json=data, headers=headers)
+
+   print(response.status_code)
+   print(response.json())
+   ```
+
+   Replace `'YOUR_ACCESS_TOKEN'` with your GitHub personal access token.
+
+4. **Handling Headers:**
+
+   ```python
+   import requests
+
+   url = 'https://api.github.com/user'
+   headers = {'Authorization': 'Bearer YOUR_ACCESS_TOKEN'}
+   response = requests.get(url, headers=headers)
+
+   print(response.json())
+   ```
+
+   Replace `'YOUR_ACCESS_TOKEN'` with your GitHub personal access token.
+
+5. **Handling JSON Response:**
+
+   ```python
+   import requests
+
+   url = 'https://api.github.com/repos/octocat/hello-world'
+   response = requests.get(url)
+
+   json_data = response.json()  # Parse JSON response
+   print(json_data)
+   ```
+
+6. **Handling Errors:**
+
+   ```python
+   import requests
+
+   url = 'https://api.github.com/nonexistent'
+   response = requests.get(url)
+
+   if response.status_code == 200:
+       print(response.json())
+   else:
+       print(f"Error: {response.status_code}")
+   ```
+
+Remember to replace `'YOUR_ACCESS_TOKEN'` with your actual GitHub personal access token where necessary. The examples demonstrate basic interactions with the GitHub API, but the API provides a wide range of functionalities you can explore in the [official GitHub API documentation](https://developer.github.com/v3/).
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
