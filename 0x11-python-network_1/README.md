@@ -94,6 +94,31 @@ The `requests` library provides a more user-friendly interface compared to `urll
 <details>
 <summary><b><a href=" "> </a>How to decode <code>urllib</code> body response</b></summary><br>
 
+If you want to decode the body of a response obtained using the `urllib` library in Python, you typically need to consider the encoding used by the server to send the response. The `decode()` method is used to convert bytes to a string, and you need to specify the encoding.
+
+Here's an example of how you can do this:
+
+```python
+import urllib.request
+
+url = "https://example.com"
+response = urllib.request.urlopen(url)
+body_bytes = response.read()
+
+# Assuming the server provides information about the encoding in the response headers
+# If not, you may need to handle the encoding detection differently
+encoding = response.info().get_content_charset('utf-8')
+
+# Decode the bytes using the specified encoding
+body_str = body_bytes.decode(encoding)
+
+# Now 'body_str' contains the decoded string
+print(body_str)
+```
+
+In this example, the `get_content_charset('utf-8')` method is used to retrieve the encoding from the response headers, with a default value of 'utf-8' if the encoding information is not provided. You may need to adjust this based on the specifics of the server response.
+
+Keep in mind that sometimes the server might not provide the encoding information in the headers, and in such cases, you might need to use other methods, such as chardet, to detect the encoding.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
