@@ -42,6 +42,50 @@
 <details>
 <summary><b><a href=" "> </a>How to fetch internet resources with the Python package <code>urllib</code></b></summary><br>
 
+To fetch internet resources using the `urllib` package in Python, you can use the `urllib.request` module. Here's a basic example:
+
+```python
+import urllib.request
+
+url = 'https://www.example.com'
+response = urllib.request.urlopen(url)
+
+# Fetch the content of the page
+html_content = response.read()
+
+# Decode the content if necessary
+decoded_content = html_content.decode('utf-8')
+
+# Print or do something with the content
+print(decoded_content)
+
+# Don't forget to close the response
+response.close()
+```
+
+In this example, replace `'https://www.example.com'` with the URL of the resource you want to fetch. The `urlopen` function is used to open the URL, and then you can read the content using the `read` method. If the content is in bytes, you may want to decode it into a string using the `decode` method.
+
+Note: Starting from Python 3.9, `urllib` is split into several submodules. The `urllib.request` module is used for opening and reading URLs in this example.
+
+Alternatively, you can use the `requests` library, which is a popular third-party library that simplifies working with HTTP requests. If it's not already installed, you can install it using:
+
+```bash
+pip install requests
+```
+
+And then use it like this:
+
+```python
+import requests
+
+url = 'https://www.example.com'
+response = requests.get(url)
+
+# Print or do something with the content
+print(response.text)
+```
+
+The `requests` library provides a more user-friendly interface compared to `urllib`.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
