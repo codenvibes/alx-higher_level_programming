@@ -74,7 +74,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a>How to read and write a file using fs module</b></summary><br>
+<summary><b><a href=" "> </a>How to read and write a file using <code>fs</code> module</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
