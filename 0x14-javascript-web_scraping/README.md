@@ -202,7 +202,7 @@ File: [5-request_store.js]()
 ### 6. How many completed?
 `mandatory`
 
-File: []()
+File: [6-completed_tasks.js]()
 </summary>
 
 
