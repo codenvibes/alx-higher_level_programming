@@ -178,7 +178,7 @@ File: [3-starwars_title.js]()
 ### 4. Star wars Wedge Antilles
 `mandatory`
 
-File: []()
+File: [4-starwars_count.js]()
 </summary>
 
 
@@ -187,7 +187,7 @@ File: []()
 <details>
 <summary>
 
-### 5. 
+### 5. Loripsum
 `mandatory`
 
 File: []()
