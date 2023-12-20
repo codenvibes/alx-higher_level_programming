@@ -100,7 +100,7 @@
 
 ### Install Node 14
 ### Install semi-standard
-###
+### Install `request` module and use it
 
 <br>
 
