@@ -9,7 +9,7 @@
 
 ## Resources
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" ">Working with JSON data</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
