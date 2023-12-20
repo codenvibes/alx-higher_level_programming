@@ -9,7 +9,7 @@
 
 ## Resources
 <details>
-<summary><b><a href=" ">Working with JSON data</a></b></summary><br>
+<summary><b><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON">Working with JSON data</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
