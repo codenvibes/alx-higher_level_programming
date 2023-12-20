@@ -190,7 +190,7 @@ File: [4-starwars_count.js]()
 ### 5. Loripsum
 `mandatory`
 
-File: []()
+File: [5-request_store.js]()
 </summary>
 
 
