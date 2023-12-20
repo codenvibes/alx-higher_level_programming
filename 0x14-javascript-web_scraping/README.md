@@ -94,7 +94,9 @@
 - The length of your files will be tested using `wc`
 - You are not allowed to use `var`
 
-<!-- ## More Info -->
+<br>
+
+## More Info
 
 <br>
 
