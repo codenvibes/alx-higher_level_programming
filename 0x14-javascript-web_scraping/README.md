@@ -279,11 +279,10 @@ File: [6-completed_tasks.js]()
 </summary>
 
 Write a script that computes the number of tasks completed by user id.
-
-The first argument is the API URL: https://jsonplaceholder.typicode.com/todos
-Only print users with completed task
-You must use the module request
-
+- The first argument is the API URL: https://jsonplaceholder.typicode.com/todos
+- Only print users with completed task
+- You must use the module `request`
+```
 guillaume@ubuntu:~/0x14$ ./6-completed_tasks.js https://jsonplaceholder.typicode.com/todos
 { '1': 11,
   '2': 8,
@@ -296,7 +295,7 @@ guillaume@ubuntu:~/0x14$ ./6-completed_tasks.js https://jsonplaceholder.typicode
   '9': 8,
   '10': 12 }
 guillaume@ubuntu:~/0x14$
-
+```
 </details>
 
 <details>
