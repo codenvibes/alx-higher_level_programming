@@ -223,7 +223,7 @@ File: [100-starwars_characters.js]()
 <details>
 <summary>
 
-### 8. 
+### 8. Right order
 `#advanced`
 
 File: []()
