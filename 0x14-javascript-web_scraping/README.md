@@ -66,7 +66,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a>How to use <code>request<code> and fetch API</b></summary><br>
+<summary><b><a href=" "> </a>How to use <code>request</code> and fetch API</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -74,7 +74,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to read and write a file using fs module</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
