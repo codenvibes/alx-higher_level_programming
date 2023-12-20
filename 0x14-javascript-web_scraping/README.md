@@ -111,6 +111,12 @@ $ sudo npm install semistandard --global
 ```
 
 ### Install `request` module and use it
+[Documentation](https://github.com/request/request)
+```
+$ sudo npm install request --global
+$ export NODE_PATH=/usr/lib/node_modules
+```
+
 
 <br>
 
