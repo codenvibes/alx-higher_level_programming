@@ -199,7 +199,7 @@ File: [5-request_store.js]()
 <details>
 <summary>
 
-### 6. 
+### 6. How many completed?
 `mandatory`
 
 File: []()
