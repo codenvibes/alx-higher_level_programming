@@ -103,12 +103,14 @@
 $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 $ sudo apt-get install -y nodejs
 ```
+<br>
 
 ### Install semi-standard
 [Documentation](https://github.com/standard/semistandard)
 ```
 $ sudo npm install semistandard --global
 ```
+<br>
 
 ### Install `request` module and use it
 [Documentation](https://github.com/request/request)
