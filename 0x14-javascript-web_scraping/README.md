@@ -211,7 +211,7 @@ File: [6-completed_tasks.js]()
 <details>
 <summary>
 
-### 7. 
+### 7. Who was playing in this movie?
 `#advanced`
 
 File: []()
