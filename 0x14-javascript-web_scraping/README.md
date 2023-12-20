@@ -214,7 +214,7 @@ File: [6-completed_tasks.js]()
 ### 7. Who was playing in this movie?
 `#advanced`
 
-File: []()
+File: [100-starwars_characters.js]()
 </summary>
 
 
