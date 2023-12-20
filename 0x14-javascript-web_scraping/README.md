@@ -98,6 +98,10 @@
 
 ## More Info
 
+### Install Node 14
+### Install semi-standard
+###
+
 <br>
 
 ## Tasks
