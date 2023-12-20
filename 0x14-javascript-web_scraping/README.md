@@ -105,6 +105,8 @@ $ sudo apt-get install -y nodejs
 ```
 
 ### Install semi-standard
+[Documentation]()
+
 ### Install `request` module and use it
 
 <br>
