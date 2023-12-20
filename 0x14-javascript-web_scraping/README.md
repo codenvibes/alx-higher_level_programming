@@ -151,7 +151,7 @@ File: [1-writeme.js]()
 <details>
 <summary>
 
-### 2. 
+### 2. Status code
 `mandatory`
 
 File: []()
