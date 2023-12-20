@@ -17,7 +17,7 @@
 
 
 <details>
-<summary><b><a href=" ">The workflow of accessing the attributes of a simply-created JSON object by Jimmy Tran from Cohort 1 - San Francisco</a></b></summary><br>
+<summary><b><a href="https://medium.com/@vietkieutie/the-workflow-of-accessing-the-attributes-of-a-simply-created-json-object-82a5b33e2319">The workflow of accessing the attributes of a simply-created JSON object by Jimmy Tran from Cohort 1 - San Francisco</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -25,7 +25,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" ">request module</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
