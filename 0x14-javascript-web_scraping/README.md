@@ -85,7 +85,7 @@
 
 ## Requirements
 - Allowed editors: `vi`, `vim`, `emacs`
-- All your files will be interpreted on Ubuntu 20.04 LTS using node (version 14.x)
+- All your files will be interpreted on Ubuntu 20.04 LTS using `node` (version 14.x)
 - All your files should end with a new line
 - The first line of all your files should be exactly #!/usr/bin/node
 - A README.md file, at the root of the folder of the project, is mandatory
