@@ -175,7 +175,7 @@ File: [3-starwars_title.js]()
 <details>
 <summary>
 
-### 4. 
+### 4. Star wars Wedge Antilles
 `mandatory`
 
 File: []()
