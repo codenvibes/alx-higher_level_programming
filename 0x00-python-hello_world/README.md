@@ -1035,7 +1035,7 @@ carrie@ubuntu:~/0x00$
 <details>
 <summary>
 
-### 11. 
+### 11. Hello, write
 `#advanced`
 
 File: []()
