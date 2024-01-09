@@ -50,7 +50,7 @@ Enjoy!
 
 
 <details>
-<summary><b><a href=" ">Whetting Your Appetite</a></b></summary><br>
+<summary><b><a href="https://docs.python.org/3/tutorial/appetite.html">Whetting Your Appetite</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
