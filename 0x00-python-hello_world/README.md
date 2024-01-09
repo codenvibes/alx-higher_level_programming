@@ -402,6 +402,15 @@ Namespaces are one honking great idea -- let's do more of those!
 <details>
 <summary><b>Question 0</b></summary><br>
 
+What does this command line print?
+```py
+>>> a = "Python is cool"
+>>> print(a[-2])
+```
+- [x] o
+- [ ] Nothing
+- [ ] l
+- [ ] ol
 
 <br>
 </details>
