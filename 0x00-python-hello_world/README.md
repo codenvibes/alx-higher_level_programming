@@ -11,7 +11,7 @@
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
 
-<br><div align="center"><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/231/48a9fdbd67c84a328a9df9ec8d93b9ac2458ac37721d7d53e51a27fb2bdc5263.jpg"></div>
+<br><div align="center"><img src="https://github.com/codenvibes/alx-higher_level_programming/blob/master/0x00-python-hello_world/images/48a9fdbd67c84a328a9df9ec8d93b9ac2458ac37721d7d53e51a27fb2bdc5263.jpg"></div>
 
 
 <!-- <br>
