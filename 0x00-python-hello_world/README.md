@@ -122,7 +122,7 @@ Enjoy!
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>Who is Guido van Rossum</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -130,7 +130,7 @@ Enjoy!
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>Where does the name ‘Python’ come from</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
