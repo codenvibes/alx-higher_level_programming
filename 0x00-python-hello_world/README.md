@@ -714,7 +714,7 @@ guillaume@ubuntu:~/py/0x00$
 ### 6. Play with strings
 `mandatory`
 
-File: []()
+File: [6-concat.py]()
 </summary>
 
 
