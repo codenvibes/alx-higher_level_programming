@@ -479,6 +479,16 @@ What does this command line print?
 <details>
 <summary><b>Question 5</b></summary><br>
 
+What does this command line print?
+```py
+>>> a = "Python is cool"
+>>> print(a[7:-5])
+```
+- [ ] si
+- [x] is
+- [ ] Python
+- [ ] nohtyP
+- [ ] on
 
 <br>
 </details>
