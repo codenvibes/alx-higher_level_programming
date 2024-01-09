@@ -82,7 +82,7 @@ Enjoy!
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" ">Learn to Program</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
