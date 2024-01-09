@@ -305,7 +305,26 @@ Slicing and indexing are versatile techniques that are not limited to lists; the
 <br>
 
 ## Requirements
-<!-- Add your requirements here -->
+<details>
+<summary><b><a href=" "> </a> </b></summary><br>
+
+
+<br><p align="center">※※※※※※※※※※※※</p><br>
+</details>
+
+<details>
+<summary><b><a href=" "> </a> </b></summary><br>
+
+
+<br><p align="center">※※※※※※※※※※※※</p><br>
+</details>
+
+<details>
+<summary><b><a href=" "> </a> </b></summary><br>
+
+
+<br><p align="center">※※※※※※※※※※※※</p><br>
+</details>
 
 <!-- <br>
 
