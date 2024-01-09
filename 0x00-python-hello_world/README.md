@@ -449,6 +449,14 @@ What does this command line print?
 <details>
 <summary><b>Question 3</b></summary><br>
 
+What does this command line print?
+```py
+>>> print("Holberton school")
+```
+- [x] Holberton school
+- [ ] ‘Holberton school’
+- [ ] “Holberton school”
+- [ ] Holberton
 
 <br>
 </details>
