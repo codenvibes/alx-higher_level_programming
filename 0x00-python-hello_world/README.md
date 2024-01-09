@@ -528,6 +528,15 @@ What does this command line print?
 <details>
 <summary><b>Question 8</b></summary><br>
 
+What does this command line print?
+```py
+>>> a = "Python is cool"
+>>> print(a[4])
+```
+- [x] o
+- [ ] h
+- [ ] n
+- [ ] P
 
 <br>
 </details>
