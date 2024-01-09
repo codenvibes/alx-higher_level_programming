@@ -627,7 +627,7 @@ guillaume@ubuntu:~/py/0x00$
 <details>
 <summary>
 
-### 3. 
+### 3. Print integer
 `mandatory`
 
 File: []()
