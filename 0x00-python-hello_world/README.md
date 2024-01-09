@@ -656,7 +656,7 @@ guillaume@ubuntu:~/py/0x00$
 <details>
 <summary>
 
-### 4. 
+### 4. Print float
 `mandatory`
 
 File: []()
