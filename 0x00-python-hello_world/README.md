@@ -633,7 +633,24 @@ guillaume@ubuntu:~/py/0x00$
 File: [3-print_number.py]()
 </summary>
 
+Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/3-print_number.py "source code") in order to print the integer stored in the variable `number`, followed by `Battery street`, followed by a new line.
 
+-   You can find the source code [here](https://github.com/holbertonschool/0x00.py/blob/master/3-print_number.py "here")
+-   The output of the script should be:
+    -   the number, followed by `Battery street`,
+    -   followed by a new line
+-   You are not allowed to cast the variable `number` into a string
+-   Your code must be 3 lines long
+-   You have to use the new print numbers [tips](https://alx-intranet.hbtn.io/rltoken/bKDyX1T7EsKyOMXp_2YzAg "tips") (with `.format(...)`)
+
+```
+guillaume@ubuntu:~/py/0x00$ ./3-print_number.py
+98 Battery street
+guillaume@ubuntu:~/py/0x00$
+
+```
+
+> C is strongly typed... not in Python! The variable `number` can be assigned to a string, a float, a bool etc... Forcing the type during a string format (`"...".format(...)`) is a way to control the type of a variable
 </details>
 
 <details>
