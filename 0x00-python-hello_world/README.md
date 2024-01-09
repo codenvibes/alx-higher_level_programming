@@ -606,7 +606,7 @@ guillaume@ubuntu:~/py/0x00$
 <details>
 <summary>
 
-### 2. 
+### 2. Hello, print
 `mandatory`
 
 File: []()
