@@ -464,6 +464,14 @@ What does this command line print?
 <details>
 <summary><b>Question 4</b></summary><br>
 
+What does this command line print?
+```py
+>>> print(f"{98} Battery street, {'San Francisco'}")
+```
+- [x] 98 Battery street, San Francisco
+- [ ] San Francisco Battery street, 98
+- [ ] 8 Battery street, San
+- [ ] “98 Battery street, San Francisco”
 
 <br>
 </details>
