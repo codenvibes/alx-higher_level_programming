@@ -1038,7 +1038,7 @@ carrie@ubuntu:~/0x00$
 ### 11. Hello, write
 `#advanced`
 
-File: []()
+File: [100-write.py]()
 </summary>
 
 
