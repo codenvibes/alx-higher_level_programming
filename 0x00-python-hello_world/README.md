@@ -794,7 +794,7 @@ guillaume@ubuntu:~/py/0x00$
 <details>
 <summary>
 
-### 9. 
+### 9. Easter Egg
 `mandatory`
 
 File: []()
