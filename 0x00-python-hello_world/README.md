@@ -1,5 +1,5 @@
 <h1 align="center"><b>0x00. PYTHON - HELLO, WORLD</b></h1>
-<div align="center"><code></code></div>
+<div align="center"><code>Python</code></div>
 
 <br>
 
