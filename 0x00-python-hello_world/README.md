@@ -147,7 +147,7 @@ Enjoy!
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to use the Python interpreter</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
