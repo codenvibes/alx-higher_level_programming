@@ -558,7 +558,7 @@ Who created Python?
 <details>
 <summary>
 
-### 0. 
+### 0. Run Python file
 `mandatory`
 
 File: []()
