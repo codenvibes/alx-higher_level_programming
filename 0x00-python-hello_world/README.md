@@ -74,7 +74,7 @@ Enjoy!
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" ">How To Use String Formatters in Python 3</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
