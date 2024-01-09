@@ -66,7 +66,7 @@ Enjoy!
 
 
 <details>
-<summary><b><a href="https://docs.python.org/3/tutorial/introduction.html">An Informal Introduction to Python</a></b></summary><br>
+<summary><b><a href="https://docs.python.org/3/tutorial/introduction.html">An Informal Introduction to Python</a> (Read up until “3.1.2. Strings” included)</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
