@@ -388,7 +388,7 @@ Namespaces are one honking great idea -- let's do more of those!
 <details>
 <summary><b>Pycodestyle</b></summary><br>
 
-`Pycodestyle` is now the [new standard of Python style code]()
+`Pycodestyle` is now the [new standard of Python style code](https://github.com/PyCQA/pycodestyle/issues/466)
 
 <br>
 </details>
