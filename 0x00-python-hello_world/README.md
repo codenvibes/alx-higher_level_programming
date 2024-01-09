@@ -1104,7 +1104,7 @@ guillaume@ubuntu:~/py/0x00$
 ### 13. ByteCode -> Python #1
 `#advanced`
 
-File: []()
+File: [102-magic_calculation.py]()
 </summary>
 
 
