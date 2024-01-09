@@ -584,7 +584,7 @@ guillaume@ubuntu:~/py/0x00$
 <details>
 <summary>
 
-### 1. 
+### 1. Run inline
 `mandatory`
 
 File: []()
