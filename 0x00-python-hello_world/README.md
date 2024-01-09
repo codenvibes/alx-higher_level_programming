@@ -434,7 +434,14 @@ What does this command line print?
 <details>
 <summary><b>Question 2</b></summary><br>
 
-
+What does this command line print?
+```py
+>>> print(f"{98} Battery street")
+```
+- [ ] 9 Battery street
+- [ ] 8 Battery street
+- [ ] f"98 Battery street"
+- [x] 98 Battery street
 
 <br>
 </details>
