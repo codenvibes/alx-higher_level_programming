@@ -512,6 +512,15 @@ What does this command line print?
 <details>
 <summary><b>Question 7</b></summary><br>
 
+What does this command line print?
+```py
+>>> a = "Python is cool"
+>>> print(a[7:])
+```
+- [ ] cool
+- [x] is cool
+- [ ] Python is
+- [ ] Python i
 
 <br>
 </details>
