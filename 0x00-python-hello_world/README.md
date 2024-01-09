@@ -737,7 +737,7 @@ guillaume@ubuntu:~/py/0x00$
 <details>
 <summary>
 
-### 7. 
+### 7. Copy - Cut - Paste
 `mandatory`
 
 File: []()
