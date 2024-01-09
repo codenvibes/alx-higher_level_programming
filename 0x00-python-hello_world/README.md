@@ -390,7 +390,7 @@ Namespaces are one honking great idea -- let's do more of those!
 
 `Pycodestyle` is now the [new standard of Python style code](https://github.com/PyCQA/pycodestyle/issues/466)
 
-<br><div align="center"><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/231/Flyingcircus_2.jpg"></div>
+<br><div><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/231/Flyingcircus_2.jpg"></div>
 
 <br>
 </details>
