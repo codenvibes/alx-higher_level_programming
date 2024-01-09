@@ -767,7 +767,7 @@ guillaume@ubuntu:~/py/0x00$
 <details>
 <summary>
 
-### 8. 
+### 8. Create a new sentence
 `mandatory`
 
 File: []()
