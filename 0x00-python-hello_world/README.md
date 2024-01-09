@@ -179,7 +179,7 @@ Enjoy!
 
 
 <details>
-<summary><b><a href=" "> </a>What is the official Python coding style and how to check your code with pycodestyle</b></summary><br>
+<summary><b><a href=" "> </a>What is the official Python coding style and how to check your code with <code>pycodestyle<code></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
