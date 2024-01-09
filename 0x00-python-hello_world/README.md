@@ -544,6 +544,10 @@ What does this command line print?
 <details>
 <summary><b>Question 9</b></summary><br>
 
+Who created Python?
+- [x] Guido van Rossum
+- [ ] Yukihiro Matsumoto
+- [ ] Julien Barbier
 
 <br>
 </details>
