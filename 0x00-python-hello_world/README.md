@@ -114,7 +114,7 @@ Enjoy!
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>Who created Python</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
