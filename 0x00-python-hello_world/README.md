@@ -58,7 +58,7 @@ Enjoy!
 
 
 <details>
-<summary><b><a href=" ">Using the Python Interpreter</a></b></summary><br>
+<summary><b><a href="https://docs.python.org/3/tutorial/interpreter.html">Using the Python Interpreter</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -66,7 +66,7 @@ Enjoy!
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://docs.python.org/3/tutorial/introduction.html">An Informal Introduction to Python</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
