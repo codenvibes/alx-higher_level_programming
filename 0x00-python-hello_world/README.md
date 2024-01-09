@@ -163,7 +163,7 @@ Enjoy!
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to use strings</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
