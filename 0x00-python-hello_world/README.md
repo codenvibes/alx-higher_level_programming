@@ -711,7 +711,7 @@ guillaume@ubuntu:~/py/0x00$
 <details>
 <summary>
 
-### 6. 
+### 6. Play with strings
 `mandatory`
 
 File: []()
