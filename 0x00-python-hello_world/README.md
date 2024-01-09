@@ -171,7 +171,7 @@ Enjoy!
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What are indexing and slicing in Python</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
