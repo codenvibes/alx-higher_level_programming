@@ -42,7 +42,7 @@ Enjoy!
 
 ## Resources
 <details>
-<summary><b><a href="https://intranet.alxswe.com/concepts/550">Python programming</a></b></summary><br>
+<summary><b><a href="(https://docs.python.org/3/tutorial/index.html">The Python tutorial</a> (only the first three chapters below)</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
