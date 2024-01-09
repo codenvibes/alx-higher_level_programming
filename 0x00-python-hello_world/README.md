@@ -306,7 +306,7 @@ Slicing and indexing are versatile techniques that are not limited to lists; the
 
 ## Requirements
 <details>
-<summary><b><a href=" "> </a> </b></summary><br>
+<summary><b><a href=" "> </a>Python Scripts</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
