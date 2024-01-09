@@ -42,7 +42,7 @@ Enjoy!
 
 ## Resources
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://intranet.alxswe.com/concepts/550">Python programming</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
