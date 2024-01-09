@@ -351,9 +351,23 @@ Slicing and indexing are versatile techniques that are not limited to lists; the
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
 
-<!-- <br>
+<br>
 
-## More Info -->
+## More Info
+<details>
+<summary><b>Zen</b></summary><br>
+
+
+<br>
+</details>
+
+<details>
+<summary><b>Pycodestyle</b></summary><br>
+
+
+<br>
+</details>
+
 
 <br>
 
