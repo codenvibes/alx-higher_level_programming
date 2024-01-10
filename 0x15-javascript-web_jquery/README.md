@@ -484,10 +484,8 @@ In the following code snippet, does the selector called `('header.my_header')` a
   </body>
 </html>
 ```
-No
-
-
-Yes
+- [ ] No
+- [x] Yes
 
 <br>
 </details>
