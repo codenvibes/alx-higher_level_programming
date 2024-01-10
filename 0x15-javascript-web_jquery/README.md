@@ -672,10 +672,8 @@ In the following code snippet, does the selector called `('#header')` access the
   </body>
 </html>
 ```
-No
-
-
-Yes
+- [ ] No
+- [ ] Yes
 <br>
 </details>
 
