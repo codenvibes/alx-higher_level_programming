@@ -905,7 +905,7 @@ File: [8-script.js]()
 ### 9. Say Hello!
 `mandatory`
 
-File: []()
+File: [9-script.js]()
 </summary>
 
 
@@ -914,10 +914,10 @@ File: []()
 <details>
 <summary>
 
-### 10. 
+### 10. No jQuery - document loaded
 `#advanced`
 
-File: []()
+File: [100-script.js]()
 </summary>
 
 
