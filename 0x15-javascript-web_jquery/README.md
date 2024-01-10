@@ -212,7 +212,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a>How to make a POST request with JQuery Ajax</b></summary><br>
+<summary><b><a href=" "> </a>How to make a <code>POST</code> request with JQuery Ajax</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
