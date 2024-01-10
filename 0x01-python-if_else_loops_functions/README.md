@@ -930,6 +930,15 @@ else:
 <summary><b>Question 8</b></summary><br>
 
 
+What do these lines print?
+```py
+if True:
+    print("Holberton")
+else:
+    print("School")
+```
+- [ ] School
+- [x] Holberton
 
 <br>
 </details>
@@ -940,10 +949,10 @@ else:
 <details>
 <summary>
 
-### 0. 
+### 0. Positive anything is better than negative nothing
 `mandatory`
 
-File: []()
+File: [0-positive_or_negative.py]()
 </summary>
 
 
