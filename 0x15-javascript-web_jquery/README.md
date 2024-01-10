@@ -717,9 +717,9 @@ In the following code snippet, does the selector called `('#my_header')` access 
 <details>
 <summary><b>Question 12</b></summary><br>
 
-In the following code snippet, does the selector called ('#my_header') access the HTML tag <header>:
+In the following code snippet, does the selector called `('#my_header')` access the HTML tag `<header>`:
 
-(using document.querySelector or $(...))?
+(using `document.querySelector` or `$(...)`)?
 ```
 <!DOCTYPE html>
 <html lang="en">
