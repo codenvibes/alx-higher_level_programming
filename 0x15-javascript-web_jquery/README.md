@@ -188,7 +188,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to get and update an HTML element content</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
