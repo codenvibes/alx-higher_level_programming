@@ -380,7 +380,7 @@ In the following code snippet, does the selector called `('.my_header')` access 
 In the following code snippet, does the selector called `('#my_header')` access the HTML tag `<header>`:
 
 (using `document.querySelector` or `$(...)`)?
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
