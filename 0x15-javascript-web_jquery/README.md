@@ -720,7 +720,7 @@ In the following code snippet, does the selector called `('#my_header')` access 
 In the following code snippet, does the selector called ('#my_header') access the HTML tag <header>:
 
 (using document.querySelector or $(...))?
-
+```
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -745,7 +745,7 @@ In the following code snippet, does the selector called ('#my_header') access th
     </footer>
   </body>
 </html>
-
+```
 No
 
 
