@@ -19,6 +19,8 @@
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
 
+<br><img src="file:///C:/Users/terre/Downloads/delete/ALX/Project_%200x15.%20JavaScript%20-%20Web%20jQuery%20_%20Nairobi%20Intranet_files/4724718.jpg">
+
 
 <!-- <br>
 
