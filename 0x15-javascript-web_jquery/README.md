@@ -100,7 +100,7 @@
 
 
 <details>
-<summary><b><a href=" ">JQuery Ajax Tutorial #1 - Using AJAX & API’s</a></b></summary><br>
+<summary><b><a href="https://www.youtube.com/watch?v=fEYx8dQr_cQ">JQuery Ajax Tutorial #1 - Using AJAX & API’s</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
