@@ -255,6 +255,7 @@
 ```
 <br><img src="https://github.com/codenvibes/alx-higher_level_programming/blob/master/0x15-javascript-web_jquery/images/1f1ihd.jpg">
 
+<br>
 
 ### Manual QA Review
 **It is your responsibility to request a review for this project from a peer before the project’s deadline. If no peers have been reviewed, you should request a review from a TA or staff member.**
@@ -307,6 +308,35 @@ How many HTML tags are present in the following HTML code?
 <details>
 <summary><b>Question 1</b></summary><br>
 
+How many HTML tags are present in the following HTML code?
+
+<!DOCTYPE html> is not an HTML tag
+<head></head> is considered one HTML tag.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+  </head>
+  <body>
+    <header> 
+      First HTML page
+    </header>
+    <footer>
+      Holberton School - 2017
+    </footer>
+  </body>
+</html>
+
+6
+
+
+5
+
+
+7
+
+
+4
 
 <br>
 </details>
