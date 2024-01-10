@@ -368,10 +368,8 @@ In the following code snippet, does the selector called `('.my_header')` access 
   </body>
 </html>
 ```
-No
-
-
-Yes
+-[ ] No
+-[x] Yes
 
 <br>
 </details>
