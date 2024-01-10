@@ -152,7 +152,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a>How to use <code>range<code></b></summary><br>
+<summary><b><a href=" "> </a>How to use <code>range</code></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
