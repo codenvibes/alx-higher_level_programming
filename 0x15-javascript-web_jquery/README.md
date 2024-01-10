@@ -797,7 +797,7 @@ In the following code snippet, does the selector called `('header')` access the 
 ### 0. No JQuery
 `mandatory`
 
-File: []()
+File: [0-script.js]()
 </summary>
 
 
@@ -806,10 +806,10 @@ File: []()
 <details>
 <summary>
 
-### 1. 
+### 1. With JQuery
 `mandatory`
 
-File: []()
+File: [1-script.js]()
 </summary>
 
 
