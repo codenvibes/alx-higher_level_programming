@@ -1,5 +1,5 @@
 <h1 align="center"><b>0x15. JAVASCRIPT - WEB JQUERY</b></h1>
-<div align="center"><code></code> <code></code></div>
+<div align="center"><code>Front-end</code> <code>JavaScript</code></div>
 
 <br>
 
