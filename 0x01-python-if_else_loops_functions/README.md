@@ -1068,10 +1068,10 @@ abcdefghijklmnopqrstuvwxyzguillaume@ubuntu:~/0x01$
 <details>
 <summary>
 
-### 3. 
+### 3. When I was having that alphabet soup, I never thought that it would pay off
 `mandatory`
 
-File: []()
+File: [3-print_alphabt.py]()
 </summary>
 
 
