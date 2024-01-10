@@ -112,7 +112,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a>How to use the <code>while<code> and for <code>loops<code></b></summary><br>
+<summary><b><a href=" "> </a>How to use the <code>while</code> and for <code>loops</code></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -120,7 +120,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How is Python’s <code>for</code> different from <code>C</code>‘s?</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -128,7 +128,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to use the <code>break</code> and <code>continue</code> statements</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -136,7 +136,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to use <code>else</code> clauses on loops</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -144,7 +144,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What does the <code>pass</code> statement do, and when to use it</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -152,7 +152,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to use <code>range<code></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -160,7 +160,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What is a function and how do you use functions</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -168,7 +168,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What does return a function that does not use any <code>return</code> statement</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -176,7 +176,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>Scope of variables</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -184,7 +184,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What’s a traceback</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
