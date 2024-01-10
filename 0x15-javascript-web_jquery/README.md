@@ -794,7 +794,7 @@ In the following code snippet, does the selector called `('header')` access the 
 <details>
 <summary>
 
-### 0. 
+### 0. No JQuery
 `mandatory`
 
 File: []()
