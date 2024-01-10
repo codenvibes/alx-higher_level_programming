@@ -812,6 +812,15 @@ else:
 <details>
 <summary><b>Question 1</b></summary><br>
 
+What do these lines print?
+```py
+if 12 == 48/4 and False:
+    print("Holberton")
+else:
+    print("School")
+```
+- [x] School
+- [ ] Holberton
 
 <br>
 </details>
