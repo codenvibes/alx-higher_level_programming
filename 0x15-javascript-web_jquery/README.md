@@ -415,6 +415,42 @@ In the following code snippet, does the selector called `('#my_header')` access 
 <details>
 <summary><b>Question 4</b></summary><br>
 
+In the following code snippet, does the selector called ('HeAdER') access the HTML tag <header>:
+
+(using document.querySelector or $(...))?
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+    <link rel="stylesheet" href="styles/global.css" />
+  </head>
+  <body>
+    <header> 
+      First HTML page
+    </header>
+    <section>
+      <img src="logo.jpg" alt="" />
+      <br />
+      <ul>
+        <li>Home</li>
+        <li>Admission <span class="btn">apply</span></li>
+        <li>Login</li>
+      </ul>
+    </section>
+    <footer>
+      Holberton School - 2017
+    </footer>
+  </body>
+</html>
+```
+No
+
+
+Yes
+
+Tips:
+Selectors are case insensitive
 
 <br>
 </details>
