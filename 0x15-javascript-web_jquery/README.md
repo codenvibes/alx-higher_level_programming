@@ -36,7 +36,7 @@
 
 ## Resources
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" ">What is JavaScript?</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -44,7 +44,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" ">Selector</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
