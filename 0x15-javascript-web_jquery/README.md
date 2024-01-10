@@ -1273,7 +1273,7 @@ You can’t use document.querySelector to select the HTML tag
 You must use the JQuery API
 You script must work when it imported from the HEAD tag
 Please test with this HTML file in your browser:
-
+```
 guillaume@ubuntu:~/0x15$ cat 101-main.html 
 <!DOCTYPE html>
 <html lang="en">
@@ -1300,7 +1300,7 @@ guillaume@ubuntu:~/0x15$ cat 101-main.html
   </body>
 </html>
 guillaume@ubuntu:~/0x15$ 
-
+```
 </details>
 
 <details>
