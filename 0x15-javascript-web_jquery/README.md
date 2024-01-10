@@ -13,7 +13,7 @@
 
 
 <details>
-<summary><b><a href=" ">Dealing with data statically versus dynamically</a></b></summary><br>
+<summary><b><a href="https://intranet.alxswe.com/concepts/35">Dealing with data statically versus dynamically</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
