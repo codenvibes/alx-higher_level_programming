@@ -253,6 +253,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 ```
+<br><img src="file:///C:/Users/terre/Downloads/delete/ALX/Project_%200x15.%20JavaScript%20-%20Web%20jQuery%20_%20Nairobi%20Intranet_files/1f1ihd.jpg">
 
 
 ### 
