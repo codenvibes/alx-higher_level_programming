@@ -310,8 +310,8 @@ How many HTML tags are present in the following HTML code?
 
 How many HTML tags are present in the following HTML code?
 
-- <!DOCTYPE html> is not an HTML tag
-- <head></head> is considered one HTML tag.
+- `<!DOCTYPE html>` is not an HTML tag
+- `<head></head>` is considered one HTML tag.
 ```
 <!DOCTYPE html>
 <html lang="en">
