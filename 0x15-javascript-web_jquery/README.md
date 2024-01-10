@@ -5,7 +5,7 @@
 
 ## Concepts
 <details>
-<summary><b><a href=" ">JavaScript in the browser</a></b></summary><br>
+<summary><b><a href="https://intranet.alxswe.com/concepts/3">JavaScript in the browser</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
