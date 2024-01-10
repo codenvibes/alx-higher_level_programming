@@ -878,7 +878,7 @@ File: [6-script.js]()
 <details>
 <summary>
 
-### 7. 
+### 7. Star wars character
 `mandatory`
 
 File: []()
