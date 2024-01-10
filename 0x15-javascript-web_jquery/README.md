@@ -842,10 +842,10 @@ File: [3-script.js]()
 <details>
 <summary>
 
-### 4. 
+### 4. Toggle classes
 `mandatory`
 
-File: []()
+File: [4-script.js]()
 </summary>
 
 
