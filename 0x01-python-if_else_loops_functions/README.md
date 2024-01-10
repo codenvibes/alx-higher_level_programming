@@ -104,7 +104,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to affect values to variables</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
