@@ -116,7 +116,7 @@
 
 
 <details>
-<summary><b><a href=" ">JQuery</a></b></summary><br>
+<summary><b><a href="https://jquery.com/">JQuery</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
