@@ -1237,10 +1237,10 @@ guillaume@ubuntu:~/0x01$
 <details>
 <summary>
 
-### 8. 
+### 8. To uppercase
 `mandatory`
 
-File: []()
+File: [8-uppercase.py]()
 </summary>
 
 
