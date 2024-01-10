@@ -597,10 +597,8 @@ In the following code snippet, does the selector called `('section.my_header')` 
   </body>
 </html>
 ```
-No
-
-
-Yes
+- [x] No
+- [ ] Yes
 <br>
 </details>
 
