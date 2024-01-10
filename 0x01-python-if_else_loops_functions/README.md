@@ -32,7 +32,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://www.digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3">How To Use String Formatters in Python 3</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
