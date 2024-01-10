@@ -444,13 +444,10 @@ In the following code snippet, does the selector called `('HeAdER')` access the 
   </body>
 </html>
 ```
-No
+- [ ] No
+- [ ] Yes
 
-
-Yes
-
-Tips:
-Selectors are case insensitive
+> **Tips:**<br>Selectors are case insensitive
 
 <br>
 </details>
