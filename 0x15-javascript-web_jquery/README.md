@@ -220,7 +220,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to listen/bind to DOM events</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
