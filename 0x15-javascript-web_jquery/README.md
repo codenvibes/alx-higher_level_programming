@@ -864,7 +864,6 @@ guillaume@ubuntu:~/0x15$ cat 1-main.html
   </body>
 </html>
 guillaume@ubuntu:~/0x15$
-
 ```
 </details>
 
@@ -904,7 +903,6 @@ guillaume@ubuntu:~/0x15$ cat 2-main.html
   </body>
 </html>
 guillaume@ubuntu:~/0x15$
-
 ```
 
 </details>
@@ -950,7 +948,6 @@ guillaume@ubuntu:~/0x15$ cat 3-main.html
   </body>
 </html>
 guillaume@ubuntu:~/0x15$
-
 ```
 </details>
 
@@ -1000,7 +997,6 @@ guillaume@ubuntu:~/0x15$ cat 4-main.html
   </body>
 </html>
 guillaume@ubuntu:~/0x15$
-
 ```
 </details>
 
@@ -1047,7 +1043,6 @@ guillaume@ubuntu:~/0x15$ cat 5-main.html
   </body>
 </html>
 guillaume@ubuntu:~/0x15$
-
 ```
 </details>
 
@@ -1089,7 +1084,6 @@ guillaume@ubuntu:~/0x15$ cat 6-main.html
   </body>
 </html>
 guillaume@ubuntu:~/0x15$
-
 ```
 </details>
 
@@ -1132,7 +1126,6 @@ guillaume@ubuntu:~/0x15$ cat 7-main.html
   </body>
 </html>
 guillaume@ubuntu:~/0x15$
-
 ```
 </details>
 
