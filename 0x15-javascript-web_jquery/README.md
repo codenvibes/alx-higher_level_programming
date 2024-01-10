@@ -605,7 +605,43 @@ In the following code snippet, does the selector called `('section.my_header')` 
 <details>
 <summary><b>Question 9</b></summary><br>
 
+How many HTML tags are present in the following HTML code?
+```
+<!DOCTYPE html> is not an HTML tag
+<head></head> is considered one HTML tag.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+  </head>
+  <body>
+    <header> 
+      First HTML page
+    </header>
+    <section>
+      <img src="logo.jpg" alt="" />
+      <ul>
+        <li>Home</li>
+        <li>Admission</li>
+        <li>Login</li>
+      </ul>
+    </section>
+    <footer>
+      Holberton School - 2017
+    </footer>
+  </body>
+</html>
+```
+13
 
+
+12
+
+
+14
+
+
+11
 <br>
 </details>
 
