@@ -792,6 +792,19 @@ These operators can be used with variables, constants, or literal values to perf
 <details>
 <summary><b>Question 0</b></summary><br>
 
+What do these lines print?
+```py
+a = 12
+if a < 2:
+    print("Holberton")
+elif a % 2 == 0:
+    print("C is fun")
+else:
+    print("School")
+```
+- [ ] School
+- [x] C is fun
+- [ ] Holberton
 
 <br>
 </details>
