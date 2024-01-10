@@ -10,7 +10,7 @@
 <hr>
 <h3><a href=>Notes</a></h3>
 <hr> -->
-<br><div align="center"><img src="">>/div>
+<br><div align="center"><img src="https://github.com/codenvibes/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/images/code.png"></div>
 
 <br>
 
