@@ -1165,10 +1165,10 @@ guillaume@ubuntu:~/0x01$
 <details>
 <summary>
 
-### 6. 
+### 6. Inventing is a combination of brains and materials. The more brains you use, the less material you need
 `mandatory`
 
-File: []()
+File: [6-print_comb3.py]()
 </summary>
 
 
