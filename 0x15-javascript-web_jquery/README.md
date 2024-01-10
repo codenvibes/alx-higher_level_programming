@@ -445,7 +445,7 @@ In the following code snippet, does the selector called `('HeAdER')` access the 
 </html>
 ```
 - [ ] No
-- [ ] Yes
+- [x] Yes
 
 > **Tips:**<br>Selectors are case insensitive
 
