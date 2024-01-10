@@ -818,10 +818,10 @@ File: [1-script.js]()
 <details>
 <summary>
 
-### 2. 
+### 2. Click and turn red
 `mandatory`
 
-File: []()
+File: [2-script.js]()
 </summary>
 
 
