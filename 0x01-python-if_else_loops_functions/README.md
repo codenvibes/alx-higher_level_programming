@@ -63,10 +63,10 @@
 </details>
 
 
-<!-- <br>
+<br>
 
 **man or help:**
-- `` -->
+- `python3`
 
 <br>
 
