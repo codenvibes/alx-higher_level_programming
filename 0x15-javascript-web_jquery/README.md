@@ -52,7 +52,7 @@
 
 
 <details>
-<summary><b><a href=" ">Get and set content</a></b></summary><br>
+<summary><b><a href="https://jquery-tutorial.net/dom-manipulation/getting-and-setting-content/">Get and set content</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
