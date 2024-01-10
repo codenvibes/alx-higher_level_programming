@@ -830,10 +830,10 @@ File: [2-script.js]()
 <details>
 <summary>
 
-### 3. 
+### 3. Add `.red` class
 `mandatory`
 
-File: []()
+File: [3-script.js]()
 </summary>
 
 
