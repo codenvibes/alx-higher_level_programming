@@ -148,7 +148,7 @@
 
 ## Learning Objectives
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>Why JQuery make front-end programming so easy (don’t forget to tweet today, with the hashtag #ilovejquery :))</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
