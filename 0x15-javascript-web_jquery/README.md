@@ -890,10 +890,10 @@ File: [7-script.js]()
 <details>
 <summary>
 
-### 8. 
+### 8. Star Wars movies
 `mandatory`
 
-File: []()
+File: [8-script.js]()
 </summary>
 
 
