@@ -60,7 +60,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://jquery-tutorial.net/dom-manipulation/getting-and-setting-css-classes/">Manipulate CSS classes</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
