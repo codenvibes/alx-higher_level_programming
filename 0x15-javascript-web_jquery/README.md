@@ -44,7 +44,7 @@
 
 
 <details>
-<summary><b><a href=" ">Selector</a></b></summary><br>
+<summary><b><a href="https://jquery-tutorial.net/selectors/using-elements-ids-and-classes/">Selector</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
