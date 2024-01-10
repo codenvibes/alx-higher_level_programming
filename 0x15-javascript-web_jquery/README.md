@@ -204,7 +204,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to make a GET request with JQuery Ajax</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
