@@ -256,7 +256,8 @@
 <br><img src="file:///C:/Users/terre/Downloads/delete/ALX/Project_%200x15.%20JavaScript%20-%20Web%20jQuery%20_%20Nairobi%20Intranet_files/1f1ihd.jpg">
 
 
-### 
+### Manual QA Review
+**It is your responsibility to request a review for this project from a peer before the project’s deadline. If no peers have been reviewed, you should request a review from a TA or staff member.**
 
 
 <br>
