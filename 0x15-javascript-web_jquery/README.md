@@ -568,10 +568,10 @@ In the following code snippet, does the selector called `('.header')` access the
 <details>
 <summary><b>Question 8</b></summary><br>
 
-In the following code snippet, does the selector called ('section.my_header') access the HTML tag <header>:
+In the following code snippet, does the selector called `('section.my_header')` access the HTML tag `<header>`:
 
-(using document.querySelector or $(...))?
-
+(using `document.querySelector` or `$(...)`)?
+```
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -596,7 +596,7 @@ In the following code snippet, does the selector called ('section.my_header') ac
     </footer>
   </body>
 </html>
-
+```
 No
 
 
