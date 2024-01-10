@@ -950,10 +950,10 @@ File: [102-script.js]()
 <details>
 <summary>
 
-### 13. 
+### 13. And press ENTER
 `#advanced`
 
-File: []()
+File: [103-script.js]()
 </summary>
 
 
