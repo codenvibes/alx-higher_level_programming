@@ -229,6 +229,11 @@
 
 <br>
 
+## - How to listen/bind to user events
+
+
+<br>
+
 ## Requirements
 <!-- Add your requirements here -->
 
