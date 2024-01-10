@@ -167,6 +167,28 @@ In all of these statements, `condition` is an expression that evaluates to eithe
 <details>
 <summary><b><a href=" "> </a>How to use comments</b></summary><br>
 
+In Python, you can use comments to annotate your code. Comments are ignored by the Python interpreter and are there to provide explanations or notes to make your code more understandable to other developers (or yourself in the future). There are two main ways to write comments in Python:
+
+1. **Single-line comments**: Use the `#` character to indicate that the rest of the line is a comment.
+
+```python
+# This is a single-line comment
+print("Hello, World!")  # This comment is at the end of a line of code
+```
+
+2. **Multi-line comments**: Although Python doesn't have a built-in syntax for multi-line comments, you can achieve a similar effect by using triple quotes (`'''` or `"""`) as a string delimiter. When used as the first thing in a file, function, or class definition, they are often considered as docstrings (documentation strings).
+
+```python
+'''
+This is a multi-line comment.
+It spans multiple lines and is enclosed in triple quotes.
+'''
+print("Hello, World!")
+```
+
+It's worth noting that while triple-quoted strings are often used for multi-line comments, they are actually string literals in Python. However, when they're not assigned to a variable or used as a docstring, Python treats them as comments because they're not being used for any purpose in the code.
+
+For code readability, it's important to use comments judiciously. They should be used to explain why the code is written a certain way or to provide context that is not immediately obvious from the code itself. Over-commenting can make the code harder to read, so it's best to use comments sparingly and focus on writing clear and understandable code.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
