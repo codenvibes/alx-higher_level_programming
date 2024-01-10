@@ -112,7 +112,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a>How to use the while and for loops</b></summary><br>
+<summary><b><a href=" "> </a>How to use the <code>while<code> and for <code>loops<code></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
