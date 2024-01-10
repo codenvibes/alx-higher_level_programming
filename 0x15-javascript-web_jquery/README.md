@@ -5,7 +5,7 @@
 
 ## Concepts
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" ">JavaScript in the browser</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -13,7 +13,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" ">Dealing with data statically versus dynamically</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
