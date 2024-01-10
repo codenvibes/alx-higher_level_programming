@@ -866,10 +866,10 @@ File: [5-script.js]()
 <details>
 <summary>
 
-### 6. 
+### 6. Change the text
 `mandatory`
 
-File: []()
+File: [6-script.js]()
 </summary>
 
 
