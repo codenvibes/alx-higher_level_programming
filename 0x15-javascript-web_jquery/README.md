@@ -132,7 +132,7 @@
 
 
 <details>
-<summary><b><a href=" ">JQuery Ajax</a></b></summary><br>
+<summary><b><a href="https://learn.jquery.com/ajax/">JQuery Ajax</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
