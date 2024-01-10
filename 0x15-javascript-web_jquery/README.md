@@ -266,6 +266,46 @@
 <details>
 <summary><b>Question 0</b></summary><br>
 
+How many HTML tags are present in the following HTML code?
+
+- `<!DOCTYPE html>` is not an HTML tag
+- `<head></head>` is considered one HTML tag.
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+    <link rel="stylesheet" href="styles/global.css" />
+  </head>
+  <body>
+    <header> 
+      First HTML page
+    </header>
+    <section>
+      <img src="logo.jpg" alt="" />
+      <br />
+      <ul>
+        <li>Home</li>
+        <li>Admission <span class="btn">apply</span></li>
+        <li>Login</li>
+      </ul>
+    </section>
+    <footer>
+      Holberton School - 2017
+    </footer>
+  </body>
+</html>
+```
+18
+
+
+16
+
+
+20
+
+
+15
 
 <br>
 </details>
