@@ -296,16 +296,10 @@ How many HTML tags are present in the following HTML code?
   </body>
 </html>
 ```
-18
-
-
-16
-
-
-20
-
-
-15
+- [ ] 18
+- [ ] 16
+- [ ] 20
+- [x] 15
 
 <br>
 </details>
