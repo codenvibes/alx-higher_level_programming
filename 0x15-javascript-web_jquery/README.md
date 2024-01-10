@@ -92,7 +92,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://jquery-tutorial.net/ajax/the-get-and-post-methods/">GET & POST request</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
