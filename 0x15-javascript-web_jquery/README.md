@@ -784,7 +784,7 @@ In the following code snippet, does the selector called `('header')` access the 
 </html>
 ```
 - [ ] No
-- [ ] Yes
+- [x] Yes
 <br>
 </details>
 
