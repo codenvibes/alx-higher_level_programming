@@ -860,6 +860,15 @@ else:
 <details>
 <summary><b>Question 4</b></summary><br>
 
+What do these lines print?
+```py
+for i in range(2, 10, 2):
+    print(i, end=" ")
+```
+- [ ] 4 6 8 10 12 14 16 18
+- [x] 2 4 6 8
+- [ ] 2 3 4 5 6 7 8 9
+- [ ] 2 3 4 5 6 7 8 9 10
 
 <br>
 </details>
