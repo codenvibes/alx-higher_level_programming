@@ -876,6 +876,15 @@ for i in range(2, 10, 2):
 <details>
 <summary><b>Question 5</b></summary><br>
 
+What do these lines print?
+```py
+for i in range(4):
+    print(i, end=" ")
+```
+- [x] 0 1 2 3
+- [ ] 0 1 2 3 4
+- [ ] 1 2 3
+- [ ] 1 2 3 4
 
 <br>
 </details>
