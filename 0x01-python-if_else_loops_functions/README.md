@@ -16,7 +16,7 @@
 
 ## Resources
 <details>
-<summary><b><a href=" ">More Control Flow Tools</a> (Read until “4.6. Defining Functions” included)</b></summary><br>
+<summary><b><a href="https://docs.python.org/3/tutorial/controlflow.html">More Control Flow Tools</a> (Read until “4.6. Defining Functions” included)</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
