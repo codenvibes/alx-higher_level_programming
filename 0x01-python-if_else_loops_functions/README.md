@@ -1273,7 +1273,7 @@ guillaume@ubuntu:~/0x01$
 <details>
 <summary>
 
-### 9. 
+### 9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
 `mandatory`
 
 File: []()
