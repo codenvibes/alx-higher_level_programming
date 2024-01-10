@@ -908,6 +908,20 @@ for i in range(2, 4):
 <details>
 <summary><b>Question 7</b></summary><br>
 
+What do these lines print?
+```py
+a = 12
+if a > 2:
+    if a % 2 == 0:
+        print("Holberton")
+    else:
+        print("C is fun")
+else:
+    print("School")
+```
+- [ ] School
+- [ ] C is fun
+- [x] Holberton
 
 <br>
 </details>
