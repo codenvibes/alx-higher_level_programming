@@ -938,10 +938,10 @@ File: [101-script.js]()
 <details>
 <summary>
 
-### 12. 
+### 12. Say hello to everybody!
 `#advanced`
 
-File: []()
+File: [102-script.js]()
 </summary>
 
 
