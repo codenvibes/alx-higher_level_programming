@@ -235,9 +235,10 @@
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
 
-<!-- <br>
+<br>
 
-## More Info -->
+## More Info
+***Note***: you do not need to understand lists yet.
 
 <br>
 
