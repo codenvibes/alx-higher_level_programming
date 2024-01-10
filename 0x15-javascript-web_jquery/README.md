@@ -124,7 +124,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://api.jquery.com/">JQuery API</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
