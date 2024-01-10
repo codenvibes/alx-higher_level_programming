@@ -76,7 +76,7 @@
 
 
 <details>
-<summary><b><a href=" ">API</a></b></summary><br>
+<summary><b><a href="https://oscarotero.com/jquery/">API</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
