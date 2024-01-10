@@ -493,9 +493,9 @@ In the following code snippet, does the selector called `('header.my_header')` a
 <details>
 <summary><b>Question 6</b></summary><br>
 
-In the following code snippet, does the selector called ('body header') access the HTML tag <header>:
+In the following code snippet, does the selector called `('body header')` access the HTML tag `<header>`:
 
-(using document.querySelector or $(...))?
+(using `document.querySelector` or `$(...)`)?
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -522,10 +522,8 @@ In the following code snippet, does the selector called ('body header') access t
   </body>
 </html>
 ```
-No
-
-
-Yes
+- [ ] No
+- [x] Yes
 
 <br>
 </details>
