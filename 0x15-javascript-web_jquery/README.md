@@ -244,9 +244,19 @@
 - You are not allowed to use `var`
 - HTML should not reload for each action: DOM manipulation, update values, fetch data…
 
-<!-- <br>
+<br>
 
-## More Info -->
+## More Info
+### Import JQuery
+```
+<head>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+```
+
+
+### 
+
 
 <br>
 
