@@ -457,6 +457,44 @@ Tuple packing and unpacking can often be used together to efficiently handle mul
 <details>
 <summary><b><a href=" "> </a>What is sequence unpacking</b></summary><br>
 
+Sequence unpacking, also known as unpacking, is the process of extracting individual elements from a sequence (like a tuple, list, or string) and assigning them to separate variables. This is the counterpart to tuple packing, where you create a tuple by combining values.
+
+To perform sequence unpacking, you assign the elements of a sequence to variables in one step, separating the variables with commas. The number of variables must match the number of elements in the sequence.
+
+Here's an example of sequence unpacking with a tuple:
+
+```python
+person = ("John", 25, "john@example.com")
+name, age, email = person
+print(name)     # Output: John
+print(age)      # Output: 25
+print(email)    # Output: john@example.com
+```
+
+You can also use sequence unpacking with other types of sequences:
+
+```python
+numbers = [1, 2, 3]
+first, second, third = numbers
+print(first)    # Output: 1
+print(second)   # Output: 2
+print(third)    # Output: 3
+```
+
+For strings:
+
+```python
+word = "Python"
+first_letter, second_letter, third_letter, *rest = word
+print(first_letter)   # Output: P
+print(second_letter)  # Output: y
+print(third_letter)   # Output: t
+print(rest)           # Output: ['h', 'o', 'n']
+```
+
+The `*rest` in the last example is used to capture the remaining characters of the string into a list. This is called "extended unpacking" and is useful when you have more elements in the sequence than variables to unpack into.
+
+Sequence unpacking is a convenient way to handle multiple values returned from functions or to extract elements from sequences without having to access each element individually.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
