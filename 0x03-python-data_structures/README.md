@@ -23,7 +23,7 @@
 
 
 <details>
-<summary><b><a href="https://docs.python.org/3/tutorial/datastructures.html">Data structures</a></b></summary><br>
+<summary><b><a href="https://docs.python.org/3/tutorial/datastructures.html">Data structures</a> <i(*until `5.3. Tuples and Sequences` included*)</i></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
