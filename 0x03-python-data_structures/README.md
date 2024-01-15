@@ -15,7 +15,7 @@
 
 ## Resources
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" ">3.1.3. Lists</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
