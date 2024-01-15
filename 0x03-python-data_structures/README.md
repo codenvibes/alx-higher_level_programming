@@ -389,7 +389,7 @@ Overall, tuples provide a way to group related data in an ordered and immutable 
 
 
 <details>
-<summary><b><a href=" "> </a>What is a sequence</b></summary><br>
+<summary><b><a href="https://docs.python.org/3/library/stdtypes.html#typesseq">What is a sequence</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
