@@ -391,6 +391,27 @@ Overall, tuples provide a way to group related data in an ordered and immutable 
 <details>
 <summary><b><a href="https://docs.python.org/3/library/stdtypes.html#typesseq">What is a sequence</a></b></summary><br>
 
+In programming, a sequence refers to an ordered collection of elements. These elements can be of any data type, such as numbers, characters, strings, or even other sequences. Sequences are fundamental data structures used to store and manipulate collections of items in a specific order.
+
+Python provides several built-in sequence types that you can use:
+
+1. **Lists**: Ordered collections of items, where each item can be of any data type. Lists are mutable, meaning you can add, remove, and modify elements after creation.
+
+2. **Tuples**: Similar to lists, but tuples are immutable, meaning their elements cannot be changed once they are created.
+
+3. **Strings**: Sequences of characters. Strings are also immutable, like tuples.
+
+4. **Ranges**: Represent a sequence of numbers, typically used in loops to iterate over a range of values.
+
+5. **Bytes and Bytearrays**: Sequences of bytes, used to represent binary data.
+
+6. **Lists of Lists (Nested Lists)**: Lists can also contain other lists, creating a nested structure.
+
+7. **Tuples of Tuples (Nested Tuples)**: Similar to nested lists, but with tuples.
+
+8. **Strings of Strings (Nested Strings)**: A string containing other strings, often used in text processing.
+
+You can perform common sequence operations on these types, such as indexing to access individual elements, slicing to extract sub-sequences, iteration through loops, and more. Understanding sequences is crucial as they are a fundamental concept in programming and are widely used in various applications, from data manipulation to algorithms and beyond.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
