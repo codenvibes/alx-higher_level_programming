@@ -71,7 +71,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What are the most common methods of lists and how to use them</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
