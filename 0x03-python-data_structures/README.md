@@ -104,6 +104,84 @@
 <details>
 <summary><b><a href=" "> </a>What are the most common methods of lists and how to use them</b></summary><br>
 
+1. **`append()`**: Adds an element to the end of the list.
+   ```python
+   my_list = [1, 2, 3]
+   my_list.append(4)
+   # my_list is now [1, 2, 3, 4]
+   ```
+
+2. **`extend()`**: Extends the list by appending elements from another iterable.
+   ```python
+   my_list = [1, 2, 3]
+   my_list.extend([4, 5, 6])
+   # my_list is now [1, 2, 3, 4, 5, 6]
+   ```
+
+3. **`insert()`**: Inserts an element at a specified index.
+   ```python
+   my_list = [1, 2, 3]
+   my_list.insert(1, 4)
+   # my_list is now [1, 4, 2, 3]
+   ```
+
+4. **`remove()`**: Removes the first occurrence of a specific value.
+   ```python
+   my_list = [1, 2, 3, 2, 4]
+   my_list.remove(2)
+   # my_list is now [1, 3, 2, 4]
+   ```
+
+5. **`pop()`**: Removes and returns an element at a specified index. If no index is provided, it removes and returns the last element.
+   ```python
+   my_list = [1, 2, 3, 4]
+   removed_element = my_list.pop(1)
+   # my_list is now [1, 3, 4], removed_element is 2
+   ```
+
+6. **`index()`**: Returns the index of the first occurrence of a specified value.
+   ```python
+   my_list = [1, 2, 3, 4]
+   index_of_3 = my_list.index(3)
+   # index_of_3 is 2
+   ```
+
+7. **`count()`**: Returns the number of occurrences of a specific value in the list.
+   ```python
+   my_list = [1, 2, 2, 3, 2]
+   count_of_2 = my_list.count(2)
+   # count_of_2 is 3
+   ```
+
+8. **`sort()`**: Sorts the list in place (modifies the original list).
+   ```python
+   my_list = [4, 2, 1, 3]
+   my_list.sort()
+   # my_list is now [1, 2, 3, 4]
+   ```
+
+9. **`reverse()`**: Reverses the order of elements in the list in place.
+   ```python
+   my_list = [1, 2, 3]
+   my_list.reverse()
+   # my_list is now [3, 2, 1]
+   ```
+
+10. **`copy()`** (or `list()` constructor): Creates a shallow copy of the list.
+    ```python
+    my_list = [1, 2, 3]
+    new_list = my_list.copy()
+    # new_list is [1, 2, 3]
+    ```
+
+11. **`clear()`**: Removes all elements from the list, making it empty.
+    ```python
+    my_list = [1, 2, 3]
+    my_list.clear()
+    # my_list is now []
+    ```
+
+These are just a subset of the available list methods. Each of these methods can be very useful depending on your specific use case. Remember that you can access information about these methods using Python's built-in help system, like `help(list)` or by using `dir(list)` to see a list of all available methods for lists.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
