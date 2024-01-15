@@ -15,7 +15,7 @@
 
 ## Resources
 <details>
-<summary><b><a href=" ">3.1.3. Lists</a></b></summary><br>
+<summary><b><a href="https://docs.python.org/3/tutorial/introduction.html#lists">3.1.3. Lists</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
