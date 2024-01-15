@@ -55,7 +55,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What are lists and how to use them</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -63,7 +63,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What are the differences and similarities between strings and lists</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
