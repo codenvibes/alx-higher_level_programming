@@ -420,6 +420,35 @@ You can perform common sequence operations on these types, such as indexing to a
 <details>
 <summary><b><a href=" "> </a>What is tuple packing</b></summary><br>
 
+Tuple packing, also known as packing, refers to the process of combining multiple values into a single tuple. In Python, you can create a tuple by placing comma-separated values (or expressions) within parentheses `()`. The resulting tuple will contain these values as its elements.
+
+Here's an example of tuple packing:
+
+```python
+person = "John", 25, "john@example.com"
+print(person)
+# Output: ('John', 25, 'john@example.com')
+```
+
+In this example, the values `"John"`, `25`, and `"john@example.com"` are packed together into a single tuple. The parentheses are optional, and the comma is the key element that signals tuple packing.
+
+Tuple packing can be particularly useful when you want to return multiple values from a function or when you want to group related data together in a single container.
+
+For instance, a function could return multiple values as a packed tuple:
+
+```python
+def get_person_info():
+    name = "Alice"
+    age = 30
+    email = "alice@example.com"
+    return name, age, email
+
+person_info = get_person_info()
+print(person_info)
+# Output: ('Alice', 30, 'alice@example.com')
+```
+
+Tuple packing and unpacking can often be used together to efficiently handle multiple values and data structures in a concise and expressive way.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
