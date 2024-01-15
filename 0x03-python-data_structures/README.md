@@ -503,6 +503,66 @@ Sequence unpacking is a convenient way to handle multiple values returned from f
 <details>
 <summary><b><a href=" "> </a>What is the <code>del</code> statement and how to use it</b></summary><br>
 
+The `del` statement in Python is used to delete or remove objects, such as variables, items from a list or dictionary, and more. It is a way to explicitly remove a reference to an object, allowing the Python garbage collector to free up memory when the object is no longer needed.
+
+The basic syntax of the `del` statement is:
+
+```python
+del object
+```
+
+Here's how you can use the `del` statement for different purposes:
+
+1. **Deleting Variables:**
+
+You can use `del` to delete a variable, which removes the reference to the object it points to:
+
+```python
+x = 10
+del x
+```
+
+2. **Deleting List Items:**
+
+To delete an item from a list using its index:
+
+```python
+my_list = [1, 2, 3, 4]
+del my_list[2]  # Removes the third item (value: 3)
+```
+
+3. **Deleting Dictionary Items:**
+
+To delete an item from a dictionary using its key:
+
+```python
+my_dict = {"name": "Alice", "age": 30}
+del my_dict["age"]  # Removes the "age" key-value pair
+```
+
+4. **Deleting Slices:**
+
+You can also use `del` to remove a slice of items from a list:
+
+```python
+my_list = [1, 2, 3, 4, 5]
+del my_list[1:3]  # Removes items at index 1 and 2
+```
+
+5. **Deleting Entire Objects:**
+
+In more advanced use cases, you can use `del` to remove entire objects. However, this is typically not recommended for general use, as the objects will be garbage-collected when there are no more references to them:
+
+```python
+class MyClass:
+    def __del__(self):
+        print("Object deleted")
+
+obj = MyClass()
+del obj  # Deletes the object and triggers its __del__() method
+```
+
+It's important to use the `del` statement with caution, as removing objects from memory should be done purposefully. In most cases, Python's automatic memory management will take care of releasing memory when objects are no longer needed, so you might not need to use `del` frequently in your code.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
