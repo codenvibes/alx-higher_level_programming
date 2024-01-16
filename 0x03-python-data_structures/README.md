@@ -795,7 +795,15 @@ What do these lines print?
 <details>
 <summary><b>Question 8</b></summary><br>
 
-
+What do these lines print?
+```py
+>>> a = [1, 2, 3, 4]
+>>> a.append(5)
+>>> len(a)
+```
+- [ ] 6
+- [x] 5
+- [ ] 2
 <br>
 </details>
 
