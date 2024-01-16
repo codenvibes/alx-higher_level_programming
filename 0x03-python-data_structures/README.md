@@ -779,7 +779,16 @@ What do these lines print?
 <details>
 <summary><b>Question 7</b></summary><br>
 
-
+What do these lines print?
+```py
+>>> a = [1, 2, 3, 4]
+>>> b = a
+>>> b
+```
+- [ ] 1
+- [ ] a
+- [ ] [1]
+- [x] [1, 2, 3, 4]
 <br>
 </details>
 
