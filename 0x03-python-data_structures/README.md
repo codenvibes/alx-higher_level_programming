@@ -745,7 +745,18 @@ What do these lines print?
 <details>
 <summary><b>Question 5</b></summary><br>
 
-
+What do these lines print?
+```py
+>>> a = [1, 2, 3, 4]
+>>> b = a
+>>> a[2] = 10
+>>> a
+```
+- [ ] a
+- [ ] b
+- [ ] [1, 2, 3, 4]
+- [x] [1, 2, 10, 4]
+- [ ] [1]
 <br>
 </details>
 
