@@ -763,7 +763,16 @@ What do these lines print?
 <details>
 <summary><b>Question 6</b></summary><br>
 
-
+What do these lines print?
+```py
+>>> a = [1, 2, 3, 4]
+>>> a[2] = 10
+>>> a
+```
+- [x] [1, 2, 10, 4]
+- [ ] [1, 2, 10, 10]
+- [ ] [1, 10, 3, 4]
+- [ ] [1, 2, 3, 4]
 <br>
 </details>
 
