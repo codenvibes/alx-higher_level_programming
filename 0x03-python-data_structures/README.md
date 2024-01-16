@@ -810,7 +810,16 @@ What do these lines print?
 <details>
 <summary><b>Question 9</b></summary><br>
 
-
+What do these lines print?
+```py
+>>> a = [1, 2, 3, 4]
+>>> a[0]
+```
+- [ ] [1, 2]
+- [ ] [1, 2, 3, 4]
+- [ ] [1]
+- [ ] 2
+- [x] 1
 <br>
 </details>
 
