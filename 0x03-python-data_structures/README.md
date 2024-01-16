@@ -665,35 +665,80 @@ It's important to use the `del` statement with caution, as removing objects from
 <details>
 <summary><b>Question 0</b></summary><br>
 
-
+What do these lines print?
+```py
+>>> a = [1, 2, 3, 4]
+>>> b = a
+>>> a[2] = 10
+>>> b
+```
+- [ ] a
+- [ ] b
+- [ ] [1, 2, 3, 4]
+- [x] [1, 2, 10, 4]
+- [ ] [1]
 <br>
 </details>
 
 <details>
 <summary><b>Question 1</b></summary><br>
 
+What do these lines print?
+```py
+>>> a = [1, 2, 3, 4]
+>>> a[1:3]
+```
+- [x] [2, 3]
+- [ ] [1, 2]
+- [ ] [1, 2, 3]
 
+<details><summary>Explanation:</summary>
+
+The index before the colon (`:`) is the start index (inclusive), and the index after the colon is the end index (exclusive). Therefore, `a[1:3]` will include elements at indices 1 and 2, but not the element at index 3.</details>
 <br>
 </details>
 
 <details>
 <summary><b>Question 2</b></summary><br>
 
-
+What do these lines print?
+```py
+>>> a = [1, 2, 3, 4]
+>>> a[-3]
+```
+- [x] 2
+- [ ] [4, 3]
+- [ ] -3
 <br>
 </details>
 
 <details>
 <summary><b>Question 3</b></summary><br>
 
-
+What do these lines print?
+```py
+>>> a = [1, 2, 3, 4]
+>>> a[-1]
+```
+- [x] 4
+- [ ] [4, 3, 2, 1]
+- [ ] 2
+- [ ] -1
 <br>
 </details>
 
 <details>
 <summary><b>Question 4</b></summary><br>
 
-
+What do these lines print?
+```py
+>>> a = [1, 2, 3, 4]
+>>> len(a)
+```
+- [ ] 6
+- [ ] 8
+- [x] 4
+- [ ] 2
 <br>
 </details>
 
