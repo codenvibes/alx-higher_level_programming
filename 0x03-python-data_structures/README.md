@@ -1240,13 +1240,36 @@ guillaume@ubuntu:~/0x03$
 <details>
 <summary>
 
-### 11. 
+### 11. Delete at
 `mandatory`
 
-File: []()
+File: [11-delete_at.py]()
 </summary>
 
+Write a function that deletes the item at a specific position in a list.
 
+-   Prototype: `def delete_at(my_list=[], idx=0):`
+-   If `idx` is negative or out of range, nothing change (returns the same list)
+-   You are not allowed to use `pop()`
+-   You are not allowed to import any module
+
+```bash
+guillaume@ubuntu:~/0x03$ cat 11-main.py
+#!/usr/bin/python3
+delete_at = __import__('11-delete_at').delete_at
+
+my_list = [1, 2, 3, 4, 5]
+idx = 3
+new_list = delete_at(my_list, idx)
+print(new_list)
+print(my_list)
+
+guillaume@ubuntu:~/0x03$ ./11-main.py
+[1, 2, 3, 5]
+[1, 2, 3, 5]
+guillaume@ubuntu:~/0x03$
+
+```
 </details>
 
 <details>
