@@ -263,6 +263,41 @@ for item in my_set:
 <details>
 <summary><b><a href=" "> </a>What are dictionaries and how to use them</b></summary><br>
 
+In Python, a dictionary is a built-in data structure that allows you to store and manage data in key-value pairs. Each key in a dictionary maps to a corresponding value, similar to how words and their definitions are organized in a real-world dictionary. 
+
+> Dictionaries are also sometimes referred to as "associative arrays" or "hash maps" in other programming languages.
+
+Dictionaries are very useful when you want to store and retrieve data based on some unique identifier (the key). The keys in a dictionary must be unique and immutable (such as strings, numbers, or tuples), and the values can be of any data type (including other dictionaries or complex objects).
+
+Here's how you create and use dictionaries in Python:
+
+```python
+# Creating a dictionary
+student = {
+    "name": "John",
+    "age": 20,
+    "major": "Computer Science"
+}
+
+# Accessing values using keys
+print(student["name"])  # Output: John
+print(student["age"])   # Output: 20
+
+# Adding a new key-value pair
+student["gpa"] = 3.8
+
+# Modifying a value
+student["age"] = 21
+
+# Removing a key-value pair
+del student["major"]
+
+# Checking if a key exists
+if "gpa" in student:
+    print("GPA:", student["gpa"])
+```
+
+Dictionaries provide a flexible way to organize and manage data, especially when you need to quickly look up values based on keys. They are commonly used in various programming tasks, including configuration management, data processing, and more. Keep in mind that starting from Python 3.7, dictionary order is guaranteed to be insertion order, which means the order of key-value pairs is preserved.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
