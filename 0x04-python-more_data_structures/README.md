@@ -119,7 +119,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What is a lambda function</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -127,7 +127,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What are the map, reduce and filter functions</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
