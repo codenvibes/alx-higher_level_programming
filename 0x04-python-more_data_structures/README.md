@@ -568,7 +568,15 @@ What do these lines print?
 <details>
 <summary><b>Question 1</b></summary><br>
 
-
+What do these lines print?
+```py
+>>> for i in [1, 3, 4, 2]:
+>>>     print(i, end=" ")
+```
+- [x] 1 3 4 2
+- [ ] 1 3 4 2 0
+- [ ] 1 2 3 4
+- [ ] 0 1 2 3
 <br>
 </details>
 
