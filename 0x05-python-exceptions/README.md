@@ -158,6 +158,85 @@ By using exception handling, you can make your Python programs more robust and u
 <details>
 <summary><b><a href=" "> </a>When do we need to use exceptions</b></summary><br>
 
+You should use exceptions in Python whenever you want to handle runtime errors or exceptional situations in a controlled and graceful manner. Exceptions are particularly useful when you want to prevent your program from crashing due to unexpected errors and provide meaningful feedback to users or take specific actions to recover from the errors.
+
+Here are some scenarios where you might want to use exceptions along with code examples:
+
+1. **Input Validation:**<br>
+   When you're accepting user input, it's a good practice to validate the input and handle invalid cases using exceptions. For example, when converting user input to an integer:
+
+   ```python
+   try:
+       user_input = input("Enter an integer: ")
+       value = int(user_input)
+   except ValueError:
+       print("Invalid input. Please enter a valid integer.")
+   ```
+
+2. **File Operations:**<br>
+   When working with files, exceptions can help you handle cases where the file doesn't exist or there are issues during reading/writing:
+
+   ```python
+   try:
+       with open("myfile.txt", "r") as file:
+           content = file.read()
+   except FileNotFoundError:
+       print("File not found.")
+   except IOError:
+       print("An error occurred while reading the file.")
+   ```
+
+3. **Networking:**<br>
+   When dealing with network-related operations, like making HTTP requests, exceptions can handle connectivity issues:
+
+   ```python
+   import requests
+
+   try:
+       response = requests.get("https://example.com")
+       response.raise_for_status()  # Raises an exception for HTTP errors
+   except requests.exceptions.RequestException:
+       print("Error occurred while making the request.")
+   ```
+
+4. **Arithmetic Operations:**<br>
+   Handle cases where mathematical operations might result in exceptions, like division by zero:
+
+   ```python
+   try:
+       result = 10 / 0
+   except ZeroDivisionError:
+       print("Cannot divide by zero.")
+   ```
+
+5. **Custom Exceptions:**<br>
+   You can create your own custom exceptions to handle specific situations in your code:
+
+   ```python
+   class CustomError(Exception):
+       pass
+
+   try:
+       if some_condition:
+           raise CustomError("Custom error message")
+   except CustomError as ce:
+       print("Caught custom error:", ce)
+   ```
+
+6. **Resource Management:**<br>
+   When working with external resources (like databases or external services), exceptions can ensure proper resource cleanup:
+
+   ```python
+   try:
+       db_connection = connect_to_database()
+       # Code that uses the database connection
+   except DatabaseError:
+       print("An error occurred while accessing the database.")
+   finally:
+       db_connection.close()  # Ensures the connection is closed even if an error occurs
+   ```
+
+In general, use exceptions when you expect that certain operations might fail due to unforeseen circumstances, and you want to handle these situations without causing your program to crash. It's important to provide informative error messages to users and to log detailed error information for debugging purposes.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
