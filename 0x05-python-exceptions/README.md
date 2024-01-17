@@ -1,5 +1,5 @@
 <h1 align="center"><b>0x05. PYTHON - EXCEPTIONS</b></h1>
-<div align="center"><code></code></div>
+<div align="center"><code>Python</code></div>
 
 <!-- <br>
 
