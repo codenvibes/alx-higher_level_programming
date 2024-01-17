@@ -249,6 +249,12 @@ In summary, use sets when you need to work with unique elements, perform efficie
 <details>
 <summary><b><a href=" "> </a>How to iterate into a set</b></summary><br>
 
+You can iterate over the elements of a set using a `for` loop.
+
+```python
+for item in my_set:
+    print(item)
+```
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
