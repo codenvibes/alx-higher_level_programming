@@ -47,7 +47,7 @@
 
 ## Learning Objectives
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "></a>Why Python programming is awesome</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -55,7 +55,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What are sets and how to use them</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
