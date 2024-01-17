@@ -23,7 +23,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://www.youtube.com/watch?v=7vbgD-3s-w4">Learn to Program 11 Static & Exception Handling</a> (starting at minute 7)</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
