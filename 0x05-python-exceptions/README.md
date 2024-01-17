@@ -93,6 +93,63 @@ In this example, the syntax error (`print("Hello World"`) is an error that preve
 <details>
 <summary><b><a href=" "> </a>What are exceptions and how to use them</b></summary><br>
 
+Exceptions in Python are a way of handling and managing runtime errors or exceptional conditions that can arise during the execution of a program. Instead of letting the program crash when an error occurs, you can use exception handling to gracefully handle these errors and continue the program's execution. This prevents abrupt termination and allows you to provide meaningful feedback to users or take specific actions to recover from the error.
+
+In Python, exceptions are represented by classes, and each type of exception corresponds to a specific class. For example, the built-in `ZeroDivisionError` class represents an exception that occurs when you attempt to divide by zero. When an exception is raised, Python generates an exception object containing information about the error, such as its type and a description.
+
+The basic structure for handling exceptions in Python is the `try` and `except` block:
+
+```python
+try:
+    # Code that might raise an exception
+    result = 10 / 0  # This will raise a ZeroDivisionError
+except ZeroDivisionError:
+    # Code to handle the exception
+    print("Cannot divide by zero.")
+```
+
+In this example, the code inside the `try` block attempts to divide `10` by `0`, which raises a `ZeroDivisionError` exception. The program then jumps to the corresponding `except` block, where you can provide instructions on how to handle the exception. In this case, the message "Cannot divide by zero." will be printed.
+
+You can also catch multiple types of exceptions by using multiple `except` blocks or a single `except` block with multiple exception types:
+
+```python
+try:
+    # Code that might raise exceptions
+    value = int("not_an_integer")  # This will raise a ValueError
+except ZeroDivisionError:
+    print("Cannot divide by zero.")
+except ValueError:
+    print("Invalid integer value.")
+```
+
+If you want to catch all exceptions (not recommended in most cases), you can use a more general `except` block without specifying the exception type:
+
+```python
+try:
+    # Code that might raise exceptions
+    result = 10 / 0  # This will raise a ZeroDivisionError
+except:
+    print("An exception occurred.")
+```
+
+In addition to `try` and `except`, you can use other clauses with exception handling:
+
+- `else`: Code in the `else` block is executed if no exceptions are raised in the `try` block.
+- `finally`: Code in the `finally` block is always executed, regardless of whether an exception was raised. It's often used for cleanup tasks like closing files or releasing resources.
+
+```python
+try:
+    # Code that might raise an exception
+    value = 10 / 2
+except ZeroDivisionError:
+    print("Cannot divide by zero.")
+else:
+    print("Result:", value)
+finally:
+    print("Done.")
+```
+
+By using exception handling, you can make your Python programs more robust and user-friendly by gracefully handling errors and ensuring that your program can recover from unexpected situations.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
