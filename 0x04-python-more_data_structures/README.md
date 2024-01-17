@@ -661,6 +661,7 @@ a.get('age', 0)
 ```
 
 This line uses the `get()` method of the dictionary `a`. The `get()` method retrieves the value associated with the specified key. If the key is not found in the dictionary, it returns the provided default value (which is the second argument to `get()`). In this case, the key `'age'` is not present in the dictionary `a`, so the method returns the default value `0`.
+</details>
 <br>
 </details>
 
