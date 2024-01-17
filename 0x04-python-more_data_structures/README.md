@@ -366,7 +366,7 @@ Keys provide a way to uniquely identify and access data within a dictionary, mak
    }
 
    for key in student:
-       print(key, ":", student[key])
+       print(key)
    ```
    output:
    ```
