@@ -1,5 +1,5 @@
 <h1 align="center"><b>0x04. PYTHON-MORE_DATA_STRUCTURES</b></h1>
-<div align="center"><code></code></div>
+<div align="center"><code>Python</code></div>
 
 <!-- <br>
 
@@ -15,7 +15,7 @@
 
 ## Resources
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://docs.python.org/3/tutorial/datastructures.html">Data structures</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -23,7 +23,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://python-course.eu/advanced-python/lambda-filter-reduce-map.php">Lambda, filter, reduce and map</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -31,7 +31,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href="https://www.youtube.com/watch?v=1GAC6KQUPeg">Learn to Program 12 Lambda Map Filter Reduce</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
