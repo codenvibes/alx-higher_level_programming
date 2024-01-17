@@ -39,7 +39,7 @@
 
 ## Learning Objectives
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>Why Python programming is awesome</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -47,7 +47,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What’s the difference between errors and exceptions</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -55,7 +55,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What are exceptions and how to use them</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -63,7 +63,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>When do we need to use exceptions</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -71,7 +71,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to correctly handle an exception</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
