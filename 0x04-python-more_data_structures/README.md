@@ -697,7 +697,14 @@ What do these lines print?
 <details>
 <summary><b>Question 9</b></summary><br>
 
-
+What do these lines print?
+```py
+>>> for i in range(0, 3):
+>>>     print(i, end=" ")
+```
+- [x] 0 1 2
+- [ ] 0 1 2 3
+- [ ] 1 2 3
 <br>
 </details>
 
