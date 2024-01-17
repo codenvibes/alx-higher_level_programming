@@ -326,7 +326,26 @@ In many cases, you might find yourself using a combination of these data structu
 <details>
 <summary><b><a href=" "> </a>What is a key in a dictionary</b></summary><br>
 
+In a dictionary, a key is a unique identifier that is used to access and retrieve a corresponding value. Each key is associated with a specific value, forming a key-value pair within the dictionary. Keys must be unique and immutable, meaning they cannot be changed after they are created, and they cannot be duplicated within the same dictionary.
 
+Here's a simple example of a dictionary with key-value pairs:
+
+```python
+student = {
+    "name": "John",
+    "age": 20,
+    "major": "Computer Science"
+}
+```
+
+In this example, `"name"`, `"age"`, and `"major"` are the keys, and `"John"`, `20`, and `"Computer Science"` are the corresponding values. You can use these keys to access the associated values within the dictionary:
+
+```python
+print(student["name"])  # Output: John
+print(student["age"])   # Output: 20
+```
+
+Keys provide a way to uniquely identify and access data within a dictionary, making dictionaries highly efficient for fast lookups and retrieval of information based on specific identifiers.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
@@ -335,6 +354,91 @@ In many cases, you might find yourself using a combination of these data structu
 <details>
 <summary><b><a href=" "> </a>How to iterate over a dictionary</b></summary><br>
 
+1. **Iterating Through Keys:**
+   
+   You can iterate through the keys of a dictionary using a `for` loop. By default, iterating through a dictionary iterates over its keys.
+
+   ```python
+   student = {
+       "name": "John",
+       "age": 20,
+       "major": "Computer Science"
+   }
+
+   for key in student:
+       print(key, ":", student[key])
+   ```
+   output:
+   ```
+   name : John
+   age : 23
+   GPA : 3.5
+   ```
+
+2. **Iterating Through Keys and Values:**
+
+   You can use the `.items()` method to iterate through both the keys and their corresponding values.
+
+   ```python
+   student = {
+       "name": "John",
+       "age": 20,
+       "major": "Computer Science"
+   }
+
+   for key, value in student.items():
+       print(key, ":", value)
+   ```
+   output:
+   ```
+   name : John
+   age : 23
+   GPA : 3.5
+   ```
+
+3. **Iterating Through Values:**
+
+   While less common, you can also directly iterate through the values of a dictionary using the `.values()` method.
+
+   ```python
+   student = {
+       "name": "John",
+       "age": 20,
+       "major": "Computer Science"
+   }
+
+   for value in student.values():
+       print(value)
+   ```
+   output:
+   ```
+   John
+   23
+   3.5
+   ```
+
+4. **Iterating Through Items Using `enumerate()`:**
+
+   If you want to access both the keys and values along with their indexes, you can use the `enumerate()` function.
+
+   ```python
+   student = {
+       "name": "John",
+       "age": 20,
+       "major": "Computer Science"
+   }
+
+   for index, (key, value) in enumerate(student.items()):
+       print(f"Item {index}: {key} - {value}")
+   ```
+   output:
+   ```
+   Item 0: name - John
+   Item 1: age - 23
+   Item 2: GPA - 3.5
+   ```
+
+Remember that dictionaries in Python 3.7 and later maintain insertion order, meaning the order of key-value pairs is preserved during iteration. However, in earlier versions of Python, dictionaries were not guaranteed to maintain this order.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
