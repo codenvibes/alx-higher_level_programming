@@ -447,6 +447,25 @@ Remember that dictionaries in Python 3.7 and later maintain insertion order, mea
 <details>
 <summary><b><a href=" "> </a>What is a lambda function</b></summary><br>
 
+A lambda function in Python is a small, anonymous (unnamed) function that can have any number of arguments, but can only have one expression. Lambda functions are often used for simple operations where defining a full named function using the `def` keyword would be overkill.
+
+Lambda functions are created using the `lambda` keyword, followed by the function's parameters and the expression that is evaluated and returned as the result of the function. The syntax is as follows:
+
+```python
+lambda arguments: expression
+```
+
+Here's a simple example of a lambda function that adds two numbers:
+
+```python
+add = lambda x, y: x + y
+result = add(5, 3)
+print(result)  # Output: 8
+```
+
+Lambda functions are commonly used in scenarios where you need a short, throwaway function for a specific purpose, such as in sorting operations, filtering data, or passing a function as an argument to another function like in the `map()` and `filter()` functions.
+
+However, keep in mind that while lambda functions can be convenient for very simple tasks, using named functions with the `def` keyword is generally preferred for more complex or reusable code, as they provide better readability and can be more expressive.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
