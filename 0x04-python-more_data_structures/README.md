@@ -113,6 +113,94 @@ Sets are particularly useful when you want to store a collection of unique eleme
 <details>
 <summary><b><a href=" "> </a>What are the most common methods of set and how to use them</b></summary><br>
 
+Sets in Python come with a variety of useful methods for performing operations on sets. Here are some of the most common set methods and how to use them:
+
+1. **add()**: Adds an element to the set.
+
+   ```python
+   my_set = {1, 2, 3}
+   my_set.add(4)
+   # Resulting set: {1, 2, 3, 4}
+   ```
+
+2. **remove()**: Removes a specified element from the set. Raises an error if the element is not found.
+
+   ```python
+   my_set = {1, 2, 3}
+   my_set.remove(2)
+   # Resulting set: {1, 3}
+   ```
+
+3. **discard()**: Removes a specified element from the set. Does nothing if the element is not found.
+
+   ```python
+   my_set = {1, 2, 3}
+   my_set.discard(2)
+   # Resulting set: {1, 3}
+   ```
+
+4. **pop()**: Removes and returns an arbitrary element from the set. Useful if you want to remove an element without knowing its value.
+
+   ```python
+   my_set = {1, 2, 3}
+   popped_value = my_set.pop()
+   # Resulting set: {2, 3}
+   ```
+
+5. **clear()**: Removes all elements from the set, making it empty.
+
+   ```python
+   my_set = {1, 2, 3}
+   my_set.clear()
+   # Resulting set: {}
+   ```
+
+6. **union()**: Returns a new set containing all elements from the set and one or more other sets.
+
+   ```python
+   set1 = {1, 2, 3}
+   set2 = {3, 4, 5}
+   union_set = set1.union(set2)
+   # Resulting set: {1, 2, 3, 4, 5}
+   ```
+
+7. **intersection()**: Returns a new set containing elements that are common to the set and one or more other sets.
+
+   ```python
+   set1 = {1, 2, 3}
+   set2 = {3, 4, 5}
+   intersection_set = set1.intersection(set2)
+   # Resulting set: {3}
+   ```
+
+8. **difference()**: Returns a new set containing elements that are in the set but not in one or more other sets.
+
+   ```python
+   set1 = {1, 2, 3}
+   set2 = {3, 4, 5}
+   difference_set = set1.difference(set2)
+   # Resulting set: {1, 2}
+   ```
+
+9. **symmetric_difference()**: Returns a new set containing elements that are in either of the sets, but not in both.
+
+   ```python
+   set1 = {1, 2, 3}
+   set2 = {3, 4, 5}
+   symmetric_diff_set = set1.symmetric_difference(set2)
+   # Resulting set: {1, 2, 4, 5}
+   ```
+
+10. **issubset()** and **issuperset()**: Checks if one set is a subset or superset of another set.
+
+    ```python
+    set1 = {1, 2}
+    set2 = {1, 2, 3, 4}
+    is_subset = set1.issubset(set2)  # True
+    is_superset = set2.issuperset(set1)  # True
+    ```
+
+These are just some of the most common methods available for sets in Python. Sets are very versatile data structures and can be combined with other set operations to perform more complex tasks efficiently.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
