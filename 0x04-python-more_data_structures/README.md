@@ -553,7 +553,15 @@ While these functions are useful, keep in mind that list comprehensions and gene
 <details>
 <summary><b>Question 0</b></summary><br>
 
-
+What do these lines print?
+```py
+>>> for i in [1, 2, 3, 4]:
+>>>     print(i, end=" ")
+```
+- [ ] 1 2 3
+- [x] 1 2 3 4
+- [ ] 0 1 2 3 5
+- [ ] 0 1 2 3
 <br>
 </details>
 
