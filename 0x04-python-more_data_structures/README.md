@@ -615,28 +615,66 @@ What do these lines print?
 <details>
 <summary><b>Question 4</b></summary><br>
 
-
+What do these lines print?
+```py
+>>> a = { 'id': 89, 'name': "John" }
+>>> a.get('id')
+```
+- [x] 89
+- [ ] John
+- [ ] a[‘id’]
+- [ ] ‘id’
+- [ ] id
 <br>
 </details>
 
 <details>
 <summary><b>Question 5</b></summary><br>
 
-
+What do these lines print?
+```py
+>>> for i in ["Hello", "Holberton", "School", 98]:
+>>>     print(i, end=" ")
+```
+- [x] Hello Holberton School 98
+- [ ] 1 2 3 4
+- [ ] 0 1 2 3
 <br>
 </details>
 
 <details>
 <summary><b>Question 6</b></summary><br>
 
+What do these lines print?
+```py
+>>> a = { 'id': 89, 'name': "John" }
+>>> a.get('age', 0)
+```
+- [x] 0
+- [ ] 89
+- [ ] Nothing
+- [ ] ‘age’
+<details><summary>Explanation:</summary>
 
+```python
+a.get('age', 0)
+```
+
+This line uses the `get()` method of the dictionary `a`. The `get()` method retrieves the value associated with the specified key. If the key is not found in the dictionary, it returns the provided default value (which is the second argument to `get()`). In this case, the key `'age'` is not present in the dictionary `a`, so the method returns the default value `0`.
 <br>
 </details>
 
 <details>
 <summary><b>Question 7</b></summary><br>
 
-
+What do these lines print?
+```py
+>>> for i in range(1, 4):
+>>>     print(i, end=" ")
+```
+- [ ] 1 2 3 4
+- [ ] 0 1 2 3
+- [x] 1 2 3
 <br>
 </details>
 
