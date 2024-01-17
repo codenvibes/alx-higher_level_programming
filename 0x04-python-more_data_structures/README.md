@@ -727,7 +727,16 @@ What do these lines print?
 <details>
 <summary><b>Question 11</b></summary><br>
 
-
+What do these lines print?
+```py
+>>> a = { 'id': 89, 'name': "John" }
+>>> a['id']
+```
+- [x] 89
+- [ ] John
+- [ ] a[‘id’]
+- [ ] ‘id’
+- [ ] id
 <br>
 </details>
 
