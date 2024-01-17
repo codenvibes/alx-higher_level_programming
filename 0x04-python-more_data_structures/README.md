@@ -599,7 +599,16 @@ What do these lines print?
 <details>
 <summary><b>Question 3</b></summary><br>
 
-
+What do these lines print?
+```py
+>>> a = { 'id': 89, 'name': "John" }
+>>> a.get('age')
+```
+- [ ] 12
+- [x] Nothing
+- [ ] 89
+- [ ] Not found
+- [ ] ‘age’
 <br>
 </details>
 
