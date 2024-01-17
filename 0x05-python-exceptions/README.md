@@ -324,6 +324,98 @@ Overall, catching exceptions enables you to write more reliable and user-friendl
 <details>
 <summary><b><a href=" "> </a>How to raise a builtin exception</b></summary><br>
 
+In Python, you can create custom exceptions by defining new classes that inherit from built-in exception classes. This allows you to extend and customize the behavior of exception handling in your code. To raise a built-in exception from a custom exception class, you need to create a class that inherits from the desired built-in exception class and then raise an instance of your custom exception class. Here's how you can do it:
+
+Let's say you want to create a custom exception named `CustomError` that inherits from the built-in `ValueError` exception. Here's how you can achieve that:
+
+```python
+class CustomError(ValueError):
+    pass
+
+def some_function(value):
+    if value < 0:
+        raise CustomError("Value must be non-negative")
+
+try:
+    some_function(-5)
+except CustomError as e:
+    print("Custom error:", e)
+except ValueError as e:
+    print("ValueError:", e)
+```
+
+<br>
+<br>
+<p align="center">*******************************</p>
+<br>
+
+```python
+class CustomError(ValueError):
+    pass
+```
+
+Here, a new custom exception class named `CustomError` is defined. This class inherits from the built-in `ValueError` class. By inheriting from `ValueError`, `CustomError` will have all the properties and behavior of a `ValueError` exception, and you can also customize it further if needed.
+
+```python
+def some_function(value):
+    if value < 0:
+        raise CustomError("Value must be non-negative")
+```
+
+A function named `some_function` is defined. This function takes a `value` as an argument. Inside the function, there's a condition that checks if the `value` is negative. If the condition is true (i.e., the value is negative), the function raises an instance of the `CustomError` exception with the error message "Value must be non-negative."
+
+```python
+try:
+    some_function(-5)
+except CustomError as e:
+    print("Custom error:", e)
+except ValueError as e:
+    print("ValueError:", e)
+```
+
+This code is inside a `try` block, which means it's trying to execute the code within it. The `some_function(-5)` call inside the `try` block would raise a `CustomError` exception since the value `-5` is negative. In the `except` block, we catch the `CustomError` exception using `except CustomError as e:`. Here, `e` will be the instance of the raised `CustomError` exception. We print a message indicating that a custom error occurred and provide the details of the exception.
+
+Since `CustomError` is a subclass of `ValueError`, you might expect that the `except ValueError as e:` block could also catch the exception. However, due to the way exception handling works, Python will prioritize catching the most specific exception type first, which is `CustomError`. If the `except CustomError` block was not present, then the `ValueError` block would catch the exception.
+
+The output of this code, when executed, would be something like:
+```
+Custom error: Value must be non-negative
+```
+
+This example demonstrates how you can create and raise custom exceptions in Python by inheriting from built-in exception classes, allowing you to design more meaningful and context-specific error handling in your code.
+
+When you catch exceptions using `except` blocks, it's important to catch the more specific exceptions first before catching more general ones. In this example, we catch `CustomError` before catching `ValueError`, since `CustomError` is a subclass of `ValueError`.
+
+Remember that when creating custom exceptions, you can define additional attributes or methods in your custom exception class to provide more context or behavior specific to your application's needs.
+
+<br>
+<br>
+<p align="center">*******************************</p>
+<br>
+
+In the code example provided earlier:
+
+```python
+class CustomError(ValueError):
+    pass
+```
+
+The `pass` statement is used as a placeholder that does nothing. In Python, it's a way to indicate that you want to define a block of code (in this case, the body of the `CustomError` class) but you don't want to add any functionality or statements within that block at the moment. It's often used when syntactically a statement is required but you don't want to execute any code.
+
+In the context of defining a custom exception class, the `pass` statement indicates that you're intentionally leaving the class definition empty for now, and you might later add more attributes, methods, or custom behavior to the class. It's a common approach when you're creating a placeholder for future development or when you're creating a subclass of an existing class and you want to inherit its behavior without adding anything new immediately.
+
+For example, you might later add custom methods to your `CustomError` class:
+
+```python
+class CustomError(ValueError):
+    def __init__(self, message):
+        super().__init__(message)
+    
+    def log_error(self):
+        print("An error occurred:", self.args[0])
+```
+
+In this updated example, the `CustomError` class now has a custom constructor (`__init__`) and a method called `log_error`. These additions can be made at a later stage while keeping the structure of the class defined earlier.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
