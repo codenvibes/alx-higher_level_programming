@@ -583,7 +583,16 @@ What do these lines print?
 <details>
 <summary><b>Question 2</b></summary><br>
 
-
+What do these lines print?
+```py
+>>> a = { 'id': 89, 'name': "John", 'projects': [1, 2, 3, 4] }
+>>> a.get('projects')[3]
+```
+- [ ] 3
+- [ ] [3]
+- [ ] [1, 2, 3, 4]
+- [ ] [4]
+- [x] 4
 <br>
 </details>
 
