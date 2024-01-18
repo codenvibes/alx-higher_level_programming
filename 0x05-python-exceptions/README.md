@@ -495,7 +495,7 @@ By implementing appropriate clean-up actions, you can make your code more reliab
 ### 0. Safe list printing
 `mandatory`
 
-File: [0-safe_print_list.py]()
+File: [0-safe_print_list.py](https://github.com/codenvibes/alx-higher_level_programming/blob/master/0x05-python-exceptions/0-safe_print_list.py)
 </summary>
 
 Write a function that prints `x` elements of a list.
