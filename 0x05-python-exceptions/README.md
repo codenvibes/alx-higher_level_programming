@@ -539,7 +539,7 @@ guillaume@ubuntu:~/0x05$
 ### 1. Safe printing of an integers list
 `mandatory`
 
-File: [1-safe_print_integer.py]()
+File: [1-safe_print_integer.py](https://github.com/codenvibes/alx-higher_level_programming/blob/master/0x05-python-exceptions/1-safe_print_integer.py)
 </summary>
 
 Write a function that prints an integer with `"{:d}".format()`.
