@@ -19,7 +19,7 @@ Read or watch the below resources in the order presented.
 
 ## Resources
 <details>
-<summary><b><a href=" ">Object Oriented Programming</a></b></summary><br>
+<summary><b><a href=" ">Object Oriented Programming</a>  (Read everything until the paragraph “Inheritance” excluded. You do NOT have to learn about class attributes, classmethod and staticmethod yet)</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
