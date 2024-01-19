@@ -560,6 +560,39 @@ So, in the context of this code, `cls.pi` refers to the class attribute `pi` def
 <details>
 <summary><b><a href=" "> </a>What is a method</b></summary><br>
 
+In computer programming, a method is a function or procedure that is associated with an object or a class in the context of Object-Oriented Programming (OOP). Methods define the behaviors or actions that objects of a class can perform. They are an integral part of encapsulation and allow you to define the operations that can be performed on the data (attributes) of an object.
+
+Here are some key points about methods:
+
+1. **Belong to Objects or Classes**: Methods can be associated with either individual objects (instance methods) or with the class itself (class or static methods).
+
+2. **Behavior Definition**: Methods define what an object can do or how it can interact with other objects. They encapsulate the functionality that operates on the object's data.
+
+3. **Access to Object Data**: Methods typically have access to the object's attributes, allowing them to read or modify the state of the object.
+
+4. **Method Signature**: A method's signature includes its name and the parameters it accepts. The combination of a method's name and its parameter list is known as the method's signature. The return type (what the method returns) is also part of the signature.
+
+Here's a simple example in Python:
+
+```python
+class Car:
+    def __init__(self, make, model):
+        self.make = make
+        self.model = model
+
+    def start_engine(self):
+        print(f"{self.make} {self.model}'s engine is started.")
+
+# Creating an instance of the Car class
+my_car = Car("Toyota", "Camry")
+
+# Calling the start_engine method on the my_car object
+my_car.start_engine()  # Output: "Toyota Camry's engine is started."
+```
+
+In this example, `start_engine` is a method of the `Car` class. It defines the behavior of starting the car's engine when called on a `Car` object. When we call `my_car.start_engine()`, it executes the code within the `start_engine` method, using the attributes of the `my_car` object to provide context-specific behavior.
+
+Methods are essential in OOP because they allow you to bundle data (attributes) and behavior (methods) together within a class, promoting encapsulation and providing a clear and organized way to interact with objects.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
