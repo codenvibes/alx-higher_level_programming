@@ -51,7 +51,7 @@ Read or watch the below resources in the order presented.
 
 
 <details>
-<summary><b><a href=" ">Python Classes and Objects</a></b></summary><br>
+<summary><b><a href="https://www.youtube.com/watch?v=apACNr7DC_s">Python Classes and Objects</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
