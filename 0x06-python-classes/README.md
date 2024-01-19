@@ -187,7 +187,7 @@ Read or watch the below resources in the order presented.
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What is the Pythonic way to write getters and setters in Python</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
