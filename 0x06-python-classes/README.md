@@ -999,6 +999,58 @@ Keep in mind that `__dict__` is one of Python's introspection features, and it a
 <details>
 <summary><b><a href=" "> </a>How does Python find the attributes of an object or class</b></summary><br>
 
+In Python, the process of finding attributes (attributes are variables or methods associated with an object or class) of an object or class involves a mechanism called attribute resolution. The attribute resolution process depends on whether you're trying to access an attribute of an object or a class attribute. Here's how Python finds attributes:
+
+1. **Object Attributes:**
+
+   When you access an attribute of an object using the dot notation (`obj.attribute`), Python follows these steps to find the attribute:
+   
+   a. Python first checks if the attribute exists directly in the instance. If it does, Python uses that attribute.
+
+   b. If the attribute is not found in the instance, Python looks for it in the class of the instance. If the attribute exists in the class, Python uses it.
+
+   c. If the attribute is not found in the instance or its class, Python checks the base classes (if the class inherits from other classes). This process continues up the class hierarchy until the attribute is found or until Python reaches the top-level base class, which is typically the `object` class.
+
+   d. If Python doesn't find the attribute in any of the above steps, it raises an `AttributeError`.
+
+   Here's an example:
+
+   ```python
+   class MyClass:
+       class_attribute = "I'm a class attribute"
+
+       def __init__(self):
+           self.instance_attribute = "I'm an instance attribute"
+
+   obj = MyClass()
+
+   print(obj.instance_attribute)  # Accessing an instance attribute
+   print(obj.class_attribute)     # Accessing a class attribute through an instance
+   ```
+
+2. **Class Attributes:**
+
+   When you access a class attribute (an attribute associated with the class itself) directly using the class name (`ClassName.attribute`), Python looks for the attribute in the following order:
+
+   a. Python first checks if the attribute exists in the class itself. If it does, Python uses that attribute.
+
+   b. If the attribute is not found in the class, Python checks the base classes (if the class inherits from other classes) following the same inheritance chain described above.
+
+   c. If Python doesn't find the attribute in any of the above steps, it raises an `AttributeError`.
+
+   Here's an example:
+
+   ```python
+   class ParentClass:
+       class_attribute = "I'm a class attribute in the parent class"
+
+   class ChildClass(ParentClass):
+       pass
+
+   print(ChildClass.class_attribute)  # Accessing a class attribute from a subclass
+   ```
+
+This attribute resolution process allows Python to support inheritance and attribute access in a way that's consistent with the class hierarchy. It ensures that the most specific definition of an attribute is used when accessed, but it falls back to more general definitions if needed.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
