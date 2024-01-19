@@ -1134,6 +1134,25 @@ In this example:
 <details>
 <summary><b>Question 0</b></summary><br>
 
+What do these lines print?
+```python
+>>> class User:
+>>>     id = 89
+>>>     name = "no name"
+>>>     __password = None
+>>>     
+>>>     def __init__(self, new_name=None):
+>>>         self.is_new = True
+>>>         if new_name is not None:
+>>>             self.name = new_name
+>>> 
+>>> u = User()
+>>> u.id
+```
+- [ ] User.id
+- [ ] Nothing
+- [ ] id
+- [x] 89
 
 <br>
 </details>
