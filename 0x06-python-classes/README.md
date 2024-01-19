@@ -739,6 +739,54 @@ In this example, the `name` and `age` properties are encapsulated within the "Pe
 <details>
 <summary><b><a href=" "> </a>What is the difference between an attribute and a property in Python</b></summary><br>
 
+In Python, the terms "attribute" and "property" are related but have distinct meanings:
+
+1. **Attribute**:
+
+   - An attribute is a characteristic or piece of data associated with an object. It can be thought of as a variable that belongs to an object and holds information about the object's state.
+   - Attributes in Python are typically defined within a class to represent the object's properties. They can be accessed using dot notation (e.g., `object.attribute`) to retrieve or modify their values.
+   - Attributes can be public, which means they can be accessed directly from outside the class, or they can be made private by using a single underscore prefix (e.g., `_attribute`) to indicate that they are intended for internal use within the class.
+
+   Here's an example of defining and using an attribute in Python:
+
+   ```python
+   class Person:
+       def __init__(self, name):
+           self.name = name  # 'name' is an attribute of the 'Person' class
+
+   person1 = Person("Alice")
+   print(person1.name)  # Accessing the 'name' attribute
+   ```
+
+2. **Property**:
+
+   - A property, on the other hand, is a special kind of attribute that is accessed or modified using methods like `getter` and `setter` methods. Properties are used to control the access and modification of an object's attribute values.
+   - Properties allow you to add custom logic or validation when getting or setting the attribute's value, which can be useful for maintaining data integrity or implementing computed attributes.
+   - In Python, you can define properties using the `@property` decorator for the getter method and the `@<attribute>.setter` decorator for the setter method.
+
+   Here's an example of using properties in Python:
+
+   ```python
+   class Circle:
+       def __init__(self, radius):
+           self._radius = radius  # Private attribute
+
+       @property
+       def radius(self):
+           return self._radius
+
+       @radius.setter
+       def radius(self, value):
+           if value < 0:
+               raise ValueError("Radius cannot be negative")
+           self._radius = value
+
+   circle = Circle(5)
+   print(circle.radius)  # Accessing the 'radius' property
+   circle.radius = 7    # Modifying the 'radius' property
+   ```
+
+In summary, attributes are basic data members of a class, while properties are a way to control access to and modification of attributes by using methods to get and set their values with additional logic if needed. Properties are often used when you want to encapsulate and validate attribute access in Python classes.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
