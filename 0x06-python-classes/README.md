@@ -1125,6 +1125,8 @@ In this example:
 <br>
 
 ## More Info
+**Documentation is now mandatory!** Each module, class, and method must contain docstring as comments. [Example Google Style Python Docstrings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
+
 
 <br>
 
