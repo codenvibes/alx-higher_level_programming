@@ -1060,6 +1060,7 @@ This attribute resolution process allows Python to support inheritance and attri
 <summary><b><a href=" "> </a>How to use the <code>getattr</code> function</b></summary><br>
 
 
+
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
 
