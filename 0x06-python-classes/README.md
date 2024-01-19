@@ -27,7 +27,7 @@ Read or watch the below resources in the order presented.
 
 
 <details>
-<summary><b><a href=" ">Object-Oriented Programming</a></b></summary><br>
+<summary><b><a href=" ">Object-Oriented Programming</a> (Please *be careful*: in most of the following paragraphs, the author shows things the way you should not use or write a class in order to help you better understand some concepts and how everything works in Python 3. Make sure you read everything in the following paragraphs: General Introduction, First-class Everything, A Minimal Class in Python, Attributes (You DON’T have to learn about class attributes), Methods, The __init__ Method, “Data Abstraction, Data Encapsulation, and Information Hiding,” “Public, Protected, and Private Attributes”)</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
