@@ -115,7 +115,7 @@ Read or watch the below resources in the order presented.
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What is the difference between a class and an object or instance</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
