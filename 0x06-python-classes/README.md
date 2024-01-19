@@ -211,7 +211,7 @@ Read or watch the below resources in the order presented.
 
 
 <details>
-<summary><b><a href=" "> </a>What is the <code>__dict__<code> of a class and/or instance of a class and what does it contain</b></summary><br>
+<summary><b><a href=" "> </a>What is the <code>__dict__</code> of a class and/or instance of a class and what does it contain</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -219,7 +219,7 @@ Read or watch the below resources in the order presented.
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How does Python find the attributes of an object or class</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
