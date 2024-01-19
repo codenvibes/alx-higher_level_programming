@@ -1210,6 +1210,24 @@ class User:
 <details>
 <summary><b>Question 3</b></summary><br>
 
+In this following code, what is is_new?
+```py
+class User:
+    id = 89
+    name = "no name"
+    __password = None
+
+    def __init__(self, new_name=None):
+        self.is_new = True
+        if new_name is not None:
+            self.name = new_name
+```
+- [x] A public instance attribute
+- [ ] A private instance attribute
+- [ ] A protected instance attribute
+- [ ] A private class attribute
+- [ ] A protected class attribute
+- [ ] A public class attribute
 
 <br>
 </details>
