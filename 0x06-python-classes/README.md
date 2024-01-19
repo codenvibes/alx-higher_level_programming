@@ -131,7 +131,7 @@ Read or watch the below resources in the order presented.
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What are and how to use public, protected and private attributes</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
