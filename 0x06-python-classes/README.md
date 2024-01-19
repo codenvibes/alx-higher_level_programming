@@ -395,6 +395,61 @@ In this example, the `Person` class has two attributes, `name` and `age`, which 
 <details>
 <summary><b><a href=" "> </a>What are and how to use public, protected and private attributes</b></summary><br>
 
+In object-oriented programming (OOP), public, protected, and private are access modifiers used to control the visibility and accessibility of class attributes (variables) and methods (functions). These access modifiers help enforce encapsulation, which is one of the fundamental principles of OOP. Here's an explanation of each access modifier and how to use them:
+
+1. **Public**:
+   - **Accessibility**: Public attributes and methods are accessible from anywhere, both inside and outside the class.
+   - **Example**:
+
+   ```python
+   class MyClass:
+       def __init__(self):
+           self.public_var = 10
+
+       def public_method(self):
+           return "This is a public method"
+
+   obj = MyClass()
+   print(obj.public_var)          # Accessing a public attribute
+   print(obj.public_method())     # Accessing a public method
+   ```
+
+2. **Protected**:
+   - **Accessibility**: Protected attributes and methods are not truly private but are intended to be used only within the class and its subclasses. In Python, conventionally, you prefix the attribute or method name with a single underscore (e.g., `_protected_var`) to indicate that it's protected.
+   - **Example**:
+
+   ```python
+   class MyClass:
+       def __init__(self):
+           self._protected_var = 20
+
+       def _protected_method(self):
+           return "This is a protected method"
+
+   obj = MyClass()
+   print(obj._protected_var)            # Accessing a protected attribute (not recommended but possible)
+   print(obj._protected_method())       # Accessing a protected method (not recommended but possible)
+   ```
+
+3. **Private**:
+   - **Accessibility**: Private attributes and methods are meant to be used only within the class where they are defined. In Python, you prefix the attribute or method name with double underscores (e.g., `__private_var`) to indicate that it's private.
+   - **Example**:
+
+   ```python
+   class MyClass:
+       def __init__(self):
+           self.__private_var = 30
+
+       def __private_method(self):
+           return "This is a private method"
+
+   obj = MyClass()
+   # Attempting to access private attributes/methods from outside the class will result in an error
+   # print(obj.__private_var)              # This will raise an AttributeError
+   # print(obj.__private_method())         # This will raise an AttributeError
+   ```
+
+In Python, even though you can access protected and private attributes/methods from outside the class using their names, it's considered a convention to respect the single underscore (_) and double underscore (__) prefixes as indications of the intended access level. Developers should not access protected and private members directly, but rather use the public methods provided by the class to interact with them. This helps maintain encapsulation and ensures that the internal implementation of the class can change without affecting external code that uses the class.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
