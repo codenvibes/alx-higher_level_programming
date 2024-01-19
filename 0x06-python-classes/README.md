@@ -99,7 +99,7 @@ Read or watch the below resources in the order presented.
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What is a class</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
