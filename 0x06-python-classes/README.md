@@ -203,7 +203,7 @@ Read or watch the below resources in the order presented.
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to bind attributes to object and classes</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
