@@ -1,5 +1,5 @@
 <h1 align="center"><b>0x06. PYTHON - CLASSES AND OBJECTS</b></h1>
-<div align="center"><code>Python</code> <code></code></div>
+<div align="center"><code>Python</code> <code>OOP</code></div>
 
 <!-- <br>
 
