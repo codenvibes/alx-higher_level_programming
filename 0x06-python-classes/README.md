@@ -795,6 +795,49 @@ In summary, attributes are basic data members of a class, while properties are a
 <details>
 <summary><b><a href=" "> </a>What is the Pythonic way to write getters and setters in Python</b></summary><br>
 
+In Python, you can create getters and setters for class attributes using properties and decorators. The Pythonic way to write getters and setters is to use the `@property` decorator for the getter and the `@<attribute_name>.setter` decorator for the setter. This approach allows you to maintain a clean and simple syntax while providing controlled access to class attributes. Here's an example:
+
+```python
+class MyClass:
+    def __init__(self, value):
+        self._value = value  # Private attribute with an underscore prefix
+
+    @property
+    def value(self):
+        """Getter method for _value."""
+        return self._value
+
+    @value.setter
+    def value(self, new_value):
+        """Setter method for _value."""
+        if new_value >= 0:
+            self._value = new_value
+        else:
+            raise ValueError("Value must be non-negative")
+
+# Creating an instance of MyClass
+obj = MyClass(10)
+
+# Using the getter
+print(obj.value)  # This calls the value() method and returns 10
+
+# Using the setter
+obj.value = 20  # This calls the value.setter method and sets _value to 20
+
+# Using the setter with an invalid value
+# This will raise a ValueError because the setter enforces a non-negative constraint
+obj.value = -5
+```
+
+In this example:
+
+- The `_value` attribute is considered private by convention (not enforced by the language) because it has an underscore prefix. It indicates that it should not be accessed directly from outside the class.
+
+- The `@property` decorator is used to define a getter method for the `value` attribute. When you access `obj.value`, it calls the `value()` method, returning the value of `_value`.
+
+- The `@value.setter` decorator is used to define a setter method for the `value` attribute. When you assign a value to `obj.value`, it calls the `value.setter` method, allowing you to enforce constraints or perform any necessary validation.
+
+This approach adheres to the Pythonic principle of "we are all consenting adults here," which means that it trusts the programmer to use the public interface correctly and only provides special methods like getters and setters when necessary. It promotes clean, readable code while still allowing for controlled attribute access when needed.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
