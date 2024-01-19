@@ -244,6 +244,19 @@ OOP promotes modularity, reusability, and maintainability in software developmen
 <details>
 <summary><b><a href=" "> </a>“first-class everything”</b></summary><br>
 
+"First-class everything" is not a term typically associated with Object-Oriented Programming (OOP). Instead, it's more closely related to the concept of "first-class citizens" in programming languages. 
+
+In programming language design, when something is said to be a "first-class citizen," it means that this entity (usually a data type or a function) is treated the same way as other entities in the language. It has the same rights and privileges, and it can be manipulated and used in the same way as any other data type or function.
+
+For example:
+
+1. **First-Class Functions**: In a language with first-class functions, functions are treated as first-class citizens. This means you can assign functions to variables, pass them as arguments to other functions, and return them from functions.
+
+2. **First-Class Objects**: Similarly, in some languages, objects or data structures can be treated as first-class citizens. This means you can store them in variables, pass them as parameters to functions, and return them from functions just like any other data type.
+
+In the context of Object-Oriented Programming, the focus is more on objects and classes rather than the concept of "first-class everything." However, some languages that support OOP principles may also support first-class functions or first-class objects, allowing you to work with them in a flexible and versatile manner. The idea is to provide programmers with a higher degree of flexibility and expressiveness in their code.
+
+So, in summary, "first-class everything" is not a standard term in OOP, but it relates to the broader concept of first-class citizens in programming languages, which can apply to both OOP and non-OOP languages.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
