@@ -1059,7 +1059,46 @@ This attribute resolution process allows Python to support inheritance and attri
 <details>
 <summary><b><a href=" "> </a>How to use the <code>getattr</code> function</b></summary><br>
 
+The `getattr` function in Python is used to retrieve the value of an attribute of an object. It takes three arguments: the object, the name of the attribute as a string, and an optional default value to return if the attribute doesn't exist. Here's the syntax:
 
+```python
+getattr(object, name[, default])
+```
+
+- `object`: The object from which you want to retrieve the attribute value.
+- `name`: A string containing the name of the attribute you want to retrieve.
+- `default` (optional): An optional value to return if the attribute doesn't exist. If you omit this argument and the attribute is not found, `getattr` will raise an `AttributeError`.
+
+Here's an example of how to use `getattr`:
+
+```python
+class MyClass:
+    def __init__(self):
+        self.my_attribute = 42
+
+# Create an instance of MyClass
+obj = MyClass()
+
+# Use getattr to retrieve the value of an attribute
+value = getattr(obj, "my_attribute")
+print(value)  # Output: 42
+
+# Try to retrieve a non-existent attribute
+default_value = getattr(obj, "non_existent_attribute", "Default Value")
+print(default_value)  # Output: Default Value
+```
+
+In this example:
+
+1. We define a class `MyClass` with an attribute `my_attribute`.
+
+2. We create an instance of `MyClass` named `obj`.
+
+3. We use `getattr` to retrieve the value of the `my_attribute` attribute and store it in the variable `value`.
+
+4. We also use `getattr` to try to retrieve a non-existent attribute named `non_existent_attribute`, providing a default value of "Default Value." Since this attribute doesn't exist, `getattr` returns the default value.
+
+`getattr` is particularly useful when you want to access attributes dynamically, especially when the attribute name is determined at runtime or when you want to handle cases where an attribute may or may not exist without raising an `AttributeError`.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
