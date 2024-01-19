@@ -678,6 +678,59 @@ In summary, data abstraction focuses on modeling objects at a high level, data e
 <details>
 <summary><b><a href=" "> </a>What is a property</b></summary><br>
 
+In the context of programming and software development, a property is a characteristic or attribute of an object or data structure. Properties are used to describe the state or characteristics of an object, and they often have associated values. Properties are a fundamental concept in object-oriented programming (OOP) and are typically encapsulated within classes.
+
+Here are a few key points about properties:
+
+1. **Attributes of Objects**: <br> Properties represent the characteristics or attributes of objects. For example, in a "Person" class, properties might include "name," "age," and "address."
+
+2. **Accessors and Mutators**: <br> Properties often have associated accessors and mutators. Accessors (or getters) are methods that allow you to retrieve the value of a property, while mutators (or setters) are methods that allow you to modify the value of a property. These accessors and mutators help control how the property is read from and written to.
+
+3. **Encapsulation**: <br> Properties are an essential part of encapsulation in object-oriented programming. They allow you to hide the internal state of an object and provide controlled access to it. This means that the internal data of an object is not directly accessible from outside the object, and access is only possible through defined methods (accessors and mutators).
+
+4. **Data Validation**: <br> Properties can include logic for data validation. For example, when setting the "age" property of a "Person" object, you can include validation rules to ensure that the age is within a valid range.
+
+5. **Visibility Modifiers**: <br> In many programming languages, you can specify visibility modifiers for properties to control their accessibility. Common visibility modifiers include "public" (accessible from anywhere), "private" (accessible only within the class), and "protected" (accessible within the class and its subclasses).
+
+Here's a simplified example in Python, where a "Person" class has properties for name and age with associated accessors and mutators:
+
+```python
+class Person:
+    def __init__(self, name, age):
+        self._name = name
+        self._age = age
+
+    # Getter method for the name property
+    def get_name(self):
+        return self._name
+
+    # Setter method for the name property
+    def set_name(self, name):
+        self._name = name
+
+    # Getter method for the age property
+    def get_age(self):
+        return self._age
+
+    # Setter method for the age property with data validation
+    def set_age(self, age):
+        if age >= 0:
+            self._age = age
+
+# Creating a Person object
+person = Person("Alice", 30)
+
+# Accessing and modifying properties using accessors and mutators
+print(person.get_name())  # Output: Alice
+person.set_name("Bob")
+print(person.get_name())  # Output: Bob
+
+print(person.get_age())   # Output: 30
+person.set_age(25)
+print(person.get_age())   # Output: 25
+```
+
+In this example, the `name` and `age` properties are encapsulated within the "Person" class, and their access is controlled through getter and setter methods. This allows for data validation and controlled access to the properties.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
