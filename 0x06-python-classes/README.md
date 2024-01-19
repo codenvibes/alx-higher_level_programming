@@ -1313,6 +1313,23 @@ What do these lines print?
 <details>
 <summary><b>Question 7</b></summary><br>
 
+In this following code, what is User?
+```py
+class User:
+    id = 89
+    name = "no name"
+    __password = None
+
+    def __init__(self, new_name=None):
+        self.is_new = True
+        if new_name is not None:
+            self.name = new_name
+```
+- [ ] A method
+- [ ] An instance
+- [ ] An attribute
+- [ ] A string
+- [x] A class
 
 <br>
 </details>
