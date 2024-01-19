@@ -846,6 +846,36 @@ This approach adheres to the Pythonic principle of "we are all consenting adults
 <details>
 <summary><b><a href=" "> </a>How to dynamically create arbitrary new attributes for existing instances of a class</b></summary><br>
 
+In Python, you can dynamically create arbitrary new attributes for existing instances of a class by simply assigning values to them using the dot notation. Python allows you to add new attributes to an object on-the-fly, which is one of its dynamic features. Here's an example of how to do this:
+
+```python
+class MyClass:
+    def __init__(self, initial_value):
+        self.initial_value = initial_value
+
+# Create an instance of MyClass
+obj = MyClass(42)
+
+# Dynamically add a new attribute to the instance
+obj.new_attribute = "Hello, World!"
+
+# Access the newly created attribute
+print(obj.new_attribute)  # Output: Hello, World!
+```
+
+In the example above:
+
+1. We define a class `MyClass` with an `__init__` method that initializes an attribute `initial_value`.
+
+2. We create an instance of `MyClass` named `obj` with an initial value of 42.
+
+3. We dynamically add a new attribute `new_attribute` to the `obj` instance by simply assigning a value to it using the dot notation.
+
+4. We access and print the value of the newly created attribute, demonstrating that it's accessible just like any other attribute of the instance.
+
+This flexibility can be useful, but it's important to use it judiciously, as adding too many dynamic attributes can make code harder to understand and maintain. Additionally, it's a good practice to document the attributes that a class is expected to have, so other developers working on the code can understand its structure and use.
+
+Keep in mind that if you try to access an attribute that hasn't been assigned yet, you'll get an `AttributeError`. So, it's a good practice to check if an attribute exists before accessing it using the `hasattr()` function or a `try...except` block.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
