@@ -179,7 +179,7 @@ Read or watch the below resources in the order presented.
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What is the difference between an attribute and a property in Python</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
