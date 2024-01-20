@@ -577,6 +577,17 @@ def uniq(list):
 <details>
 <summary><b>Question 5</b></summary><br>
 
+Is this module correctly commented?
+```py
+#!/usr/bin/python3
+""" 
+    My calculation module
+"""
+import sys
+...
+```
+- [ ] No
+- [x] Yes
 
 <br>
 </details>
