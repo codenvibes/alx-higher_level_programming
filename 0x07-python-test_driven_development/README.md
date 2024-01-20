@@ -497,6 +497,9 @@ import sys
 - [x] No
 - [ ] Yes
 
+> Tips:<br>
+Docstring must be before import statements
+
 <br>
 </details>
 
