@@ -538,6 +538,14 @@ def add(a, b):
 <details>
 <summary><b>Question 3</b></summary><br>
 
+Is this a standardized way to comment a function in Python?
+```py
+def add(a, b):
+    """ Addition function """
+    return a + b
+```
+- [ ] No
+- [x] Yes
 
 <br>
 </details>
