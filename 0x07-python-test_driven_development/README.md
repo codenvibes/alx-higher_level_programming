@@ -35,7 +35,7 @@ Starting from today:
 
 ## Resources
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" ">doctest — Test interactive Python examples</a> <i>(until “26.2.3.7. Warnings” included)</i></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
