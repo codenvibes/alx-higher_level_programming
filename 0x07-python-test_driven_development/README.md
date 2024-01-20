@@ -51,7 +51,7 @@ Starting from today:
 
 
 <details>
-<summary><b><a href=" ">Unit Tests in Python</a></b></summary><br>
+<summary><b><a href="https://www.youtube.com/watch?v=1Lfv5tUGsn8">Unit Tests in Python</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
