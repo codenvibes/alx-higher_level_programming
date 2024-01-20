@@ -159,6 +159,89 @@ In summary, tests are essential for delivering high-quality software that meets 
 <details>
 <summary><b><a href=" "> </a>How to write Docstrings to create tests</b></summary><br>
 
+Docstrings are used to document Python code, providing information about a module, class, function, or method. While docstrings themselves are not used to create tests directly, they can be helpful in generating tests or ensuring that your code is testable. Here's how you can write docstrings to support testing in your Python code:
+
+1. **Describe the Function or Method**: <br> Begin your docstring with a brief description of what the function or method does. This helps both developers and testing frameworks understand the purpose of the code.
+
+   ```python
+   def add(a, b):
+       """
+       Adds two numbers and returns the result.
+
+       Parameters:
+           a (int): The first number.
+           b (int): The second number.
+
+       Returns:
+           int: The sum of a and b.
+       """
+       return a + b
+   ```
+
+2. **Document Parameters**: <br> Clearly document the function or method parameters, including their data types and any constraints or requirements. This information can help testers understand how to provide valid inputs.
+
+3. **Document Return Values**: <br> Explain what the function or method returns and the data type of the return value. This helps testers understand what to expect from the function.
+
+4. **Include Examples**: <br> Provide usage examples within the docstring. These examples can serve as test cases for your code.
+
+   ```python
+   def add(a, b):
+       """
+       Adds two numbers and returns the result.
+
+       Parameters:
+           a (int): The first number.
+           b (int): The second number.
+
+       Returns:
+           int: The sum of a and b.
+
+       Examples:
+           >>> add(2, 3)
+           5
+           >>> add(-1, 1)
+           0
+       """
+       return a + b
+   ```
+
+5. **Include Edge Cases**: <br> If applicable, include information about edge cases or corner cases that need to be tested.
+
+6. **Mention Side Effects**: <br> If the function has any side effects (e.g., modifying global variables), document them in the docstring.
+
+7. **Use Docstring Formats**: <br> There are various docstring formats, such as reStructuredText (reST) and Google-style docstrings. Pick a format that's commonly used in your project or organization.
+
+While docstrings themselves don't create tests, they serve as valuable documentation for your code, making it easier to write tests. You can use tools like Sphinx to generate documentation from your docstrings, and testing frameworks like `doctest` can extract and execute code examples from docstrings as tests.
+
+Here's an example of how you can use `doctest` to test code based on the examples in the docstring:
+
+```python
+import doctest
+
+def add(a, b):
+    """
+    Adds two numbers and returns the result.
+
+    Parameters:
+        a (int): The first number.
+        b (int): The second number.
+
+    Returns:
+        int: The sum of a and b.
+
+    Examples:
+        >>> add(2, 3)
+        5
+        >>> add(-1, 1)
+        0
+    """
+    return a + b
+
+if __name__ == "__main__":
+    doctest.testmod()
+```
+
+Running this script will execute the examples in the docstring as tests and report any failures.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
