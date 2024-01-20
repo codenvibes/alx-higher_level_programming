@@ -553,6 +553,23 @@ def add(a, b):
 <details>
 <summary><b>Question 4</b></summary><br>
 
+Based on this code, what should all the test cases be? (select multiple)
+```py
+def uniq(list):
+    """ Returns unique values of a list """
+    u_list = []
+    for item in list:
+        if item not in u_list:
+            u_list.append(item)
+    return u_list
+```
+- [x] list with one element (any type)
+- [x] not a list argument (ex: passing a dictionary to the method)
+- [x] list with twice the same element (same type)
+- [x] list with more than 2 times the same element (same type)
+- [x] list with 2 different element (same type)
+- [x] list with multiple types (integer, string, etc…)
+- [x] empty list
 
 <br>
 </details>
