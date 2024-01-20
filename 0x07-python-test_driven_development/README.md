@@ -93,6 +93,31 @@ Starting from today:
 <details>
 <summary><b><a href=" "> </a>What’s an interactive test</b></summary><br>
 
+An interactive test in Python typically refers to a way of running code interactively and receiving immediate feedback. This is often done using interactive development environments (IDEs), Python shells, or Jupyter notebooks. Interactive testing is a helpful approach for exploring and debugging code, as it allows you to execute small code snippets and see the results without having to write a complete program.
+
+Here are a few common ways to perform interactive testing in Python:
+
+1. **Python REPL (Read-Eval-Print Loop)**: <br> Python comes with a built-in REPL, which allows you to enter Python code line by line and see the output immediately. You can access the Python REPL by running the `python` or `python3` command in your terminal.
+
+   ```python
+   $ python
+   Python 3.8.2 (default, Feb 24 2020, 17:52:18)
+   [GCC 7.3.0] on linux
+   Type "help", "copyright", "credits" or "license" for more information.
+   >>> print("Hello, world!")
+   Hello, world!
+   >>> 5 + 3
+   8
+   >>> exit()
+   ```
+
+2. **Jupyter Notebooks**: <br> Jupyter notebooks provide an interactive and web-based environment for writing and running Python code. You can write and execute code in cells, view the output, and add rich text, images, and explanations in between.
+
+3. **Integrated Development Environments (IDEs)**: <br> Many Python IDEs, such as PyCharm, Visual Studio Code, and Spyder, offer interactive modes where you can run code snippets and get immediate feedback. This is often helpful for debugging and exploring code.
+
+4. **Online Python Interpreters**: <br> Various online platforms allow you to run Python code interactively in a web browser without installing any software locally. Examples include Repl.it and Google Colab.
+
+Interactive testing is particularly useful when you want to experiment with new ideas, test functions or algorithms, and quickly check the behavior of specific code snippets without having to create a full-fledged Python script or program. It's an essential part of the development process for many Python developers.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
