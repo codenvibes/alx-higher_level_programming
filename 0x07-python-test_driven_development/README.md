@@ -484,6 +484,18 @@ Finding and testing edge cases with examples is a systematic approach to improvi
 <details>
 <summary><b>Question 0</b></summary><br>
 
+Is this module correctly commented?
+```py
+#!/usr/bin/python3
+import sys
+
+""" 
+    My calculation module
+"""
+...
+```
+- [x] No
+- [ ] Yes
 
 <br>
 </details>
