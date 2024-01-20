@@ -327,6 +327,77 @@ Here's a brief overview of how to use Sphinx:
 <details>
 <summary><b><a href=" "> </a>What are the basic option flags to create tests</b></summary><br>
 
+In Python, you can create tests using various testing frameworks, with the two most popular ones being **unittest** (inspired by Java's JUnit) and **pytest**. When creating tests using these frameworks, you can use different options or flags to control the behavior of the test runner or customize the test execution. Below, I'll provide some basic option flags for both unittest and pytest:
+
+<br>
+<p align="center">※※※※※※※※※※※※</p>
+<h3>unittest:</h3>
+
+1. **-v or --verbose**: <br> This flag increases the verbosity of test output, providing more details about each test case.
+
+   ```bash
+   python -m unittest -v my_test_module
+   ```
+
+2. **-f or --failfast**: <br> When this flag is used, the test runner stops as soon as one test case fails, rather than running all the tests.
+
+   ```bash
+   python -m unittest -f my_test_module
+   ```
+
+3. **-k PATTERN**: <br> This flag allows you to run only the test methods whose names match the given pattern.
+
+   ```bash
+   python -m unittest -k test_feature my_test_module
+   ```
+
+4. **--start-directory**: <br> Specifies the starting directory for test discovery. Useful when you want to run tests from a specific directory.
+
+   ```bash
+   python -m unittest --start-directory tests/
+   ```
+
+<br>
+<p align="center">※※※※※※※※※※※※</p>
+<h3>pytest:</h3>
+
+1. **-v or --verbose**: <br> Similar to unittest, this flag increases the verbosity of test output, providing more details about each test case.
+
+   ```bash
+   pytest -v my_test_module.py
+   ```
+
+2. **-k EXPRESSION**: <br> Run only the test functions and classes whose names match the given expression.
+
+   ```bash
+   pytest -k test_feature my_test_module.py
+   ```
+
+3. **-x or --exitfirst**: <br> Stops the test run after the first failure, just like the failfast option in unittest.
+
+   ```bash
+   pytest -x my_test_module.py
+   ```
+
+4. **--maxfail=num**: <br> Specifies the maximum number of allowed test failures before pytest stops the test run.
+
+   ```bash
+   pytest --maxfail=2 my_test_module.py
+   ```
+
+5. **-m MARKEXPR**: <br> Run only tests marked with specific markers. Markers are used to group and select tests with certain characteristics.
+
+   ```bash
+   pytest -m slow my_test_module.py
+   ```
+
+6. **-k and -m can be combined**: <br> You can combine the -k and -m flags to filter tests based on their names and markers simultaneously.
+
+   ```bash
+   pytest -k test_feature -m slow my_test_module.py
+   ```
+
+These are some of the basic option flags you can use when running tests with unittest and pytest. Depending on your specific testing needs and the features provided by these frameworks, you may find additional flags and options to further customize your test runs.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
