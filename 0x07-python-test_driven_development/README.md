@@ -506,6 +506,16 @@ Docstring must be before import statements
 <details>
 <summary><b>Question 1</b></summary><br>
 
+Is this a standardized way to comment a function in Python?
+```py
+##########
+# Addition function
+##########
+def add(a, b):
+    return a + b
+```
+- [x] No
+- [ ] Yes
 
 <br>
 </details>
