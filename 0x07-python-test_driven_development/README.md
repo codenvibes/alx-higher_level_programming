@@ -115,7 +115,7 @@ Starting from today:
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to write documentation for each module and function</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
