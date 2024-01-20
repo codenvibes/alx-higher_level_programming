@@ -83,7 +83,7 @@ Starting from today:
 
 ## Learning Objectives
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>Why Python programming is awesome</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
