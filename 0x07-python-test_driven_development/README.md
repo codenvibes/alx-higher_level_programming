@@ -250,6 +250,75 @@ Running this script will execute the examples in the docstring as tests and repo
 <details>
 <summary><b><a href=" "> </a>How to write documentation for each module and function</b></summary><br>
 
+Writing documentation for each module and function in your Python code is essential for making your codebase understandable, maintainable, and usable by others (including your future self). Python has a standard way of documenting code using docstrings, and tools like Sphinx can help generate documentation in various formats (HTML, PDF, etc.). Here's how you can write documentation for modules and functions:
+
+<br>
+<p align="center">※※※※※※※※※※※※</p>
+<h3>Writing Module Documentation:</h3>
+
+1. **Module-Level Docstring**: <br> At the top of your module (Python file), include a module-level docstring. This docstring should describe the purpose and contents of the module. Use triple double-quotes (`"""`) for multi-line docstrings.
+
+   ```python
+   """This module provides utility functions for working with strings."""
+   ```
+
+2. **Module-level Imports**: <br> If your module imports other modules or has any global variables, include a section at the beginning of the module that lists these imports and variables, along with explanations if necessary.
+
+<br>
+<p align="center">※※※※※※※※※※※※</p>
+<h3>Writing Function Documentation:</h3>
+
+1. **Function-Level Docstring**: <br> For each function, include a docstring just below the function definition. The docstring should describe what the function does, its parameters (arguments), return values, and any exceptions it may raise. Use triple double-quotes for multi-line docstrings.
+
+   ```python
+   def add(a, b):
+       """
+       Adds two numbers.
+
+       Args:
+           a (int): The first number.
+           b (int): The second number.
+
+       Returns:
+           int: The sum of a and b.
+       """
+       return a + b
+   ```
+
+2. **Parameters**: <br> List all parameters with their types and descriptions in the docstring. Mention whether they are required or optional.
+
+3. **Return Values**: <br> Specify the type and description of the return value. If the function doesn't return anything (returns `None`), mention that explicitly.
+
+4. **Raises (if applicable)**: <br> If the function can raise exceptions, list them in a "Raises" section and provide explanations.
+
+5. **Examples**: <br> Provide usage examples of the function in the docstring. Show how to call the function and what to expect as output.
+
+6. **Notes and Additional Information (if needed)**: <br> Include any additional information, notes, or caveats that may be helpful for users of the function.
+
+<br>
+<p align="center">※※※※※※※※※※※※</p>
+
+<h3>Using Sphinx for Documentation Generation:</h3>
+
+While docstrings are essential for documenting code, you can use tools like Sphinx to generate user-friendly documentation from your docstrings. Sphinx allows you to create documentation in various formats, including HTML, PDF, and more.
+
+Here's a brief overview of how to use Sphinx:
+
+1. Install Sphinx:
+
+   ```
+   pip install sphinx
+   ```
+
+2. Create a Sphinx Project: <br> Use the `sphinx-quickstart` command to set up a new Sphinx documentation project. This command will generate the necessary configuration files and directory structure.
+
+3. Write ReStructuredText (RST): <br> Sphinx uses ReStructuredText (RST) as its markup language. Write your documentation in `.rst` files using RST syntax.
+
+4. Include Python Docstrings: <br> Sphinx can automatically extract documentation from your Python docstrings. Use the `autodoc` extension to enable this feature.
+
+5. Build Documentation: <br> Use Sphinx's `make` commands (e.g., `make html` or `make pdf`) to build the documentation in the desired format.
+
+6. Publish: <br> Once you've built the documentation, you can publish it online or distribute it with your code.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
