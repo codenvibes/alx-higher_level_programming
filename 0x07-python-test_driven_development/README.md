@@ -43,7 +43,7 @@ Starting from today:
 
 
 <details>
-<summary><b><a href=" ">doctest – Testing through documentation</a></b></summary><br>
+<summary><b><a href="https://pymotw.com/3/doctest/">doctest – Testing through documentation</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
