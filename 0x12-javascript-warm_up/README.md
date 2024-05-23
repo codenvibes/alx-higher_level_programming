@@ -129,6 +129,9 @@ For the moment, and for learning all basic concepts of this language, we will do
 <details>
 <summary><b><a href=" "> </a>How to run a JavaScript script</b></summary><br>
 
+```bash
+node app.js
+```
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
